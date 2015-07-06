@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2015 The CyanogenMod Project
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+
+          http://www.apache.org/licenses/LICENSE-2.0
+
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="custom_event_color">Event color</string>
+    <!-- Label for button which sets event color to default calendar color -->
+    <string name="event_color_set_to_default">Default color</string>
+    <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
+    <string name="view_event_response_label">Going?</string>
+    <string name="new_event_more_options">more options</string>
+    <string name="preferences_alerts_silent_ringtone_title">Silent</string>
+
+    <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
+    <string name="hint_where">Add location</string>
+    <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
+    <string name="reminders_label">Add a notification</string>
+    <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
+    <string name="hint_attendees">Invite people</string>
+    <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
+    <string name="does_not_repeat">Does not repeat</string>
+    <!-- Label for the event description -->
+    <string name="description_label">Add note</string>
+
+    <string name="discard_dialog_title">Cancel</string>
+    <string name="discard_dialog_new_event_message">Are you sure you want to discard this event?</string>
+    <string name="discard_dialog_existing_event_message">Are you sure you want to discard the changes to this event?</string>
+    <string name="discard_dialog_positive_button_text">Discard</string>
+    <string name="discard_dialog_negative_button_text">Keep editing</string>
+
+    <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> before</string>
+    <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> before as <xliff:g id="type" example="email">%s</xliff:g></string>
+	
+    <string name="no_events_scheduled">No events scheduled.</string>
+
+    <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
+    <string name="search_hint">Search calendar</string>
+</resources>
