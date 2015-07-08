@@ -159,8 +159,7 @@
     <string name="not_synced"> not synced</string>
     <!-- Message displayed to user when an account with Calendars is not being auto-synced
         [CHAR LIMIT=120]-->
-    <string name="acct_not_synced">This account isn\'t being synced so your calendars may
-        not be up-to-date.</string>
+    <string name="acct_not_synced">This account isn\'t being synced so your calendars may not be up-to-date.</string>
     <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
     <string name="accounts">Accounts &amp; sync</string>
 
@@ -248,10 +247,10 @@
     <skip/>
 
     <!-- Title for event color picker dialog -->
-    <string name="event_color_picker_dialog_title">Event Color</string>
+    <string name="event_color_picker_dialog_title">Event color</string>
 
     <!-- Title for calendar color picker dialog -->
-    <string name="calendar_color_picker_dialog_title">Calendar Color</string>
+    <string name="calendar_color_picker_dialog_title">Calendar color</string>
     <!-- Description for calendar color squares, which bring up the color picker. -->
     <string name="calendar_square_color_picker_description">Color picker</string>
 
@@ -480,9 +479,9 @@
     <!-- Reminders settings [CHAR LIMIT = 30]-->
     <string name="preferences_reminders_category">Reminders</string>
     <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
-    <string name="preferences_reminders_responded_label">Skip Reminders</string>
+    <string name="preferences_reminders_responded_label">Skip reminders</string>
     <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
-    <string name="preferences_reminders_responded_dialog">Skip Reminders</string>
+    <string name="preferences_reminders_responded_dialog">Skip reminders</string>
     <!-- Preference label for quiet hours [CHAR LIMIT = 25]-->
     <string name="preferences_reminders_quiet_hours_label">Quiet hours</string>
     <!-- Preference description for quiet hours [CHAR LIMIT = NONE]-->
@@ -541,9 +540,9 @@
     <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
     <string name="accessibility_reminder_privacy">Privacy</string>
     <!-- Calendar notification [CHAR LIMIT = NONE]-->
-    <string name="acessibility_cal_notification">Calendar Notification</string>
+    <string name="acessibility_cal_notification">Calendar notification</string>
     <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
-    <string name="acessibility_snooze_notification">Snooze Notification</string>
+    <string name="acessibility_snooze_notification">Snooze notification</string>
     <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
     <string name="accessibility_email_notification">Email guests</string>
 
@@ -608,7 +607,7 @@
     </plurals>
 
     <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
-    <string name="recurrence_month_pattern_by_day">on the same day each month</string>
+    <string name="recurrence_month_pattern_by_day">On the same day each month</string>
 
     <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
     <string name="recurrence_end_continously">Forever</string>
@@ -626,7 +625,7 @@
     </plurals>
 
     <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
-    <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
+    <string name="acessibility_recurrence_choose_end_date_description">Change end date</string>
 
     <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
     <string name="notification_sender_id" translatable="false"></string>
