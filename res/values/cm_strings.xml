@@ -22,7 +22,7 @@
          a user is invited to a meeting or event.  The possible answers are
          'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
     <string name="view_event_response_label">Going?</string>
-    <string name="new_event_more_options">more options</string>
+    <string name="new_event_more_options">More options</string>
     <string name="preferences_alerts_silent_ringtone_title">Silent</string>
 
     <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
