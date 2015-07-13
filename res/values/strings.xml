@@ -159,8 +159,7 @@
     <string name="not_synced"> not synced</string>
     <!-- Message displayed to user when an account with Calendars is not being auto-synced
         [CHAR LIMIT=120]-->
-    <string name="acct_not_synced">This account isn\'t being synced so your calendars may
-        not be up-to-date.</string>
+    <string name="acct_not_synced">This account isn\'t being synced so your calendars may not be up-to-date.</string>
     <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
     <string name="accounts">Accounts &amp; sync</string>
 

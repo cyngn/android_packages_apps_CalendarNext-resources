@@ -45,7 +45,7 @@
 
     <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> before</string>
     <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> before as <xliff:g id="type" example="email">%s</xliff:g></string>
-	
+
     <string name="no_events_scheduled">No events scheduled.</string>
 
     <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
