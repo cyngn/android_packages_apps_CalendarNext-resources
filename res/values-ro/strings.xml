@@ -15,14 +15,26 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="app_label">Calendar</string>
   <string name="today">Azi</string>
   <string name="tomorrow">Mâine</string>
   <string name="no_title_label">(Fără titlu)</string>
   <string name="agenda_view">"Agendă"</string>
   <string name="week_view">"Săptămână"</string>
   <string name="month_view">"Lună"</string>
+  <string name="event_create">"Eveniment nou"</string>
   <string name="menu_preferences">"Setări"</string>
+  <string name="search">"Căutare"</string>
+  <string name="select_visible_calendars_title">"Calendare de afișat"</string>
+  <string name="synced">sincronizat</string>
+  <string name="not_synced">nesincronizat</string>
+  <string name="select_synced_calendars_title">Calendare de sincronizat</string>
+  <string name="rsvp_tentative">"A răspuns „Poate”."</string>
+  <string name="no_syncable_calendars">Niciun calendar</string>
+  <string name="event_color_picker_dialog_title">Culoare eveniment</string>
+  <string name="calendar_square_color_picker_description">Selector de culoare</string>
   <string name="response_yes">Da</string>
+  <string name="event_not_found">"Evenimentul nu a fost găsit."</string>
   <string name="quick_response_settings">Răspunsuri rapide</string>
   <string-array name="quick_response_defaults">
     <item>Running just a couple of minutes late.</item>
@@ -30,6 +42,17 @@
     <item>Go ahead and start without me.</item>
     <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
   </string-array>
+  <string name="edit_event_label">"Detalii"</string>
+  <string name="snooze_label">"Amânare"</string>
   <string name="new_event_dialog_label">"Eveniment nou"</string>
+  <string name="new_event_dialog_option">"Eveniment nou"</string>
   <string name="preferences_title">"Setări"</string>
+  <string name="preferences_week_start_day_title">Săptămâna începe</string>
+  <string name="preferences_week_start_day_dialog">Săptămâna începe</string>
+  <string name="preferences_alerts_ringtone_title">Sunet</string>
+  <string name="preferences_about_title">Despre</string>
+  <string name="preferences_experimental_category">Experimentale</string>
+  <string name="preferences_reminders_category">Mementouri</string>
+  <string name="preferences_reminders_quiet_hours_label">Ore de liniște</string>
+  <string name="accessibility_pick_time_zone">Fus orar</string>
 </resources>

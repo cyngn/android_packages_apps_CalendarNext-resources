@@ -147,6 +147,9 @@
   <string name="preferences_alerts_popup_title">התראה קופצת</string>
   <string name="preferences_default_reminder_title">ברירת מחדל של מועד תזכורת</string>
   <string name="preferences_default_reminder_dialog">ברירת מחדל של מועד תזכורת</string>
+  <string name="preferences_use_home_tz_title">השתמש באזור הזמן המקומי</string>
+  <string name="preferences_use_home_tz_descrip">מציג לוחות שנה ושעות אירועים באזור הזמן הביתי שלך בנסיעות</string>
+  <string name="preferences_home_tz_title">אזור זמן ביתי</string>
   <string name="preferences_show_week_num_title">הצג מספר שבוע</string>
   <string name="preferences_about_title">אודות</string>
   <string name="preferences_build_version_fmt">גרסת בנייה: <xliff:g id="version" example="1.0">%s</xliff:g></string>

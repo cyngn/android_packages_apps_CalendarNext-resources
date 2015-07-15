@@ -84,4 +84,45 @@
   <string name="event_info_title_invite">Zaproszenie na spotkanie</string>
   <string name="edit_event_all_day_label">Cały dzień</string>
   <string name="privacy_label">Prywatność</string>
+  <string name="no_syncable_calendars">Brak kalendarzy</string>
+  <string name="add_account">Dodaj konto</string>
+  <string name="event_color_picker_dialog_title">Kolor wydarzenia</string>
+  <string name="calendar_color_picker_dialog_title">Kolor kalendarza</string>
+  <string name="calendar_square_color_picker_description">Wybór kolorów</string>
+  <string name="response_yes">Tak</string>
+  <string name="response_maybe">Może</string>
+  <string name="response_no">Nie</string>
+  <string name="email_picker_label">E-mail przez</string>
+  <string name="event_not_found">"Nie znaleziono wydarzenia."</string>
+  <string name="map_label">Mapa</string>
+  <string name="call_label">Zadzwoń</string>
+  <string name="quick_response_settings">Szybkie odpowiedzi</string>
+  <string name="quick_response_settings_title">Edytuj szybkie odpowiedzi</string>
+  <string name="quick_response_settings_edit_title">Szybka odpowiedź</string>
+  <string name="quick_response_dialog_title">Wybierz szybką odpowiedź</string>
+  <string-array name="quick_response_defaults">
+    <item>Spóźnię się kilka minut.</item>
+    <item>Będę za około 10 minut.</item>
+    <item>Zacznijcie beze mnie.</item>
+    <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+  </string-array>
+  <string name="quick_response_custom_msg">Napisz własną\u2026</string>
+  <string name="agenda_today">DZIŚ, <xliff:g id="DATE">%1$s</xliff:g></string>
+  <string name="agenda_yesterday">WCZORAJ, <xliff:g id="DATE">%1$s</xliff:g></string>
+  <string name="agenda_tomorrow">JUTRO, <xliff:g id="DATE">%1$s</xliff:g></string>
+  <string name="loading">Wczytywanie\u2026</string>
+  <string name="show_older_events">Dotknij, aby wyświetlić wydarzenia przed <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
+  <string name="show_newer_events">Dotknij, aby wyświetlić wydarzenia po <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+  <string name="search_title">Szukaj w moich kalendarzach</string>
+  <string name="edit_event_label">"Szczegóły"</string>
+  <string name="edit_label">"Edytuj"</string>
+  <string name="delete_label">"Usuń"</string>
+  <string name="save_label">Gotowe</string>
+  <string name="snooze_label">"Drzemka"</string>
+  <string name="modify_event">Zmień tylko to wydarzenie</string>
+  <string name="modify_all">Zmień wszystkie wydarzenia w serii</string>
+  <string name="new_event_dialog_label">"Nowe wydarzenie"</string>
+  <string name="new_event_dialog_option">"Nowe wydarzenie"</string>
+  <string name="delete_this_event_title">Usunąć wydarzenie?</string>
+  <string name="delete_recurring_event_title">Usunąć <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
 </resources>

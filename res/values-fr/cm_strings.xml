@@ -16,9 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="custom_event_color">Culoare eveniment</string>
-  <string name="event_color_set_to_default">Culoare implicită</string>
-  <string name="view_event_response_label">Participați?</string>
-  <string name="new_event_more_options">mai multe opțiuni</string>
-  <string name="preferences_alerts_silent_ringtone_title">Silențios</string>
+  <string name="custom_event_color">Couleur de l\'événement</string>
+  <string name="event_color_set_to_default">Couleur par défaut</string>
+  <string name="new_event_more_options">plus d\'options</string>
+  <string name="preferences_alerts_silent_ringtone_title">Silencieux</string>
 </resources>
