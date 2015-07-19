@@ -83,8 +83,11 @@
   <string name="event_info_title">Wyświetl wydarzenie</string>
   <string name="event_info_title_invite">Zaproszenie na spotkanie</string>
   <string name="edit_event_all_day_label">Cały dzień</string>
+  <string name="presence_label">Pokaż mój stan jako</string>
   <string name="privacy_label">Prywatność</string>
   <string name="no_syncable_calendars">Brak kalendarzy</string>
+  <string name="no_calendars_found">Przed utworzeniem wydarzenia musisz dodać do urządzenia konto z Kalendarzem i ustawić wybrany kalendarz jako widoczny. Wybierz „Dodaj konto” (jeśli właśnie to zrobiłeś, poczekaj na zakończenie synchronizacji i spróbuj ponownie). Możesz też dotknąć Anuluj i upewnić się, że co najmniej jeden kalendarz jest widoczny.</string>
+  <string name="create_an_account_desc">"Kalendarz działa lepiej z kontem Google.\n\n• Używaj go w dowolnej przeglądarce.\n• Twórz kopie zapasowe wydarzeń."</string>
   <string name="add_account">Dodaj konto</string>
   <string name="event_color_picker_dialog_title">Kolor wydarzenia</string>
   <string name="calendar_color_picker_dialog_title">Kolor kalendarza</string>
@@ -92,19 +95,23 @@
   <string name="response_yes">Tak</string>
   <string name="response_maybe">Może</string>
   <string name="response_no">Nie</string>
+  <string name="email_guests_label">Napisz do gości</string>
+  <string name="email_organizer_label">Wyślij e-maila do organizatora</string>
   <string name="email_picker_label">E-mail przez</string>
   <string name="event_not_found">"Nie znaleziono wydarzenia."</string>
   <string name="map_label">Mapa</string>
   <string name="call_label">Zadzwoń</string>
   <string name="quick_response_settings">Szybkie odpowiedzi</string>
+  <string name="quick_response_settings_summary">Edytuj domyślne odpowiedzi do uczestników</string>
   <string name="quick_response_settings_title">Edytuj szybkie odpowiedzi</string>
   <string name="quick_response_settings_edit_title">Szybka odpowiedź</string>
   <string name="quick_response_dialog_title">Wybierz szybką odpowiedź</string>
+  <string name="quick_response_email_failed">Nie można znaleźć programu pocztowego</string>
   <string-array name="quick_response_defaults">
     <item>Spóźnię się kilka minut.</item>
     <item>Będę za około 10 minut.</item>
     <item>Zacznijcie beze mnie.</item>
-    <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+    <item>Niestety, nie dam rady. Musimy to przełożyć.</item>
   </string-array>
   <string name="quick_response_custom_msg">Napisz własną\u2026</string>
   <string name="agenda_today">DZIŚ, <xliff:g id="DATE">%1$s</xliff:g></string>
@@ -121,8 +128,39 @@
   <string name="snooze_label">"Drzemka"</string>
   <string name="modify_event">Zmień tylko to wydarzenie</string>
   <string name="modify_all">Zmień wszystkie wydarzenia w serii</string>
+  <string name="modify_all_following">Zmień to i wszystkie przyszłe wydarzenia</string>
   <string name="new_event_dialog_label">"Nowe wydarzenie"</string>
   <string name="new_event_dialog_option">"Nowe wydarzenie"</string>
   <string name="delete_this_event_title">Usunąć wydarzenie?</string>
   <string name="delete_recurring_event_title">Usunąć <xliff:g id="EVENTTITLE">%s</xliff:g>?</string>
+  <string name="change_response_title">Zmień odpowiedź</string>
+  <string name="menu_general_preferences">Ustawienia ogólne</string>
+  <string name="preferences_title">"Ustawienia"</string>
+  <string name="preferences_reminder_title">Powiadomienia i przypomnienia</string>
+  <string name="preferences_clear_search_history_title">Wyczyść historię wyszukiwania</string>
+  <string name="preferences_clear_search_history_summary">Usuń wszystkie poprzednie wyszukiwania</string>
+  <string name="search_history_cleared">Wyczyszczono historię wyszukiwania.</string>
+  <string name="preferences_alerts_title">Powiadomienia</string>
+  <string name="preferences_alerts_vibrateWhen_title">Wibracje</string>
+  <string name="preferences_alerts_ringtone_title">Dźwięk</string>
+  <string name="preferences_use_home_tz_title">Domowa strefa czasowa</string>
+  <string name="preferences_use_home_tz_descrip">Godziny będą podawane w domowej strefie czasowej (nawet w podróży)</string>
+  <string name="preferences_home_tz_title">Domowa strefa czasowa</string>
+  <string name="preferences_show_week_num_title">Pokaż numer tygodnia</string>
+  <string name="preferences_about_title">Informacje</string>
+  <string name="preferences_build_version_fmt">Wersja kompilacji: <xliff:g id="version" example="1.0">%s</xliff:g></string>
+  <string name="gadget_title">Kalendarz</string>
+  <string name="gadget_no_events">Brak zbliżających się wydarzeń w kalendarzu</string>
+  <string name="preferences_experimental_category">Eksperymentalny</string>
+  <string name="preferences_reminders_category">Przypomnienia</string>
+  <string name="preferences_reminders_responded_label">Pomiń przypomnienia</string>
+  <string name="preferences_reminders_responded_dialog">Pomiń przypomnienia</string>
+  <string name="preferences_reminders_quiet_hours_label">Ciche godziny</string>
+  <string name="preferences_reminders_quiet_hours_description">Wyciszaj przypomnienia o wydarzeniach przez określony czas.</string>
+  <string name="preferences_reminders_quiet_hours_start">Początek cichych godzin</string>
+  <string name="preferences_reminders_quiet_hours_end">Koniec cichych godzin</string>
+  <string name="preferences_debug_category">Debugowanie</string>
+  <string name="copy_db">Wyślij bazę danych</string>
+  <string name="accessibility_pick_start_date">Data rozpoczęcia</string>
+  <string name="accessibility_pick_start_time">Godzina rozpoczęcia</string>
 </resources>

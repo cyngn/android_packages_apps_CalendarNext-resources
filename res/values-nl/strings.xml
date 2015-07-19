@@ -73,7 +73,7 @@
   <string name="alert_title">Agenda-herinneringen</string>
   <string name="event_info_title">Afspraak weergeven</string>
   <string name="event_info_title_invite">Uitnodiging voor afspraak</string>
-  <string name="edit_event_all_day_label">De hele dag</string>
+  <string name="edit_event_all_day_label">Hele dag</string>
   <string name="presence_label">Mij weergeven als</string>
   <string name="privacy_label">Privacy</string>
   <string name="no_syncable_calendars">Geen agenda\'s</string>
