@@ -133,9 +133,6 @@
     <string name="menu_preferences">"Settings"</string>
     <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
-    <string name="menu_select_visible_calendars">"Calendars"</string>
-    <!-- This is a label on a menu item. Pressing this menu item allows the
-         user to select the calendars to display [CHAR LIMIT=20] -->
     <string name="search">"Search"</string>
 
     <!-- Month view -->
