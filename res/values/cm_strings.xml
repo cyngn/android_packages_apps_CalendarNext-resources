@@ -36,6 +36,10 @@
     <string name="does_not_repeat">Does not repeat</string>
     <!-- Label for the event description -->
     <string name="description_label">Add note</string>
+    <!-- Title for email availability -->
+    <string name="availability_title">Send availability</string>
+    <!-- Title for email create invite -->
+    <string name="create_invite_title">Create invite</string>
 
     <string name="discard_dialog_title">Cancel</string>
     <string name="discard_dialog_new_event_message">Are you sure you want to discard this event?</string>
@@ -45,9 +49,37 @@
 
     <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> before</string>
     <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> before as <xliff:g id="type" example="email">%s</xliff:g></string>
-	
+
     <string name="no_events_scheduled">No events scheduled.</string>
 
     <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
     <string name="search_hint">Search calendar</string>
+
+    <!-- Appwidget header used when there are n events today. -->
+    <string name="appwidget_today_day_header">No events today.</string>
+    <string name="appwidget_tomorrow_day_header">Tomorrow, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+
+    <string name="empty_calendars_to_sync">No calendars to sync</string>
+    <string name="empty_calendars_to_display">No calendars to display</string>
+
+    <string name="update_available_ticker">There is an update available for Calendar</string>
+    <string name="update_availalable_title">An update is available</string>
+    <string name="update_available_content">Tap to install update</string>
+    <string name="error_no_app_store">No suitable app store was found</string>
+
+    <string name="tutorial_done_button">Done</string>
+    <string name="tutorial_skip_button">Skip</string>
+    <string name="tutorial_welcome_title">Welcome to Calendar</string>
+    <string name="tutorial_welcome_subtitle">A beautiful way to view your life.</string>
+    <string name="tutorial_page1_title">All your calendars</string>
+    <string name="tutorial_page1_subtitle">View all of your calendars and events in one place.</string>
+    <string name="tutorial_page2_title">Share your availability</string>
+    <string name="tutorial_page2_subtitle">Quickly let others know when you can meet.</string>
+    <string name="tutorial_page3_title">Multiple Views</string>
+    <string name="tutorial_page3_subtitle">View your events the way that works best for you.</string>
+    <string name="tutorial_end_title">Download Email</string>
+    <string name="tutorial_end_subtitle">Unlock powerful features by combining Boxer Email and Calendar.</string>
+    <string name="tutorial_end_button">Get Boxer Email</string>
+
+    <string name="account_settings_tutorial_header_title">View tutorial</string>
 </resources>

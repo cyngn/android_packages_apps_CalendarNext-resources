@@ -630,4 +630,6 @@
 
     <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
     <string name="notification_sender_id" translatable="false"></string>
+    <!-- Organizer Label [CHAR LIMIT=12]-->
+    <string name="event_info_organizer">Organizer</string>
 </resources>
