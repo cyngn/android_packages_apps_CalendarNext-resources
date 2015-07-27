@@ -55,7 +55,6 @@
   <string name="event_delete">"Slet begivenhed"</string>
   <string name="goto_today">"I dag"</string>
   <string name="menu_preferences">"Indstillinger"</string>
-  <string name="menu_select_visible_calendars">"Kalendere"</string>
   <string name="search">"Søg"</string>
   <string name="select_visible_calendars_title">"Kalendere til visning"</string>
   <string name="synced">synkroniseret</string>

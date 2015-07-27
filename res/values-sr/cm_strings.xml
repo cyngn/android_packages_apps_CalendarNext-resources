@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Календари"</string>
   <string name="custom_event_color">Боја догађаја</string>
   <string name="event_color_set_to_default">Подразумевана боја</string>
   <string name="view_event_response_label">Идете?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Позивање људи</string>
   <string name="does_not_repeat">Не понављај</string>
   <string name="description_label">Додај запис</string>
+  <string name="availability_title">Пошаљи расположивост</string>
+  <string name="create_invite_title">Направи позивницу</string>
   <string name="discard_dialog_title">Поништи</string>
   <string name="discard_dialog_new_event_message">Да ли си сигуран да желиш одбацити догађај?</string>
   <string name="discard_dialog_existing_event_message">Да ли си сигуран да желиш одбацити измене догађаја?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> пре као <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Нема заказаних догађаја.</string>
   <string name="search_hint">Претражи календар</string>
+  <string name="appwidget_today_day_header">Данас нема догађаја.</string>
+  <string name="appwidget_tomorrow_day_header">Сутра, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Нема календара за синхронизацију</string>
+  <string name="empty_calendars_to_display">Нема календара за приказ</string>
+  <string name="update_available_ticker">Ажурирање је доступно за календар</string>
+  <string name="update_availalable_title">Ажурирање је доступно</string>
+  <string name="update_available_content">Додирни да инсталираш ажурирање</string>
+  <string name="error_no_app_store">Није пронађена одговарајућа апликација за складиштење</string>
+  <string name="tutorial_done_button">Готово</string>
+  <string name="tutorial_skip_button">Прескочи</string>
+  <string name="tutorial_welcome_title">Добродошли у календар</string>
+  <string name="tutorial_welcome_subtitle">Диван начин да прегледаш свој живот.</string>
+  <string name="tutorial_page1_title">Све твоје календаре</string>
+  <string name="tutorial_page1_subtitle">Прегледај све твоје календаре и догађаје на једном месту.</string>
+  <string name="tutorial_page2_title">Дели своју доступност</string>
+  <string name="tutorial_page2_subtitle">Брзо обавести остале када се можете срести.</string>
+  <string name="tutorial_page3_title">Више приказа</string>
+  <string name="tutorial_page3_subtitle">Прегледај своје догађаје на начин најбољи за тебе.</string>
+  <string name="tutorial_end_title">Скини Е-пошту</string>
+  <string name="tutorial_end_subtitle">Откључај моћне функције комбинујући Boxer Е-пошту и календар.</string>
+  <string name="tutorial_end_button">Преузми Boxer Е-пошту</string>
+  <string name="account_settings_tutorial_header_title">Погледај објашњење</string>
+  <string name="event_info_organizer">Организатор</string>
 </resources>

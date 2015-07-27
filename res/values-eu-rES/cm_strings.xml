@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Egutegiak"</string>
   <string name="custom_event_color">Gertaeraren kolorea</string>
   <string name="event_color_set_to_default">Kolore lehenetsia</string>
   <string name="view_event_response_label">Bazoaz?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Gonbidatu jendea</string>
   <string name="does_not_repeat">Ez da errepikatzen</string>
   <string name="description_label">Gehitu oharra</string>
+  <string name="availability_title">Bidali eskuragarritasuna</string>
+  <string name="create_invite_title">Sortu gonbidapena</string>
   <string name="discard_dialog_title">Utzi</string>
   <string name="discard_dialog_new_event_message">Ziur gertaera hau baztertu nahi duzula?</string>
   <string name="discard_dialog_existing_event_message">Ziur gertaera honi egindako aldaketak baztertu nahi dituzula?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> lehenago <xliff:g id="type" example="email">%s</xliff:g> gisa</string>
   <string name="no_events_scheduled">Ez da gertaerarik programatu.</string>
   <string name="search_hint">Bilatu egutegian</string>
+  <string name="appwidget_today_day_header">Ez dago gertaerarik gaur.</string>
+  <string name="appwidget_tomorrow_day_header">Bihar, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Ez dago egutegirik sinkronizatzeko</string>
+  <string name="empty_calendars_to_display">Ez dago egutegirik bistaratzeko</string>
+  <string name="update_available_ticker">Egutegiaren eguneraketa bat dago eskuragarri</string>
+  <string name="update_availalable_title">Eguneraketa bat dago eskuragarri</string>
+  <string name="update_available_content">Ukitu eguneraketa instalatzeko</string>
+  <string name="error_no_app_store">Ez da aplikazio denda egokirik aurkitu</string>
+  <string name="tutorial_done_button">Eginda</string>
+  <string name="tutorial_skip_button">Saltatu</string>
+  <string name="tutorial_welcome_title">Ongi etorri Egutegira</string>
+  <string name="tutorial_welcome_subtitle">Zure bizitzaren ikuspegi eder bat.</string>
+  <string name="tutorial_page1_title">Zure egutegi guztiak</string>
+  <string name="tutorial_page1_subtitle">Ikusi zure egutegi eta gertaera guztiak leku bakarrean.</string>
+  <string name="tutorial_page2_title">Partekatu zure eskuragarritasuna</string>
+  <string name="tutorial_page2_subtitle">Ahalbidetu besteek noiz batzartu zaitezkeen berehala jakitea.</string>
+  <string name="tutorial_page3_title">Hainbat iksupegi</string>
+  <string name="tutorial_page3_subtitle">Ikusi zure gertaerak zuretzat egokiena den erara.</string>
+  <string name="tutorial_end_title">Deskargatu Eposta</string>
+  <string name="tutorial_end_subtitle">Desblokeatu ezaugarri boteretsuak Boxer Eposta eta Egutegia konbinatuz.</string>
+  <string name="tutorial_end_button">Lortu Boxer Eposta</string>
+  <string name="account_settings_tutorial_header_title">Ikusi tutoriala</string>
+  <string name="event_info_organizer">Antolatzailea</string>
 </resources>

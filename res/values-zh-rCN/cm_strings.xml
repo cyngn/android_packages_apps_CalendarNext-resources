@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"日历"</string>
   <string name="custom_event_color">活动颜色</string>
   <string name="event_color_set_to_default">默认颜色</string>
   <string name="view_event_response_label">是否参加？</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">邀请人员</string>
   <string name="does_not_repeat">不重复</string>
   <string name="description_label">添加注释</string>
+  <string name="availability_title">发送可用性</string>
+  <string name="create_invite_title">创建邀请</string>
   <string name="discard_dialog_title">取消</string>
   <string name="discard_dialog_new_event_message">您确定想要放弃这个活动？</string>
   <string name="discard_dialog_existing_event_message">您确定想要放弃对此活动的更改？</string>
@@ -35,4 +38,12 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> 之前<xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">没有已安排的活动。</string>
   <string name="search_hint">搜索日历</string>
+  <string name="appwidget_tomorrow_day_header">明天，<xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="update_availalable_title">有可用的更新</string>
+  <string name="update_available_content">点击以安装更新</string>
+  <string name="tutorial_done_button">完成</string>
+  <string name="tutorial_skip_button">跳过</string>
+  <string name="tutorial_welcome_title">欢迎来到日历</string>
+  <string name="tutorial_page3_title">多个视图</string>
+  <string name="account_settings_tutorial_header_title">查看教程</string>
 </resources>

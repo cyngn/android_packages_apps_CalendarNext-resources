@@ -39,7 +39,6 @@
   <string name="day_view">"Tago"</string>
   <string name="month_view">"Monato"</string>
   <string name="menu_preferences">"Agordoj"</string>
-  <string name="menu_select_visible_calendars">"Kalendaroj"</string>
   <string name="search">"Serĉi"</string>
   <string name="create_event_dialog_save">Konservi</string>
 </resources>

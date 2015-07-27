@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalender"</string>
   <string name="custom_event_color">Terminfarbe</string>
   <string name="event_color_set_to_default">Standardfarbe</string>
   <string name="view_event_response_label">Teilnehmen?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Personen einladen</string>
   <string name="does_not_repeat">Wiederholt sich nicht</string>
   <string name="description_label">Beschreibung hinzufügen</string>
+  <string name="availability_title">Verfügbarkeit senden</string>
+  <string name="create_invite_title">Einladung erstellen</string>
   <string name="discard_dialog_title">Abbrechen</string>
   <string name="discard_dialog_new_event_message">Sind Sie sicher, dass Sie diesen Termin löschen möchten?</string>
   <string name="discard_dialog_existing_event_message">Sind Sie sicher, dass Sie die Änderungen an diesem Termin verwerfen möchten?</string>
@@ -35,4 +38,23 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> vorher als <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Keine Termine geplant.</string>
   <string name="search_hint">Kalender durchsuchen</string>
+  <string name="appwidget_today_day_header">Heute keine Termine.</string>
+  <string name="appwidget_tomorrow_day_header">Morgen, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Keine zu synchronisierenden Kalender</string>
+  <string name="empty_calendars_to_display">Keine anzuzeigenden Kalender</string>
+  <string name="update_available_ticker">Es ist ein Update für Kalender verfügbar</string>
+  <string name="update_availalable_title">Ein Update ist verfügbar</string>
+  <string name="update_available_content">Tippen, um das Update zu installieren</string>
+  <string name="error_no_app_store">Es wurde kein passender App-Store gefunden</string>
+  <string name="tutorial_done_button">Fertig</string>
+  <string name="tutorial_skip_button">Überspringen</string>
+  <string name="tutorial_welcome_title">Willkommen bei Kalender</string>
+  <string name="tutorial_welcome_subtitle">Ein schöner Weg, sein Leben zu betrachten.</string>
+  <string name="tutorial_page2_title">Teilen Sie Ihre Verfügbarkeit</string>
+  <string name="tutorial_page3_title">Verschiedene Ansichten</string>
+  <string name="tutorial_end_title">E-Mail herunterladen</string>
+  <string name="tutorial_end_subtitle">Schalten Sie leistungsstarke Funktionen durch Kombination mit Boxer E-Mail und Kalender frei.</string>
+  <string name="tutorial_end_button">Holen Sie sich Boxer E-Mail</string>
+  <string name="account_settings_tutorial_header_title">Anleitung anschauen</string>
+  <string name="event_info_organizer">Organisator</string>
 </resources>

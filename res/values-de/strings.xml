@@ -39,6 +39,10 @@
     <item quantity="one">1 Tag</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> Tage</item>
   </plurals>
+  <plurals name="weekN">
+    <item quantity="one">WOCHE <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="other">WOCHE <xliff:g id="count">%d</xliff:g></item>
+  </plurals>
   <string name="calendar_refresh">"Aktualisieren"</string>
   <string name="show_day_view">"Tag anzeigen"</string>
   <string name="agenda_view">"Terminübersicht"</string>
@@ -51,9 +55,10 @@
   <string name="event_delete">"Termin löschen"</string>
   <string name="goto_today">"Heute"</string>
   <string name="menu_preferences">"Einstellungen"</string>
-  <string name="menu_select_visible_calendars">"Kalender"</string>
   <string name="search">"Suche"</string>
   <string name="select_visible_calendars_title">"Anzuzeigende Kalender"</string>
+  <string name="synced"> synchronisiert</string>
+  <string name="not_synced"> nicht synchronisiert</string>
   <string name="acct_not_synced">Dieses Konto wird nicht synchronisiert. Ihre Kalender sind eventuell nicht aktuell.</string>
   <string name="accounts">Konten &amp; Synchronisierung</string>
   <string name="select_synced_calendars_title">Zu synchronisierende Kalender</string>
@@ -68,11 +73,15 @@
   <string name="rsvp_tentative">"Vielleicht"</string>
   <string name="rsvp_declined">"Abgesagt"</string>
   <string name="create_event_dialog_save">Speichern</string>
+  <string name="alert_title">Benachrichtigungen</string>
   <string name="event_info_title">Termin anzeigen</string>
   <string name="event_info_title_invite">Einladung zu einer Besprechung</string>
   <string name="edit_event_all_day_label">Ganztägig</string>
   <string name="presence_label">Mein Status</string>
+  <string name="privacy_label">Vertraulichkeit</string>
   <string name="no_syncable_calendars">Keine Kalender</string>
+  <string name="no_calendars_found">Damit Sie einen Termin hinzufügen können, müssen Sie mindestens ein Google Kalender-Konto zu Ihrem Gerät hinzufügen und einen Kalender sichtbar machen. Tippen Sie zum Hinzufügen eines Kontos auf \"Konto hinzufügen\". Falls Sie gerade ein Konto hinzugefügt haben, warten Sie, bis die Synchronisierung abgeschlossen ist und versuchen Sie es dann erneut. Sie können auch auf \"Abbrechen\" tippen und sich vergewissern, dass mindestens ein Kalender sichtbar ist.</string>
+  <string name="create_an_account_desc">"Google Kalender funktioniert besser mit einem Google-Konto.\n\n\u2022 Zugriff über jeden beliebigen Browser\n\u2022 Zuverlässiges Sichern von Terminen"</string>
   <string name="add_account">Konto hinzufügen</string>
   <string name="event_color_picker_dialog_title">Terminfarbe</string>
   <string name="calendar_color_picker_dialog_title">Kalenderfarbe</string>
@@ -82,10 +91,13 @@
   <string name="response_no">Nein</string>
   <string name="email_guests_label">E-Mail an Gäste senden</string>
   <string name="email_organizer_label">E-Mail an Organisator senden</string>
+  <string name="email_picker_label">E-Mail über</string>
   <string name="event_not_found">"Termin nicht gefunden."</string>
   <string name="map_label">Karte</string>
   <string name="call_label">Anrufen</string>
   <string name="quick_response_settings">Kurzantworten</string>
+  <string name="quick_response_settings_summary">Standardantworten beim Senden von E-Mails an Gäste bearbeiten</string>
+  <string name="quick_response_settings_title">Kurzantworten bearbeiten</string>
   <string name="quick_response_settings_edit_title">Kurzantwort</string>
   <string name="quick_response_dialog_title">Kurzantwort auswählen</string>
   <string name="quick_response_email_failed">Es konnte kein E-Mail-Programm gefunden werden</string>
@@ -93,13 +105,15 @@
     <item>Bin einige Minuten verspätet</item>
     <item>Bin in etwa 10 Minuten da</item>
     <item>Fangt ohne mich an</item>
-    <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+    <item>Schaffe es leider nicht. Neuen Termin ausmachen?</item>
   </string-array>
   <string name="quick_response_custom_msg">Eigene Antwort schreiben\u2026</string>
   <string name="agenda_today">Heute, <xliff:g id="DATE">%1$s</xliff:g></string>
   <string name="agenda_yesterday">Gestern, <xliff:g id="DATE">%1$s</xliff:g></string>
   <string name="agenda_tomorrow">Morgen, <xliff:g id="DATE">%1$s</xliff:g></string>
   <string name="loading">Lädt\u2026</string>
+  <string name="show_older_events">Antippen für Termine vor dem <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
+  <string name="show_newer_events">Antippen für Termine nach dem <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
   <string name="search_title">In meinen Kalendern suchen</string>
   <string name="edit_event_label">"Details"</string>
   <string name="edit_label">"Bearbeiten"</string>
@@ -107,6 +121,7 @@
   <string name="save_label">Fertig</string>
   <string name="dismiss_all_label">"Alle schließen"</string>
   <string name="snooze_label">"Später erinnern"</string>
+  <string name="custom">"Benutzerdefiniert (Anpassung über Gerät nicht möglich)"</string>
   <string name="modify_event">Nur diesen Termin ändern</string>
   <string name="modify_all">Alle Termine in dieser Serie ändern</string>
   <string name="modify_all_following">Diesen und alle zukünftigen Termine ändern</string>
@@ -132,8 +147,10 @@
   <string name="preferences_default_reminder_title">Standard-Erinnerungszeit</string>
   <string name="preferences_default_reminder_dialog">Standard-Erinnerungszeit</string>
   <string name="preferences_use_home_tz_title">Heimatzeitzone beibehalten</string>
+  <string name="preferences_use_home_tz_descrip">Zeigt unterwegs Kalender-/Terminzeiten in Heimatzeitzone an</string>
   <string name="preferences_home_tz_title">Heimatzeitzone</string>
   <string name="preferences_show_week_num_title">Wochennummer anzeigen</string>
+  <string name="preferences_about_title">Über</string>
   <string name="preferences_build_version_fmt">Build-Version: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <string name="gadget_title">Kalender</string>
   <plurals name="month_more_events">
@@ -145,6 +162,12 @@
   <string name="preferences_reminders_category">Erinnerungen</string>
   <string name="preferences_reminders_responded_label">Erinnerungen überspringen</string>
   <string name="preferences_reminders_responded_dialog">Erinnerungen überspringen</string>
+  <string name="preferences_reminders_quiet_hours_label">Ruhezeit</string>
+  <string name="preferences_reminders_quiet_hours_description">Terminerinnerung zu bestimmten Zeiten stummschalten</string>
+  <string name="preferences_reminders_quiet_hours_start">Start der Ruhezeit</string>
+  <string name="preferences_reminders_quiet_hours_end">Ende der Ruhezeit</string>
+  <string name="preferences_debug_category">Debugging</string>
+  <string name="copy_db">Datenbank versenden</string>
   <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> wird durchsucht\u2026</string>
   <string name="accessibility_remove_attendee">Teilnehmer entfernen</string>
   <string name="accessibility_pick_start_date">Startdatum</string>
@@ -152,6 +175,7 @@
   <string name="accessibility_pick_end_date">Enddatum</string>
   <string name="accessibility_pick_end_time">Ende</string>
   <string name="accessibility_pick_time_zone">Zeitzone</string>
+  <string name="accessibility_pick_recurrence">Wiederkehrender Termin</string>
   <string name="accessibility_add_reminder">Erinnerung hinzufügen</string>
   <string name="accessibility_remove_reminder">Erinnerung entfernen</string>
   <string name="accessibility_add_attendee">Teilnehmer hinzufügen</string>
@@ -159,4 +183,43 @@
   <string name="accessibility_all_day">Ganztägiger Termin</string>
   <string name="accessibility_reminder_time">Erinnerungszeit</string>
   <string name="accessibility_reminder_type">Art der Erinnerung</string>
+  <string name="accessibility_reminder_showmeas">Mein Status</string>
+  <string name="accessibility_reminder_privacy">Vertraulichkeit</string>
+  <string name="acessibility_cal_notification">Kalenderbenachrichtigung</string>
+  <string name="acessibility_snooze_notification">Später erinnern</string>
+  <string name="accessibility_email_notification">E-Mail an Gäste senden</string>
+  <string name="day_view_new_event_hint">+ Neuer Termin</string>
+  <string name="template_announce_item_index">Termin <xliff:g id="ITEM_INDEX">%1$s</xliff:g> von <xliff:g id="ITEM_COUNT">%2$s</xliff:g></string>
+  <plurals name="Nevents">
+    <item quantity="one">1 Termin</item>
+    <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> Termine</item>
+  </plurals>
+  <plurals name="N_remaining_events">
+    <item quantity="one">+1 Termin</item>
+    <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> Termine</item>
+  </plurals>
+  <string name="acessibility_selected_marker_description">Ausgewählter Termin</string>
+  <string name="do_not_check">NICHT aktivieren -&gt;</string>
+  <plurals name="recurrence_interval_daily">
+    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Tag</item>
+    <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Tage</item>
+  </plurals>
+  <plurals name="recurrence_interval_weekly">
+    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Woche</item>
+    <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Wochen</item>
+  </plurals>
+  <plurals name="recurrence_interval_yearly">
+    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Jahr</item>
+    <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Jahre</item>
+  </plurals>
+  <string name="recurrence_month_pattern_by_day">am gleichen Tag des Monats</string>
+  <string name="recurrence_end_continously">Dauerhaft</string>
+  <string name="recurrence_end_date_label">Bis zu bestimmtem Datum</string>
+  <string name="recurrence_end_date">Bis <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="recurrence_end_count_label">Mehrere Wiederholungen</string>
+  <plurals name="recurrence_end_count">
+    <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> mal</item>
+    <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> mal</item>
+  </plurals>
+  <string name="acessibility_recurrence_choose_end_date_description">Enddatum ändern</string>
 </resources>

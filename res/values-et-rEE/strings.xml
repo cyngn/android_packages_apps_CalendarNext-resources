@@ -55,7 +55,6 @@
   <string name="event_delete">"Kustuta sündmus"</string>
   <string name="goto_today">"Täna"</string>
   <string name="menu_preferences">"Seaded"</string>
-  <string name="menu_select_visible_calendars">"Kuvatavad kalendrid"</string>
   <string name="search">"Otsing"</string>
   <string name="select_visible_calendars_title">"Kuvatavad kalendrid"</string>
   <string name="synced">sünkroonitud</string>

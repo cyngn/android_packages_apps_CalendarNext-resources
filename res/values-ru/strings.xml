@@ -60,7 +60,6 @@
   <string name="event_delete">"Удалить мероприятие"</string>
   <string name="goto_today">"Сегодня"</string>
   <string name="menu_preferences">"Настройки"</string>
-  <string name="menu_select_visible_calendars">"Календари"</string>
   <string name="search">"Поиск"</string>
   <string name="select_visible_calendars_title">"Календари"</string>
   <string name="synced">синхронизирован</string>

@@ -51,7 +51,6 @@
   <string name="event_delete">"Ezabatu gertaera"</string>
   <string name="goto_today">"Gaur"</string>
   <string name="menu_preferences">"Ezarpenak"</string>
-  <string name="menu_select_visible_calendars">"Egutegiak"</string>
   <string name="search">"Bilatu"</string>
   <string name="select_visible_calendars_title">"Erakutsi beharreko egutegiak"</string>
   <string name="synced">sinkronizatuta</string>

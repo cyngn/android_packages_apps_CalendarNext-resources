@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Календари"</string>
   <string name="custom_event_color">Цвет события</string>
   <string name="event_color_set_to_default">Цвет по умолчанию</string>
   <string name="view_event_response_label">Участвуете?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Пригласить участников</string>
   <string name="does_not_repeat">Однократно</string>
   <string name="description_label">Добавить заметку</string>
+  <string name="availability_title">Отправить информацию о доступности</string>
+  <string name="create_invite_title">Создать приглашение</string>
   <string name="discard_dialog_title">Отмена</string>
   <string name="discard_dialog_new_event_message">Отменить данное событие?</string>
   <string name="discard_dialog_existing_event_message">Отменить изменения для данного события?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type">за <xliff:g id="length" example="15 minutes">%s</xliff:g> через <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Нет запланированных событий.</string>
   <string name="search_hint">Искать в календаре</string>
+  <string name="appwidget_today_day_header">Нет событий на сегодня.</string>
+  <string name="appwidget_tomorrow_day_header">Завтра, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Нет календарей для синхронизации</string>
+  <string name="empty_calendars_to_display">Календари отсутствуют</string>
+  <string name="update_available_ticker">Доступно обновление для Календаря</string>
+  <string name="update_availalable_title">Доступно обновление</string>
+  <string name="update_available_content">Нажмите для установки обновления</string>
+  <string name="error_no_app_store">Магазин приложений не найден</string>
+  <string name="tutorial_done_button">Готово</string>
+  <string name="tutorial_skip_button">Пропустить</string>
+  <string name="tutorial_welcome_title">Добро пожаловать в Календарь</string>
+  <string name="tutorial_welcome_subtitle">Отличный инструмент для планирования вашего распорядка жизни.</string>
+  <string name="tutorial_page1_title">Все календари</string>
+  <string name="tutorial_page1_subtitle">Просматривайте все ваши календари и события в одном месте.</string>
+  <string name="tutorial_page2_title">Информация о доступности</string>
+  <string name="tutorial_page2_subtitle">Оперативно сообщайте другим пользователям о времени, когда вы можете с ними встретиться.</string>
+  <string name="tutorial_page3_title">Настройка событий</string>
+  <string name="tutorial_page3_subtitle">Просматривайте события наиболее удобным для вас способом.</string>
+  <string name="tutorial_end_title">Скачайте приложение почты</string>
+  <string name="tutorial_end_subtitle">Откройте для себя ещё больше возможностей, объединив почту Boxer и Календарь.</string>
+  <string name="tutorial_end_button">Получить Boxer</string>
+  <string name="account_settings_tutorial_header_title">Просмотр обучающего руководства</string>
+  <string name="event_info_organizer">Органайзер</string>
 </resources>

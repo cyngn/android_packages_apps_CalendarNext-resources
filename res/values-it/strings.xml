@@ -55,7 +55,6 @@
   <string name="event_delete">"Elimina evento"</string>
   <string name="goto_today">"Oggi"</string>
   <string name="menu_preferences">"Impostazioni"</string>
-  <string name="menu_select_visible_calendars">"Calendari da visualizzare"</string>
   <string name="search">"Cerca"</string>
   <string name="select_visible_calendars_title">"Calendari da visualizzare"</string>
   <string name="synced">sincronizzato</string>

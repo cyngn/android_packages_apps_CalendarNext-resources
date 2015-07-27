@@ -65,7 +65,6 @@
   <string name="event_delete">"Избриши догађај"</string>
   <string name="goto_today">"Данас"</string>
   <string name="menu_preferences">"Подешавања"</string>
-  <string name="menu_select_visible_calendars">"Календари"</string>
   <string name="search">"Претражи"</string>
   <string name="select_visible_calendars_title">"Календари за приказ"</string>
   <string name="synced">синхронизовано</string>

@@ -55,7 +55,6 @@
   <string name="event_delete">"Poista tapahtuma"</string>
   <string name="goto_today">"Tämä päivä"</string>
   <string name="menu_preferences">"Asetukset"</string>
-  <string name="menu_select_visible_calendars">"Näytett. kalenterit"</string>
   <string name="search">"Haku"</string>
   <string name="select_visible_calendars_title">"Näytettävät kalenterit"</string>
   <string name="synced">synkronoitu</string>

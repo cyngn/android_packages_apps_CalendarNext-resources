@@ -55,7 +55,6 @@
   <string name="event_delete">"Διαγραφή συμβάντος"</string>
   <string name="goto_today">"Σήμερα"</string>
   <string name="menu_preferences">"Ρυθμίσεις"</string>
-  <string name="menu_select_visible_calendars">"Ημερολόγια"</string>
   <string name="search">"Αναζήτηση"</string>
   <string name="select_visible_calendars_title">"Ημερολόγια για εμφάνιση"</string>
   <string name="synced">συγχρονίστηκε</string>

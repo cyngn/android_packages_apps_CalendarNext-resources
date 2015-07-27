@@ -51,7 +51,6 @@
   <string name="event_delete">"Esborra l'esdeveniment"</string>
   <string name="goto_today">"Avui"</string>
   <string name="menu_preferences">"Configuració"</string>
-  <string name="menu_select_visible_calendars">"Calendaris"</string>
   <string name="search">"Cerca"</string>
   <string name="select_visible_calendars_title">"Calendaris per mostrar"</string>
   <string name="synced">sincronitzat</string>

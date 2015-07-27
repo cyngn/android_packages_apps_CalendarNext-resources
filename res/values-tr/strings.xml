@@ -55,7 +55,6 @@
   <string name="event_delete">"Etkinliği sil"</string>
   <string name="goto_today">"Bugün"</string>
   <string name="menu_preferences">"Ayarlar"</string>
-  <string name="menu_select_visible_calendars">"Takvimler"</string>
   <string name="search">"Ara"</string>
   <string name="select_visible_calendars_title">"Görüntülenecek takvimler"</string>
   <string name="synced"> eşitlendi</string>

@@ -18,6 +18,21 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="custom_event_color">Couleur de l\'événement</string>
   <string name="event_color_set_to_default">Couleur par défaut</string>
+  <string name="view_event_response_label">Participer ?</string>
   <string name="new_event_more_options">plus d\'options</string>
   <string name="preferences_alerts_silent_ringtone_title">Silencieux</string>
+  <string name="hint_where">Ajouter un emplacement</string>
+  <string name="reminders_label">Ajouter une notification</string>
+  <string name="hint_attendees">Inviter des personnes</string>
+  <string name="does_not_repeat">Ne se répète pas</string>
+  <string name="description_label">Ajouter une note</string>
+  <string name="discard_dialog_title">Annuler</string>
+  <string name="discard_dialog_new_event_message">Êtes-vous sûr de vouloir supprimer cet événement ?</string>
+  <string name="discard_dialog_existing_event_message">Êtes-vous sûr de vouloir ignorer les modifications de cet événement ?</string>
+  <string name="discard_dialog_positive_button_text">Ignorer</string>
+  <string name="discard_dialog_negative_button_text">Garder l\'édition</string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> avant</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> avant que<xliff:g id="type" example="email">%s</xliff:g></string>
+  <string name="no_events_scheduled">Aucun événement prévu.</string>
+  <string name="search_hint">Rechercher dans le calendrier</string>
 </resources>

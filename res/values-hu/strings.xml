@@ -55,7 +55,6 @@
   <string name="event_delete">"Esemény törlése"</string>
   <string name="goto_today">"Ma"</string>
   <string name="menu_preferences">"Beállítások"</string>
-  <string name="menu_select_visible_calendars">"Naptárak"</string>
   <string name="search">"Keresés"</string>
   <string name="select_visible_calendars_title">"Megjelenítendő naptárak"</string>
   <string name="synced">szinkronizálva</string>

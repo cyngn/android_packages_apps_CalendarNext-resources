@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalenterit"</string>
   <string name="custom_event_color">Tapahtuman väri</string>
   <string name="event_color_set_to_default">Oletusväri</string>
   <string name="view_event_response_label">Osallistutko?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Kutsu ihmisiä</string>
   <string name="does_not_repeat">Ei toistu</string>
   <string name="description_label">Lisää huomautus</string>
+  <string name="availability_title">Lähetä saatavuus</string>
+  <string name="create_invite_title">Luo kutsu</string>
   <string name="discard_dialog_title">Peruuta</string>
   <string name="discard_dialog_new_event_message">Haluatko varmasti hylätä tämän tapahtuman?</string>
   <string name="discard_dialog_existing_event_message">Haluatko varmasti hylätä tapahtumaan tekemäsi muutokset?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> aiemmin käyttäen <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Ei sovittuja tapahtumia.</string>
   <string name="search_hint">Hae kalenterista</string>
+  <string name="appwidget_today_day_header">Ei tapahtumia tänään.</string>
+  <string name="appwidget_tomorrow_day_header">Huomenna, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Ei synkronoitavia kalentereita</string>
+  <string name="empty_calendars_to_display">Ei näytettäviä kalentereita</string>
+  <string name="update_available_ticker">Kalenteri-sovellukseen on saatavilla päivitys</string>
+  <string name="update_availalable_title">Päivitys on saatavilla</string>
+  <string name="update_available_content">Paina tästä asentaaksesi päivityksen</string>
+  <string name="error_no_app_store">Sopivaa sovelluskauppaa ei löydy</string>
+  <string name="tutorial_done_button">Valmis</string>
+  <string name="tutorial_skip_button">Ohita</string>
+  <string name="tutorial_welcome_title">Tervetuloa kalenteriin</string>
+  <string name="tutorial_welcome_subtitle">Kaunis tapa tarkastella elämääsi.</string>
+  <string name="tutorial_page1_title">Kaikki kalenterit</string>
+  <string name="tutorial_page1_subtitle">Tarkastele kaikkia kalentereita ja tapahtumia samasta paikasta.</string>
+  <string name="tutorial_page2_title">Jaa saatavuus</string>
+  <string name="tutorial_page2_subtitle">Kerro muille nopeasti millioin olet vapaana.</string>
+  <string name="tutorial_page3_title">Useampi näkymä</string>
+  <string name="tutorial_page3_subtitle">Katsele tapahtumia sinulle parhaiten sopivalla tavalla.</string>
+  <string name="tutorial_end_title">Lataa Sähköposti</string>
+  <string name="tutorial_end_subtitle">Avaa ominaisuuksia yhdistämällä Boxer-sähköposti ja kalenteri.</string>
+  <string name="tutorial_end_button">Hanki Boxer-sähköposti</string>
+  <string name="account_settings_tutorial_header_title">Näytä opastus</string>
+  <string name="event_info_organizer">Järjestäjä</string>
 </resources>

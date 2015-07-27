@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Takvimler"</string>
   <string name="custom_event_color">Etkinlik rengi</string>
   <string name="event_color_set_to_default">Varsayılan renk</string>
   <string name="view_event_response_label">Gidecek misiniz?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Kişileri davet et</string>
   <string name="does_not_repeat">Tekrar etmez</string>
   <string name="description_label">Not ekle</string>
+  <string name="availability_title">Uygunluğunuzu gönderin</string>
+  <string name="create_invite_title">Davet oluştur</string>
   <string name="discard_dialog_title">İptal</string>
   <string name="discard_dialog_new_event_message">Bu etkinliği silmek istiyor musunuz?</string>
   <string name="discard_dialog_existing_event_message">Bu etkinlik için yapılan değişiklikleri silmek istiyor musunuz?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> önce <xliff:g id="type" example="email">%s</xliff:g> olarak</string>
   <string name="no_events_scheduled">Planlanan etkinlik yok.</string>
   <string name="search_hint">Takvimi ara</string>
+  <string name="appwidget_today_day_header">Bugün etkinlik yok.</string>
+  <string name="appwidget_tomorrow_day_header">Yarın, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Eşitlenecek takvim yok</string>
+  <string name="empty_calendars_to_display">Görüntülenecek takvim yok</string>
+  <string name="update_available_ticker">Takvim için bir güncelleme mevcut</string>
+  <string name="update_availalable_title">Bir güncelleme mevcut</string>
+  <string name="update_available_content">Yüklemek için dokunun</string>
+  <string name="error_no_app_store">Uygun bir mağaza bulunamadı</string>
+  <string name="tutorial_done_button">Tamam</string>
+  <string name="tutorial_skip_button">Atla</string>
+  <string name="tutorial_welcome_title">Takvime hoş geldiniz</string>
+  <string name="tutorial_welcome_subtitle">Hayatınızı görüntülemek için güzel bir yol.</string>
+  <string name="tutorial_page1_title">Tüm takvimleriniz</string>
+  <string name="tutorial_page1_subtitle">Takvimlerinizi ve etkinliklerinizi tek bir yerde görüntüleyin.</string>
+  <string name="tutorial_page2_title">Müsait misiniz, paylaşın</string>
+  <string name="tutorial_page2_subtitle">Başkalarına müsait olduğunuz zamanı hızlıca bildirin.</string>
+  <string name="tutorial_page3_title">Çoklu Görünüm</string>
+  <string name="tutorial_page3_subtitle">Etkinliklerinizi sizin için en iyi şekilde görüntüleyin.</string>
+  <string name="tutorial_end_title">E-postaları indirin</string>
+  <string name="tutorial_end_subtitle">Boxer E-posta ve Takvimini birleştirerek güçlü özellikleri açın.</string>
+  <string name="tutorial_end_button">Boxer E-posta\'yı edinin</string>
+  <string name="account_settings_tutorial_header_title">Öğreticiyi görüntüle</string>
+  <string name="event_info_organizer">Düzenleyici</string>
 </resources>

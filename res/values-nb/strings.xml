@@ -39,6 +39,7 @@
     <item quantity="one">En dag</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dager</item>
   </plurals>
+  <string name="calendar_refresh">"Oppdater"</string>
   <string name="show_day_view">"Vis dag"</string>
   <string name="agenda_view">"Oversikt"</string>
   <string name="day_view">"Dag"</string>
@@ -50,7 +51,6 @@
   <string name="event_delete">"Slett aktivitet"</string>
   <string name="goto_today">"I dag"</string>
   <string name="menu_preferences">"Innstillinger"</string>
-  <string name="menu_select_visible_calendars">"Kalendere som skal vises"</string>
   <string name="search">"Søk"</string>
   <string name="select_visible_calendars_title">"Kalendere som skal vises"</string>
   <string name="synced">synkronisert</string>
@@ -147,6 +147,7 @@
   <string name="preferences_home_tz_title">Egen tidssone</string>
   <string name="preferences_show_week_num_title">Vis ukenummer</string>
   <string name="preferences_about_title">Info</string>
+  <string name="preferences_build_version_fmt">Versjon: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <string name="gadget_title">Kalender</string>
   <plurals name="month_more_events">
     <item quantity="one">"+ 1"</item>

@@ -60,7 +60,6 @@
   <string name="event_delete">"Smazat událost"</string>
   <string name="goto_today">"Dnes"</string>
   <string name="menu_preferences">"Nastavení"</string>
-  <string name="menu_select_visible_calendars">"Kalendáře k zobrazení"</string>
   <string name="search">"Hledat"</string>
   <string name="select_visible_calendars_title">"Kalendáře k zobrazení"</string>
   <string name="synced"> synchronizován</string>

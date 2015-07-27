@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Ημερολόγια"</string>
   <string name="custom_event_color">Χρώμα συμβάντος</string>
   <string name="event_color_set_to_default">Προεπιλεγμένο χρώμα</string>
   <string name="view_event_response_label">Θα παρευρεθείτε;</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Πρόσκληση ατόμων</string>
   <string name="does_not_repeat">Δεν επαναλαμβάνεται</string>
   <string name="description_label">Προσθήκη σημείωσης</string>
+  <string name="availability_title">Αποστολή διαθεσιμότητας</string>
+  <string name="create_invite_title">Δημιουργία πρόσκλησης</string>
   <string name="discard_dialog_title">Ακύρωση</string>
   <string name="discard_dialog_new_event_message">Είστε βέβαιοι ότι θέλετε να απορρίψετε αυτό το συμβάν;</string>
   <string name="discard_dialog_existing_event_message">Είστε βέβαιοι ότι θέλετε να απορρίψετε τις αλλαγές σε αυτό το συμβάν;</string>
@@ -35,4 +38,17 @@
   <string name="event_info_reminder_w_type">Πριν από <xliff:g id="length" example="15 minutes">%s</xliff:g> ως <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Δεν έχουν προγραμματιστεί συμβάντα.</string>
   <string name="search_hint">Αναζήτηση ημερολογίου</string>
+  <string name="appwidget_today_day_header">Δεν υπάρχουν συμβάντα σήμερα.</string>
+  <string name="appwidget_tomorrow_day_header">Αύριο, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Δεν υπάρχουν ημερολόγια για συγχρονισμό</string>
+  <string name="empty_calendars_to_display">Δεν υπάρχουν ημερολόγια για εμφάνιση</string>
+  <string name="update_available_ticker">Υπάρχει μια ενημερωμένη έκδοση για το ημερολόγιο</string>
+  <string name="update_availalable_title">Διατίθεται μια ενημερωμένη έκδοση</string>
+  <string name="update_available_content">Πατήστε για εγκατάσταση της ενημερωμένης έκδοσης</string>
+  <string name="tutorial_done_button">Τέλος</string>
+  <string name="tutorial_skip_button">Παράλειψη</string>
+  <string name="tutorial_welcome_title">Καλώς ήλθατε στο ημερολόγιο</string>
+  <string name="tutorial_page1_title">Όλα τα ημερολόγιά σας</string>
+  <string name="tutorial_page2_title">Μοιραστείτε τη διαθεσιμότητά σας</string>
+  <string name="account_settings_tutorial_header_title">Προβολή οδηγού</string>
 </resources>

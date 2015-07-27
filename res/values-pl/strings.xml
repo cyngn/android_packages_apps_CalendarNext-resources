@@ -60,7 +60,6 @@
   <string name="event_delete">"Usuń wydarzenie"</string>
   <string name="goto_today">"Dzisiaj"</string>
   <string name="menu_preferences">"Ustawienia"</string>
-  <string name="menu_select_visible_calendars">"Kalendarze"</string>
   <string name="search">"Szukaj"</string>
   <string name="select_visible_calendars_title">"Kalendarze do wyświetlenia"</string>
   <string name="synced">zsynchronizowany</string>
@@ -125,7 +124,9 @@
   <string name="edit_label">"Edytuj"</string>
   <string name="delete_label">"Usuń"</string>
   <string name="save_label">Gotowe</string>
+  <string name="dismiss_all_label">"Zamknij"</string>
   <string name="snooze_label">"Drzemka"</string>
+  <string name="custom">"Niestandardowo (nie można dostosować na telefonie)"</string>
   <string name="modify_event">Zmień tylko to wydarzenie</string>
   <string name="modify_all">Zmień wszystkie wydarzenia w serii</string>
   <string name="modify_all_following">Zmień to i wszystkie przyszłe wydarzenia</string>
@@ -136,13 +137,20 @@
   <string name="change_response_title">Zmień odpowiedź</string>
   <string name="menu_general_preferences">Ustawienia ogólne</string>
   <string name="preferences_title">"Ustawienia"</string>
+  <string name="preferences_general_title">Widok kalendarza</string>
   <string name="preferences_reminder_title">Powiadomienia i przypomnienia</string>
+  <string name="preferences_hide_declined_title">Ukryj odrzucone</string>
+  <string name="preferences_week_start_day_title">Pierwszy dzień tygodnia</string>
+  <string name="preferences_week_start_day_dialog">Pierwszy dzień tygodnia</string>
   <string name="preferences_clear_search_history_title">Wyczyść historię wyszukiwania</string>
   <string name="preferences_clear_search_history_summary">Usuń wszystkie poprzednie wyszukiwania</string>
   <string name="search_history_cleared">Wyczyszczono historię wyszukiwania.</string>
   <string name="preferences_alerts_title">Powiadomienia</string>
   <string name="preferences_alerts_vibrateWhen_title">Wibracje</string>
   <string name="preferences_alerts_ringtone_title">Dźwięk</string>
+  <string name="preferences_alerts_popup_title">Wyświetl na ekranie</string>
+  <string name="preferences_default_reminder_title">Domyślne przypomnienie</string>
+  <string name="preferences_default_reminder_dialog">Domyślne przypomnienie</string>
   <string name="preferences_use_home_tz_title">Domowa strefa czasowa</string>
   <string name="preferences_use_home_tz_descrip">Godziny będą podawane w domowej strefie czasowej (nawet w podróży)</string>
   <string name="preferences_home_tz_title">Domowa strefa czasowa</string>
@@ -161,6 +169,34 @@
   <string name="preferences_reminders_quiet_hours_end">Koniec cichych godzin</string>
   <string name="preferences_debug_category">Debugowanie</string>
   <string name="copy_db">Wyślij bazę danych</string>
+  <string name="directory_searching_fmt">Trwa wyszukiwanie w witrynie <xliff:g id="DOMAIN">%s</xliff:g>…</string>
+  <string name="accessibility_remove_attendee">Usuń uczestnika</string>
   <string name="accessibility_pick_start_date">Data rozpoczęcia</string>
   <string name="accessibility_pick_start_time">Godzina rozpoczęcia</string>
+  <string name="accessibility_pick_end_date">Data zakończenia</string>
+  <string name="accessibility_pick_end_time">Godzina zakończenia</string>
+  <string name="accessibility_pick_time_zone">Strefa czasowa</string>
+  <string name="accessibility_pick_recurrence">Powtarzaj wydarzenie</string>
+  <string name="accessibility_add_reminder">Dodaj przypomnienie</string>
+  <string name="accessibility_remove_reminder">Usuń przypomnienie</string>
+  <string name="accessibility_add_attendee">Dodaj uczestnika</string>
+  <string name="accessibility_sync_cal">Synchronizuj kalendarz</string>
+  <string name="accessibility_all_day">Wydarzenie całodniowe</string>
+  <string name="accessibility_reminder_time">Godzina przypomnienia</string>
+  <string name="accessibility_reminder_type">Typ przypomnienia</string>
+  <string name="accessibility_reminder_showmeas">Pokaż mój stan jako</string>
+  <string name="accessibility_reminder_privacy">Prywatność</string>
+  <string name="acessibility_cal_notification">Powiadomienie kalendarza</string>
+  <string name="acessibility_snooze_notification">Uśpij powiadomienie</string>
+  <string name="accessibility_email_notification">Wyślij e-maila do gości</string>
+  <string name="day_view_new_event_hint">+ Nowe wydarzenie</string>
+  <string name="template_announce_item_index">Wydarzenie <xliff:g id="ITEM_INDEX">%1$s</xliff:g> z <xliff:g id="ITEM_COUNT">%2$s</xliff:g></string>
+  <string name="acessibility_selected_marker_description">Wybrane wydarzenie</string>
+  <string name="do_not_check">NIE zaznaczaj -&gt;</string>
+  <string name="recurrence_month_pattern_by_day">tego samego dnia miesiąca</string>
+  <string name="recurrence_end_continously">Bez końca</string>
+  <string name="recurrence_end_date_label">Do daty</string>
+  <string name="recurrence_end_date">Do <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="recurrence_end_count_label">Określona liczba powtórzeń</string>
+  <string name="acessibility_recurrence_choose_end_date_description">zmień datę zakończenia</string>
 </resources>

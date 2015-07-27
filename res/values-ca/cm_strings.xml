@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Calendaris"</string>
   <string name="custom_event_color">Color de l\'esdeveniment</string>
   <string name="event_color_set_to_default">Color per defecte</string>
   <string name="view_event_response_label">Hi aniràs?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Convida a persones</string>
   <string name="does_not_repeat">No es repeteix</string>
   <string name="description_label">Afegeix nota</string>
+  <string name="availability_title">Envia la disponibilitat</string>
+  <string name="create_invite_title">Crea una invitació</string>
   <string name="discard_dialog_title">Cancel·la</string>
   <string name="discard_dialog_new_event_message">Estàs segur que vols descartar aquest esdeveniment?</string>
   <string name="discard_dialog_existing_event_message">Estàs segur que vols descartar els canvis a aquest esdeveniment?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> abans com <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">No hi ha esdeveniments programats.</string>
   <string name="search_hint">Cerca al calendari</string>
+  <string name="appwidget_today_day_header">Avui no hi ha esdeveniments.</string>
+  <string name="appwidget_tomorrow_day_header">Demà, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">No hi ha calendaris per sincronitzar</string>
+  <string name="empty_calendars_to_display">No hi ha calendaris per mostrar</string>
+  <string name="update_available_ticker">Hi ha una actualització disponible del Calendari</string>
+  <string name="update_availalable_title">Hi ha una actualització disponible</string>
+  <string name="update_available_content">Pica per instal·lar l\'actualització</string>
+  <string name="error_no_app_store">No s\'ha trobat cap botiga d\'aplicacions adequada</string>
+  <string name="tutorial_done_button">Fet</string>
+  <string name="tutorial_skip_button">Salta</string>
+  <string name="tutorial_welcome_title">Benvingut al Calendari</string>
+  <string name="tutorial_welcome_subtitle">Una bonica manera de veure la teva vida.</string>
+  <string name="tutorial_page1_title">Tots els teus calendaris</string>
+  <string name="tutorial_page1_subtitle">mostra tots els teus calendaris i esdeveniments en un sol lloc.</string>
+  <string name="tutorial_page2_title">Comparteix la teva disponibilitat</string>
+  <string name="tutorial_page2_subtitle">Fes saber ràpidament als altres quan us podeu reunir.</string>
+  <string name="tutorial_page3_title">Vistes múltiples</string>
+  <string name="tutorial_page3_subtitle">Mostra els teus esdeveniments de la manera que millor s\'adapti a tu.</string>
+  <string name="tutorial_end_title">Descarrega el correu electrònic</string>
+  <string name="tutorial_end_subtitle">Desbloqueja característiques potents combinant Boxer Email i el Calendari.</string>
+  <string name="tutorial_end_button">Aconsegueix Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">Mostra el tutorial</string>
+  <string name="event_info_organizer">Organitza</string>
 </resources>

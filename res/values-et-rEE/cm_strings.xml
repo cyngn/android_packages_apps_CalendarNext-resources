@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalendrid"</string>
   <string name="custom_event_color">Sündmuse värv</string>
   <string name="event_color_set_to_default">Vaikevärv</string>
   <string name="view_event_response_label">Kas osaled?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Kutsu inimesi</string>
   <string name="does_not_repeat">Ära korda</string>
   <string name="description_label">Lisa märkus</string>
+  <string name="availability_title">Saada kättesaadavus</string>
+  <string name="create_invite_title">Loo kutse</string>
   <string name="discard_dialog_title">Tühista</string>
   <string name="discard_dialog_new_event_message">Kas oled kindel, et soovid sündmusest loobuda?</string>
   <string name="discard_dialog_existing_event_message">Kas oled kindel, et soovid sündmuse muudatusest loobuda?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> enne kui <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Sündmuseid ei ole planeeritud.</string>
   <string name="search_hint">Otsi kalendrist</string>
+  <string name="appwidget_today_day_header">Sündmusi pole täna.</string>
+  <string name="appwidget_tomorrow_day_header">Homme, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Ühtegi kalendrit pole sünkida</string>
+  <string name="empty_calendars_to_display">Ühtegi kalendrit pole näidata</string>
+  <string name="update_available_ticker">Kalendrile on saadaval uuendus</string>
+  <string name="update_availalable_title">Saadaval on uuendus</string>
+  <string name="update_available_content">Puuduta uuenduse installeerimiseks</string>
+  <string name="error_no_app_store">Ei leitud ühtegi sobivat rakenduste poodi</string>
+  <string name="tutorial_done_button">Valmis</string>
+  <string name="tutorial_skip_button">Jäta vahele</string>
+  <string name="tutorial_welcome_title">Tere tulemast Kalendrisse</string>
+  <string name="tutorial_welcome_subtitle">Ilus viis vaadata oma elu.</string>
+  <string name="tutorial_page1_title">Kõik sinu kalendrid</string>
+  <string name="tutorial_page1_subtitle">Vaata kõiki oma kalendreid ja sündmusi ühes kohas.</string>
+  <string name="tutorial_page2_title">Jaga oma kättesaadavust</string>
+  <string name="tutorial_page2_subtitle">Anna teistele kiiresti teada millal saate kohtuda.</string>
+  <string name="tutorial_page3_title">Mitmed Vaated</string>
+  <string name="tutorial_page3_subtitle">Vaata oma sündmusi endale parimal viisil.</string>
+  <string name="tutorial_end_title">Lae alla Email</string>
+  <string name="tutorial_end_subtitle">Ava võimsaid võimalusi kombineerides Boxer Email ja Kalender.</string>
+  <string name="tutorial_end_button">Saa Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">Vaata õpetust</string>
+  <string name="event_info_organizer">Korraldaja</string>
 </resources>

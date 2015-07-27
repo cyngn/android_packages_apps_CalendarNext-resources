@@ -50,7 +50,6 @@
   <string name="event_delete">"删除活动"</string>
   <string name="goto_today">"今天"</string>
   <string name="menu_preferences">"设置"</string>
-  <string name="menu_select_visible_calendars">"日历"</string>
   <string name="search">"搜索"</string>
   <string name="select_visible_calendars_title">"显示的日历"</string>
   <string name="synced">已同步</string>

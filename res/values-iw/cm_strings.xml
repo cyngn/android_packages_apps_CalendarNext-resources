@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"לוחות שנה להצגה"</string>
   <string name="custom_event_color">צבע אירוע</string>
   <string name="event_color_set_to_default">צבע ברירת מחדל</string>
   <string name="view_event_response_label">מגיע?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">הזמן אנשים</string>
   <string name="does_not_repeat">ללא חזרות</string>
   <string name="description_label">הוסף הערה</string>
+  <string name="availability_title">שלח זמינות</string>
+  <string name="create_invite_title">צור הזמנה</string>
   <string name="discard_dialog_title">בטל</string>
   <string name="discard_dialog_new_event_message">האם הנך בטוח שברצונך לבטל אירוע זה?</string>
   <string name="discard_dialog_existing_event_message">האם הנך בטוח שברצונך לבטל את השינויים שבוצעו לאירוע זה?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> לפני באמצעות <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">לא נקבעו אירועים.</string>
   <string name="search_hint">חפש בלוח השנה</string>
+  <string name="appwidget_today_day_header">אין אירועים היום.</string>
+  <string name="appwidget_tomorrow_day_header">מחר, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">אין לוחות שנה לסינכרון</string>
+  <string name="empty_calendars_to_display">אין לוחות שנה להצגה</string>
+  <string name="update_available_ticker">קיים עדכון זמין עבור לוח השנה</string>
+  <string name="update_availalable_title">קיים עדכון זמין</string>
+  <string name="update_available_content">הקש להתקנת העדכון</string>
+  <string name="error_no_app_store">לא נמצא יישום חנות מתאים</string>
+  <string name="tutorial_done_button">סיום</string>
+  <string name="tutorial_skip_button">דלג</string>
+  <string name="tutorial_welcome_title">ברוכים הבאים ללוח השנה</string>
+  <string name="tutorial_welcome_subtitle">דרך יפהפייה להצגת חייכם.</string>
+  <string name="tutorial_page1_title">כל לוחות השנה שלך</string>
+  <string name="tutorial_page1_subtitle">הציגו את כל לוחות השנה והאירועים שלכם במקום אחד.</string>
+  <string name="tutorial_page2_title">שתפו את זמינותכם</string>
+  <string name="tutorial_page2_subtitle">תנו לאחרים לדעת במהירות מתי אתם יכולים להיפגש.</string>
+  <string name="tutorial_page3_title">תצוגות מרובות</string>
+  <string name="tutorial_page3_subtitle">הצגת האירועים שלכם בדרך שהכי מתאימה לכם.</string>
+  <string name="tutorial_end_title">הורדת יישום דוא\"ל</string>
+  <string name="tutorial_end_subtitle">פתחו תכונות מדהימות באמצעות שילוב של לוח השנה ו-Boxer Email.</string>
+  <string name="tutorial_end_button">קבלו את Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">הצג הדרכה</string>
+  <string name="event_info_organizer">מארגן</string>
 </resources>

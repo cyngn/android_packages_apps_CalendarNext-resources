@@ -18,8 +18,12 @@
   <string name="app_label">Calendar</string>
   <string name="today">Azi</string>
   <string name="tomorrow">Mâine</string>
+  <string name="tomorrow_at_time_fmt">"Mâine la <xliff:g id="time_interval">%s</xliff:g>"</string>
   <string name="no_title_label">(Fără titlu)</string>
+  <string name="calendar_refresh">"Reîmprospătare"</string>
+  <string name="show_day_view">"Afișează ziua"</string>
   <string name="agenda_view">"Agendă"</string>
+  <string name="day_view">"Zi"</string>
   <string name="week_view">"Săptămână"</string>
   <string name="month_view">"Lună"</string>
   <string name="event_create">"Eveniment nou"</string>
@@ -43,16 +47,24 @@
     <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
   </string-array>
   <string name="edit_event_label">"Detalii"</string>
+  <string name="edit_label">"Editare"</string>
   <string name="snooze_label">"Amânare"</string>
   <string name="new_event_dialog_label">"Eveniment nou"</string>
   <string name="new_event_dialog_option">"Eveniment nou"</string>
+  <string name="menu_general_preferences">Setări generale</string>
   <string name="preferences_title">"Setări"</string>
   <string name="preferences_week_start_day_title">Săptămâna începe</string>
   <string name="preferences_week_start_day_dialog">Săptămâna începe</string>
+  <string name="preferences_alerts_title">Notificări</string>
   <string name="preferences_alerts_ringtone_title">Sunet</string>
   <string name="preferences_about_title">Despre</string>
+  <string name="gadget_title">Calendar</string>
   <string name="preferences_experimental_category">Experimentale</string>
   <string name="preferences_reminders_category">Mementouri</string>
   <string name="preferences_reminders_quiet_hours_label">Ore de liniște</string>
+  <string name="accessibility_pick_start_date">Dată de începere</string>
+  <string name="accessibility_pick_start_time">Oră de începere</string>
+  <string name="accessibility_pick_end_date">Dată de încheiere</string>
+  <string name="accessibility_pick_end_time">Oră de încheiere</string>
   <string name="accessibility_pick_time_zone">Fus orar</string>
 </resources>
