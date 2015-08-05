@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"カレンダー"</string>
   <string name="custom_event_color">予定の色</string>
   <string name="event_color_set_to_default">デフォルトの色</string>
   <string name="view_event_response_label">参加しますか？</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">招待</string>
   <string name="does_not_repeat">繰り返さない</string>
   <string name="description_label">メモを追加</string>
+  <string name="availability_title">予定を送信</string>
+  <string name="create_invite_title">招待状を作成</string>
   <string name="discard_dialog_title">キャンセル</string>
   <string name="discard_dialog_new_event_message">この予定を破棄してもよろしいですか？</string>
   <string name="discard_dialog_existing_event_message">この予定の変更を破棄してもよろしいですか？</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="type" example="email">%s</xliff:g>で<xliff:g id="length" example="15 minutes">%s</xliff:g>前</string>
   <string name="no_events_scheduled">予定はありません。</string>
   <string name="search_hint">カレンダーを検索</string>
+  <string name="appwidget_today_day_header">今日は予定はありません。</string>
+  <string name="appwidget_tomorrow_day_header">明日<xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">同期するカレンダーがありません</string>
+  <string name="empty_calendars_to_display">表示するカレンダーがありません</string>
+  <string name="update_available_ticker">カレンダーに利用可能なアップデートがあります。</string>
+  <string name="update_availalable_title">アップデートが利用可能です</string>
+  <string name="update_available_content">タップしてアップデートをインストール</string>
+  <string name="error_no_app_store">適切なアプリストアが見つかりませんでした</string>
+  <string name="tutorial_done_button">完了</string>
+  <string name="tutorial_skip_button">スキップ</string>
+  <string name="tutorial_welcome_title">カレンダーへようこそ</string>
+  <string name="tutorial_welcome_subtitle">あなたの生活を表示する美しい方法です。</string>
+  <string name="tutorial_page1_title">すべてのカレンダー</string>
+  <string name="tutorial_page1_subtitle">すべてのカレンダーと予定を1箇所で表示します。</string>
+  <string name="tutorial_page2_title">予定を共有</string>
+  <string name="tutorial_page2_subtitle">会える時間を他の人に素早く知らせます。</string>
+  <string name="tutorial_page3_title">マルチ表示</string>
+  <string name="tutorial_page3_subtitle">あなたにとって最適になるように予定を表示します。</string>
+  <string name="tutorial_end_title">Boxer Emailをダウンロード</string>
+  <string name="tutorial_end_subtitle">Boxer EmailとBoxer Calendarを統合して便利な機能を解放します。</string>
+  <string name="tutorial_end_button">Boxer Emailを入手</string>
+  <string name="account_settings_tutorial_header_title">チュートリアルを表示</string>
+  <string name="event_info_organizer">主催者</string>
 </resources>

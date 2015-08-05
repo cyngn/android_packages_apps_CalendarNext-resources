@@ -45,10 +45,20 @@
   <string name="update_available_ticker">Υπάρχει μια ενημερωμένη έκδοση για το ημερολόγιο</string>
   <string name="update_availalable_title">Διατίθεται μια ενημερωμένη έκδοση</string>
   <string name="update_available_content">Πατήστε για εγκατάσταση της ενημερωμένης έκδοσης</string>
+  <string name="error_no_app_store">Δε βρέθηκε καμία κατάλληλη εφαρμογή</string>
   <string name="tutorial_done_button">Τέλος</string>
   <string name="tutorial_skip_button">Παράλειψη</string>
   <string name="tutorial_welcome_title">Καλώς ήλθατε στο ημερολόγιο</string>
+  <string name="tutorial_welcome_subtitle">Ένας όμορφος τρόπος για να δείτε τη ζωή.</string>
   <string name="tutorial_page1_title">Όλα τα ημερολόγιά σας</string>
+  <string name="tutorial_page1_subtitle">Δείτε όλα τα ημερολόγια και τα συμβάντα σας σε ένα μέρος.</string>
   <string name="tutorial_page2_title">Μοιραστείτε τη διαθεσιμότητά σας</string>
+  <string name="tutorial_page2_subtitle">Ενημερώστε γρήγορα τους άλλους για το πότε μπορείτε να συναντηθείτε.</string>
+  <string name="tutorial_page3_title">Πολλαπλές Προβολές</string>
+  <string name="tutorial_page3_subtitle">Δείτε τα συμβάντα σας με τον τρόπο που σας βολεύει καλύτερα.</string>
+  <string name="tutorial_end_title">Λήψη Email</string>
+  <string name="tutorial_end_subtitle">Ξεκλειδώστε πανίσχυρες λειτουργίες συνδυάζοντας Boxer Email και Ημερολόγιο.</string>
+  <string name="tutorial_end_button">Λήψη Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Προβολή οδηγού</string>
+  <string name="event_info_organizer">Οργάνωση</string>
 </resources>

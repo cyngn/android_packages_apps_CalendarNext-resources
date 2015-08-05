@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Naptárak"</string>
   <string name="custom_event_color">Esemény színe</string>
   <string name="event_color_set_to_default">Alapértelmezett szín</string>
   <string name="view_event_response_label">Részt vesz?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Meghívás</string>
   <string name="does_not_repeat">Nem ismétlődik</string>
   <string name="description_label">Megjegyzés hozzáadása</string>
+  <string name="availability_title">Elérhetőség küldése</string>
+  <string name="create_invite_title">Meghívás létrehozása</string>
   <string name="discard_dialog_title">Elvet</string>
   <string name="discard_dialog_new_event_message">Biztosan elveti ezt az eseményt?</string>
   <string name="discard_dialog_existing_event_message">Biztos benne, hogy elveti az eseményen végzett módosításokat?</string>
@@ -35,4 +38,17 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> - <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Nincs ütemezett esemény.</string>
   <string name="search_hint">Keresés a naptárban</string>
+  <string name="appwidget_today_day_header">Nincs esemény mára.</string>
+  <string name="appwidget_tomorrow_day_header">Holnap, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Nincs szinkronizálandó naptár</string>
+  <string name="empty_calendars_to_display">Nincs megjelenítendő naptár</string>
+  <string name="update_available_ticker">Elérhető egy frissítés a Naptár alkalmazáshoz</string>
+  <string name="update_availalable_title">Frissítés érhető el</string>
+  <string name="update_available_content">Érintse meg a frissítés telepítéséhez</string>
+  <string name="tutorial_done_button">Kész</string>
+  <string name="tutorial_skip_button">Kihagyás</string>
+  <string name="tutorial_welcome_title">Üdvözöljük a Naptárban</string>
+  <string name="tutorial_welcome_subtitle">Egy szép módja az életed megtekintéséhez.</string>
+  <string name="account_settings_tutorial_header_title">Útmutató megtekintése</string>
+  <string name="event_info_organizer">Szervező</string>
 </resources>

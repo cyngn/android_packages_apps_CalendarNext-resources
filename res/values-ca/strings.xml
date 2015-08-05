@@ -201,7 +201,7 @@
     <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> dies</item>
   </plurals>
   <plurals name="recurrence_interval_weekly">
-    <item quantity="one">Cada <0">%d</xliff:g> setmana</item>
+    <item quantity="one">Cada <xliff:g id="count">%d</xliff:g> setmana</item>
     <item quantity="other">Cada <xliff:g id="count">%d</xliff:g> setmanes</item>
   </plurals>
   <plurals name="recurrence_interval_monthly">

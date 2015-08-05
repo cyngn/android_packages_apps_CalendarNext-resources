@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalendáře"</string>
   <string name="custom_event_color">Barva události</string>
   <string name="event_color_set_to_default">Výchozí barva</string>
   <string name="view_event_response_label">Přijdete?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Pozvat osoby</string>
   <string name="does_not_repeat">Neopakovat</string>
   <string name="description_label">Přidat poznámku</string>
+  <string name="availability_title">Odeslat dostupnost</string>
+  <string name="create_invite_title">Vytvoření pozvánky</string>
   <string name="discard_dialog_title">Zrušit</string>
   <string name="discard_dialog_new_event_message">Opravdu chcete zrušit tuto událost?</string>
   <string name="discard_dialog_existing_event_message">Opravdu chcete zrušit provedené změny této události?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> před jako <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Žádné plánované události.</string>
   <string name="search_hint">Prohledávat kalendář</string>
+  <string name="appwidget_today_day_header">Dnes žádné události.</string>
+  <string name="appwidget_tomorrow_day_header">Zítra, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Žádné kalendáře pro synchronizaci</string>
+  <string name="empty_calendars_to_display">Žádné kalendáře k zobrazení</string>
+  <string name="update_available_ticker">Je k dispozici aktualizace</string>
+  <string name="update_availalable_title">Aktualizace je k dispozici</string>
+  <string name="update_available_content">Dotykem nainstalovat aktualizaci</string>
+  <string name="error_no_app_store">Nenalezen žádný vhodný obchod s aplikacemi</string>
+  <string name="tutorial_done_button">Hotovo</string>
+  <string name="tutorial_skip_button">Přeskočit</string>
+  <string name="tutorial_welcome_title">Vítejte v Kalendáři</string>
+  <string name="tutorial_welcome_subtitle">Krásný způsob jak vidět svůj život.</string>
+  <string name="tutorial_page1_title">Všechny kalendáře</string>
+  <string name="tutorial_page1_subtitle">Zobrazit všechny kalendáře a události na jednom místě.</string>
+  <string name="tutorial_page2_title">Sdílet svoji dostupnost</string>
+  <string name="tutorial_page2_subtitle">Nechte rychle ostatním vědět, kdy se můžete setkat.</string>
+  <string name="tutorial_page3_title">Vice pohledů</string>
+  <string name="tutorial_page3_subtitle">Prohlížení událostí tak, jak Vám to nejlépe vyhovuje.</string>
+  <string name="tutorial_end_title">Stáhnout e-mail</string>
+  <string name="tutorial_end_subtitle">Odemknout funkce spojením Boxer e-mailu a Kalendáře.</string>
+  <string name="tutorial_end_button">Získat Boxer e-mail</string>
+  <string name="account_settings_tutorial_header_title">Zobrazit tutoriál</string>
+  <string name="event_info_organizer">Organizátor</string>
 </resources>

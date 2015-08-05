@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Agendas"</string>
   <string name="custom_event_color">Couleur de l\'événement</string>
   <string name="event_color_set_to_default">Couleur par défaut</string>
   <string name="view_event_response_label">Participer ?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Inviter des personnes</string>
   <string name="does_not_repeat">Ne se répète pas</string>
   <string name="description_label">Ajouter une note</string>
+  <string name="availability_title">Envoyer la disponibilité</string>
+  <string name="create_invite_title">Créer une invitation</string>
   <string name="discard_dialog_title">Annuler</string>
   <string name="discard_dialog_new_event_message">Êtes-vous sûr de vouloir supprimer cet événement ?</string>
   <string name="discard_dialog_existing_event_message">Êtes-vous sûr de vouloir ignorer les modifications de cet événement ?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> avant que<xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Aucun événement prévu.</string>
   <string name="search_hint">Rechercher dans le calendrier</string>
+  <string name="appwidget_today_day_header">Aucun événement aujourd\'hui.</string>
+  <string name="appwidget_tomorrow_day_header">Demain, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Aucun agenda à synchroniser</string>
+  <string name="empty_calendars_to_display">Aucun agenda à afficher</string>
+  <string name="update_available_ticker">Une mise à jour est disponible pour l\'agenda</string>
+  <string name="update_availalable_title">Une mise à jour est disponible</string>
+  <string name="update_available_content">Appuyez ici pour installer la mise à jour</string>
+  <string name="error_no_app_store">Aucune application de store n\'a été trouvée</string>
+  <string name="tutorial_done_button">Effectué</string>
+  <string name="tutorial_skip_button">Ignorer</string>
+  <string name="tutorial_welcome_title">Bienvenue dans l\'agenda</string>
+  <string name="tutorial_welcome_subtitle">Une belle manière de visualiser votre vie.</string>
+  <string name="tutorial_page1_title">Tous vos agendas</string>
+  <string name="tutorial_page1_subtitle">Afficher l\'ensemble de vos agendas et événements en un seul endroit.</string>
+  <string name="tutorial_page2_title">Partager votre disponibilité</string>
+  <string name="tutorial_page2_subtitle">Informer rapidement les autres de vos moments de libres.</string>
+  <string name="tutorial_page3_title">Vues Multiples</string>
+  <string name="tutorial_page3_subtitle">Afficher les événements à votre convenance.</string>
+  <string name="tutorial_end_title">Télécharger l\'E-mail</string>
+  <string name="tutorial_end_subtitle">Déverrouiller des fonctionnalités puissantes en combinant Boxer Email avec l\'agenda.</string>
+  <string name="tutorial_end_button">Obtenir Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">Voir le tutoriel</string>
+  <string name="event_info_organizer">Organisateur</string>
 </resources>

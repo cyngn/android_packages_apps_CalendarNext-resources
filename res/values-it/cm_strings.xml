@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Calendari"</string>
   <string name="custom_event_color">Colore evento</string>
   <string name="event_color_set_to_default">Colore predefinito</string>
   <string name="view_event_response_label">Andrai?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Invita persone</string>
   <string name="does_not_repeat">Non ripetere</string>
   <string name="description_label">Aggiungi nota</string>
+  <string name="availability_title">Invia disponibilità</string>
+  <string name="create_invite_title">Crea invito</string>
   <string name="discard_dialog_title">Annulla</string>
   <string name="discard_dialog_new_event_message">Vuoi eliminare questo evento?</string>
   <string name="discard_dialog_existing_event_message">Sei sicuro di voler annullare le modifiche di questo evento?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> prima come <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Nessun evento in programma.</string>
   <string name="search_hint">Cerca calendario</string>
+  <string name="appwidget_today_day_header">Nessun evento oggi.</string>
+  <string name="appwidget_tomorrow_day_header">Domani, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Nessun calendario da sincronizzare</string>
+  <string name="empty_calendars_to_display">Nessun calendario da visualizzare</string>
+  <string name="update_available_ticker">C\'è un aggiornamento disponibile per il calendario</string>
+  <string name="update_availalable_title">C\'è un aggiornamento disponibile</string>
+  <string name="update_available_content">Tocca per installare l\'aggiornamento</string>
+  <string name="error_no_app_store">Nessun app store adatto è stato trovato</string>
+  <string name="tutorial_done_button">Fatto</string>
+  <string name="tutorial_skip_button">Salta</string>
+  <string name="tutorial_welcome_title">Benvenuto sul Calendario</string>
+  <string name="tutorial_welcome_subtitle">Un bel modo di vedere la tua vita.</string>
+  <string name="tutorial_page1_title">Tutti i tuoi calendari</string>
+  <string name="tutorial_page1_subtitle">Visualizza tutto sui tuoi calendari e gli eventi in un unico luogo.</string>
+  <string name="tutorial_page2_title">Condividi la tua disponibilità</string>
+  <string name="tutorial_page2_subtitle">Velocemente fai sapere agli altri dove incontrarvi.</string>
+  <string name="tutorial_page3_title">Vista Multipla</string>
+  <string name="tutorial_page3_subtitle">Visualizza i tuoi eventi nel modo migliore per te.</string>
+  <string name="tutorial_end_title">Scarica Email</string>
+  <string name="tutorial_end_subtitle">Sblocca potenti funzionalità combinando Boxer E-mail e Calendario.</string>
+  <string name="tutorial_end_button">Ricevi Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">Visualizza tutorial</string>
+  <string name="event_info_organizer">Organizzatore</string>
 </resources>

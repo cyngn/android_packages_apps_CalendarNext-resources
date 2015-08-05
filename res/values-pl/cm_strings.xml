@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalendarze"</string>
   <string name="custom_event_color">Kolor wydarzenia</string>
   <string name="event_color_set_to_default">Domyślny kolor</string>
   <string name="view_event_response_label">Będziesz?</string>
@@ -26,6 +27,7 @@
   <string name="hint_attendees">Zaproś ludzi</string>
   <string name="does_not_repeat">Nie powtarzaj</string>
   <string name="description_label">Dodaj notatkę</string>
+  <string name="create_invite_title">Stwórz zaproszenie</string>
   <string name="discard_dialog_title">Anuluj</string>
   <string name="discard_dialog_new_event_message">Czy na pewno chcesz anulować to wydarzenie?</string>
   <string name="discard_dialog_existing_event_message">Czy na pewno chcesz anulować zmiany w tym wydarzeniu?</string>
@@ -35,4 +37,17 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s </xliff:g> przed jako <xliff:g id="type" example="email"> %s </xliff:g></string>
   <string name="no_events_scheduled">Brak zaplanowanych wydarzeń.</string>
   <string name="search_hint">Przeszukaj kalendarz</string>
+  <string name="appwidget_tomorrow_day_header">Jutro, <xliff:g id="date" example="Tue, July 8">%s </xliff:g></string>
+  <string name="update_available_ticker">Dostępna jest aktualizacja dla Kalendarza</string>
+  <string name="update_availalable_title">Dostępna jest aktualizacja</string>
+  <string name="update_available_content">Dotknij, aby zainstalować aktualizację</string>
+  <string name="tutorial_skip_button">Pomiń</string>
+  <string name="tutorial_welcome_title">Witamy w Kalendarzu</string>
+  <string name="tutorial_page1_title">Wszystkie kalendarze</string>
+  <string name="tutorial_page3_subtitle">Wyświetlaj swoje wydarzenia w sposób, który najbardziej Ci odpowiada.</string>
+  <string name="tutorial_end_title">Pobierz E-mail</string>
+  <string name="tutorial_end_subtitle">Odblokuj potężne funkcje łącząc Boxer Email i Kalendarz.</string>
+  <string name="tutorial_end_button">Pobierz Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">Zobacz poradnik</string>
+  <string name="event_info_organizer">Organizator</string>
 </resources>

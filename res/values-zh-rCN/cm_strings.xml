@@ -38,12 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> 之前<xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">没有已安排的活动。</string>
   <string name="search_hint">搜索日历</string>
+  <string name="appwidget_today_day_header">今天无事件。</string>
   <string name="appwidget_tomorrow_day_header">明天，<xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">没有可同步的日历</string>
+  <string name="empty_calendars_to_display">没有可显示的日历</string>
+  <string name="update_available_ticker">日历有可用的更新</string>
   <string name="update_availalable_title">有可用的更新</string>
   <string name="update_available_content">点击以安装更新</string>
+  <string name="error_no_app_store">没有找到合适的应用商店</string>
   <string name="tutorial_done_button">完成</string>
   <string name="tutorial_skip_button">跳过</string>
   <string name="tutorial_welcome_title">欢迎来到日历</string>
+  <string name="tutorial_welcome_subtitle">以更美丽的方式来查看您的生活。</string>
+  <string name="tutorial_page1_title">您所有的日历</string>
+  <string name="tutorial_page1_subtitle">在一个位置查看您所有的日历和事件。</string>
+  <string name="tutorial_page2_title">共享您的可用性</string>
+  <string name="tutorial_page2_subtitle">让其他人很快知道什么时候可以与您见面。</string>
   <string name="tutorial_page3_title">多个视图</string>
+  <string name="tutorial_page3_subtitle">以最佳的方式查看您的事件。</string>
+  <string name="tutorial_end_title">下载电子邮件</string>
+  <string name="tutorial_end_subtitle">通过将电子邮件和日历整合进 Boxer 以解锁更强大的功能。</string>
+  <string name="tutorial_end_button">获得 Boxer 电子邮件</string>
   <string name="account_settings_tutorial_header_title">查看教程</string>
+  <string name="event_info_organizer">组织者</string>
 </resources>

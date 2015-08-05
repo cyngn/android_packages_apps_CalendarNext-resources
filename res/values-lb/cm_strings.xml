@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalenneren déi ugewise ginn"</string>
   <string name="custom_event_color">Rendezvousfaarf</string>
   <string name="event_color_set_to_default">Standardfaarf</string>
   <string name="view_event_response_label">Matmaachen?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Leit invitéieren</string>
   <string name="does_not_repeat">Widderhuelt sech net</string>
   <string name="description_label">Note dobäisetzen</string>
+  <string name="availability_title">Disponibilitéit schécken</string>
+  <string name="create_invite_title">Invitatioun erstellen</string>
   <string name="discard_dialog_title">Ofbriechen</string>
   <string name="discard_dialog_new_event_message">Bass du sécher, datt s du dëse Rendezvous läsche wëlls?</string>
   <string name="discard_dialog_existing_event_message">Bass du sécher, datt s du d\'Ännerunge vun dësem Rendezvous verwerfe wëlls?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> virdrun als <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Keng Rendezvouse geplangt.</string>
   <string name="search_hint">Am Kalenner sichen</string>
+  <string name="appwidget_today_day_header">Keng Rendezvousen haut.</string>
+  <string name="appwidget_tomorrow_day_header">Muer, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Keng Kalennere fir ze synchroniséieren</string>
+  <string name="empty_calendars_to_display">Keng Kalennere fir unzeweisen</string>
+  <string name="update_available_ticker">Et ass eng Aktualiséierung fir Kalenner disponibel</string>
+  <string name="update_availalable_title">Eng Aktualiséierung ass disponibel</string>
+  <string name="update_available_content">Dréck, fir d\'Aktualiséierung z\'installéieren</string>
+  <string name="error_no_app_store">Et gouf kee passenden App-Store fonnt</string>
+  <string name="tutorial_done_button">Fäerdeg</string>
+  <string name="tutorial_skip_button">Iwwersprangen</string>
+  <string name="tutorial_welcome_title">Wëllkomm bei Kalenner</string>
+  <string name="tutorial_welcome_subtitle">E schéine Wee, säi Liewen ze betruechten.</string>
+  <string name="tutorial_page1_title">All deng Kalenneren</string>
+  <string name="tutorial_page1_subtitle">Betruecht all deng Kalenneren a Rendezvousen op enger Plaz.</string>
+  <string name="tutorial_page2_title">Deel deng Disponibilitéit</string>
+  <string name="tutorial_page2_subtitle">Deel den anere séier mat, wa se dech gesi kënnen.</string>
+  <string name="tutorial_page3_title">Verschidden Usiichten</string>
+  <string name="tutorial_page3_subtitle">Looss dir d\'Rendezvouse sou uweisen, wéi et dir am beschte passt.</string>
+  <string name="tutorial_end_title">E-Mail eroflueden</string>
+  <string name="tutorial_end_subtitle">Schalt zousätzlech Funktiounen duerch d\'Kombinatioun mat Boxer E-Mail a Kalender fräi.</string>
+  <string name="tutorial_end_button">Huel dir Boxer E-Mail</string>
+  <string name="account_settings_tutorial_header_title">Aleedung uweisen</string>
+  <string name="event_info_organizer">Organisateur</string>
 </resources>
