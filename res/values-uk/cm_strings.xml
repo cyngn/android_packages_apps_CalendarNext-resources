@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Календарі"</string>
   <string name="custom_event_color">Колір події</string>
   <string name="event_color_set_to_default">Стандартний колір</string>
   <string name="view_event_response_label">Візьмете участь?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Запросити людей</string>
   <string name="does_not_repeat">Не повторювати</string>
   <string name="description_label">Додати примітку</string>
+  <string name="availability_title">Надіслати доступність</string>
+  <string name="create_invite_title">Створити запрошення</string>
   <string name="discard_dialog_title">Скасувати</string>
   <string name="discard_dialog_new_event_message">Ви дійсно бажаєте скасувати цю подію?</string>
   <string name="discard_dialog_existing_event_message">Ви дійсно бажаєте скасувати зміни для цієї події?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> перед тим як <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Подій не призначено.</string>
   <string name="search_hint">Пошук по календарю</string>
+  <string name="appwidget_today_day_header">Сьогодні немає подій.</string>
+  <string name="appwidget_tomorrow_day_header">Завтра, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Немає календарів для синхронізації</string>
+  <string name="empty_calendars_to_display">Немає календарів для відображення</string>
+  <string name="update_available_ticker">Доступні оновлення календаря</string>
+  <string name="update_availalable_title">Доступне оновлення</string>
+  <string name="update_available_content">Торкніться для встановлення оновлення</string>
+  <string name="error_no_app_store">Не знайдено підходящого постачальника додатків</string>
+  <string name="tutorial_done_button">Готово</string>
+  <string name="tutorial_skip_button">Пропустити</string>
+  <string name="tutorial_welcome_title">Ласкаво просимо до календаря</string>
+  <string name="tutorial_welcome_subtitle">Гарний спосіб перегляду вашого життя.</string>
+  <string name="tutorial_page1_title">Всі ваші календарі</string>
+  <string name="tutorial_page1_subtitle">Переглянути всі календарі та події в одному місці.</string>
+  <string name="tutorial_page2_title">Поділитися інформацією про доступність</string>
+  <string name="tutorial_page2_subtitle">Швидко повідомити іншим, коли ви можете зустрітися.</string>
+  <string name="tutorial_page3_title">Багато способів відображення</string>
+  <string name="tutorial_page3_subtitle">Переглядайте ваші події найзручнішим способом.</string>
+  <string name="tutorial_end_title">Завантажте додаток електронної пошти</string>
+  <string name="tutorial_end_subtitle">Розблокуйте потужні функції, поєднавши електронну пошту Boxer та календар.</string>
+  <string name="tutorial_end_button">Отримати додаток електронної пошти Boxer</string>
+  <string name="account_settings_tutorial_header_title">Перегляд довідки</string>
+  <string name="event_info_organizer">Органайзер</string>
 </resources>

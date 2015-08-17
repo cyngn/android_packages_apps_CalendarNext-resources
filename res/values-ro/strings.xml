@@ -18,7 +18,10 @@
   <string name="app_label">Calendar</string>
   <string name="today">Azi</string>
   <string name="tomorrow">Mâine</string>
+  <string name="today_at_time_fmt">"Astăzi la <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
   <string name="tomorrow_at_time_fmt">"Mâine la <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="repeats_label">Repetiție</string>
   <string name="no_title_label">(Fără titlu)</string>
   <string name="calendar_refresh">"Reîmprospătare"</string>
   <string name="show_day_view">"Afișează ziua"</string>
@@ -26,45 +29,101 @@
   <string name="day_view">"Zi"</string>
   <string name="week_view">"Săptămână"</string>
   <string name="month_view">"Lună"</string>
+  <string name="event_view">"Vizualizați evenimentul"</string>
   <string name="event_create">"Eveniment nou"</string>
+  <string name="event_edit">"Editare eveniment"</string>
+  <string name="event_delete">"Ștergeți evenimentul"</string>
+  <string name="goto_today">"Azi"</string>
   <string name="menu_preferences">"Setări"</string>
   <string name="search">"Căutare"</string>
   <string name="select_visible_calendars_title">"Calendare de afișat"</string>
   <string name="synced">sincronizat</string>
   <string name="not_synced">nesincronizat</string>
+  <string name="accounts">Conturi &amp; sincronizare</string>
   <string name="select_synced_calendars_title">Calendare de sincronizat</string>
+  <string name="select_synced_calendars_button">Calendare de sincronizat</string>
+  <string name="hint_what">"Nume eveniment"</string>
+  <string name="creating_event">"Eveniment creat."</string>
+  <string name="saving_event">"Eveniment salvat."</string>
+  <string name="empty_event">"Evenimentul gol nu s-a creat."</string>
+  <string name="creating_event_with_guest">"Invitațiile vor fi trimise."</string>
+  <string name="saving_event_with_guest">"Actualizările vor fi trimise."</string>
+  <string name="rsvp_accepted">"A răspuns „Da”."</string>
   <string name="rsvp_tentative">"A răspuns „Poate”."</string>
+  <string name="rsvp_declined">"A răspuns „Nu”."</string>
+  <string name="create_event_dialog_save">Salvare</string>
+  <string name="alert_title">Notificările calendarului</string>
+  <string name="event_info_title">Vizualizați evenimentul</string>
+  <string name="event_info_title_invite">Invitație de întâlnire</string>
+  <string name="edit_event_all_day_label">Toată ziua</string>
+  <string name="presence_label">Doresc să fiu afișat(ă) ca</string>
+  <string name="privacy_label">Confidențialitate</string>
   <string name="no_syncable_calendars">Niciun calendar</string>
+  <string name="add_account">Adăugați un cont</string>
   <string name="event_color_picker_dialog_title">Culoare eveniment</string>
+  <string name="calendar_color_picker_dialog_title">Culoare calendar</string>
   <string name="calendar_square_color_picker_description">Selector de culoare</string>
   <string name="response_yes">Da</string>
+  <string name="response_maybe">Poate</string>
+  <string name="response_no">Nu</string>
+  <string name="email_guests_label">Trimiteți e-mailuri invitaților</string>
+  <string name="email_picker_label">E-mail cu</string>
   <string name="event_not_found">"Evenimentul nu a fost găsit."</string>
+  <string name="map_label">Hartă</string>
+  <string name="call_label">Apel</string>
   <string name="quick_response_settings">Răspunsuri rapide</string>
+  <string name="quick_response_settings_summary">Editare răspuns implicit e-mailuri invitați</string>
+  <string name="quick_response_settings_edit_title">Răspuns rapid</string>
+  <string name="quick_response_email_failed">Nu s-a putut găsi un program de e-mail</string>
   <string-array name="quick_response_defaults">
-    <item>Running just a couple of minutes late.</item>
+    <item>Întârzii numai câteva minute.</item>
     <item>Ajung în aproximativ 10 minute.</item>
-    <item>Go ahead and start without me.</item>
-    <item>Sorry, I can\'t make it. We\'ll have to reschedule.</item>
+    <item>Începeți fără mine.</item>
+    <item>Îmi pare rău, nu pot să ajung. Va trebui să ne vedem altă dată.</item>
   </string-array>
+  <string name="quick_response_custom_msg">Scrieți propriul răspuns\u2026</string>
+  <string name="agenda_yesterday">IERI - <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="loading">Încărcare\u2026</string>
   <string name="edit_event_label">"Detalii"</string>
   <string name="edit_label">"Editare"</string>
+  <string name="save_label">Efectuat</string>
   <string name="snooze_label">"Amânare"</string>
+  <string name="modify_event">Modificați doar acest eveniment</string>
+  <string name="modify_all">Modificați toate evenimentele din serie</string>
   <string name="new_event_dialog_label">"Eveniment nou"</string>
   <string name="new_event_dialog_option">"Eveniment nou"</string>
   <string name="menu_general_preferences">Setări generale</string>
   <string name="preferences_title">"Setări"</string>
+  <string name="preferences_hide_declined_title">Ascundeți evenimentele refuzate</string>
   <string name="preferences_week_start_day_title">Săptămâna începe</string>
   <string name="preferences_week_start_day_dialog">Săptămâna începe</string>
+  <string name="preferences_clear_search_history_title">Șterge istoricul căutărilor</string>
+  <string name="preferences_clear_search_history_summary">Eliminați toate căutările efectuate</string>
+  <string name="search_history_cleared">Istoricul căutărilor a fost șters.</string>
   <string name="preferences_alerts_title">Notificări</string>
+  <string name="preferences_alerts_vibrateWhen_title">Vibrare</string>
   <string name="preferences_alerts_ringtone_title">Sunet</string>
+  <string name="preferences_alerts_popup_title">Notificare pop-up</string>
+  <string name="preferences_default_reminder_title">Timp predefinit pentru memento</string>
+  <string name="preferences_default_reminder_dialog">Timp predefinit pentru memento</string>
+  <string name="preferences_home_tz_title">Fus orar de acasă</string>
   <string name="preferences_about_title">Despre</string>
   <string name="gadget_title">Calendar</string>
   <string name="preferences_experimental_category">Experimentale</string>
   <string name="preferences_reminders_category">Mementouri</string>
   <string name="preferences_reminders_quiet_hours_label">Ore de liniște</string>
+  <string name="copy_db">Trimiteți baza de date</string>
   <string name="accessibility_pick_start_date">Dată de începere</string>
   <string name="accessibility_pick_start_time">Oră de începere</string>
   <string name="accessibility_pick_end_date">Dată de încheiere</string>
   <string name="accessibility_pick_end_time">Oră de încheiere</string>
   <string name="accessibility_pick_time_zone">Fus orar</string>
+  <string name="accessibility_add_attendee">Adăugați participant</string>
+  <string name="accessibility_reminder_privacy">Confidențialitate</string>
+  <string name="accessibility_email_notification">Trimiteți e-mailuri invitaților</string>
+  <string name="day_view_new_event_hint">+ Eveniment nou</string>
+  <string name="recurrence_month_pattern_by_day">în aceeași zi lunar</string>
+  <string name="recurrence_end_continously">Întotdeauna</string>
+  <string name="recurrence_end_date_label">Până la o anumită dată</string>
+  <string name="recurrence_end_date">Până la <xliff:g id="date">%s</xliff:g></string>
 </resources>

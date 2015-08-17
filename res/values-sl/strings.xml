@@ -181,7 +181,7 @@
   <string name="preferences_reminders_quiet_hours_end">Konec tihih ur</string>
   <string name="preferences_debug_category">Razhroščevanje</string>
   <string name="copy_db">Pošlji podatkovno zbirko</string>
-  <string name="directory_searching_fmt">Iskanje <xliff:g id="DOMAIN">%s</xliff:g> \u2026</string>
+  <string name="directory_searching_fmt">Iskanje po <xliff:g id="DOMAIN">%s</xliff:g> \u2026</string>
   <string name="accessibility_remove_attendee">Odstrani udeleženca</string>
   <string name="accessibility_pick_start_date">Začetni datum</string>
   <string name="accessibility_pick_start_time">Čas začetka</string>

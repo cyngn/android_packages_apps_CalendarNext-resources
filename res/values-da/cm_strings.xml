@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalendere"</string>
   <string name="custom_event_color">Begivenhedsfarve</string>
   <string name="event_color_set_to_default">Standardfarve</string>
   <string name="view_event_response_label">Deltager du?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Inviter deltagere</string>
   <string name="does_not_repeat">Gentages ikke</string>
   <string name="description_label">Tilføj note</string>
+  <string name="availability_title">Send tilgængelighed</string>
+  <string name="create_invite_title">Opret invitation</string>
   <string name="discard_dialog_title">Annuller</string>
   <string name="discard_dialog_new_event_message">Er du sikker på du vil slette denne begivenhed?</string>
   <string name="discard_dialog_existing_event_message">Er du sikker på du vil slette ændringerne til denne begivenhed?</string>
@@ -35,4 +38,7 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> før som <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Ingen planlagte begivenheder.</string>
   <string name="search_hint">Søg i kalender</string>
+  <string name="tutorial_done_button">Færdig</string>
+  <string name="tutorial_skip_button">Spring over</string>
+  <string name="tutorial_welcome_title">Velkommen til Kalender</string>
 </resources>

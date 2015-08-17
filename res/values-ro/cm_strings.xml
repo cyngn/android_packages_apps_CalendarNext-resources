@@ -21,6 +21,15 @@
   <string name="view_event_response_label">Participați?</string>
   <string name="new_event_more_options">mai multe opțiuni</string>
   <string name="preferences_alerts_silent_ringtone_title">Silențios</string>
+  <string name="hint_attendees">Invitare persoane</string>
+  <string name="discard_dialog_title">Anulare</string>
+  <string name="discard_dialog_positive_button_text">Anulare</string>
   <string name="appwidget_today_day_header">Niciun eveniment azi.</string>
   <string name="appwidget_tomorrow_day_header">Mâine, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="update_availalable_title">Este disponibilă o actualizare</string>
+  <string name="tutorial_done_button">Efectuat</string>
+  <string name="tutorial_skip_button">Omite</string>
+  <string name="tutorial_page1_title">Toate calendarele dvs.</string>
+  <string name="account_settings_tutorial_header_title">Vezi tutorial</string>
+  <string name="event_info_organizer">Organizator</string>
 </resources>

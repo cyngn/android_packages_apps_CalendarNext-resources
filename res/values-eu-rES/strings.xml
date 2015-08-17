@@ -39,6 +39,10 @@
     <item quantity="one">Egun 1</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> egun</item>
   </plurals>
+  <plurals name="weekN">
+    <item quantity="one"><xliff:g id="count">%d</xliff:g>. ASTEA</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g>. ASTEA</item>
+  </plurals>
   <string name="calendar_refresh">"Berritu"</string>
   <string name="show_day_view">"Erakutsi eguna"</string>
   <string name="agenda_view">"Agenda"</string>

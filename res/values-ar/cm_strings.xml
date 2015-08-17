@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"عرض تقاويم"</string>
   <string name="custom_event_color">لون الحدث</string>
   <string name="event_color_set_to_default">اللون الافتراضي</string>
   <string name="view_event_response_label">هل ستذهب؟</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">دعوة أشخاص</string>
   <string name="does_not_repeat">لا يتكرر</string>
   <string name="description_label">إضافة ملحوظة</string>
+  <string name="availability_title">إرسال التوافر</string>
+  <string name="create_invite_title">إنشاء دعوة</string>
   <string name="discard_dialog_title">الغاء</string>
   <string name="discard_dialog_new_event_message">هل أنت متأكد من أنك تريد إزالة هذا الحدث؟</string>
   <string name="discard_dialog_existing_event_message">هل أنت متأكد من أنك تريد إزالة التغييرات في هذا الحدث؟</string>
