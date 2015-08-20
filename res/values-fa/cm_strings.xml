@@ -27,6 +27,7 @@
   <string name="hint_attendees">دعوت از مردم</string>
   <string name="does_not_repeat">تکرار نکنید</string>
   <string name="description_label">افزودن یادداشت</string>
+  <string name="create_invite_title">ایجاد دعوت</string>
   <string name="discard_dialog_title">لغو</string>
   <string name="discard_dialog_new_event_message">آیا از نادیده گرفتن این رویداد اطمینان دارید؟</string>
   <string name="discard_dialog_existing_event_message">آیا از نادیده گرفتن تغییرات اعمال‌شده بر روی این رویداد اطمینان دارید؟</string>
@@ -36,4 +37,20 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> قبل به صورت <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">هیچ برنامه‌ای وجود ندارد.</string>
   <string name="search_hint">جستجوی تقویم</string>
+  <string name="appwidget_today_day_header">رویدادی برای امروز موجود نیست.</string>
+  <string name="appwidget_tomorrow_day_header">فردا <xliff:g id="date" example="Tue, July 8">%s </xliff:g></string>
+  <string name="empty_calendars_to_sync">تقویمی برای همگام‌سازی موجود نیست</string>
+  <string name="empty_calendars_to_display">تقویمی برای نمایش موجود نیست</string>
+  <string name="update_available_ticker">بروزرسانی‌ برای تقویم موجود است</string>
+  <string name="update_availalable_title">یک بروزرسانی وجود دارد</string>
+  <string name="update_available_content">برای بروزرسانی ضربه بزنید</string>
+  <string name="tutorial_done_button">انجام شد</string>
+  <string name="tutorial_skip_button">رد شدن</string>
+  <string name="tutorial_welcome_title">به تقویم خوش آمدید</string>
+  <string name="tutorial_page1_title">همه تقویم‌های شما</string>
+  <string name="tutorial_page2_title">در دسترس بودن خود را به اشتراک بگذارید</string>
+  <string name="tutorial_page3_title">نمایش چند وجهی</string>
+  <string name="tutorial_end_title">دانلود ایمیل</string>
+  <string name="account_settings_tutorial_header_title">مشاهده آموزش</string>
+  <string name="event_info_organizer">سازمان دهنده</string>
 </resources>

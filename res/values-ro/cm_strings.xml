@@ -16,16 +16,21 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Calendare"</string>
   <string name="custom_event_color">Culoare eveniment</string>
   <string name="event_color_set_to_default">Culoare implicită</string>
   <string name="view_event_response_label">Participați?</string>
   <string name="new_event_more_options">mai multe opțiuni</string>
   <string name="preferences_alerts_silent_ringtone_title">Silențios</string>
+  <string name="reminders_label">Adăugare notificare</string>
   <string name="hint_attendees">Invitare persoane</string>
   <string name="discard_dialog_title">Anulare</string>
   <string name="discard_dialog_positive_button_text">Anulare</string>
+  <string name="search_hint">Căutare în calendar</string>
   <string name="appwidget_today_day_header">Niciun eveniment azi.</string>
   <string name="appwidget_tomorrow_day_header">Mâine, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Nu există calendare de sincronizat</string>
+  <string name="empty_calendars_to_display">Nu există calendare de afișat</string>
   <string name="update_availalable_title">Este disponibilă o actualizare</string>
   <string name="tutorial_done_button">Efectuat</string>
   <string name="tutorial_skip_button">Omite</string>

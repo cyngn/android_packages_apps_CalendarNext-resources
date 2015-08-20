@@ -49,10 +49,12 @@
   <string name="tutorial_done_button">Gotowe</string>
   <string name="tutorial_skip_button">Pomiń</string>
   <string name="tutorial_welcome_title">Witamy w Kalendarzu</string>
+  <string name="tutorial_welcome_subtitle">Piękny sposób, aby zobaczyć swoje życie.</string>
   <string name="tutorial_page1_title">Wszystkie kalendarze</string>
   <string name="tutorial_page1_subtitle">Wyświetl wszystkie swoje kalendarze i wydarzenia w jednym miejscu.</string>
   <string name="tutorial_page2_title">Podziel się swoją dostępnością</string>
   <string name="tutorial_page2_subtitle">Szybko poinformuj innych, kiedy możecie się spotkać.</string>
+  <string name="tutorial_page3_title">Wiele widoków</string>
   <string name="tutorial_page3_subtitle">Wyświetlaj swoje wydarzenia w sposób, który najbardziej Ci odpowiada.</string>
   <string name="tutorial_end_title">Pobierz E-mail</string>
   <string name="tutorial_end_subtitle">Odblokuj potężne funkcje łącząc Boxer Email i Kalendarz.</string>
