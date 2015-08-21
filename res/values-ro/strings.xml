@@ -75,6 +75,7 @@
   <string name="quick_response_settings">Răspunsuri rapide</string>
   <string name="quick_response_settings_summary">Editare răspuns implicit e-mailuri invitați</string>
   <string name="quick_response_settings_edit_title">Răspuns rapid</string>
+  <string name="quick_response_dialog_title">Alegeți un răspuns rapid</string>
   <string name="quick_response_email_failed">Nu s-a putut găsi un program de e-mail</string>
   <string-array name="quick_response_defaults">
     <item>Întârzii numai câteva minute.</item>
@@ -90,11 +91,14 @@
   <string name="edit_label">"Editare"</string>
   <string name="delete_label">"Ștergeți"</string>
   <string name="save_label">Efectuat</string>
+  <string name="dismiss_all_label">"Renunțați la toate"</string>
   <string name="snooze_label">"Amânare"</string>
   <string name="modify_event">Modificați doar acest eveniment</string>
   <string name="modify_all">Modificați toate evenimentele din serie</string>
+  <string name="modify_all_following">Modificați acest eveniment și pe toate cele viitoare</string>
   <string name="new_event_dialog_label">"Eveniment nou"</string>
   <string name="new_event_dialog_option">"Eveniment nou"</string>
+  <string name="delete_this_event_title">Ștergeți acest eveniment?</string>
   <string name="menu_general_preferences">Setări generale</string>
   <string name="preferences_title">"Setări"</string>
   <string name="preferences_general_title">Setarea afișării calendarului</string>
@@ -121,6 +125,7 @@
   <string name="preferences_reminders_responded_label">Ignorați mementourile</string>
   <string name="preferences_reminders_responded_dialog">Ignorați mementourile</string>
   <string name="preferences_reminders_quiet_hours_label">Ore de liniște</string>
+  <string name="preferences_reminders_quiet_hours_description">Dezactivați mementourile pentru evenimente pe perioada specificată.</string>
   <string name="preferences_debug_category">Depanare</string>
   <string name="copy_db">Trimiteți baza de date</string>
   <string name="accessibility_remove_attendee">Eliminați participantul</string>
@@ -129,6 +134,8 @@
   <string name="accessibility_pick_end_date">Dată de încheiere</string>
   <string name="accessibility_pick_end_time">Oră de încheiere</string>
   <string name="accessibility_pick_time_zone">Fus orar</string>
+  <string name="accessibility_add_reminder">Adăugați memento</string>
+  <string name="accessibility_remove_reminder">Eliminați mementoul</string>
   <string name="accessibility_add_attendee">Adăugați participant</string>
   <string name="accessibility_sync_cal">Sincronizați calendarul</string>
   <string name="accessibility_reminder_showmeas">Doresc să fiu afișat(ă) ca</string>

@@ -21,7 +21,7 @@
   <string name="event_color_set_to_default">رنگ پیش‌فرض</string>
   <string name="view_event_response_label">شرکت می‌کنید؟</string>
   <string name="new_event_more_options">گزینه‌های بیشتر</string>
-  <string name="preferences_alerts_silent_ringtone_title">سکوت</string>
+  <string name="preferences_alerts_silent_ringtone_title">بی‌صدا</string>
   <string name="hint_where">افزودن موقعیت</string>
   <string name="reminders_label">افزودن یک اعلان</string>
   <string name="hint_attendees">دعوت از مردم</string>

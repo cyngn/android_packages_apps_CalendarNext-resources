@@ -26,6 +26,7 @@
   <string name="hint_attendees">Invitare persoane</string>
   <string name="discard_dialog_title">Anulare</string>
   <string name="discard_dialog_positive_button_text">Anulare</string>
+  <string name="discard_dialog_negative_button_text">Continuați editarea</string>
   <string name="search_hint">Căutare în calendar</string>
   <string name="appwidget_today_day_header">Niciun eveniment azi.</string>
   <string name="appwidget_tomorrow_day_header">Mâine, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>

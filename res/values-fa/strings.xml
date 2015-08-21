@@ -115,7 +115,7 @@
   <string name="delete_label">"حذف"</string>
   <string name="save_label">انجام شد</string>
   <string name="dismiss_all_label">"رد کردن همه"</string>
-  <string name="snooze_label">"تعویق"</string>
+  <string name="snooze_label">"به تعویق می‌افتد"</string>
   <string name="custom">"سفارشی (سفارشی کردن در تلفن امکان‌پذیر نیست)"</string>
   <string name="modify_event">فقط این رویداد تغییر داده شود</string>
   <string name="modify_all">همه رویدادهای موجود در مجموعه‌ها تغییر داده شود</string>
