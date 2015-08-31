@@ -57,8 +57,8 @@
   <string name="tutorial_page3_title">Več pogledov</string>
   <string name="tutorial_page3_subtitle">Oglejte si svoje dogodke na način, ki je za vas najbolj primeren.</string>
   <string name="tutorial_end_title">Prenesi e-pošto</string>
-  <string name="tutorial_end_subtitle">Odklenite zmogljive funkcije z združevanjem programa Boxer Email in Koledarja.</string>
-  <string name="tutorial_end_button">Dobi Boxer Email</string>
+  <string name="tutorial_end_subtitle">Odklenite zmogljive značilnosti z združevanjem E-pošte in Koledarja Boxer.</string>
+  <string name="tutorial_end_button">Dobi E-pošto Boxer</string>
   <string name="account_settings_tutorial_header_title">Pokaži vodnik</string>
   <string name="event_info_organizer">Urejevalnik</string>
 </resources>

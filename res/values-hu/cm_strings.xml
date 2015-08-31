@@ -45,10 +45,20 @@
   <string name="update_available_ticker">Elérhető egy frissítés a Naptár alkalmazáshoz</string>
   <string name="update_availalable_title">Frissítés érhető el</string>
   <string name="update_available_content">Érintse meg a frissítés telepítéséhez</string>
+  <string name="error_no_app_store">Nem található megfelelő alkalmazás</string>
   <string name="tutorial_done_button">Kész</string>
   <string name="tutorial_skip_button">Kihagyás</string>
   <string name="tutorial_welcome_title">Üdvözöljük a Naptárban</string>
   <string name="tutorial_welcome_subtitle">Egy szép módja az életed megtekintéséhez.</string>
+  <string name="tutorial_page1_title">Összes naptára</string>
+  <string name="tutorial_page1_subtitle">Összes naptárának és eseményének megtekintése egy helyen.</string>
+  <string name="tutorial_page2_title">Ossza meg elérhetőségét</string>
+  <string name="tutorial_page2_subtitle">Gyorsan tudassa másokkal mikor tudnak találkozni.</string>
+  <string name="tutorial_page3_title">Különböző nézetek</string>
+  <string name="tutorial_page3_subtitle">Tekintse meg az eseményeit úgy, ahogy Önnek a legmegfelelőbb.</string>
+  <string name="tutorial_end_title">E-mail letöltése</string>
+  <string name="tutorial_end_subtitle">Hatékony funkciók feloldása Boxer E-mail és Naptár kombinálásával.</string>
+  <string name="tutorial_end_button">Boxer E-mail beszerzése</string>
   <string name="account_settings_tutorial_header_title">Útmutató megtekintése</string>
   <string name="event_info_organizer">Szervező</string>
 </resources>

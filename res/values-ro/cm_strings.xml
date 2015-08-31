@@ -22,19 +22,28 @@
   <string name="view_event_response_label">Participați?</string>
   <string name="new_event_more_options">mai multe opțiuni</string>
   <string name="preferences_alerts_silent_ringtone_title">Silențios</string>
+  <string name="hint_where">Adăugare locație</string>
   <string name="reminders_label">Adăugare notificare</string>
   <string name="hint_attendees">Invitare persoane</string>
+  <string name="does_not_repeat">Nu se repetă</string>
+  <string name="description_label">Adăugare notă</string>
+  <string name="availability_title">Trimite disponibilitatea</string>
+  <string name="create_invite_title">Creează invitație</string>
   <string name="discard_dialog_title">Anulare</string>
   <string name="discard_dialog_positive_button_text">Anulare</string>
+  <string name="discard_dialog_negative_button_text">Continuați editarea</string>
+  <string name="no_events_scheduled">Nu sunt evenimente programate.</string>
   <string name="search_hint">Căutare în calendar</string>
   <string name="appwidget_today_day_header">Niciun eveniment azi.</string>
   <string name="appwidget_tomorrow_day_header">Mâine, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Nu există calendare de sincronizat</string>
   <string name="empty_calendars_to_display">Nu există calendare de afișat</string>
   <string name="update_availalable_title">Este disponibilă o actualizare</string>
+  <string name="update_available_content">Apăsați pentru a instala actualizarea</string>
   <string name="tutorial_done_button">Efectuat</string>
   <string name="tutorial_skip_button">Omite</string>
   <string name="tutorial_page1_title">Toate calendarele dvs.</string>
+  <string name="tutorial_end_title">Descărcare email</string>
   <string name="account_settings_tutorial_header_title">Vezi tutorial</string>
   <string name="event_info_organizer">Organizator</string>
 </resources>

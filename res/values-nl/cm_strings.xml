@@ -38,7 +38,7 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> van tevoren als <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Geen afspraken gepland.</string>
   <string name="search_hint">Agenda doorzoeken</string>
-  <string name="appwidget_today_day_header">Geen andere afspraken</string>
+  <string name="appwidget_today_day_header">Geen afspraken vandaag.</string>
   <string name="appwidget_tomorrow_day_header">Morgen, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Geen agenda\'s om te synchroniseren</string>
   <string name="empty_calendars_to_display">Geen agenda\'s om weer te geven</string>

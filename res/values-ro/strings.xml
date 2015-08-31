@@ -60,6 +60,7 @@
   <string name="presence_label">Doresc să fiu afișat(ă) ca</string>
   <string name="privacy_label">Confidențialitate</string>
   <string name="no_syncable_calendars">Niciun calendar</string>
+  <string name="create_an_account_desc">"Google Calendar funcționează mai bine cu un Cont Google.\n\n• Accesați serviciul din orice browser web\n• Creați în siguranță copii de rezervă pentru evenimentele dvs."</string>
   <string name="add_account">Adăugați un cont</string>
   <string name="event_color_picker_dialog_title">Culoare eveniment</string>
   <string name="calendar_color_picker_dialog_title">Culoare calendar</string>
@@ -74,7 +75,9 @@
   <string name="call_label">Apel</string>
   <string name="quick_response_settings">Răspunsuri rapide</string>
   <string name="quick_response_settings_summary">Editare răspuns implicit e-mailuri invitați</string>
+  <string name="quick_response_settings_title">Editați răsp. rapide</string>
   <string name="quick_response_settings_edit_title">Răspuns rapid</string>
+  <string name="quick_response_dialog_title">Alegeți un răspuns rapid</string>
   <string name="quick_response_email_failed">Nu s-a putut găsi un program de e-mail</string>
   <string-array name="quick_response_defaults">
     <item>Întârzii numai câteva minute.</item>
@@ -90,11 +93,15 @@
   <string name="edit_label">"Editare"</string>
   <string name="delete_label">"Ștergeți"</string>
   <string name="save_label">Efectuat</string>
+  <string name="dismiss_all_label">"Renunțați la toate"</string>
   <string name="snooze_label">"Amânare"</string>
   <string name="modify_event">Modificați doar acest eveniment</string>
   <string name="modify_all">Modificați toate evenimentele din serie</string>
+  <string name="modify_all_following">Modificați acest eveniment și pe toate cele viitoare</string>
   <string name="new_event_dialog_label">"Eveniment nou"</string>
   <string name="new_event_dialog_option">"Eveniment nou"</string>
+  <string name="delete_this_event_title">Ștergeți acest eveniment?</string>
+  <string name="delete_recurring_event_title">Ștergeți <xliff:g id="eventtitle">%s</xliff:g>?</string>
   <string name="menu_general_preferences">Setări generale</string>
   <string name="preferences_title">"Setări"</string>
   <string name="preferences_general_title">Setarea afișării calendarului</string>
@@ -113,6 +120,7 @@
   <string name="preferences_default_reminder_dialog">Timp predefinit pentru memento</string>
   <string name="preferences_use_home_tz_descrip">În călătorii, calendarul se afișează în fusul orar de acasă.</string>
   <string name="preferences_home_tz_title">Fus orar de acasă</string>
+  <string name="preferences_show_week_num_title">Afișați numărul săptămânii</string>
   <string name="preferences_about_title">Despre</string>
   <string name="gadget_title">Calendar</string>
   <string name="gadget_no_events">Niciun eveniment viitor în calendar</string>
@@ -121,6 +129,7 @@
   <string name="preferences_reminders_responded_label">Ignorați mementourile</string>
   <string name="preferences_reminders_responded_dialog">Ignorați mementourile</string>
   <string name="preferences_reminders_quiet_hours_label">Ore de liniște</string>
+  <string name="preferences_reminders_quiet_hours_description">Dezactivați mementourile pentru evenimente pe perioada specificată.</string>
   <string name="preferences_debug_category">Depanare</string>
   <string name="copy_db">Trimiteți baza de date</string>
   <string name="accessibility_remove_attendee">Eliminați participantul</string>
@@ -129,6 +138,8 @@
   <string name="accessibility_pick_end_date">Dată de încheiere</string>
   <string name="accessibility_pick_end_time">Oră de încheiere</string>
   <string name="accessibility_pick_time_zone">Fus orar</string>
+  <string name="accessibility_add_reminder">Adăugați memento</string>
+  <string name="accessibility_remove_reminder">Eliminați mementoul</string>
   <string name="accessibility_add_attendee">Adăugați participant</string>
   <string name="accessibility_sync_cal">Sincronizați calendarul</string>
   <string name="accessibility_reminder_showmeas">Doresc să fiu afișat(ă) ca</string>
@@ -137,6 +148,7 @@
   <string name="accessibility_email_notification">Trimiteți e-mailuri invitaților</string>
   <string name="day_view_new_event_hint">+ Eveniment nou</string>
   <string name="acessibility_selected_marker_description">Eveniment selectat</string>
+  <string name="do_not_check">NU bifați -&gt;</string>
   <string name="recurrence_month_pattern_by_day">în aceeași zi lunar</string>
   <string name="recurrence_end_continously">Întotdeauna</string>
   <string name="recurrence_end_date_label">Până la o anumită dată</string>
