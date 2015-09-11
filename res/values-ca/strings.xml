@@ -39,6 +39,10 @@
     <item quantity="one">1 dia</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> dies</item>
   </plurals>
+  <plurals name="weekN">
+    <item quantity="one">SETMANA <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="other">SETMANA <xliff:g id="count">%d</xliff:g></item>
+  </plurals>
   <string name="calendar_refresh">"Refresca"</string>
   <string name="show_day_view">"Mostra el dia"</string>
   <string name="agenda_view">"Agenda"</string>

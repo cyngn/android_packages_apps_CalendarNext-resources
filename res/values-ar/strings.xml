@@ -190,7 +190,7 @@
   <string name="preferences_reminders_quiet_hours_description">رسائل تذكير صامتة بالأحداث خلال وقت محدد.</string>
   <string name="preferences_reminders_quiet_hours_start">وقت بدء ساعات الهدوء</string>
   <string name="preferences_reminders_quiet_hours_end">وقت انتهاء ساعات الهدوء</string>
-  <string name="preferences_debug_category">تصحيح الأخطاء</string>
+  <string name="preferences_debug_category">التنقيح</string>
   <string name="copy_db">إرسال قاعدة البيانات</string>
   <string name="directory_searching_fmt">جارِ البحث في <xliff:g id="DOMAIN">%s</xliff:g>…</string>
   <string name="accessibility_remove_attendee">إزالة أحد الحضور</string>
