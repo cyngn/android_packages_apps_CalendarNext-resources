@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"कैलेंडर"</string>
   <string name="custom_event_color">घटना रंग</string>
   <string name="event_color_set_to_default">डिफ़ॉल्ट रंग</string>
   <string name="view_event_response_label">जा रहे हैं?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">लोगों को आमंत्रित करें</string>
   <string name="does_not_repeat">दुहराता नहीं है</string>
   <string name="description_label">टिप्पणी जोड़ें</string>
+  <string name="availability_title">उपलब्धता भेजें</string>
+  <string name="create_invite_title">आमंत्रण निर्मित करें</string>
   <string name="discard_dialog_title">रद्द करें</string>
   <string name="discard_dialog_new_event_message">क्या आपको पूरा भरोसा है कि आप इस घटना को छोड़ देना चाहते हैं?</string>
   <string name="discard_dialog_existing_event_message">क्या आपको पूरा भरोसा है कि आप इस घटना में किए गए परिवर्तनों को छोड़ देना चाहते हैं?</string>
@@ -35,4 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> पहले <xliff:g id="type" example="email">%s</xliff:g> के रूप में</string>
   <string name="no_events_scheduled">कोई घंटना शेड्यूल में नहीं है।</string>
   <string name="search_hint">कैलेंडर में खोजें</string>
+  <string name="appwidget_today_day_header">आज के लिए कोई घटना नहीं है.</string>
+  <string name="appwidget_tomorrow_day_header">कल, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">संकालिक करने के लिए कोई कैलेंडर नहीं है</string>
+  <string name="empty_calendars_to_display">दिखाने के लिए कोई कैलेंडर नहीं है</string>
+  <string name="update_available_ticker">कैलेंडर के लिए एक अद्यतन उपलब्ध है</string>
+  <string name="update_availalable_title">एक अद्यतन उपलब्ध है</string>
+  <string name="update_available_content">अद्यतन को स्थापित करने के लिए टैप करें</string>
+  <string name="error_no_app_store">कोई उपयुक्त ऐप स्टोर नहीं मिला</string>
+  <string name="tutorial_done_button">हो गया</string>
+  <string name="tutorial_skip_button">छोड़ें</string>
+  <string name="tutorial_welcome_title">कैलेंडर में आपका स्वागत है</string>
+  <string name="tutorial_welcome_subtitle">अपनी ज़िंदगी को देखने का एक ख़ूबसूरत तरीक़ा.</string>
+  <string name="tutorial_page1_title">आपके सभी कैलेंडर</string>
+  <string name="tutorial_page1_subtitle">अपने सभी कैलेंडरों को एक ही जगह पर देखें</string>
+  <string name="tutorial_page2_title">अपनी उपलब्धता को साझा करें</string>
+  <string name="tutorial_page2_subtitle">दूसरों को तेज़ी से बताएँ कि आप और वे कब मिल सकते हैं.</string>
+  <string name="tutorial_page3_title">एकाधिक दृश्य</string>
+  <string name="tutorial_page3_subtitle">अपनी घटनाओं को उस तरह से देखें जो आपके लिए सर्वाधिक सुविधाजनक हो.</string>
+  <string name="tutorial_end_title">ईमेल डाउनलोड करें</string>
+  <string name="tutorial_end_subtitle">बॉक्सर ईमेल और कैलेंडर को समेकित करके शक्तिशाली सुविधाओं को अनलॉक करें।</string>
+  <string name="tutorial_end_button">बॉक्सर ईमेल प्राप्त करें</string>
+  <string name="account_settings_tutorial_header_title">ट्यूटोरियल देखें</string>
+  <string name="event_info_organizer">आयोजक</string>
 </resources>

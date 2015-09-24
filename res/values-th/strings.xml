@@ -38,6 +38,7 @@
   <plurals name="weekN">
     <item quantity="other">สัปดาห์ที่ <xliff:g id="COUNT">%d</xliff:g></item>
   </plurals>
+  <string name="calendar_refresh">"โหลดใหม่"</string>
   <string name="show_day_view">"แสดงวัน"</string>
   <string name="agenda_view">"กำหนดการ"</string>
   <string name="day_view">"วัน"</string>
@@ -145,6 +146,7 @@
   <string name="preferences_home_tz_title">เขตเวลาท้องถิ่น</string>
   <string name="preferences_show_week_num_title">แสดงหมายเลขสัปดาห์</string>
   <string name="preferences_about_title">เกี่ยวกับ</string>
+  <string name="preferences_build_version_fmt">สร้างรุ่น: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <string name="gadget_title">ปฏิทิน</string>
   <plurals name="month_more_events">
     <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>

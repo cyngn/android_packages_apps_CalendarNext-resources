@@ -149,7 +149,7 @@
   <string name="preferences_week_start_day_title">Prvi dan v tednu je</string>
   <string name="preferences_week_start_day_dialog">Prvi dan v tednu je</string>
   <string name="preferences_clear_search_history_title">Počisti zgodovino iskanja</string>
-  <string name="preferences_clear_search_history_summary">Odstrani vsa iskanja, ki ste jih izvedli</string>
+  <string name="preferences_clear_search_history_summary">Odstrani vsa iskanja, ki sem jih izvedel</string>
   <string name="search_history_cleared">Zgodovina iskanja je počiščena.</string>
   <string name="preferences_alerts_title">Obvestila</string>
   <string name="preferences_alerts_vibrateWhen_title">Vibriranje</string>
@@ -184,9 +184,9 @@
   <string name="directory_searching_fmt">Iskanje po <xliff:g id="DOMAIN">%s</xliff:g> \u2026</string>
   <string name="accessibility_remove_attendee">Odstrani udeleženca</string>
   <string name="accessibility_pick_start_date">Začetni datum</string>
-  <string name="accessibility_pick_start_time">Čas začetka</string>
+  <string name="accessibility_pick_start_time">Začetni čas</string>
   <string name="accessibility_pick_end_date">Končni datum</string>
-  <string name="accessibility_pick_end_time">Čas zaključka</string>
+  <string name="accessibility_pick_end_time">Končni čas</string>
   <string name="accessibility_pick_time_zone">Časovni pas</string>
   <string name="accessibility_pick_recurrence">Ponovi dogodek</string>
   <string name="accessibility_add_reminder">Dodaj opomnik</string>
