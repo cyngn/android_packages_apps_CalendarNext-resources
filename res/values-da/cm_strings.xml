@@ -38,7 +38,27 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> før som <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Ingen planlagte begivenheder.</string>
   <string name="search_hint">Søg i kalender</string>
+  <string name="appwidget_today_day_header">Ingen begivenheder i dag.</string>
+  <string name="appwidget_tomorrow_day_header">I morgen, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Ingen kalendere at synkronisere</string>
+  <string name="empty_calendars_to_display">Ingen kalendere at vise</string>
+  <string name="update_available_ticker">Der er en opdatering tilgængelig til Kalender</string>
+  <string name="update_availalable_title">En opdatering er tilgængelig</string>
+  <string name="update_available_content">Tryk for at installere opdatering</string>
+  <string name="error_no_app_store">Ingen passende app butik blev fundet</string>
   <string name="tutorial_done_button">Færdig</string>
   <string name="tutorial_skip_button">Spring over</string>
   <string name="tutorial_welcome_title">Velkommen til Kalender</string>
+  <string name="tutorial_welcome_subtitle">En smuk måde at se dit liv på.</string>
+  <string name="tutorial_page1_title">Alle dine kalendere</string>
+  <string name="tutorial_page1_subtitle">Se alle dine kalendere og begivenheder på ét sted.</string>
+  <string name="tutorial_page2_title">Del din tilgængelighed</string>
+  <string name="tutorial_page2_subtitle">Lad andre hurtigt se, hvornår du kan mødes.</string>
+  <string name="tutorial_page3_title">Flere visninger</string>
+  <string name="tutorial_page3_subtitle">Se dine begivenheder på den måde, der fungerer bedst for dig.</string>
+  <string name="tutorial_end_title">Hente e-mail</string>
+  <string name="tutorial_end_subtitle">Åben for stærke funktioner ved at kombinere Boxer E-mail og Kalender.</string>
+  <string name="tutorial_end_button">Få Boxer E-mail</string>
+  <string name="account_settings_tutorial_header_title">Se vejledning</string>
+  <string name="event_info_organizer">Planlægningskalender</string>
 </resources>
