@@ -16,6 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"عرض تقاويم"</string>
+  <string name="custom_event_color">لون الحدث</string>
   <string name="event_color_set_to_default">اللون الافتراضي</string>
   <string name="view_event_response_label">هل ستذهب؟</string>
   <string name="new_event_more_options">مزيد من الخيارات</string>

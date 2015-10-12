@@ -171,7 +171,7 @@
   <string name="directory_searching_fmt"><xliff:g id="domain">%s</xliff:g> bilatzen\u2026</string>
   <string name="accessibility_remove_attendee">Kendu parte-hartzailea</string>
   <string name="accessibility_pick_start_date">Hasiera-data</string>
-  <string name="accessibility_pick_start_time">Hasiera-ordua</string>
+  <string name="accessibility_pick_start_time">Hasiera ordua</string>
   <string name="accessibility_pick_end_date">Amaiera-data</string>
   <string name="accessibility_pick_end_time">Amaiera ordua</string>
   <string name="accessibility_pick_time_zone">Ordu-zona</string>

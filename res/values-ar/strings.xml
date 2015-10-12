@@ -174,11 +174,11 @@
   <string name="preferences_build_version_fmt">إصدار البناء: <xliff:g id="version" example="1.0">%s </xliff:g></string>
   <string name="gadget_title">التقويم</string>
   <plurals name="month_more_events">
-    <item quantity="zero">1+</item>
+    <item quantity="zero">"1+"</item>
     <item quantity="one">"+<xliff:g id="NUMBER">%d</xliff:g>"</item>
-    <item quantity="two">+<xliff:g id="NUMBER">%d</xliff:g></item>
-    <item quantity="few">+<xliff:g id="NUMBER">%d</xliff:g></item>
-    <item quantity="many">+<xliff:g id="NUMBER">%d</xliff:g></item>
+    <item quantity="two">"+<xliff:g id="NUMBER">%d</xliff:g>"</item>
+    <item quantity="few">"+<xliff:g id="NUMBER">%d</xliff:g>"</item>
+    <item quantity="many">"+<xliff:g id="NUMBER">%d</xliff:g>"</item>
     <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
   </plurals>
   <string name="gadget_no_events">لا توجد أحداث تقويم قادمة</string>

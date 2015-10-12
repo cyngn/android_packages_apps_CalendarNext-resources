@@ -208,6 +208,10 @@
     <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Woche</item>
     <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Wochen</item>
   </plurals>
+  <plurals name="recurrence_interval_monthly">
+    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Monat</item>
+    <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Monate</item>
+  </plurals>
   <plurals name="recurrence_interval_yearly">
     <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Jahr</item>
     <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Jahre</item>

@@ -160,7 +160,7 @@
   <string name="gadget_title">Календарь</string>
   <plurals name="month_more_events">
     <item quantity="one">"+ ещё 1"</item>
-    <item quantity="few">+ ещё <xliff:g id="number">%d</xliff:g></item>
+    <item quantity="few">"+ ещё <xliff:g id="number">%d</xliff:g>"</item>
     <item quantity="other">+ ещё <xliff:g id="number">%d</xliff:g></item>
   </plurals>
   <string name="gadget_no_events">В календаре нет предстоящих мероприятий</string>
