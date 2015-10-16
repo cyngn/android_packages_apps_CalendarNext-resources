@@ -80,7 +80,7 @@
     <string name="tutorial_page1_subtitle">View all of your calendars and events in one place.</string>
     <string name="tutorial_page2_title">Share your availability</string>
     <string name="tutorial_page2_subtitle">Quickly let others know when you can meet.</string>
-    <string name="tutorial_page3_title">Multiple Views</string>
+    <string name="tutorial_page3_title">Multiple views</string>
     <string name="tutorial_page3_subtitle">View your events the way that works best for you.</string>
     <string name="tutorial_end_title">Download Email</string>
     <string name="tutorial_end_subtitle">Unlock powerful features by combining Boxer Email and Calendar.</string>
@@ -90,4 +90,15 @@
 
     <!-- Organizer Label [CHAR LIMIT=12]-->
     <string name="event_info_organizer">Organizer</string>
+    <string name="menu_save_action_title" translatable="false">@string/create_event_dialog_save</string>
+
+    <!-- Security settings category -->
+    <string name="preferences_security_title">Security</string>
+
+    <!-- Preference for disabling screenshots of app screens. -->
+    <string name="preference_disable_screenshots">Disable screenshots</string>
+    <string name="preference_disable_screenshots_summary">Prevent other apps from capturing screenshots of app screens</string>
+
+    <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
+    <string name="preferences_show_week_num_summary">Enable week numbers in month view</string>
 </resources>
