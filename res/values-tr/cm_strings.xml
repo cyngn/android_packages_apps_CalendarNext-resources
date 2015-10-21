@@ -54,11 +54,15 @@
   <string name="tutorial_page1_subtitle">Takvimlerinizi ve etkinliklerinizi tek bir yerde görüntüleyin.</string>
   <string name="tutorial_page2_title">Müsait misiniz, paylaşın</string>
   <string name="tutorial_page2_subtitle">Başkalarına müsait olduğunuz zamanı hızlıca bildirin.</string>
-  <string name="tutorial_page3_title">Çoklu Görünüm</string>
+  <string name="tutorial_page3_title">Çoklu görünüm</string>
   <string name="tutorial_page3_subtitle">Etkinliklerinizi sizin için en iyi şekilde görüntüleyin.</string>
   <string name="tutorial_end_title">E-postaları indirin</string>
   <string name="tutorial_end_subtitle">Boxer E-posta ve Takvimini birleştirerek güçlü özellikleri açın.</string>
   <string name="tutorial_end_button">Boxer E-posta\'yı edinin</string>
   <string name="account_settings_tutorial_header_title">Öğreticiyi görüntüle</string>
   <string name="event_info_organizer">Düzenleyici</string>
+  <string name="preferences_security_title">Güvenlik</string>
+  <string name="preference_disable_screenshots">Ekran görüntülerini devre dışı bırakın</string>
+  <string name="preference_disable_screenshots_summary">Diğer uygulamaların uygulama ekranlarından ekran görüntüsü yakalamasını engeller</string>
+  <string name="preferences_show_week_num_summary">Ay görünümünde hafta numaralarını etkinleştirir</string>
 </resources>

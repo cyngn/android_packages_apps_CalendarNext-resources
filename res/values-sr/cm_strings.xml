@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">Преузми Boxer Е-пошту</string>
   <string name="account_settings_tutorial_header_title">Погледај објашњење</string>
   <string name="event_info_organizer">Организатор</string>
+  <string name="preferences_security_title">Заштита</string>
+  <string name="preference_disable_screenshots">Онемогући снимак екрана</string>
+  <string name="preference_disable_screenshots_summary">Спречи друге апликације да ухвате снимак екрана</string>
+  <string name="preferences_show_week_num_summary">Омогући бројеве седмица у приказу месец</string>
 </resources>

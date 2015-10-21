@@ -54,11 +54,15 @@
   <string name="tutorial_page1_subtitle">Просматривайте все ваши календари и события в одном месте.</string>
   <string name="tutorial_page2_title">Информация о доступности</string>
   <string name="tutorial_page2_subtitle">Оперативно сообщайте другим пользователям о времени, когда вы можете с ними встретиться.</string>
-  <string name="tutorial_page3_title">Настройка событий</string>
+  <string name="tutorial_page3_title">Множественное представление</string>
   <string name="tutorial_page3_subtitle">Просматривайте события наиболее удобным для вас способом.</string>
   <string name="tutorial_end_title">Скачайте приложение почты</string>
   <string name="tutorial_end_subtitle">Откройте для себя ещё больше возможностей, объединив почту Boxer и Календарь.</string>
   <string name="tutorial_end_button">Получить Boxer</string>
   <string name="account_settings_tutorial_header_title">Просмотр обучающего руководства</string>
   <string name="event_info_organizer">Органайзер</string>
+  <string name="preferences_security_title">Безопасность</string>
+  <string name="preference_disable_screenshots">Отключить скриншоты</string>
+  <string name="preference_disable_screenshots_summary">Запретить приложениям делать скриншоты почты</string>
+  <string name="preferences_show_week_num_summary">Показывать № недели в обзоре месяца</string>
 </resources>

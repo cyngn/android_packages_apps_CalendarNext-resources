@@ -54,11 +54,15 @@
   <string name="tutorial_page1_subtitle">Δείτε όλα τα ημερολόγια και τα συμβάντα σας σε ένα μέρος.</string>
   <string name="tutorial_page2_title">Μοιραστείτε τη διαθεσιμότητά σας</string>
   <string name="tutorial_page2_subtitle">Ενημερώστε γρήγορα τους άλλους για το πότε μπορείτε να συναντηθείτε.</string>
-  <string name="tutorial_page3_title">Πολλαπλές Προβολές</string>
+  <string name="tutorial_page3_title">Πολλαπλές προβολές</string>
   <string name="tutorial_page3_subtitle">Δείτε τα συμβάντα σας με τον τρόπο που σας βολεύει καλύτερα.</string>
   <string name="tutorial_end_title">Λήψη Email</string>
   <string name="tutorial_end_subtitle">Ξεκλειδώστε πανίσχυρες λειτουργίες συνδυάζοντας Boxer Email και Ημερολόγιο.</string>
   <string name="tutorial_end_button">Λήψη Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Προβολή οδηγού</string>
   <string name="event_info_organizer">Οργάνωση</string>
+  <string name="preferences_security_title">Ασφάλεια</string>
+  <string name="preference_disable_screenshots">Απενεργοποίηση στιγμιότυπου οθόνης</string>
+  <string name="preference_disable_screenshots_summary">Αποτρέψει άλλες εφαρμογές από τη σύλληψη στιγμιότυπου οθόνης ενώ βρίσκεστε στην εφαρμογή</string>
+  <string name="preferences_show_week_num_summary">Εμφάνιση αριθμού εβδομάδων στην προβολή μήνα</string>
 </resources>

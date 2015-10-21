@@ -54,11 +54,15 @@
   <string name="tutorial_page1_subtitle">Ikusi zure egutegi eta gertaera guztiak leku bakarrean.</string>
   <string name="tutorial_page2_title">Partekatu zure eskuragarritasuna</string>
   <string name="tutorial_page2_subtitle">Ahalbidetu besteek noiz batzartu zaitezkeen berehala jakitea.</string>
-  <string name="tutorial_page3_title">Hainbat iksupegi</string>
+  <string name="tutorial_page3_title">Hainbat ikuspegi</string>
   <string name="tutorial_page3_subtitle">Ikusi zure gertaerak zuretzat egokiena den erara.</string>
   <string name="tutorial_end_title">Deskargatu Eposta</string>
   <string name="tutorial_end_subtitle">Desblokeatu ezaugarri boteretsuak Boxer Eposta eta Egutegia konbinatuz.</string>
   <string name="tutorial_end_button">Lortu Boxer Eposta</string>
   <string name="account_settings_tutorial_header_title">Ikusi tutoriala</string>
   <string name="event_info_organizer">Antolatzailea</string>
+  <string name="preferences_security_title">Segurtasuna</string>
+  <string name="preference_disable_screenshots">Desgaitu pantaila-argazkiak</string>
+  <string name="preference_disable_screenshots_summary">Galarazi beste aplikazioei pantaila-argazkiak ateratzera</string>
+  <string name="preferences_show_week_num_summary">Gaitu aste zenbakiak hilabete ikuspegian</string>
 </resources>

@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">Boxer Emailを入手</string>
   <string name="account_settings_tutorial_header_title">チュートリアルを表示</string>
   <string name="event_info_organizer">主催者</string>
+  <string name="preferences_security_title">セキュリティ</string>
+  <string name="preference_disable_screenshots">スクリーンショットを無効化</string>
+  <string name="preference_disable_screenshots_summary">アプリ画面のスクリーンショットを他のアプリがキャプチャできないように防止する</string>
+  <string name="preferences_show_week_num_summary">月表示で週数を有効にする</string>
 </resources>

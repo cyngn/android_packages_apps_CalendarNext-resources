@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">קבלו את Boxer Email</string>
   <string name="account_settings_tutorial_header_title">הצג הדרכה</string>
   <string name="event_info_organizer">מארגן</string>
+  <string name="preferences_security_title">אבטחה</string>
+  <string name="preference_disable_screenshots">השבת צילומי מסך</string>
+  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לקחת צילומי מסך ממסכי היישום</string>
+  <string name="preferences_show_week_num_summary">הצג מספרי שבועות במצב תצוגת חודש</string>
 </resources>

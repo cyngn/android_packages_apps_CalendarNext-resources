@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">Få Boxer E-mail</string>
   <string name="account_settings_tutorial_header_title">Se vejledning</string>
   <string name="event_info_organizer">Planlægningskalender</string>
+  <string name="preferences_security_title">Sikkerhed</string>
+  <string name="preference_disable_screenshots">Deaktivér screenshots</string>
+  <string name="preference_disable_screenshots_summary">Forhindre andre apps i at optage screenshots af app-skærme</string>
+  <string name="preferences_show_week_num_summary">Aktivér ugenumre i månedsvisningen</string>
 </resources>

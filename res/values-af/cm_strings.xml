@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">Kry Boxer Epos</string>
   <string name="account_settings_tutorial_header_title">Kyk na tutoriaal</string>
   <string name="event_info_organizer">Organiseerder</string>
+  <string name="preferences_security_title">Sekuriteit</string>
+  <string name="preference_disable_screenshots">Deaktiveer skermfoto\'s</string>
+  <string name="preference_disable_screenshots_summary">Stop ander toep\'s om skermfoto\'s te neem van toep skerms</string>
+  <string name="preferences_show_week_num_summary">Aktiveer week nommers in maand skerm</string>
 </resources>

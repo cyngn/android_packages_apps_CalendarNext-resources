@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">Aconsegueix Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Mostra el tutorial</string>
   <string name="event_info_organizer">Organitza</string>
+  <string name="preferences_security_title">Seguretat</string>
+  <string name="preference_disable_screenshots">Deshabilita les captures de pantalla</string>
+  <string name="preference_disable_screenshots_summary">Impedeix que altres aplicacions facin captures de pantalla de les aplicacions</string>
+  <string name="preferences_show_week_num_summary">Habilita els números de setmana a la vista del mes</string>
 </resources>

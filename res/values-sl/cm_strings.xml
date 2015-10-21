@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">Dobi E-pošto Boxer</string>
   <string name="account_settings_tutorial_header_title">Pokaži vodnik</string>
   <string name="event_info_organizer">Urejevalnik</string>
+  <string name="preferences_security_title">Varnost</string>
+  <string name="preference_disable_screenshots">Onemogoči zaslonske slike</string>
+  <string name="preference_disable_screenshots_summary">Prepreči drugim programom zajem zaslonskih slik zaslonov programov</string>
+  <string name="preferences_show_week_num_summary">Omogoči številke tednov v pogledu meseca</string>
 </resources>

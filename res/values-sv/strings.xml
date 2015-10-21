@@ -39,6 +39,10 @@
     <item quantity="one">1 dag</item>
     <item quantity="other"><xliff:g id="count">%d</xliff:g> dagar</item>
   </plurals>
+  <plurals name="weekN">
+    <item quantity="one">VECKA <xliff:g id="COUNT">%d</xliff:g></item>
+    <item quantity="other">VECKA <xliff:g id="count">%d</xliff:g></item>
+  </plurals>
   <string name="calendar_refresh">"Uppdatera"</string>
   <string name="show_day_view">"Visa dag"</string>
   <string name="agenda_view">"Agenda"</string>

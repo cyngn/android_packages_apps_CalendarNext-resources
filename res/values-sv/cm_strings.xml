@@ -35,4 +35,15 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> före som <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Inga planerade händelser.</string>
   <string name="search_hint">Sök i kalender</string>
+  <string name="appwidget_today_day_header">Inga händelser idag.</string>
+  <string name="empty_calendars_to_sync">Inga kalendrar att synkronisera</string>
+  <string name="empty_calendars_to_display">Inga kalendrar att visa</string>
+  <string name="update_available_ticker">Det finns en uppdatering tillgänglig för Kalender</string>
+  <string name="update_availalable_title">En uppdatering är tillgänglig</string>
+  <string name="update_available_content">Tryck för att installera uppdateringen</string>
+  <string name="error_no_app_store">Ingen lämplig app-butik hittades</string>
+  <string name="tutorial_done_button">Färdig</string>
+  <string name="tutorial_skip_button">Hoppa över</string>
+  <string name="tutorial_welcome_subtitle">Ett vackert sätt att se ditt liv på.</string>
+  <string name="tutorial_page1_title">Alla dina kalendrar</string>
 </resources>

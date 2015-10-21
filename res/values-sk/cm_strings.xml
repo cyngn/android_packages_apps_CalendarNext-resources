@@ -54,11 +54,15 @@
   <string name="tutorial_page1_subtitle">Zobraziť všetky vaše kalendáre a udalosti na jednom mieste.</string>
   <string name="tutorial_page2_title">Zdieľajte vašu dostupnosť</string>
   <string name="tutorial_page2_subtitle">Rýchlo dať ostatným vedieť, kedy sa môžete stretnúť.</string>
-  <string name="tutorial_page3_title">Viacero zobrazení</string>
+  <string name="tutorial_page3_title">Viaceré zobrazenia</string>
   <string name="tutorial_page3_subtitle">Zobrazte si udalosti tak, ako je to pre vás najvýhodnejšie.</string>
   <string name="tutorial_end_title">Stiahnuť e-mail</string>
   <string name="tutorial_end_subtitle">Odomknite užitočné funkcie kombináciou aplikácií Boxer Email a Kalendár.</string>
   <string name="tutorial_end_button">Získať Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Zobraziť sprievodcu</string>
   <string name="event_info_organizer">Usporiadateľ</string>
+  <string name="preferences_security_title">Bezpečnosť</string>
+  <string name="preference_disable_screenshots">Zakázať snímky obrazovky</string>
+  <string name="preference_disable_screenshots_summary">Zabrániť iným aplikáciám snímanie obrazoviek tejto aplikácie</string>
+  <string name="preferences_show_week_num_summary">Povoliť čísla týždňov v zobrazení mesiaca</string>
 </resources>

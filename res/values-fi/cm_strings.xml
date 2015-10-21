@@ -61,4 +61,8 @@
   <string name="tutorial_end_button">Hanki Boxer-sähköposti</string>
   <string name="account_settings_tutorial_header_title">Näytä opastus</string>
   <string name="event_info_organizer">Järjestäjä</string>
+  <string name="preferences_security_title">Turvallisuus</string>
+  <string name="preference_disable_screenshots">Estä kuvakaappaukset</string>
+  <string name="preference_disable_screenshots_summary">Estää muita sovelluksia ottamasta kuvakaappauksia sovelluksen näytöistä</string>
+  <string name="preferences_show_week_num_summary">Ota viikkojen numerot käyttöön kuukausinäkymässä</string>
 </resources>

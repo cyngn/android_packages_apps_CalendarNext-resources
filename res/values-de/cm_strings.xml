@@ -54,11 +54,13 @@
   <string name="tutorial_page1_subtitle">Betrachten Sie all Ihre Kalender und Termine an einem Ort.</string>
   <string name="tutorial_page2_title">Teilen Sie Ihre Verfügbarkeit</string>
   <string name="tutorial_page2_subtitle">Teilen Sie anderen schnell mit, wann Sie sich treffen können.</string>
-  <string name="tutorial_page3_title">Verschiedene Ansichten</string>
   <string name="tutorial_page3_subtitle">Lassen Sie sich Termine so anzeigen, wie es Ihnen am besten passt.</string>
   <string name="tutorial_end_title">E-Mail herunterladen</string>
   <string name="tutorial_end_subtitle">Schalten Sie leistungsstarke Funktionen durch Kombination mit Boxer E-Mail und Kalender frei.</string>
   <string name="tutorial_end_button">Holen Sie sich Boxer E-Mail</string>
   <string name="account_settings_tutorial_header_title">Anleitung anschauen</string>
   <string name="event_info_organizer">Organisator</string>
+  <string name="preferences_security_title">Sicherheit</string>
+  <string name="preference_disable_screenshots">Bildschirmfotos deaktivieren</string>
+  <string name="preferences_show_week_num_summary">Kalenderwoche in der Monatsansicht anzeigen</string>
 </resources>
