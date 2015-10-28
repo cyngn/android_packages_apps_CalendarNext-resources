@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">在一个位置查看您所有的日历和事件。</string>
   <string name="tutorial_page2_title">共享您的可用性</string>
   <string name="tutorial_page2_subtitle">让其他人很快知道什么时候可以与您见面。</string>
+  <string name="tutorial_page3_title">多个视图</string>
   <string name="tutorial_page3_subtitle">以最佳的方式查看您的事件。</string>
   <string name="tutorial_end_title">下载电子邮件</string>
   <string name="tutorial_end_subtitle">通过将电子邮件和日历整合进 Boxer 以解锁更强大的功能。</string>
   <string name="tutorial_end_button">获得 Boxer 电子邮件</string>
   <string name="account_settings_tutorial_header_title">查看教程</string>
   <string name="event_info_organizer">组织者</string>
+  <string name="preferences_security_title">安全</string>
+  <string name="preference_disable_screenshots">禁用截图</string>
+  <string name="preference_disable_screenshots_summary">防止其他应用捕获应用截图</string>
+  <string name="preferences_show_week_num_summary">启用在月视图中的周数显示</string>
 </resources>

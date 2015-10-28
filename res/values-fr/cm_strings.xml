@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">Afficher l\'ensemble de vos agendas et événements en un seul endroit.</string>
   <string name="tutorial_page2_title">Partager votre disponibilité</string>
   <string name="tutorial_page2_subtitle">Informer rapidement les autres de vos moments de libres.</string>
+  <string name="tutorial_page3_title">Vues multiples</string>
   <string name="tutorial_page3_subtitle">Afficher les événements à votre convenance.</string>
   <string name="tutorial_end_title">Télécharger l\'E-mail</string>
   <string name="tutorial_end_subtitle">Déverrouiller des fonctionnalités puissantes en combinant Boxer Email avec l\'agenda.</string>
   <string name="tutorial_end_button">Obtenir Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Voir le tutoriel</string>
   <string name="event_info_organizer">Organisateur</string>
+  <string name="preferences_security_title">Sécurité</string>
+  <string name="preference_disable_screenshots">Désactiver les captures d\'écran</string>
+  <string name="preference_disable_screenshots_summary">Empêcher les autres applications d\'effectuer des captures d\'écrans des écrans de l\'application</string>
+  <string name="preferences_show_week_num_summary">Activer le numéro des semaines dans l\'affichage du mois</string>
 </resources>
