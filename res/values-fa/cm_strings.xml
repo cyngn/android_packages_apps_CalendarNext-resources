@@ -64,4 +64,5 @@
   <string name="preferences_security_title">امنیت</string>
   <string name="preference_disable_screenshots">غیرفعال کردن تصاویر صفحه</string>
   <string name="preference_disable_screenshots_summary">بازداری برنامه‌های دیگر از گرفتن تصویر از صفحات برنامه</string>
+  <string name="preferences_show_week_num_summary">فعال کردن شماره‌های هفته در نمای ماه</string>
 </resources>

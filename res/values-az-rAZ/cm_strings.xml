@@ -16,6 +16,8 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Təqvimlər"</string>
+  <string name="custom_event_color">Tədbir rəngi</string>
   <string name="event_color_set_to_default">İlkin rəng</string>
   <string name="view_event_response_label">Gedirsiniz?</string>
   <string name="new_event_more_options">digər seçimlər</string>
@@ -27,11 +29,15 @@
   <string name="description_label">Qeyd əlavə et</string>
   <string name="create_invite_title">Dəvət yarat</string>
   <string name="discard_dialog_title">İmtina</string>
+  <string name="discard_dialog_new_event_message">Bu tədbiri silmək istəyirsiniz?</string>
+  <string name="discard_dialog_existing_event_message">Bu tədbir üçün edilən dəyişiklikləri silmək istəyirsiniz?</string>
   <string name="discard_dialog_positive_button_text">Sil</string>
   <string name="discard_dialog_negative_button_text">Düzəlişi saxla</string>
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> əvvəl</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> əvvəl <xliff:g id="type" example="email">%s</xliff:g> olaraq</string>
+  <string name="no_events_scheduled">Planlaşdırılmış tədbir yoxdur.</string>
   <string name="search_hint">Təqvimi axtar</string>
+  <string name="appwidget_today_day_header">Bugün tədbir yoxdur.</string>
   <string name="appwidget_tomorrow_day_header">Sabah, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Eyniləşdiriləcək heç bir təqvim yoxdur</string>
   <string name="empty_calendars_to_display">Görüntülənəcək heç bir təqvim yoxdur</string>
@@ -44,4 +50,10 @@
   <string name="tutorial_welcome_title">Təqvimə Xoş Gəldin</string>
   <string name="tutorial_welcome_subtitle">Həyatınızı görmək üçün gözəl yoldur.</string>
   <string name="tutorial_page1_title">Bütün təqvimləriniz</string>
+  <string name="tutorial_page1_subtitle">Təqvimlərinizi və tədbirlərinizi tək bir yerdə göstərin.</string>
+  <string name="tutorial_end_title">E-poçtu Endir</string>
+  <string name="account_settings_tutorial_header_title">Məsləhətə bax</string>
+  <string name="event_info_organizer">Təşkilatçı</string>
+  <string name="preferences_security_title">Təhlükəsizlik</string>
+  <string name="preference_disable_screenshots">Ekran şəkillərini ləğv edin</string>
 </resources>

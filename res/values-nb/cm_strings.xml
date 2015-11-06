@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalendere"</string>
   <string name="custom_event_color">Aktivitetsfarge</string>
   <string name="event_color_set_to_default">Standardfarge</string>
   <string name="view_event_response_label">Skal du delta?</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">Inviter folk</string>
   <string name="does_not_repeat">Gjentas ikke</string>
   <string name="description_label">Legg til merknad</string>
+  <string name="availability_title">Send tilgjengelighet</string>
+  <string name="create_invite_title">Opprett invitasjon</string>
   <string name="discard_dialog_title">Avbryt</string>
   <string name="discard_dialog_new_event_message">Er du sikker på at du vil forkaste denne aktiviteten?</string>
   <string name="discard_dialog_existing_event_message">Er du sikker på at du vil forkaste endringene på denne aktiviteten?</string>
@@ -35,4 +38,26 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> før som <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Ingen aktiviteter er planlagt.</string>
   <string name="search_hint">Søk i kalender</string>
+  <string name="appwidget_today_day_header">Ingen hendelser i dag.</string>
+  <string name="appwidget_tomorrow_day_header">I morgen, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Ingen kalendere å synkronisere</string>
+  <string name="empty_calendars_to_display">Ingen kalendere å vise</string>
+  <string name="update_available_ticker">Det finnes en oppdatering for Kalender</string>
+  <string name="update_availalable_title">En oppdatering er tilgjengelig</string>
+  <string name="update_available_content">Trykk for å installere oppdateringen</string>
+  <string name="error_no_app_store">Ingen passende app-butikk funnet</string>
+  <string name="tutorial_done_button">Ferdig</string>
+  <string name="tutorial_skip_button">Hopp over</string>
+  <string name="tutorial_welcome_title">Velkommen til kalender</string>
+  <string name="tutorial_welcome_subtitle">En flott måte å ha oversikt over livet.</string>
+  <string name="tutorial_page1_title">Alle kalenderne dine</string>
+  <string name="tutorial_page1_subtitle">Vis alle kalendere og hendelser på ett sted.</string>
+  <string name="tutorial_page2_title">Del din tilgjengelighet</string>
+  <string name="tutorial_page2_subtitle">La andre raskt vite når dere kan møtes.</string>
+  <string name="tutorial_page3_subtitle">Vis hendelsene dine slik som det fungerer best for deg.</string>
+  <string name="tutorial_end_title">Last ned Email</string>
+  <string name="tutorial_end_subtitle">Lås opp kraftige funksjoner ved å kombinere Boxer Email og Boxer Calendar.</string>
+  <string name="tutorial_end_button">Få Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">Vis opplæringen</string>
+  <string name="event_info_organizer">Organisator</string>
 </resources>
