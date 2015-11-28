@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">Összes naptárának és eseményének megtekintése egy helyen.</string>
   <string name="tutorial_page2_title">Ossza meg elérhetőségét</string>
   <string name="tutorial_page2_subtitle">Gyorsan tudassa másokkal mikor tudnak találkozni.</string>
+  <string name="tutorial_page3_title">Különböző nézetek</string>
   <string name="tutorial_page3_subtitle">Tekintse meg az eseményeit úgy, ahogy Önnek a legmegfelelőbb.</string>
   <string name="tutorial_end_title">E-mail letöltése</string>
   <string name="tutorial_end_subtitle">Hatékony funkciók feloldása Boxer E-mail és Naptár kombinálásával.</string>
   <string name="tutorial_end_button">Boxer E-mail beszerzése</string>
   <string name="account_settings_tutorial_header_title">Útmutató megtekintése</string>
   <string name="event_info_organizer">Szervező</string>
+  <string name="preferences_security_title">Biztonság</string>
+  <string name="preference_disable_screenshots">Képernyőmentések tiltása</string>
+  <string name="preference_disable_screenshots_summary">Megakadályozhatja, hogy más alkalmazások képernyőmentéseket készítsenek az alkalmazás képernyőkről</string>
+  <string name="preferences_show_week_num_summary">Hetek száma a hónap nézetben</string>
 </resources>

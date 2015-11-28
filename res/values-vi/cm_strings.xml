@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">Xem tất cả các lịch và sự kiện của bạn ở một nơi.</string>
   <string name="tutorial_page2_title">Chia sẻ tình trạng khả dụng của bạn</string>
   <string name="tutorial_page2_subtitle">Nhanh chóng cho những người khác biết khi nào bạn có thể gặp gỡ.</string>
+  <string name="tutorial_page3_title">Nhiều chế độ xem</string>
   <string name="tutorial_page3_subtitle">Xem sự kiện của bạn theo cách phù hợp nhất cho bạn.</string>
   <string name="tutorial_end_title">Tải email xuống</string>
   <string name="tutorial_end_subtitle">Mở khóa các tính năng mạnh mẽ bằng cách kết hợp Boxer Email và Lịch.</string>
   <string name="tutorial_end_button">Nhận Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Xem hướng dẫn</string>
   <string name="event_info_organizer">Nhà tổ chức</string>
+  <string name="preferences_security_title">Bảo mật</string>
+  <string name="preference_disable_screenshots">Vô hiệu chụp ảnh màn hình</string>
+  <string name="preference_disable_screenshots_summary">Ngăn các ứng dụng khác chụp lại ảnh màn hình ứng dụng</string>
+  <string name="preferences_show_week_num_summary">Dùng số tuần trong màn hình xem tháng</string>
 </resources>

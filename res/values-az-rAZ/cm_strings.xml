@@ -27,6 +27,7 @@
   <string name="hint_attendees">İnsanları dəvət et</string>
   <string name="does_not_repeat">Təkrarlamayacaq</string>
   <string name="description_label">Qeyd əlavə et</string>
+  <string name="availability_title">Uyğunluğu göndərin</string>
   <string name="create_invite_title">Dəvət yarat</string>
   <string name="discard_dialog_title">İmtina</string>
   <string name="discard_dialog_new_event_message">Bu tədbiri silmək istəyirsiniz?</string>
@@ -51,9 +52,17 @@
   <string name="tutorial_welcome_subtitle">Həyatınızı görmək üçün gözəl yoldur.</string>
   <string name="tutorial_page1_title">Bütün təqvimləriniz</string>
   <string name="tutorial_page1_subtitle">Təqvimlərinizi və tədbirlərinizi tək bir yerdə göstərin.</string>
+  <string name="tutorial_page2_title">Sizin üçün uyğundursa paylaşın</string>
+  <string name="tutorial_page2_subtitle">Başqalarına uyğun olduğunuz vaxtı daha tez deyin.</string>
+  <string name="tutorial_page3_title">Çoxlu görünüş</string>
+  <string name="tutorial_page3_subtitle">Tədbirlərinizi sizin üçün ən yaxşı şəkildə göstərin.</string>
   <string name="tutorial_end_title">E-poçtu Endir</string>
+  <string name="tutorial_end_subtitle">Boxer E-poçt və Təqvimini birləşdirən güclü özəllikləri açın.</string>
+  <string name="tutorial_end_button">Boxer E-poçt Əldə Edin</string>
   <string name="account_settings_tutorial_header_title">Məsləhətə bax</string>
   <string name="event_info_organizer">Təşkilatçı</string>
   <string name="preferences_security_title">Təhlükəsizlik</string>
   <string name="preference_disable_screenshots">Ekran şəkillərini ləğv edin</string>
+  <string name="preference_disable_screenshots_summary">Digər tətbiqlərin tətbiqetmə ekranlarında ekran şəklini çəkməsini əngəlləyər</string>
+  <string name="preferences_show_week_num_summary">Ay görünüşündə həftə nömrələrini fəallaşdırar</string>
 </resources>

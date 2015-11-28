@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">Betruecht all deng Kalenneren a Rendezvousen op enger Plaz.</string>
   <string name="tutorial_page2_title">Deel deng Disponibilitéit</string>
   <string name="tutorial_page2_subtitle">Deel den anere séier mat, wa se dech gesi kënnen.</string>
+  <string name="tutorial_page3_title">Verschidden Usiichten</string>
   <string name="tutorial_page3_subtitle">Looss dir d\'Rendezvouse sou uweisen, wéi et dir am beschte passt.</string>
   <string name="tutorial_end_title">E-Mail eroflueden</string>
   <string name="tutorial_end_subtitle">Schalt zousätzlech Funktiounen duerch d\'Kombinatioun mat Boxer E-Mail a Kalender fräi.</string>
   <string name="tutorial_end_button">Huel dir Boxer E-Mail</string>
   <string name="account_settings_tutorial_header_title">Aleedung uweisen</string>
   <string name="event_info_organizer">Organisateur</string>
+  <string name="preferences_security_title">Sécherheet</string>
+  <string name="preference_disable_screenshots">Schiermfotoen desaktivéieren</string>
+  <string name="preference_disable_screenshots_summary">Aner Appen hënnere Schiermfotoe vun der App opzehuelen</string>
+  <string name="preferences_show_week_num_summary">Kalennerwochen an der Mountsusiicht uweisen</string>
 </resources>

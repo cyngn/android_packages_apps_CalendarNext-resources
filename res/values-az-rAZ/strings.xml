@@ -82,6 +82,7 @@
   <string name="privacy_label">Gizlilik</string>
   <string name="no_syncable_calendars">Təqvim yoxdur</string>
   <string name="no_calendars_found">Tədbir əlavə etməzdən əvvəl cihaza ən az bir Təqvim hesabı əlavə edib təqvimi görünən etməlisiniz. Hesab əlavə etmək üçün Hesab Əlavə Et-ə toxunun (əgər yenicə hesab əlavə etmisinizsə, onun sinxronlaşdırılmasını gözləyin və yenidən yoxlayın). Və ya Ləğv Et-ə toxunun və ən az bir təqvimin görünən olduğundan əmin olun.</string>
+  <string name="create_an_account_desc">"Təqvim Google Hesab ilə daha yaxşı işləyir.\n\n• Ona istənilən veb səyyahdan müraciət edin\n• Tədbirləri təhlükəsiz şəkildə nüsxələyin."</string>
   <string name="add_account">Hesab əlavə et</string>
   <string name="event_color_picker_dialog_title">Tədbirin Rəngi</string>
   <string name="calendar_color_picker_dialog_title">Təqvim Rəngi</string>
@@ -121,6 +122,7 @@
   <string name="save_label">Bitdi</string>
   <string name="dismiss_all_label">"Hamısını sil"</string>
   <string name="snooze_label">"Mürgülə"</string>
+  <string name="custom">"Özəl (cihazda özəlləşdirilə bilməz)"</string>
   <string name="modify_event">Sadəcə bu tədbiri dəyişdir</string>
   <string name="modify_all">Bu seriyadakı bütün tədbirləri dəyişdir</string>
   <string name="modify_all_following">Bunu və gələcəkdəki bütün tədbirləri dəyişdir</string>
@@ -162,7 +164,7 @@
   <string name="preferences_reminders_responded_label">Xatırladıcıları keç</string>
   <string name="preferences_reminders_responded_dialog">Xatırladıcıları keç</string>
   <string name="preferences_reminders_quiet_hours_label">Səssiz saatlar</string>
-  <string name="preferences_reminders_quiet_hours_description">Seçilmiş zamanda tədbir xatırladıcılarını susdur.</string>
+  <string name="preferences_reminders_quiet_hours_description">Dəqiqləşdirilən vaxt ərzində tədbir xatırladıcılarını səssizə al.</string>
   <string name="preferences_reminders_quiet_hours_start">Sakitlik saatlarının başlama zamanı</string>
   <string name="preferences_reminders_quiet_hours_end">Sakitlik saatlarının bitmə zamanı</string>
   <string name="preferences_debug_category">Xəta ayırdetmə</string>

@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">Wyświetl wszystkie swoje kalendarze i wydarzenia w jednym miejscu.</string>
   <string name="tutorial_page2_title">Podziel się swoją dostępnością</string>
   <string name="tutorial_page2_subtitle">Szybko poinformuj innych, kiedy możecie się spotkać.</string>
+  <string name="tutorial_page3_title">Wiele widoków</string>
   <string name="tutorial_page3_subtitle">Wyświetlaj swoje wydarzenia w sposób, który najbardziej Ci odpowiada.</string>
   <string name="tutorial_end_title">Pobierz E-mail</string>
   <string name="tutorial_end_subtitle">Odblokuj potężne funkcje łącząc Boxer Email i Kalendarz.</string>
   <string name="tutorial_end_button">Pobierz Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Zobacz poradnik</string>
   <string name="event_info_organizer">Organizator</string>
+  <string name="preferences_security_title">Bezpieczeństwo</string>
+  <string name="preference_disable_screenshots">Wyłącz zrzuty ekranu</string>
+  <string name="preference_disable_screenshots_summary">Zapobiegaj wykonywaniu zrzutów ekranu przez aplikacje zewnętrznych dostawców</string>
+  <string name="preferences_show_week_num_summary">Włącz numery tygodni w widoku miesiąca</string>
 </resources>

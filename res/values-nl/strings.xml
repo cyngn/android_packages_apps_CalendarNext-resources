@@ -39,6 +39,10 @@
     <item quantity="one">1 dag</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dagen</item>
   </plurals>
+  <plurals name="weekN">
+    <item quantity="one">WEEK <xliff:g id="COUNT">%d</xliff:g></item>
+    <item quantity="other">WEEK <xliff:g id="count">%d</xliff:g></item>
+  </plurals>
   <string name="calendar_refresh">"Vernieuwen"</string>
   <string name="show_day_view">"Dag weergeven"</string>
   <string name="agenda_view">"Agenda"</string>

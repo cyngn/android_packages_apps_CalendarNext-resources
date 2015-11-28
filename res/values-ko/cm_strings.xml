@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">캘린더와 일정을 한 곳에서 볼 수 있습니다.</string>
   <string name="tutorial_page2_title">현재 상태를 공유하기</string>
   <string name="tutorial_page2_subtitle">지금 다른 사람과 만날 수 있는지 빠르게 알립니다.</string>
+  <string name="tutorial_page3_title">동시에 보기</string>
   <string name="tutorial_page3_subtitle">당신의 일정을 당신에게 가장 잘 맞는 방법으로 보세요.</string>
   <string name="tutorial_end_title">이메일 다운로드</string>
   <string name="tutorial_end_subtitle">Boxer 이메일과 캘린더를 통합하여 더욱 강력한 기능을 사용하세요.</string>
   <string name="tutorial_end_button">Boxer 이메일 받기</string>
   <string name="account_settings_tutorial_header_title">튜토리얼 보기</string>
   <string name="event_info_organizer">주최자</string>
+  <string name="preferences_security_title">보안</string>
+  <string name="preference_disable_screenshots">스크린샷 비활성화</string>
+  <string name="preference_disable_screenshots_summary">다른 앱이 화면을 캡쳐하는 것을 방지합니다</string>
+  <string name="preferences_show_week_num_summary">월 보기에 주 번호를 보이기</string>
 </resources>
