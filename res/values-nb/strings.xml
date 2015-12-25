@@ -39,6 +39,10 @@
     <item quantity="one">En dag</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dager</item>
   </plurals>
+  <plurals name="weekN">
+    <item quantity="one">UKE <xliff:g id="COUNT">%d</xliff:g></item>
+    <item quantity="other">UKER <xliff:g id="count">%d</xliff:g></item>
+  </plurals>
   <string name="calendar_refresh">"Oppdater"</string>
   <string name="show_day_view">"Vis dag"</string>
   <string name="agenda_view">"Oversikt"</string>
