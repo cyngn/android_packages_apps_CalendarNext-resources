@@ -29,7 +29,7 @@
   </plurals>
   <plurals name="Nmins">
     <item quantity="one">1 min</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> mins</item>
   </plurals>
   <plurals name="Nhours">
     <item quantity="one">1 hora</item>
