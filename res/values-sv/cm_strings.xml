@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"Kalendrar"</string>
   <string name="custom_event_color">Färg på händelse</string>
   <string name="event_color_set_to_default">Standardfärg</string>
   <string name="view_event_response_label">Delta?</string>
@@ -46,4 +47,5 @@
   <string name="tutorial_skip_button">Hoppa över</string>
   <string name="tutorial_welcome_subtitle">Ett vackert sätt att se ditt liv på.</string>
   <string name="tutorial_page1_title">Alla dina kalendrar</string>
+  <string name="preferences_security_title">Säkerhet</string>
 </resources>

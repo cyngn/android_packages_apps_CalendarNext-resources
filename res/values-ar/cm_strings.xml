@@ -16,6 +16,7 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <string name="menu_select_visible_calendars">"التقويمات"</string>
   <string name="custom_event_color">لون الحدث</string>
   <string name="event_color_set_to_default">اللون الافتراضي</string>
   <string name="view_event_response_label">هل ستذهب؟</string>
@@ -26,6 +27,8 @@
   <string name="hint_attendees">دعوة أشخاص</string>
   <string name="does_not_repeat">لا يتكرر</string>
   <string name="description_label">إضافة ملحوظة</string>
+  <string name="availability_title">إرسال التوافر</string>
+  <string name="create_invite_title">إنشاء دعوة</string>
   <string name="discard_dialog_title">الغاء</string>
   <string name="discard_dialog_new_event_message">هل أنت متأكد من أنك تريد إزالة هذا الحدث؟</string>
   <string name="discard_dialog_existing_event_message">هل أنت متأكد من أنك تريد إزالة التغييرات في هذا الحدث؟</string>
@@ -35,4 +38,10 @@
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g>قبل <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">لا توجد أحداث محددة</string>
   <string name="search_hint">بحث تقويمي</string>
+  <string name="appwidget_today_day_header">لا توجد أحداث اليوم.</string>
+  <string name="appwidget_tomorrow_day_header">غدا <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">لا يوجد تقويمات للمزامنة</string>
+  <string name="empty_calendars_to_display">لا يوجد تقويمات للعرض</string>
+  <string name="update_available_ticker">يتوافر تحديث للتقويم</string>
+  <string name="update_availalable_title">يتوافر تحديث</string>
 </resources>

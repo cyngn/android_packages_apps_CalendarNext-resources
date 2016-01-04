@@ -81,7 +81,7 @@
   <string name="privacy_label">Privacidade</string>
   <string name="no_syncable_calendars">Sem calendários</string>
   <string name="no_calendars_found">Antes de poder adicionar um evento, tem de adicionar pelo menos uma conta do Calendário para o seu dispositivo e tornar um calendário visível. Toque em Adicionar Conta para adicionar uma conta (se acabou de adicionar uma conta, aguarde até que termine a sincronização e tente novamente). Em alternativa, toque em Cancelar e certifique-se de que pelo menos um calendário está visível.</string>
-  <string name="create_an_account_desc">"A aplicação Calendário funciona melhor com uma Conta Google.\n\n\u2022 Aceda à Conta Google a partir de qualquer navegador de Internet\n\u2022 Faça uma cópia de segurança dos seus eventos de forma segura"</string>
+  <string name="create_an_account_desc">"A aplicação Calendário funciona melhor com uma Conta Google.\n\n\u2022 Aceda à sua Conta Google a partir de qualquer navegador de Internet\n\u2022 Faça uma cópia de segurança dos seus eventos de forma segura"</string>
   <string name="add_account">Adicionar conta</string>
   <string name="event_color_picker_dialog_title">Cor do Evento</string>
   <string name="calendar_color_picker_dialog_title">Cor do Calendário</string>
@@ -112,8 +112,8 @@
   <string name="agenda_yesterday">ONTEM - <xliff:g id="date">%1$s</xliff:g></string>
   <string name="agenda_tomorrow">AMANHÃ - <xliff:g id="date">%1$s</xliff:g></string>
   <string name="loading">A carregar\u2026</string>
-  <string name="show_older_events">Tocar para ver eventos antes de <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
-  <string name="show_newer_events">Tocar para ver eventos após <xliff:g id="newest_search_range">%1$s</xliff:g></string>
+  <string name="show_older_events">Toque para ver eventos antes de <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+  <string name="show_newer_events">Toque para ver eventos após <xliff:g id="newest_search_range">%1$s</xliff:g></string>
   <string name="search_title">Pesquisar nos meus calendários</string>
   <string name="edit_event_label">"Detalhes"</string>
   <string name="edit_label">"Editar"</string>
@@ -135,8 +135,8 @@
   <string name="preferences_general_title">Definição de visualização do calendário</string>
   <string name="preferences_reminder_title">Notificações \u0026 lembretes</string>
   <string name="preferences_hide_declined_title">Ocultar eventos recusados</string>
-  <string name="preferences_week_start_day_title">A semana começa</string>
-  <string name="preferences_week_start_day_dialog">A semana começa</string>
+  <string name="preferences_week_start_day_title">A semana começa a</string>
+  <string name="preferences_week_start_day_dialog">A semana começa a</string>
   <string name="preferences_clear_search_history_title">Limpar histórico de pesquisas</string>
   <string name="preferences_clear_search_history_summary">Remover todas as pesquisas efetuadas</string>
   <string name="search_history_cleared">Histórico de pesquisas limpo.</string>
@@ -205,22 +205,22 @@
     <item quantity="other">A cada <xliff:g id="count">%d</xliff:g> dias</item>
   </plurals>
   <plurals name="recurrence_interval_weekly">
-    <item quantity="one">A cada <xliff:g id="count">%d</xliff:g> semana</item>
+    <item quantity="one">A cada semana</item>
     <item quantity="other">A cada <xliff:g id="count">%d</xliff:g> semanas</item>
   </plurals>
   <plurals name="recurrence_interval_monthly">
-    <item quantity="one">A cada <xliff:g id="count">%d</xliff:g> mês</item>
+    <item quantity="one">A cada mês</item>
     <item quantity="other">A cada <xliff:g id="count">%d</xliff:g> meses</item>
   </plurals>
   <plurals name="recurrence_interval_yearly">
-    <item quantity="one">A cada <xliff:g id="count">%d</xliff:g> ano</item>
+    <item quantity="one">A cada ano</item>
     <item quantity="other">A cada <xliff:g id="count">%d</xliff:g> anos</item>
   </plurals>
   <string name="recurrence_month_pattern_by_day">no mesmo dia de cada mês</string>
   <string name="recurrence_end_continously">Para sempre</string>
   <string name="recurrence_end_date_label">Até uma data</string>
   <string name="recurrence_end_date">Até <xliff:g id="date">%s</xliff:g></string>
-  <string name="recurrence_end_count_label">Durante um n.º de eventos</string>
+  <string name="recurrence_end_count_label">Durante um nº de eventos</string>
   <plurals name="recurrence_end_count">
     <item quantity="one">Para <xliff:g id="event_count">%d</xliff:g> evento</item>
     <item quantity="other">Para <xliff:g id="event_count">%d</xliff:g> eventos</item>

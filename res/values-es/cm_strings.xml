@@ -26,6 +26,7 @@
   <string name="reminders_label">Añadir una notificación</string>
   <string name="hint_attendees">Invitar a otras personas</string>
   <string name="does_not_repeat">No se repite</string>
+  <string name="description_label">Añadir nota</string>
   <string name="availability_title">Enviar disponibilidad</string>
   <string name="create_invite_title">Crear invitación</string>
   <string name="discard_dialog_title">Cancelar</string>
@@ -34,6 +35,7 @@
   <string name="discard_dialog_positive_button_text">Descartar</string>
   <string name="discard_dialog_negative_button_text">Continuar editando</string>
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> antes</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> antes como <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">No hay eventos programados.</string>
   <string name="search_hint">Buscar en el calendario</string>
   <string name="appwidget_today_day_header">Sin eventos hoy.</string>
@@ -50,14 +52,16 @@
   <string name="tutorial_welcome_subtitle">Una manera hermosa de ver tu vida.</string>
   <string name="tutorial_page1_title">Todos tus calendarios</string>
   <string name="tutorial_page1_subtitle">Ver todos tus calendarios y eventos en un solo lugar.</string>
+  <string name="tutorial_page2_title">Compartir tu disponibilidad</string>
   <string name="tutorial_page2_subtitle">Permite que otros sepan rápidamente cuándo pueden reunirse.</string>
   <string name="tutorial_page3_title">Múltiples vistas</string>
   <string name="tutorial_page3_subtitle">Ve tus eventos de la mejor forma para ti.</string>
   <string name="tutorial_end_title">Descargar correo electrónico</string>
-  <string name="tutorial_end_subtitle">Desbloquea potentes características al combinar Boxer y Calendario.</string>
+  <string name="tutorial_end_subtitle">Desbloquea potentes características al combinar el calendario y el correo de Boxer.</string>
   <string name="tutorial_end_button">Obtener Boxer</string>
   <string name="account_settings_tutorial_header_title">Ver tutorial</string>
   <string name="event_info_organizer">Organizador</string>
+  <string name="preferences_security_title">Seguridad</string>
   <string name="preference_disable_screenshots">Desactivar capturas de pantalla</string>
   <string name="preference_disable_screenshots_summary">Evitar que otras aplicaciones puedan realizar capturas de pantalla</string>
   <string name="preferences_show_week_num_summary">Activar los números de semana en la vista mensual</string>
