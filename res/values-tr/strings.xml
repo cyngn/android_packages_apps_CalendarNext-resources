@@ -82,7 +82,7 @@
   <string name="privacy_label">Gizlilik</string>
   <string name="no_syncable_calendars">Takvim yok</string>
   <string name="no_calendars_found">Bir etkinlik ekleyebilmek için öncelikle cihazınıza en az bir Takvim hesabı eklemeli ve takvimi görünür yapmalısınız. Hesap eklemek için Hesap Ekle\'ye dokunun (hesabı yeni eklediyseniz, eşitlemeyi bitirmesini bekleyin ve tekrar deneyin). Ya da İptal\'e dokunun ve en az bir takvimin görünür olduğundan emin olun.</string>
-  <string name="create_an_account_desc">"Takvim bir Google Hesabı ile daha iyi çalışır.\n\n• Takvim'e herhangi bir tarayıcıdan erişin\n• Mevcut etkinliklerinizi güvenli bir şekilde yedekleyin"</string>
+  <string name="create_an_account_desc">"Takvim bir Google Hesabı ile daha iyi çalışır.\n\n\u2022 Takvim'e herhangi bir tarayıcıdan erişin\n\u2022 Mevcut etkinliklerinizi güvenli bir şekilde yedekleyin"</string>
   <string name="add_account">Hesap ekle</string>
   <string name="event_color_picker_dialog_title">Etkinlik Rengi</string>
   <string name="calendar_color_picker_dialog_title">Takvim Rengi</string>
@@ -105,16 +105,16 @@
   <string-array name="quick_response_defaults">
     <item>Birkaç dakika geç kalıyorum.</item>
     <item>Yaklaşık 10 dakika içinde oradayım.</item>
-    <item>Bensiz başlayın.</item>
+    <item>Devam edin ve bensiz başlayın.</item>
     <item>Maalesef katılamıyorum. Başka bir zaman ayarlamamız gerek.</item>
   </string-array>
   <string name="quick_response_custom_msg">Kendi yanıtınızı oluşturun\u2026</string>
-  <string name="agenda_today">BUGÜN, <xliff:g id="DATE">%1$s</xliff:g></string>
-  <string name="agenda_yesterday">DÜN, <xliff:g id="DATE">%1$s</xliff:g></string>
-  <string name="agenda_tomorrow">YARIN, <xliff:g id="DATE">%1$s</xliff:g></string>
+  <string name="agenda_today">BUGÜN - <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="agenda_yesterday">DÜN - <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="agenda_tomorrow">YARIN - <xliff:g id="date">%1$s</xliff:g></string>
   <string name="loading">Yükleniyor\u2026</string>
-  <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> öncesindeki etkinlikleri görüntülemek için dokunun</string>
-  <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> sonrasındaki etkinlikleri görüntülemek için dokunun</string>
+  <string name="show_older_events"><xliff:g id="oldest_search_range">%1$s</xliff:g> öncesindeki etkinlikleri görüntülemek için dokunun</string>
+  <string name="show_newer_events"><xliff:g id="newest_search_range">%1$s</xliff:g> sonrasındaki etkinlikleri görüntülemek için dokunun</string>
   <string name="search_title">Takvimlerimde ara</string>
   <string name="edit_event_label">"Ayrıntılar"</string>
   <string name="edit_label">"Düzenle"</string>
@@ -129,20 +129,20 @@
   <string name="new_event_dialog_label">"Yeni etkinlik"</string>
   <string name="new_event_dialog_option">"Yeni etkinlik"</string>
   <string name="delete_this_event_title">Bu etkinlik silinsin mi?</string>
-  <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> silinsin mi?</string>
+  <string name="delete_recurring_event_title"><xliff:g id="eventtitle">%s</xliff:g> silinsin mi?</string>
   <string name="change_response_title">Yanıtı değiştir</string>
   <string name="menu_general_preferences">Genel ayarlar</string>
   <string name="preferences_title">"Ayarlar"</string>
   <string name="preferences_general_title">Takvim görünümü ayarı</string>
-  <string name="preferences_reminder_title">Bildirimler ve hatırlatıcılar</string>
-  <string name="preferences_hide_declined_title">Reddedilmiş etkin. gizle</string>
+  <string name="preferences_reminder_title">Bildirimler \u2026 hatırlatıcılar</string>
+  <string name="preferences_hide_declined_title">Reddedilmiş etkinlikleri gizle</string>
   <string name="preferences_week_start_day_title">Haftanın ilk günü</string>
   <string name="preferences_week_start_day_dialog">Haftanın ilk günü</string>
   <string name="preferences_clear_search_history_title">Arama geçmişini temizle</string>
   <string name="preferences_clear_search_history_summary">Gerçekleştirdiğiniz tüm aramaları silin</string>
   <string name="search_history_cleared">Arama geçmişi temizlendi.</string>
   <string name="preferences_alerts_title">Bildirimler</string>
-  <string name="preferences_alerts_vibrateWhen_title">Titreşim</string>
+  <string name="preferences_alerts_vibrateWhen_title">Titre</string>
   <string name="preferences_alerts_ringtone_title">Ses</string>
   <string name="preferences_alerts_popup_title">Açılır bildirim</string>
   <string name="preferences_default_reminder_title">Varsayılan hatırlatıcı süresi</string>
@@ -186,7 +186,7 @@
   <string name="accessibility_reminder_type">Hatırlatıcı türü</string>
   <string name="accessibility_reminder_showmeas">Durumumu şu şekilde göster:</string>
   <string name="accessibility_reminder_privacy">Gizlilik</string>
-  <string name="acessibility_cal_notification">Takvim Bildirimleri</string>
+  <string name="acessibility_cal_notification">Takvim Bildirimi</string>
   <string name="acessibility_snooze_notification">Erteleme Bildirimi</string>
   <string name="accessibility_email_notification">Davetlilere e-posta gönder</string>
   <string name="day_view_new_event_hint">+ Yeni etkinlik</string>
@@ -220,7 +220,7 @@
   <string name="recurrence_month_pattern_by_day">her ayın aynı gününde</string>
   <string name="recurrence_end_continously">Sonsuza kadar</string>
   <string name="recurrence_end_date_label">Belirli bir tarihe kadar</string>
-  <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> tarihine kadar</string>
+  <string name="recurrence_end_date"><xliff:g id="date">%s</xliff:g> tarihine kadar</string>
   <string name="recurrence_end_count_label">Belirli sayıda etkinlik için</string>
   <plurals name="recurrence_end_count">
     <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> etkinlik için</item>

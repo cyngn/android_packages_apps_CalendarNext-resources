@@ -19,7 +19,7 @@
   <string name="menu_select_visible_calendars">"เลือกปฏิทิน"</string>
   <string name="custom_event_color">สีของกิจกรรม</string>
   <string name="event_color_set_to_default">สีเริ่มต้น</string>
-  <string name="view_event_response_label">ไปหรือไม่?</string>
+  <string name="view_event_response_label">ไปร่วมกิจกรรมหรือไม่</string>
   <string name="new_event_more_options">ตัวเลือกเพิ่มเติม</string>
   <string name="preferences_alerts_silent_ringtone_title">เงียบ</string>
   <string name="hint_where">เพิ่มตำแหน่งที่ตั้ง</string>
@@ -42,10 +42,10 @@
   <string name="appwidget_tomorrow_day_header">พรุ่งนี้ <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">ไม่มีปฏิทินให้ซิงค์</string>
   <string name="empty_calendars_to_display">ไม่มีปฏิทินสำหรับแสดง</string>
-  <string name="update_available_ticker">มีการปรับปรุงให้ใช้ได้สำหรับปฏิทิน</string>
-  <string name="update_availalable_title">มีการปรับปรุงให้ใช้ได้</string>
-  <string name="update_available_content">คลิกเพื่อติดตั้งการปรับปรุง</string>
-  <string name="error_no_app_store">ไม่พบร้านค้าแอพที่เหมาะสม</string>
+  <string name="update_available_ticker">มีอัปเดตให้ใช้ได้สำหรับปฏิทิน</string>
+  <string name="update_availalable_title">มีการอัปเดตให้ใช้ได้</string>
+  <string name="update_available_content">คลิกเพื่อติดตั้งการอัปเดต</string>
+  <string name="error_no_app_store">ไม่พบร้านค้าแอปที่เหมาะสม</string>
   <string name="tutorial_done_button">เสร็จสิ้น</string>
   <string name="tutorial_skip_button">ข้าม</string>
   <string name="tutorial_welcome_title">ยินดีต้อนรับสู่ปฏิทิน</string>
@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">ดูปฏิทินและกิจกรรมของคุณทั้งหมดในที่เดียว</string>
   <string name="tutorial_page2_title">แบ่งปันช่วงเวลาที่ว่างของคุณ</string>
   <string name="tutorial_page2_subtitle">บอกให้บุคคลอื่นทราบอย่างรวดเร็วว่าคุณสามารถพบพวกเขาได้เมื่อไหร่</string>
-  <string name="tutorial_page3_subtitle">ดูกิจกรรมของคุณด้วยวิธีที่ใช้งานได้ดีที่สุดสำหรับคุณ</string>
+  <string name="tutorial_page3_title">มุมมองแบบหลากหลาย</string>
+  <string name="tutorial_page3_subtitle">ดูกิจกรรมด้วยวิธีที่ใช้งานได้ดีที่สุดสำหรับคุณ</string>
   <string name="tutorial_end_title">ดาวน์โหลดอีเมล</string>
   <string name="tutorial_end_subtitle">ปลดล็อคคุณสมบัติที่มีประสิทธิภาพสูงโดยรวมอีเมล Boxer และปฏิทินเข้าด้วยกัน</string>
   <string name="tutorial_end_button">ใช้อีเมล Boxer</string>
   <string name="account_settings_tutorial_header_title">ดูวิธีการใช้งาน</string>
   <string name="event_info_organizer">ผู้จัด</string>
+  <string name="preferences_security_title">ความปลอดภัย</string>
+  <string name="preference_disable_screenshots">ปิดใช้งานภาพถ่ายหน้าจอ</string>
+  <string name="preference_disable_screenshots_summary">ป้องกันไม่ให้แอปอื่น ๆ จับภาพหน้าจอของหน้าจอแอป</string>
+  <string name="preferences_show_week_num_summary">เปิดใช้งานตัวเลขของสัปดาห์ในมุมมองแบบเดือน</string>
 </resources>

@@ -17,10 +17,27 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <string name="menu_select_visible_calendars">"Lịch"</string>
+  <string name="custom_event_color">Màu sự kiện</string>
+  <string name="event_color_set_to_default">Màu mặc định</string>
+  <string name="view_event_response_label">Tham dự?</string>
+  <string name="new_event_more_options">tuỳ chọn khác</string>
+  <string name="preferences_alerts_silent_ringtone_title">Im lặng</string>
+  <string name="hint_where">Thêm vị trí</string>
+  <string name="reminders_label">Thêm một thông báo</string>
+  <string name="hint_attendees">Mời mọi người</string>
+  <string name="does_not_repeat">Không lặp lại</string>
+  <string name="description_label">Thêm ghi chú</string>
   <string name="availability_title">Gửi tình trạng khả dụng</string>
   <string name="create_invite_title">Tạo lời mời</string>
+  <string name="discard_dialog_title">Huỷ</string>
+  <string name="discard_dialog_new_event_message">Bạn có chắc bạn muốn loại bỏ sự kiện này?</string>
+  <string name="discard_dialog_existing_event_message">Bạn có chắc bạn muốn hủy bỏ các thay đổi cho sự kiện này?</string>
   <string name="discard_dialog_positive_button_text">Loại bỏ</string>
+  <string name="discard_dialog_negative_button_text">Tiếp tục chỉnh sửa</string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s </xliff:g> trước</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> trước dưới dạng <xliff:g id="type" example="email">%s</xliff:g></string>
+  <string name="no_events_scheduled">Không có sự kiện theo lịch trình.</string>
+  <string name="search_hint">Tìm kiếm lịch</string>
   <string name="appwidget_today_day_header">Không có sự kiện vào ngày hôm nay.</string>
   <string name="appwidget_tomorrow_day_header">Ngày mai, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Không có lịch nào để đồng bộ hóa</string>
@@ -37,10 +54,15 @@
   <string name="tutorial_page1_subtitle">Xem tất cả các lịch và sự kiện của bạn ở một nơi.</string>
   <string name="tutorial_page2_title">Chia sẻ tình trạng khả dụng của bạn</string>
   <string name="tutorial_page2_subtitle">Nhanh chóng cho những người khác biết khi nào bạn có thể gặp gỡ.</string>
+  <string name="tutorial_page3_title">Nhiều chế độ xem</string>
   <string name="tutorial_page3_subtitle">Xem sự kiện của bạn theo cách phù hợp nhất cho bạn.</string>
   <string name="tutorial_end_title">Tải email xuống</string>
   <string name="tutorial_end_subtitle">Mở khóa các tính năng mạnh mẽ bằng cách kết hợp Boxer Email và Lịch.</string>
   <string name="tutorial_end_button">Nhận Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Xem hướng dẫn</string>
   <string name="event_info_organizer">Nhà tổ chức</string>
+  <string name="preferences_security_title">Bảo mật</string>
+  <string name="preference_disable_screenshots">Vô hiệu chụp ảnh màn hình</string>
+  <string name="preference_disable_screenshots_summary">Ngăn các ứng dụng khác chụp lại ảnh màn hình ứng dụng</string>
+  <string name="preferences_show_week_num_summary">Kích hoạt số tuần trong màn hình xem tháng</string>
 </resources>
