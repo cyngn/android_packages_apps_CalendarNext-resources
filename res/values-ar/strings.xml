@@ -86,6 +86,8 @@
   <string name="hint_what">"اسم الحدث"</string>
   <string name="creating_event">"تم إنشاء الحدث."</string>
   <string name="saving_event">"تم حفظ الحدث."</string>
+  <string name="empty_event">"لم يتم إنشاء الحدث الفارغ."</string>
+  <string name="creating_event_with_guest">"سيتم إرسال الدعوات."</string>
   <string name="saving_event_with_guest">"سيتم إرسال التحديثات."</string>
   <string name="rsvp_accepted">"تم الرد بـ \"نعم\"."</string>
   <string name="rsvp_tentative">"تم الرد بـ \"ربما\"."</string>
@@ -93,12 +95,84 @@
   <string name="create_event_dialog_save">حفظ</string>
   <string name="alert_title">إشعارات التقاويم</string>
   <string name="event_info_title">عرض الحدث</string>
+  <string name="event_info_title_invite">دعوة اجتماع</string>
+  <string name="edit_event_all_day_label">اليوم كله</string>
+  <string name="presence_label">حالتي المعروضة هي</string>
   <string name="privacy_label">الخصوصية</string>
   <string name="no_syncable_calendars">بلا تقاويم</string>
   <string name="no_calendars_found">قبل أن تتمكن من إضافة حدث، يتعين عليك إضافة حساب تقويم واحد على الأقل إلى جهازك وجعل أحد التقويمات مرئيًا. المس \"إضافة حساب\" لإضافة حساب (إذا قمت للتو بإضافة حسابًا، فانتظر حتى تكتمل عملية المزامنة وأعد المحاولة). أو المس \"إلغاء\" وتأكد من أن تقويم واحد على الأقل مرئي.</string>
   <string name="create_an_account_desc">"‏يعمل التقويم بشكل أفضل مع حساب جوجل‏t.\n\n\u2022 يمكنك الوصول إليه من أي متصفح ويب\n\u2022 يمكنك إجراء نسخ احتياطي لأحداثك بشكل آمن"</string>
+  <string name="add_account">إضافة حساب</string>
+  <string name="event_color_picker_dialog_title">لون الحدث</string>
+  <string name="calendar_color_picker_dialog_title">لون التقويم</string>
+  <string name="calendar_square_color_picker_description">منتقي ألوان</string>
+  <string name="response_yes">نعم</string>
+  <string name="response_maybe">ربما</string>
+  <string name="response_no">لا</string>
+  <string name="email_guests_label">إرسال بريد إلكتروني إلى الضيوف</string>
+  <string name="email_organizer_label">منظم البريد الإلكتروني</string>
+  <string name="email_picker_label">إرسال رسالة إلكترونية إلى</string>
+  <string name="event_not_found">"عدم العثور على الحدث."</string>
+  <string name="map_label">خريطة</string>
+  <string name="call_label">مكالمة</string>
+  <string name="quick_response_settings">الردود السريعة</string>
+  <string name="quick_response_settings_summary">تعديل الردود الافتراضية عند توجية رسائل البريد الإلكترونية للضيوف</string>
+  <string name="quick_response_settings_title">تعديل الردود السريعة</string>
+  <string name="quick_response_settings_edit_title">رد سريع</string>
+  <string name="quick_response_dialog_title">اختيار رد سريع</string>
+  <string name="quick_response_email_failed">فشل العثور على برنامج بريد إلكتروني</string>
+  <string-array name="quick_response_defaults">
+    <item>سأتأخر لدقيقتين فقط.</item>
+    <item>سأكون هناك خلال حوالي 10 دقائق.</item>
+    <item>ابدأوا بدوني.</item>
+    <item>عذرًا، لا يمكنني الحضور. علينا إعادة الجدولة.</item>
+  </string-array>
+  <string name="quick_response_custom_msg">اكتب ردك/u2026</string>
+  <string name="agenda_today">اليوم - <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="agenda_yesterday">أمس -<xliff:g id="date">%1$s</xliff:g></string>
+  <string name="agenda_tomorrow">غدًا - <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="loading">جارٍ التحميل/u2026</string>
+  <string name="show_older_events">يمكنك اللمس لمشاهدة الأحداث قبل <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+  <string name="show_newer_events">يمكنك اللمس لعرض الأحداث بعد <xliff:g id="newest_search_range">%1$s</xliff:g></string>
+  <string name="search_title">بحث تقاويمي</string>
+  <string name="edit_event_label">"التفاصيل"</string>
+  <string name="edit_label">"تحرير"</string>
+  <string name="delete_label">"حذف"</string>
+  <string name="save_label">تم</string>
+  <string name="dismiss_all_label">"تجاهل الكل"</string>
+  <string name="snooze_label">"غفوة"</string>
+  <string name="custom">"مخصص (يتعذر التخصيص على الجهاز)"</string>
+  <string name="modify_event">تغيير هذا الحدث فقط</string>
+  <string name="modify_all">تغيير جميع الأحداث في سلسلة الأحداث</string>
+  <string name="modify_all_following">تغيير هذا الحدث وجميع الأحداث المستقبلية</string>
+  <string name="new_event_dialog_label">"حدث جديد"</string>
+  <string name="new_event_dialog_option">"حدث جديد"</string>
+  <string name="delete_this_event_title">حذف هذا الحدث؟</string>
+  <string name="delete_recurring_event_title">حذف <xliff:g id="eventtitle">%s</xliff:g>؟</string>
+  <string name="change_response_title">تغيير الرد</string>
+  <string name="menu_general_preferences">إعدادات عامة</string>
+  <string name="preferences_title">"الإعدادات"</string>
+  <string name="preferences_general_title">إعداد عرض التقويم</string>
+  <string name="preferences_reminder_title">الإشعارات\u0026التذكيرات</string>
+  <string name="preferences_hide_declined_title">إخفاء الأحداث التي تم رفضها</string>
+  <string name="preferences_week_start_day_title">يبدأ الأسبوع يوم</string>
+  <string name="preferences_week_start_day_dialog">يبدأ الأسبوع يوم</string>
+  <string name="preferences_clear_search_history_title">محو سجل البحث</string>
+  <string name="preferences_clear_search_history_summary">إزالة جميع عمليات البحث التي أجريتها</string>
+  <string name="search_history_cleared">تم محو سجل البحث.</string>
+  <string name="preferences_alerts_title">الاشعارات</string>
+  <string name="preferences_alerts_vibrateWhen_title">اهتزاز</string>
+  <string name="preferences_alerts_ringtone_title">الصوت</string>
   <string name="preferences_alerts_popup_title">الإشعار المنبثق</string>
+  <string name="preferences_default_reminder_title">وقت التذكير الافتراضي</string>
+  <string name="preferences_default_reminder_dialog">وقت التذكير الافتراضي</string>
+  <string name="preferences_use_home_tz_title">استخدام المنطقة الزمنية الأساسية</string>
+  <string name="preferences_use_home_tz_descrip">عرض التقويمات وأوقات الأحداث في المنطقة الزمنية الأساسية أثناء السفر</string>
+  <string name="preferences_home_tz_title">المنطقة الزمنية الرئيسية</string>
+  <string name="preferences_show_week_num_title">إظهار رقم الأسبوع</string>
+  <string name="preferences_about_title">حول</string>
   <string name="preferences_build_version_fmt">إصدار البناء: <xliff:g id="version" example="1.0">%s </xliff:g></string>
+  <string name="gadget_title">التقويم</string>
   <plurals name="month_more_events">
     <item quantity="zero">"1+"</item>
     <item quantity="one">"+<xliff:g id="NUMBER">%d</xliff:g>"</item>
@@ -107,6 +181,39 @@
     <item quantity="many">"+<xliff:g id="NUMBER">%d</xliff:g>"</item>
     <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
   </plurals>
+  <string name="gadget_no_events">لا توجد أحداث تقويم مقبلة</string>
+  <string name="preferences_experimental_category">تجريبي</string>
+  <string name="preferences_reminders_category">التذكيرات</string>
+  <string name="preferences_reminders_responded_label">تخطي التذكيرات</string>
+  <string name="preferences_reminders_responded_dialog">تخطي التذكيرات</string>
+  <string name="preferences_reminders_quiet_hours_label">ساعات الهدوء</string>
+  <string name="preferences_reminders_quiet_hours_description">تذكيرات صامتة للحدث أثناء وقت محدد.</string>
+  <string name="preferences_reminders_quiet_hours_start">وقت بدء ساعات الهدوء</string>
+  <string name="preferences_reminders_quiet_hours_end">وقت انتهاء ساعات الهدوء</string>
+  <string name="preferences_debug_category">تصحيح الأخطاء</string>
+  <string name="copy_db">إرسال قاعدة البيانات</string>
+  <string name="directory_searching_fmt">جارِ البحث <xliff:g id="domain">%s</xliff:g>\u2026</string>
+  <string name="accessibility_remove_attendee">إزالة حاضر</string>
+  <string name="accessibility_pick_start_date">تاريخ البدء</string>
+  <string name="accessibility_pick_start_time">وقت البدء</string>
+  <string name="accessibility_pick_end_date">تاريخ الانتهاء</string>
+  <string name="accessibility_pick_end_time">وقت الانتهاء</string>
+  <string name="accessibility_pick_time_zone">المنطقة الزمنية</string>
+  <string name="accessibility_pick_recurrence">تكرار الحدث</string>
+  <string name="accessibility_add_reminder">إضافة تذكير</string>
+  <string name="accessibility_remove_reminder">إزالة التذكير</string>
+  <string name="accessibility_add_attendee">إضافة أحد الحضور</string>
+  <string name="accessibility_sync_cal">مزامنة التقويم</string>
+  <string name="accessibility_all_day">حدث اليوم كله</string>
+  <string name="accessibility_reminder_time">وقت التذكير</string>
+  <string name="accessibility_reminder_type">نوع التذكير</string>
+  <string name="accessibility_reminder_showmeas">إظهاري كـ</string>
+  <string name="accessibility_reminder_privacy">الخصوصية</string>
+  <string name="acessibility_cal_notification">إشعار التقويم</string>
+  <string name="acessibility_snooze_notification">إشعار الغفوة</string>
+  <string name="accessibility_email_notification">إرسال بريد إلكتروني إلى الضيوف</string>
+  <string name="day_view_new_event_hint">+ حدث جديد</string>
+  <string name="template_announce_item_index">الحدث <xliff:g id="item_index">%1$s</xliff:g> من <xliff:g id="item_count">%2$s</xliff:g>.</string>
   <plurals name="Nevents">
     <item quantity="zero">حدث واحد</item>
     <item quantity="one"><xliff:g id="COUNT">%d</xliff:g> أحداث</item>
@@ -123,6 +230,8 @@
     <item quantity="many">+<xliff:g id="COUNT">%d</xliff:g> حدثاً</item>
     <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> حدثاً</item>
   </plurals>
+  <string name="acessibility_selected_marker_description">حدث محدد</string>
+  <string name="do_not_check">عدم وضع علامة اختيار -&gt;</string>
   <plurals name="recurrence_interval_daily">
     <item quantity="zero">كل <xliff:g id="COUNT">%d</xliff:g> يوم</item>
     <item quantity="one">كل <xliff:g id="COUNT">%d</xliff:g> يوم</item>
@@ -155,6 +264,11 @@
     <item quantity="many">كل <xliff:g id="COUNT">%d</xliff:g> أعوام</item>
     <item quantity="other">كل <xliff:g id="COUNT">%d</xliff:g> أعوام</item>
   </plurals>
+  <string name="recurrence_month_pattern_by_day">في اليوم نفسه من كل شهر</string>
+  <string name="recurrence_end_continously">للأبد</string>
+  <string name="recurrence_end_date_label">حتى تاريخ</string>
+  <string name="recurrence_end_date">حتى <xliff:g id="date">%s</xliff:g></string>
+  <string name="recurrence_end_count_label">لعدد من الأحداث</string>
   <plurals name="recurrence_end_count">
     <item quantity="zero">لـ <xliff:g id="EVENT_COUNT">%d</xliff:g> حدثاً</item>
     <item quantity="one">لـ <xliff:g id="EVENT_COUNT">%d</xliff:g> حدثاً</item>
@@ -163,4 +277,5 @@
     <item quantity="many">لـ <xliff:g id="EVENT_COUNT">%d</xliff:g> أحداث</item>
     <item quantity="other">لـ <xliff:g id="EVENT_COUNT">%d</xliff:g> أحداث</item>
   </plurals>
+  <string name="acessibility_recurrence_choose_end_date_description">تغيير تاريخ الانتهاء</string>
 </resources>
