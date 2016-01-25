@@ -44,4 +44,25 @@
   <string name="empty_calendars_to_display">لا يوجد تقويمات للعرض</string>
   <string name="update_available_ticker">يتوافر تحديث للتقويم</string>
   <string name="update_availalable_title">يتوافر تحديث</string>
+  <string name="update_available_content">المس لتثبيت التحديث</string>
+  <string name="error_no_app_store">عدم العثور على متجر تطبيقات ملائم</string>
+  <string name="tutorial_done_button">تمّ</string>
+  <string name="tutorial_skip_button">تخطي</string>
+  <string name="tutorial_welcome_title">مرحبا بكم في التقويم</string>
+  <string name="tutorial_welcome_subtitle">طريقة جميلة لعرض حياتك.</string>
+  <string name="tutorial_page1_title">كل التقاويم الخاصة بك</string>
+  <string name="tutorial_page1_subtitle">عرض كل التقاويم والأحداث الخاصة بك في مكان واحد.</string>
+  <string name="tutorial_page2_title">مشاركة التوافر لديك</string>
+  <string name="tutorial_page2_subtitle">السماح للغير بشكل سريع لمعرفة وقت مقابلتك.</string>
+  <string name="tutorial_page3_title">عروض عديدة</string>
+  <string name="tutorial_page3_subtitle">عرض الأحداث الخاصة بك بالطريقة المثالى بالنسبة لك.</string>
+  <string name="tutorial_end_title">تنزيل بريد إلكتروني</string>
+  <string name="tutorial_end_subtitle">إلغاء تأمين المزايا الفعالة من خلال دمج البريد الإلكتروني Boxer والتقويم.</string>
+  <string name="tutorial_end_button">الحصول على البريد الإلكتروني Boxer</string>
+  <string name="account_settings_tutorial_header_title">عرض البرنامج التعليمي</string>
+  <string name="event_info_organizer">منظم</string>
+  <string name="preferences_security_title">الأمان</string>
+  <string name="preference_disable_screenshots">تعطيل لقطات الشاشة</string>
+  <string name="preference_disable_screenshots_summary">منع التطبيقات الأخرى من التقاط لقطت الشاشة الخاصة بشاشات التطبيق</string>
+  <string name="preferences_show_week_num_summary">تمكين أرقام الأسبوع في طريقة عرض الشهر</string>
 </resources>

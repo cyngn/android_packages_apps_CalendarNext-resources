@@ -48,6 +48,7 @@
     <item quantity="few">TJEDAN <xliff:g id="count">%d</xliff:g></item>
     <item quantity="other">TJEDAN <xliff:g id="count">%d</xliff:g></item>
   </plurals>
+  <string name="calendar_refresh">"Osvježi"</string>
   <string name="show_day_view">"Prikaži dan"</string>
   <string name="agenda_view">"Raspored"</string>
   <string name="day_view">"Dan"</string>
@@ -155,6 +156,7 @@
   <string name="preferences_home_tz_title">Domaća vremenska zona</string>
   <string name="preferences_show_week_num_title">Prikaži broj tjedna</string>
   <string name="preferences_about_title">O</string>
+  <string name="preferences_build_version_fmt">Verzija: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <string name="gadget_title">Kalendar</string>
   <plurals name="month_more_events">
     <item quantity="one">"+1"</item>
