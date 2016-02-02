@@ -95,6 +95,7 @@
   <string name="save_label">Efectuat</string>
   <string name="dismiss_all_label">"Renunțați la toate"</string>
   <string name="snooze_label">"Amânare"</string>
+  <string name="custom">"Personalizat (nu se poate personaliza pe telefon)"</string>
   <string name="modify_event">Modificați doar acest eveniment</string>
   <string name="modify_all">Modificați toate evenimentele din serie</string>
   <string name="modify_all_following">Modificați acest eveniment și pe toate cele viitoare</string>
@@ -102,6 +103,7 @@
   <string name="new_event_dialog_option">"Eveniment nou"</string>
   <string name="delete_this_event_title">Ștergeți acest eveniment?</string>
   <string name="delete_recurring_event_title">Ștergeți <xliff:g id="eventtitle">%s</xliff:g>?</string>
+  <string name="change_response_title">Modificați răspunsul</string>
   <string name="menu_general_preferences">Setări generale</string>
   <string name="preferences_title">"Setări"</string>
   <string name="preferences_general_title">Setarea afișării calendarului</string>

@@ -54,10 +54,15 @@
   <string name="tutorial_page1_subtitle">Vis alle kalendere og hendelser på ett sted.</string>
   <string name="tutorial_page2_title">Del din tilgjengelighet</string>
   <string name="tutorial_page2_subtitle">La andre raskt vite når dere kan møtes.</string>
+  <string name="tutorial_page3_title">Flere visninger</string>
   <string name="tutorial_page3_subtitle">Vis hendelsene dine slik som det fungerer best for deg.</string>
   <string name="tutorial_end_title">Last ned Email</string>
   <string name="tutorial_end_subtitle">Lås opp kraftige funksjoner ved å kombinere Boxer Email og Boxer Calendar.</string>
   <string name="tutorial_end_button">Få Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Vis opplæringen</string>
   <string name="event_info_organizer">Organisator</string>
+  <string name="preferences_security_title">Sikkerhet</string>
+  <string name="preference_disable_screenshots">Deaktivere skjermbilder</string>
+  <string name="preference_disable_screenshots_summary">Hindre andre programmer i å fange skjermbilder av app-skjermer</string>
+  <string name="preferences_show_week_num_summary">Aktiver ukenumre i månedsvisning</string>
 </resources>

@@ -30,6 +30,7 @@
   <string name="availability_title">Trimite disponibilitatea</string>
   <string name="create_invite_title">Creează invitație</string>
   <string name="discard_dialog_title">Anulare</string>
+  <string name="discard_dialog_existing_event_message">Sunteți sigur că doriți să renunțați la modificările acestui eveniment?</string>
   <string name="discard_dialog_positive_button_text">Anulare</string>
   <string name="discard_dialog_negative_button_text">Continuați editarea</string>
   <string name="no_events_scheduled">Nu sunt evenimente programate.</string>

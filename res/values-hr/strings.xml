@@ -23,6 +23,32 @@
   <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
   <string name="repeats_label">Ponavljanje</string>
   <string name="no_title_label">(bez naslova)</string>
+  <plurals name="Nminutes">
+    <item quantity="one">1 minuta</item>
+    <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> minuta</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> minuta</item>
+  </plurals>
+  <plurals name="Nmins">
+    <item quantity="one">1 minuta</item>
+    <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> minuta</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> min</item>
+  </plurals>
+  <plurals name="Nhours">
+    <item quantity="one">1 sat</item>
+    <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> sati</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> sati</item>
+  </plurals>
+  <plurals name="Ndays">
+    <item quantity="one">1 dan</item>
+    <item quantity="few"><xliff:g id="COUNT">%d</xliff:g> dana</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> dana</item>
+  </plurals>
+  <plurals name="weekN">
+    <item quantity="one">TJEDAN <xliff:g id="COUNT">%d</xliff:g></item>
+    <item quantity="few">TJEDNA <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="other">TJEDNA <xliff:g id="count">%d</xliff:g></item>
+  </plurals>
+  <string name="calendar_refresh">"Osvježi"</string>
   <string name="show_day_view">"Prikaži dan"</string>
   <string name="agenda_view">"Raspored"</string>
   <string name="day_view">"Dan"</string>
@@ -130,6 +156,7 @@
   <string name="preferences_home_tz_title">Domaća vremenska zona</string>
   <string name="preferences_show_week_num_title">Prikaži broj tjedna</string>
   <string name="preferences_about_title">O</string>
+  <string name="preferences_build_version_fmt">Verzija: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <string name="gadget_title">Kalendar</string>
   <string name="gadget_no_events">Nema skorih događaja kalendara</string>
   <string name="preferences_experimental_category">Eksperimentalno</string>

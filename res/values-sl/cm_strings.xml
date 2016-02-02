@@ -45,7 +45,7 @@
   <string name="update_available_ticker">Za Koledar je na voljo posodobitev</string>
   <string name="update_availalable_title">Na voljo je posodobitev</string>
   <string name="update_available_content">Tapnite, da namestite posodobitev</string>
-  <string name="error_no_app_store">Nobene primerne trgovine programov ni bilo najdene</string>
+  <string name="error_no_app_store">Nobene primerne trgovine aplikacij ni bilo najdene</string>
   <string name="tutorial_done_button">Končano</string>
   <string name="tutorial_skip_button">Preskoči</string>
   <string name="tutorial_welcome_title">Dobrodošli v Koledar</string>
@@ -63,6 +63,6 @@
   <string name="event_info_organizer">Urejevalnik</string>
   <string name="preferences_security_title">Varnost</string>
   <string name="preference_disable_screenshots">Onemogoči zaslonske slike</string>
-  <string name="preference_disable_screenshots_summary">Prepreči drugim programom zajem zaslonskih slik zaslonov programov</string>
+  <string name="preference_disable_screenshots_summary">Prepreči drugim aplikacijam zajem zaslonskih slik zaslonov programov</string>
   <string name="preferences_show_week_num_summary">Omogoči številke tednov v pogledu meseca</string>
 </resources>
