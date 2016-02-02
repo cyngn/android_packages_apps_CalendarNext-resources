@@ -105,6 +105,7 @@
   <string name="save_label">Efectuat</string>
   <string name="dismiss_all_label">"Renunțați la toate"</string>
   <string name="snooze_label">"Amânare"</string>
+  <string name="custom">"Personalizat (nu se poate personaliza pe telefon)"</string>
   <string name="modify_event">Modificați doar acest eveniment</string>
   <string name="modify_all">Modificați toate evenimentele din serie</string>
   <string name="modify_all_following">Modificați acest eveniment și pe toate cele viitoare</string>
@@ -164,4 +165,9 @@
   <string name="recurrence_end_continously">Întotdeauna</string>
   <string name="recurrence_end_date_label">Până la o anumită dată</string>
   <string name="recurrence_end_date">Până la <xliff:g id="date">%s</xliff:g></string>
+  <plurals name="recurrence_end_count">
+    <item quantity="one">Pentru <xliff:g id="event_count">%d</xliff:g> eveniment</item>
+    <item quantity="few">Pentru <xliff:g id="event_count">%d</xliff:g> evenimente</item>
+    <item quantity="other">Pentru <xliff:g id="event_count">%d</xliff:g> evenimente</item>
+  </plurals>
 </resources>

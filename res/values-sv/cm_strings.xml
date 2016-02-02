@@ -27,6 +27,8 @@
   <string name="hint_attendees">Bjud in personer</string>
   <string name="does_not_repeat">Upprepas inte</string>
   <string name="description_label">Lägg till anteckning</string>
+  <string name="availability_title">Skicka tillgänglighet</string>
+  <string name="create_invite_title">Skapa inbjudning</string>
   <string name="discard_dialog_title">Avbryt</string>
   <string name="discard_dialog_new_event_message">Är du säker på att du vill ta bort denna händelse?</string>
   <string name="discard_dialog_existing_event_message">Är du säker på att du vill ta bort förändringarna på denna händelse?</string>
@@ -37,6 +39,7 @@
   <string name="no_events_scheduled">Inga planerade händelser.</string>
   <string name="search_hint">Sök i kalender</string>
   <string name="appwidget_today_day_header">Inga händelser idag.</string>
+  <string name="appwidget_tomorrow_day_header">Imorgon, <xliff:g id="date" example="Tis, 8 Juli">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Inga kalendrar att synkronisera</string>
   <string name="empty_calendars_to_display">Inga kalendrar att visa</string>
   <string name="update_available_ticker">Det finns en uppdatering tillgänglig för Kalender</string>
@@ -45,7 +48,16 @@
   <string name="error_no_app_store">Ingen lämplig app-butik hittades</string>
   <string name="tutorial_done_button">Färdig</string>
   <string name="tutorial_skip_button">Hoppa över</string>
+  <string name="tutorial_welcome_title">Välkommen till Kalender</string>
   <string name="tutorial_welcome_subtitle">Ett vackert sätt att se ditt liv på.</string>
   <string name="tutorial_page1_title">Alla dina kalendrar</string>
+  <string name="tutorial_page2_title">Dela din tillgänglighet</string>
+  <string name="tutorial_page2_subtitle">Låt andra snabbt få veta när ni kan träffas.</string>
+  <string name="tutorial_page3_title">Flera vyer</string>
+  <string name="tutorial_end_title">Hämta e-post</string>
+  <string name="tutorial_end_button">Hämta Boxer e-post</string>
+  <string name="account_settings_tutorial_header_title">Visa användningsguide</string>
+  <string name="event_info_organizer">Organisatör</string>
   <string name="preferences_security_title">Säkerhet</string>
+  <string name="preference_disable_screenshots">Inaktivera skärmdumpar</string>
 </resources>
