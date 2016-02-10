@@ -39,6 +39,10 @@
     <item quantity="one">1 ден</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> дни</item>
   </plurals>
+  <plurals name="weekN">
+    <item quantity="one">Седмица <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="other">Седмица <xliff:g id="count">%d </xliff:g></item>
+  </plurals>
   <string name="calendar_refresh">"Опресняване"</string>
   <string name="show_day_view">"Показване на деня"</string>
   <string name="agenda_view">"График"</string>
@@ -96,7 +100,7 @@
   <string name="quick_response_settings_title">Редактиране на бърз отговор</string>
   <string name="quick_response_settings_edit_title">Бърз отговор</string>
   <string name="quick_response_dialog_title">Изберете бърз отговор</string>
-  <string name="quick_response_email_failed">Намирането на програма за електронна поща не бе успешно</string>
+  <string name="quick_response_email_failed">Не е намерена програма за електронна поща</string>
   <string-array name="quick_response_defaults">
     <item>Ще закъснея няколко минути.</item>
     <item>Ще пристигна след около 10 минути.</item>

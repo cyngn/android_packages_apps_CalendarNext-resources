@@ -18,9 +18,9 @@
   <string name="app_label">Kalender</string>
   <string name="today">Heute</string>
   <string name="tomorrow">Morgen</string>
-  <string name="today_at_time_fmt">"Heute, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="tomorrow_at_time_fmt">"Morgen, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+  <string name="today_at_time_fmt">"Heute, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="tomorrow_at_time_fmt">"Morgen, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
   <string name="repeats_label">Wiederholung</string>
   <string name="no_title_label">(Kein Titel)</string>
   <plurals name="Nminutes">
@@ -68,7 +68,7 @@
   <string name="saving_event">"Termin gespeichert"</string>
   <string name="empty_event">"Leerer Termin nicht erstellt"</string>
   <string name="creating_event_with_guest">"Einladungen werden gesendet."</string>
-  <string name="saving_event_with_guest">"Aktualisierungen werden gesendet."</string>
+  <string name="saving_event_with_guest">"Updates werden gesendet."</string>
   <string name="rsvp_accepted">"Zugesagt"</string>
   <string name="rsvp_tentative">"Vielleicht"</string>
   <string name="rsvp_declined">"Abgesagt"</string>
@@ -111,7 +111,7 @@
   <string name="agenda_today">Heute, <xliff:g id="DATE">%1$s</xliff:g></string>
   <string name="agenda_yesterday">Gestern, <xliff:g id="DATE">%1$s</xliff:g></string>
   <string name="agenda_tomorrow">Morgen, <xliff:g id="DATE">%1$s</xliff:g></string>
-  <string name="loading">Lädt\u2026</string>
+  <string name="loading">Wird geladen\u2026</string>
   <string name="show_older_events">Antippen für Termine vor dem <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
   <string name="show_newer_events">Antippen für Termine nach dem <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
   <string name="search_title">In meinen Kalendern suchen</string>
@@ -141,7 +141,7 @@
   <string name="preferences_clear_search_history_summary">Alle Suchen aus dem Verlauf entfernen</string>
   <string name="search_history_cleared">Suchverlauf gelöscht</string>
   <string name="preferences_alerts_title">Benachrichtigungen</string>
-  <string name="preferences_alerts_vibrateWhen_title">Vibration</string>
+  <string name="preferences_alerts_vibrateWhen_title">Vibrieren</string>
   <string name="preferences_alerts_ringtone_title">Töne</string>
   <string name="preferences_alerts_popup_title">Pop-up-Benachrichtigung</string>
   <string name="preferences_default_reminder_title">Standard-Erinnerungszeit</string>

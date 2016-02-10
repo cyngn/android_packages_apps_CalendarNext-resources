@@ -51,13 +51,18 @@
   <string name="tutorial_welcome_title">Välkommen till Kalender</string>
   <string name="tutorial_welcome_subtitle">Ett vackert sätt att se ditt liv på.</string>
   <string name="tutorial_page1_title">Alla dina kalendrar</string>
+  <string name="tutorial_page1_subtitle">Visa alla dina kalendrar och händelser på ett ställe.</string>
   <string name="tutorial_page2_title">Dela din tillgänglighet</string>
   <string name="tutorial_page2_subtitle">Låt andra snabbt få veta när ni kan träffas.</string>
   <string name="tutorial_page3_title">Flera vyer</string>
+  <string name="tutorial_page3_subtitle">Visa dina händelser det sätt som passar dig bäst.</string>
   <string name="tutorial_end_title">Hämta e-post</string>
+  <string name="tutorial_end_subtitle">Låsa upp kraftfulla funktioner genom att kombinera Boxer e-post och kalender.</string>
   <string name="tutorial_end_button">Hämta Boxer e-post</string>
   <string name="account_settings_tutorial_header_title">Visa användningsguide</string>
   <string name="event_info_organizer">Organisatör</string>
   <string name="preferences_security_title">Säkerhet</string>
   <string name="preference_disable_screenshots">Inaktivera skärmdumpar</string>
+  <string name="preference_disable_screenshots_summary">Förhindra att andra appar tar skärmdumpar av app skärmar</string>
+  <string name="preferences_show_week_num_summary">Aktivera veckonummer i månadsvyn</string>
 </resources>

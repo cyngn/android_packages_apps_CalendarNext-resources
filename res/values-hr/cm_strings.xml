@@ -27,14 +27,42 @@
   <string name="hint_attendees">Pozovi osobe</string>
   <string name="does_not_repeat">Ne ponavljaj</string>
   <string name="description_label">Dodaj bilješku</string>
+  <string name="availability_title">Raspoloživost slanja</string>
+  <string name="create_invite_title">Stvori poziv</string>
   <string name="discard_dialog_title">Poništi</string>
+  <string name="discard_dialog_new_event_message">Jeste li sigurni da želite odbaciti ovaj događaj?</string>
+  <string name="discard_dialog_existing_event_message">Jeste li sigurni da želite odbaciti promjene na ovaj događaj?</string>
   <string name="discard_dialog_positive_button_text">Zanemari</string>
+  <string name="discard_dialog_negative_button_text">Nastavi uređivanje</string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> prije</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> prije kao <xliff:g id="type" example="email">%s</xliff:g></string>
+  <string name="no_events_scheduled">Nema zakazanih događaja.</string>
   <string name="search_hint">Pretraživanje kalendara</string>
   <string name="appwidget_today_day_header">Danas nema događanja.</string>
+  <string name="appwidget_tomorrow_day_header">Sutra, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Nema kalendara za sinkronizaciju</string>
+  <string name="empty_calendars_to_display">Nema kalendara za prikaz</string>
+  <string name="update_available_ticker">Dostupno je ažuriranje za Kalendar</string>
+  <string name="update_availalable_title">Dostupno je ažuriranje</string>
+  <string name="update_available_content">Dodirnite za instaliranje ažuriranja</string>
+  <string name="error_no_app_store">Nije pronađena odgovarajuća aplikacija za trgovinu</string>
   <string name="tutorial_done_button">Gotovo</string>
   <string name="tutorial_skip_button">Preskoči</string>
   <string name="tutorial_welcome_title">Dobrodošli u Kalendar</string>
+  <string name="tutorial_welcome_subtitle">Prekrasan način da biste vidjeli svoj život.</string>
+  <string name="tutorial_page1_title">Svi vaši kalendari</string>
+  <string name="tutorial_page1_subtitle">Pregled svih vaših kalendara i događaja na jednom mjestu.</string>
+  <string name="tutorial_page2_title">Podijelite svoju dostupnost</string>
+  <string name="tutorial_page2_subtitle">Brzo obavijestite ostale kada se možete sresti.</string>
+  <string name="tutorial_page3_title">Više prikaza</string>
+  <string name="tutorial_page3_subtitle">Pregledaj svoje događaje na način koji je za vas najbolji.</string>
+  <string name="tutorial_end_title">Preuzimanje Email-a</string>
+  <string name="tutorial_end_subtitle">Otključaj moćne značajke kombinirajući Boxer E-poštu i Kalendar.</string>
+  <string name="tutorial_end_button">Preuzmi Boxer E-poštu</string>
+  <string name="account_settings_tutorial_header_title">Pogledaj tutorial</string>
   <string name="event_info_organizer">Organizator</string>
   <string name="preferences_security_title">Sigurnost</string>
+  <string name="preference_disable_screenshots">Onemogući snimke zaslona</string>
+  <string name="preference_disable_screenshots_summary">Spriječi druge aplikacije da uhvate snimak zaslona</string>
+  <string name="preferences_show_week_num_summary">Omogući brojeve tjedana u pregledu mjeseci</string>
 </resources>

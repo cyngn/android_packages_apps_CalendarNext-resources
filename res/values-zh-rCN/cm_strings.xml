@@ -64,5 +64,5 @@
   <string name="preferences_security_title">安全</string>
   <string name="preference_disable_screenshots">禁用截图</string>
   <string name="preference_disable_screenshots_summary">防止其他应用捕获应用截图</string>
-  <string name="preferences_show_week_num_summary">启用在月视图中的周数显示</string>
+  <string name="preferences_show_week_num_summary">启用月视图中的周数显示</string>
 </resources>

@@ -59,7 +59,7 @@
   <string name="tutorial_end_title">E-Mail herunterladen</string>
   <string name="tutorial_end_subtitle">Schalten Sie leistungsstarke Funktionen durch Kombination mit Boxer E-Mail und Kalender frei.</string>
   <string name="tutorial_end_button">Holen Sie sich Boxer E-Mail</string>
-  <string name="account_settings_tutorial_header_title">Anleitung anschauen</string>
+  <string name="account_settings_tutorial_header_title">Anleitung anzeigen</string>
   <string name="event_info_organizer">Organisator</string>
   <string name="preferences_security_title">Sicherheit</string>
   <string name="preference_disable_screenshots">Bildschirmfotos deaktivieren</string>
