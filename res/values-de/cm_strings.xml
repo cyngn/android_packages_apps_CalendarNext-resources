@@ -42,16 +42,16 @@
   <string name="appwidget_tomorrow_day_header">Morgen, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Keine zu synchronisierenden Kalender</string>
   <string name="empty_calendars_to_display">Keine anzuzeigenden Kalender</string>
-  <string name="update_available_ticker">Es ist ein Update für Kalender verfügbar</string>
+  <string name="update_available_ticker">Es ist ein Update für Kalender verfügbar.</string>
   <string name="update_availalable_title">Ein Update ist verfügbar</string>
   <string name="update_available_content">Tippen, um das Update zu installieren</string>
   <string name="error_no_app_store">Es wurde kein passender App-Store gefunden</string>
   <string name="tutorial_done_button">Fertig</string>
   <string name="tutorial_skip_button">Überspringen</string>
   <string name="tutorial_welcome_title">Willkommen bei Kalender</string>
-  <string name="tutorial_welcome_subtitle">Ein schöner Weg, sein Leben zu betrachten.</string>
+  <string name="tutorial_welcome_subtitle">Ein wunderbare Weise, Ihr Leben zu betrachten.</string>
   <string name="tutorial_page1_title">All Ihre Kalender</string>
-  <string name="tutorial_page1_subtitle">Betrachten Sie all Ihre Kalender und Termine an einem Ort.</string>
+  <string name="tutorial_page1_subtitle">Zeigen Sie all Ihre Kalender und Termine an einem Ort an.</string>
   <string name="tutorial_page2_title">Teilen Sie Ihre Verfügbarkeit</string>
   <string name="tutorial_page2_subtitle">Teilen Sie anderen schnell mit, wann Sie sich treffen können.</string>
   <string name="tutorial_page3_title">Mehrere Ansichten</string>
@@ -59,10 +59,10 @@
   <string name="tutorial_end_title">E-Mail herunterladen</string>
   <string name="tutorial_end_subtitle">Schalten Sie leistungsstarke Funktionen durch Kombination mit Boxer E-Mail und Kalender frei.</string>
   <string name="tutorial_end_button">Holen Sie sich Boxer E-Mail</string>
-  <string name="account_settings_tutorial_header_title">Anleitung anschauen</string>
+  <string name="account_settings_tutorial_header_title">Anleitung anzeigen</string>
   <string name="event_info_organizer">Organisator</string>
   <string name="preferences_security_title">Sicherheit</string>
   <string name="preference_disable_screenshots">Bildschirmfotos deaktivieren</string>
-  <string name="preference_disable_screenshots_summary">Andere Apps daran hindern Bildschirmfotos der App aufzunehmen</string>
+  <string name="preference_disable_screenshots_summary">Andere Apps daran hindern, Bildschirmfotos von App-Bildschirmen zu erstellen</string>
   <string name="preferences_show_week_num_summary">Kalenderwoche in der Monatsansicht anzeigen</string>
 </resources>

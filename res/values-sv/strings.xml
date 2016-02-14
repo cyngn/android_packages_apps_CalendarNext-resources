@@ -195,8 +195,8 @@
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> händelser</item>
   </plurals>
   <plurals name="N_remaining_events">
-    <item quantity="one">1 händelse</item>
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> händelser</item>
+    <item quantity="one">+1 händelse</item>
+    <item quantity="other">+<xliff:g id="count">%d</xliff:g> händelser</item>
   </plurals>
   <string name="acessibility_selected_marker_description">Markerad händelse</string>
   <string name="do_not_check">Markera INTE -&gt;</string>

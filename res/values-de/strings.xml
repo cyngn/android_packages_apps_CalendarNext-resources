@@ -18,9 +18,9 @@
   <string name="app_label">Kalender</string>
   <string name="today">Heute</string>
   <string name="tomorrow">Morgen</string>
-  <string name="today_at_time_fmt">"Heute, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="tomorrow_at_time_fmt">"Morgen, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+  <string name="today_at_time_fmt">"Heute, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="tomorrow_at_time_fmt">"Morgen, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
   <string name="repeats_label">Wiederholung</string>
   <string name="no_title_label">(Kein Titel)</string>
   <plurals name="Nminutes">
@@ -60,7 +60,7 @@
   <string name="synced"> synchronisiert</string>
   <string name="not_synced"> nicht synchronisiert</string>
   <string name="acct_not_synced">Dieses Konto wird nicht synchronisiert. Ihre Kalender sind eventuell nicht aktuell.</string>
-  <string name="accounts">Konten &amp; Synchronisierung</string>
+  <string name="accounts">Konten und Synchronisierung</string>
   <string name="select_synced_calendars_title">Zu synchronisierende Kalender</string>
   <string name="select_synced_calendars_button">Zu synchronisierende Kalender</string>
   <string name="hint_what">"Terminname"</string>
@@ -68,7 +68,7 @@
   <string name="saving_event">"Termin gespeichert"</string>
   <string name="empty_event">"Leerer Termin nicht erstellt"</string>
   <string name="creating_event_with_guest">"Einladungen werden gesendet."</string>
-  <string name="saving_event_with_guest">"Aktualisierungen werden gesendet."</string>
+  <string name="saving_event_with_guest">"Updates werden gesendet."</string>
   <string name="rsvp_accepted">"Zugesagt"</string>
   <string name="rsvp_tentative">"Vielleicht"</string>
   <string name="rsvp_declined">"Abgesagt"</string>
@@ -100,20 +100,20 @@
   <string name="quick_response_settings_title">Kurzantworten bearbeiten</string>
   <string name="quick_response_settings_edit_title">Kurzantwort</string>
   <string name="quick_response_dialog_title">Kurzantwort auswählen</string>
-  <string name="quick_response_email_failed">Es konnte kein E-Mail-Programm gefunden werden</string>
+  <string name="quick_response_email_failed">Es konnte kein E-Mail-Programm gefunden werden.</string>
   <string-array name="quick_response_defaults">
-    <item>Bin einige Minuten verspätet</item>
-    <item>Bin in etwa 10 Minuten da</item>
-    <item>Fangt ohne mich an</item>
+    <item>Ich werde mich ein paar Minuten verspäten.</item>
+    <item>Bin in etwa 10 Minuten da.</item>
+    <item>Fangt ohne mich an.</item>
     <item>Schaffe es leider nicht. Neuen Termin ausmachen?</item>
   </string-array>
   <string name="quick_response_custom_msg">Eigene Antwort schreiben\u2026</string>
-  <string name="agenda_today">Heute, <xliff:g id="DATE">%1$s</xliff:g></string>
-  <string name="agenda_yesterday">Gestern, <xliff:g id="DATE">%1$s</xliff:g></string>
-  <string name="agenda_tomorrow">Morgen, <xliff:g id="DATE">%1$s</xliff:g></string>
-  <string name="loading">Lädt\u2026</string>
-  <string name="show_older_events">Antippen für Termine vor dem <xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g></string>
-  <string name="show_newer_events">Antippen für Termine nach dem <xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g></string>
+  <string name="agenda_today">HEUTE, <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="agenda_yesterday">GESTERN, <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="agenda_tomorrow">MORGEN, <xliff:g id="date">%1$s</xliff:g></string>
+  <string name="loading">Wird geladen\u2026</string>
+  <string name="show_older_events">Antippen für Termine vor dem <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+  <string name="show_newer_events">Antippen für Termine nach dem <xliff:g id="newest_search_range">%1$s</xliff:g></string>
   <string name="search_title">In meinen Kalendern suchen</string>
   <string name="edit_event_label">"Details"</string>
   <string name="edit_label">"Bearbeiten"</string>
@@ -128,12 +128,12 @@
   <string name="new_event_dialog_label">"Neuer Termin"</string>
   <string name="new_event_dialog_option">"Neuer Termin"</string>
   <string name="delete_this_event_title">Diesen Termin löschen?</string>
-  <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> löschen?</string>
+  <string name="delete_recurring_event_title"><xliff:g id="eventtitle">%s</xliff:g> löschen?</string>
   <string name="change_response_title">Antwort ändern</string>
   <string name="menu_general_preferences">Allgemeine Einstellungen</string>
   <string name="preferences_title">"Einstellungen"</string>
   <string name="preferences_general_title">Einstellungen für Kalenderansicht</string>
-  <string name="preferences_reminder_title">Benachrichtigungen &amp; Erinnerungen</string>
+  <string name="preferences_reminder_title">Benachrichtigungen und Erinnerungen</string>
   <string name="preferences_hide_declined_title">Abgelehnte Termine ausblenden</string>
   <string name="preferences_week_start_day_title">Woche beginnt am</string>
   <string name="preferences_week_start_day_dialog">Woche beginnt am</string>
@@ -141,13 +141,13 @@
   <string name="preferences_clear_search_history_summary">Alle Suchen aus dem Verlauf entfernen</string>
   <string name="search_history_cleared">Suchverlauf gelöscht</string>
   <string name="preferences_alerts_title">Benachrichtigungen</string>
-  <string name="preferences_alerts_vibrateWhen_title">Vibration</string>
+  <string name="preferences_alerts_vibrateWhen_title">Vibrieren</string>
   <string name="preferences_alerts_ringtone_title">Töne</string>
   <string name="preferences_alerts_popup_title">Pop-up-Benachrichtigung</string>
   <string name="preferences_default_reminder_title">Standard-Erinnerungszeit</string>
   <string name="preferences_default_reminder_dialog">Standard-Erinnerungszeit</string>
   <string name="preferences_use_home_tz_title">Heimatzeitzone beibehalten</string>
-  <string name="preferences_use_home_tz_descrip">Zeigt unterwegs Kalender-/Terminzeiten in Heimatzeitzone an</string>
+  <string name="preferences_use_home_tz_descrip">Zeigt unterwegs Kalender-/Terminzeiten in Ihrer Heimatzeitzone an</string>
   <string name="preferences_home_tz_title">Heimatzeitzone</string>
   <string name="preferences_show_week_num_title">Wochennummer anzeigen</string>
   <string name="preferences_about_title">Über</string>
@@ -168,7 +168,7 @@
   <string name="preferences_reminders_quiet_hours_end">Ende der Ruhezeit</string>
   <string name="preferences_debug_category">Debugging</string>
   <string name="copy_db">Datenbank versenden</string>
-  <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> wird durchsucht\u2026</string>
+  <string name="directory_searching_fmt"><xliff:g id="domain">%s</xliff:g> wird durchsucht\u2026</string>
   <string name="accessibility_remove_attendee">Teilnehmer entfernen</string>
   <string name="accessibility_pick_start_date">Startdatum</string>
   <string name="accessibility_pick_start_time">Startzeit</string>
@@ -189,7 +189,7 @@
   <string name="acessibility_snooze_notification">Später erinnern</string>
   <string name="accessibility_email_notification">E-Mail an Gäste senden</string>
   <string name="day_view_new_event_hint">+ Neuer Termin</string>
-  <string name="template_announce_item_index">Termin <xliff:g id="ITEM_INDEX">%1$s</xliff:g> von <xliff:g id="ITEM_COUNT">%2$s</xliff:g></string>
+  <string name="template_announce_item_index">Termin <xliff:g id="item_index">%1$s</xliff:g> von <xliff:g id="item_count">%2$s</xliff:g>.</string>
   <plurals name="Nevents">
     <item quantity="one">1 Termin</item>
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> Termine</item>
@@ -219,7 +219,7 @@
   <string name="recurrence_month_pattern_by_day">am gleichen Tag des Monats</string>
   <string name="recurrence_end_continously">Dauerhaft</string>
   <string name="recurrence_end_date_label">Bis zu bestimmtem Datum</string>
-  <string name="recurrence_end_date">Bis <xliff:g id="DATE">%s</xliff:g></string>
+  <string name="recurrence_end_date">Bis <xliff:g id="date">%s</xliff:g></string>
   <string name="recurrence_end_count_label">Mehrere Wiederholungen</string>
   <plurals name="recurrence_end_count">
     <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> mal</item>

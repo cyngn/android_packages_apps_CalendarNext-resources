@@ -23,6 +23,11 @@
   <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
   <string name="repeats_label">Repetiție</string>
   <string name="no_title_label">(Fără titlu)</string>
+  <plurals name="Nmins">
+    <item quantity="one">1 min</item>
+    <item quantity="few"><xliff:g id="count">%d</xliff:g> min</item>
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> min</item>
+  </plurals>
   <plurals name="Nhours">
     <item quantity="one">1 oră</item>
     <item quantity="few"><xliff:g id="count">%d</xliff:g> ore</item>

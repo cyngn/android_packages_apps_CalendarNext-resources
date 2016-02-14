@@ -18,9 +18,9 @@
   <string name="app_label">Календарь</string>
   <string name="today">Сегодня</string>
   <string name="tomorrow">Завтра</string>
-  <string name="today_at_time_fmt">"Сегодня, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="tomorrow_at_time_fmt">"Завтра, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+  <string name="today_at_time_fmt">"Сегодня, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="tomorrow_at_time_fmt">"Завтра, <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
   <string name="repeats_label">Повторять</string>
   <string name="no_title_label">(Нет заголовка)</string>
   <plurals name="Nminutes">
