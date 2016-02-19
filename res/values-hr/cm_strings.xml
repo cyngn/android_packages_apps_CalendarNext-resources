@@ -29,7 +29,7 @@
   <string name="description_label">Dodaj bilješku</string>
   <string name="availability_title">Raspoloživost slanja</string>
   <string name="create_invite_title">Stvori poziv</string>
-  <string name="discard_dialog_title">Poništi</string>
+  <string name="discard_dialog_title">Odustani</string>
   <string name="discard_dialog_new_event_message">Jeste li sigurni da želite odbaciti ovaj događaj?</string>
   <string name="discard_dialog_existing_event_message">Jeste li sigurni da želite odbaciti promjene na ovaj događaj?</string>
   <string name="discard_dialog_positive_button_text">Zanemari</string>

@@ -122,7 +122,7 @@
   <string name="search_title">Pretraži moje kalendare</string>
   <string name="edit_event_label">"Detalji"</string>
   <string name="edit_label">"Uredi"</string>
-  <string name="delete_label">"Izbriši"</string>
+  <string name="delete_label">"Obriši"</string>
   <string name="save_label">Gotovo</string>
   <string name="dismiss_all_label">"Odbaci sve"</string>
   <string name="snooze_label">"Odgodi alarm"</string>

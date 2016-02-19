@@ -51,7 +51,7 @@
   <string name="tutorial_welcome_title">Добро пожаловать в Календарь</string>
   <string name="tutorial_welcome_subtitle">Отличный инструмент для планирования вашего распорядка жизни.</string>
   <string name="tutorial_page1_title">Все календари</string>
-  <string name="tutorial_page1_subtitle">Просматривайте все ваши календари и события в одном месте.</string>
+  <string name="tutorial_page1_subtitle">Просматривайте все свои календари и события в одном месте.</string>
   <string name="tutorial_page2_title">Информация о доступности</string>
   <string name="tutorial_page2_subtitle">Оперативно сообщайте другим пользователям о времени, когда вы можете с ними встретиться.</string>
   <string name="tutorial_page3_title">Множественное представление</string>

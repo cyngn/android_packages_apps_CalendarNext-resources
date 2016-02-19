@@ -43,9 +43,9 @@
     <item quantity="one">SEMAINE <xliff:g id="COUNT">%d</xliff:g></item>
     <item quantity="other">SEMAINE <xliff:g id="COUNT">%d</xliff:g></item>
   </plurals>
-  <string name="calendar_refresh">"Rafraîchir"</string>
+  <string name="calendar_refresh">"Actualiser"</string>
   <string name="show_day_view">"Afficher le jour"</string>
-  <string name="agenda_view">"Mon planning"</string>
+  <string name="agenda_view">"Programme"</string>
   <string name="day_view">"Jour"</string>
   <string name="week_view">"Semaine"</string>
   <string name="month_view">"Mois"</string>
