@@ -64,9 +64,9 @@
   <string name="empty_event">"空の予定は作成できません。"</string>
   <string name="creating_event_with_guest">"招待を送信します。"</string>
   <string name="saving_event_with_guest">"アップデートを送信します。"</string>
-  <string name="rsvp_accepted">"「はい」と返信しました。"</string>
-  <string name="rsvp_tentative">"「未定」と返信しました。"</string>
-  <string name="rsvp_declined">"「いいえ」と返信しました。"</string>
+  <string name="rsvp_accepted">"[はい]と返信しました。"</string>
+  <string name="rsvp_tentative">"[未定]と返信しました。"</string>
+  <string name="rsvp_declined">"[いいえ]と返信しました。"</string>
   <string name="create_event_dialog_save">保存</string>
   <string name="alert_title">カレンダーの通知</string>
   <string name="event_info_title">予定を表示</string>
@@ -75,7 +75,7 @@
   <string name="presence_label">外部向け表示</string>
   <string name="privacy_label">公開設定</string>
   <string name="no_syncable_calendars">カレンダーがありません</string>
-  <string name="no_calendars_found">予定を追加するには、端末に少なくとも1つのカレンダーアカウントを追加してカレンダーを表示できるようにする必要があります。アカウントを追加するには「アカウントを追加」 をタップします（アカウントを追加したばかりの場合は、同期の完了を待ってから再試行してください）。または「キャンセル」 をタップして、カレンダーが表示できるかどうかを確認してください。</string>
+  <string name="no_calendars_found">予定を追加するには、端末に少なくとも1つのカレンダーアカウントを追加してカレンダーを表示できるようにする必要があります。アカウントを追加するには[アカウントを追加]をタップします（アカウントを追加したばかりの場合は、同期の完了を待ってから再試行してください）。または[キャンセル]をタップして、カレンダーが表示できるかどうかを確認してください。</string>
   <string name="create_an_account_desc">"Googleアカウントがあればカレンダーをもっと活用できます。\n\n\u2022 どのウェブブラウザからでもアクセスできます\n\u2022 予定を安全にバックアップできます"</string>
   <string name="add_account">アカウントを追加</string>
   <string name="event_color_picker_dialog_title">予定の色</string>

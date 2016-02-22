@@ -66,7 +66,7 @@
   <string name="hint_what">"Terminname"</string>
   <string name="creating_event">"Termin erstellt"</string>
   <string name="saving_event">"Termin gespeichert"</string>
-  <string name="empty_event">"Leerer Termin nicht erstellt"</string>
+  <string name="empty_event">"Leerer Termin wurde nicht erstellt."</string>
   <string name="creating_event_with_guest">"Einladungen werden gesendet."</string>
   <string name="saving_event_with_guest">"Updates werden gesendet."</string>
   <string name="rsvp_accepted">"Zugesagt"</string>
@@ -111,9 +111,9 @@
   <string name="agenda_today">HEUTE, <xliff:g id="date">%1$s</xliff:g></string>
   <string name="agenda_yesterday">GESTERN, <xliff:g id="date">%1$s</xliff:g></string>
   <string name="agenda_tomorrow">MORGEN, <xliff:g id="date">%1$s</xliff:g></string>
-  <string name="loading">Wird geladen\u2026</string>
-  <string name="show_older_events">Antippen für Termine vor dem <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
-  <string name="show_newer_events">Antippen für Termine nach dem <xliff:g id="newest_search_range">%1$s</xliff:g></string>
+  <string name="loading">Laden\u2026</string>
+  <string name="show_older_events">Berühren für Termine vor dem <xliff:g id="oldest_search_range">%1$s</xliff:g></string>
+  <string name="show_newer_events">Berühren für Termine nach dem <xliff:g id="newest_search_range">%1$s</xliff:g></string>
   <string name="search_title">In meinen Kalendern suchen</string>
   <string name="edit_event_label">"Details"</string>
   <string name="edit_label">"Bearbeiten"</string>
@@ -201,19 +201,19 @@
   <string name="acessibility_selected_marker_description">Ausgewählter Termin</string>
   <string name="do_not_check">NICHT aktivieren -&gt;</string>
   <plurals name="recurrence_interval_daily">
-    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Tag</item>
+    <item quantity="one">Jeden Tag</item>
     <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Tage</item>
   </plurals>
   <plurals name="recurrence_interval_weekly">
-    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Woche</item>
+    <item quantity="one">Jede Woche</item>
     <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Wochen</item>
   </plurals>
   <plurals name="recurrence_interval_monthly">
-    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Monat</item>
+    <item quantity="one">Jeden Monat</item>
     <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Monate</item>
   </plurals>
   <plurals name="recurrence_interval_yearly">
-    <item quantity="one">Nach <xliff:g id="COUNT">%d</xliff:g> Jahr</item>
+    <item quantity="one">Jedes Jahr</item>
     <item quantity="other">Alle <xliff:g id="COUNT">%d</xliff:g> Jahre</item>
   </plurals>
   <string name="recurrence_month_pattern_by_day">am gleichen Tag des Monats</string>
@@ -222,8 +222,8 @@
   <string name="recurrence_end_date">Bis <xliff:g id="date">%s</xliff:g></string>
   <string name="recurrence_end_count_label">Mehrere Wiederholungen</string>
   <plurals name="recurrence_end_count">
-    <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g> mal</item>
-    <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g> mal</item>
+    <item quantity="one"><xliff:g id="EVENT_COUNT">%d</xliff:g>-mal</item>
+    <item quantity="other"><xliff:g id="EVENT_COUNT">%d</xliff:g>-mal</item>
   </plurals>
   <string name="acessibility_recurrence_choose_end_date_description">Enddatum ändern</string>
 </resources>

@@ -43,9 +43,9 @@
     <item quantity="one">SEMAINE <xliff:g id="COUNT">%d</xliff:g></item>
     <item quantity="other">SEMAINE <xliff:g id="COUNT">%d</xliff:g></item>
   </plurals>
-  <string name="calendar_refresh">"Rafraîchir"</string>
+  <string name="calendar_refresh">"Actualiser"</string>
   <string name="show_day_view">"Afficher le jour"</string>
-  <string name="agenda_view">"Mon planning"</string>
+  <string name="agenda_view">"Programme"</string>
   <string name="day_view">"Jour"</string>
   <string name="week_view">"Semaine"</string>
   <string name="month_view">"Mois"</string>
@@ -59,7 +59,8 @@
   <string name="select_visible_calendars_title">"Agendas à afficher"</string>
   <string name="synced">synchronisé</string>
   <string name="not_synced">non synchronisé</string>
-  <string name="acct_not_synced">Ce compte n\'est pas synchronisé. Il est possible que vos agendas ne soient pas à jour.</string>
+  <string name="acct_not_synced">Ce compte n\'est pas synchronisé. Il est possible que vos agendas
+        ne soient pas à jour.</string>
   <string name="accounts">Comptes et synchro</string>
   <string name="select_synced_calendars_title">Agendas à synchroniser</string>
   <string name="select_synced_calendars_button">Agendas à synchroniser</string>
@@ -69,9 +70,9 @@
   <string name="empty_event">"Événement vide non créé."</string>
   <string name="creating_event_with_guest">"Les invitations vont être envoyées."</string>
   <string name="saving_event_with_guest">"Les mises à jour vont être envoyées."</string>
-  <string name="rsvp_accepted">"A répondu \"Oui\"."</string>
-  <string name="rsvp_tentative">"A répondu \"Peut-être\"."</string>
-  <string name="rsvp_declined">"A répondu \"Non\"."</string>
+  <string name="rsvp_accepted">"A répondu « Oui »."</string>
+  <string name="rsvp_tentative">"A répondu « Peut-être »."</string>
+  <string name="rsvp_declined">"A répondu « Non »."</string>
   <string name="create_event_dialog_save">Enregistrer</string>
   <string name="alert_title">Notifications de l\'agenda</string>
   <string name="event_info_title">Afficher l\'événement</string>
@@ -79,8 +80,8 @@
   <string name="edit_event_all_day_label">Journée entière</string>
   <string name="presence_label">Ma disponibilité</string>
   <string name="privacy_label">Confidentialité</string>
-  <string name="no_syncable_calendars">Pas d\'agenda</string>
-  <string name="no_calendars_found">Avant d\'ajouter un événement, vous devez ajouter au moins un compte Google Agenda à votre appareil et activer la visibilité de cet agenda. Pour cela, appuyez sur \"Ajouter un compte\", ou sur \"Annuler\" si vous pensez qu\'au moins un agenda est activé (vérifiez que c\'est bien le cas). Si vous venez d\'ajouter un compte, patientez jusqu\'à la fin de la synchronisation, puis réessayez.</string>
+  <string name="no_syncable_calendars">Aucun agenda</string>
+  <string name="no_calendars_found">Avant d\'ajouter un événement, vous devez ajouter au moins un compte Agenda à votre appareil et activer la visibilité de cet agenda. Pour cela, appuyez sur Ajouter un compte (Si vous venez d\'ajouter un compte, patientez jusqu\'à la fin de la synchronisation, puis réessayez). Ou appuyez sur Annuler et assurez-vous qu\'au moins un agenda est visible.</string>
   <string name="create_an_account_desc">"Tirez le meilleur parti de Google Agenda en utilisant un compte Google.\n\n• Accédez-y depuis n'importe quel navigateur Web. \n• Sauvegardez vos événements en toute sécurité."</string>
   <string name="add_account">Ajouter un compte</string>
   <string name="event_color_picker_dialog_title">Couleur de l\'événement</string>

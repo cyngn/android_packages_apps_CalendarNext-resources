@@ -36,7 +36,7 @@
   <string name="discard_dialog_negative_button_text">Garder l\'édition</string>
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> avant</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> avant que<xliff:g id="type" example="email">%s</xliff:g></string>
-  <string name="no_events_scheduled">Aucun événement prévu.</string>
+  <string name="no_events_scheduled">Aucun événement programmé.</string>
   <string name="search_hint">Rechercher dans le calendrier</string>
   <string name="appwidget_today_day_header">Aucun événement aujourd\'hui.</string>
   <string name="appwidget_tomorrow_day_header">Demain, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
@@ -44,9 +44,9 @@
   <string name="empty_calendars_to_display">Aucun agenda à afficher</string>
   <string name="update_available_ticker">Une mise à jour est disponible pour l\'agenda</string>
   <string name="update_availalable_title">Une mise à jour est disponible</string>
-  <string name="update_available_content">Appuyez ici pour installer la mise à jour</string>
+  <string name="update_available_content">Appuyer pour installer la mise à jour</string>
   <string name="error_no_app_store">Aucune application de store n\'a été trouvée</string>
-  <string name="tutorial_done_button">Effectué</string>
+  <string name="tutorial_done_button">Terminé</string>
   <string name="tutorial_skip_button">Ignorer</string>
   <string name="tutorial_welcome_title">Bienvenue dans l\'agenda</string>
   <string name="tutorial_welcome_subtitle">Une belle manière de visualiser votre vie.</string>
@@ -57,8 +57,8 @@
   <string name="tutorial_page3_title">Vues multiples</string>
   <string name="tutorial_page3_subtitle">Afficher les événements à votre convenance.</string>
   <string name="tutorial_end_title">Télécharger l\'E-mail</string>
-  <string name="tutorial_end_subtitle">Déverrouiller des fonctionnalités puissantes en combinant Boxer Email avec l\'agenda.</string>
-  <string name="tutorial_end_button">Obtenir Boxer Email</string>
+  <string name="tutorial_end_subtitle">Déverrouiller des fonctionnalités puissantes en combinant le client mail Boxer avec l\'agenda.</string>
+  <string name="tutorial_end_button">Télécharger le client mail Boxer</string>
   <string name="account_settings_tutorial_header_title">Voir le tutoriel</string>
   <string name="event_info_organizer">Organisateur</string>
   <string name="preferences_security_title">Sécurité</string>

@@ -18,9 +18,9 @@
   <string name="app_label">Kalender</string>
   <string name="today">Idag</string>
   <string name="tomorrow">Imorgon</string>
-  <string name="today_at_time_fmt">"Idag kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="tomorrow_at_time_fmt">"Imorgon kl. <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
-  <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+  <string name="today_at_time_fmt">"Idag kl. <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="tomorrow_at_time_fmt">"Imorgon kl. <xliff:g id="time_interval">%s</xliff:g>"</string>
+  <string name="date_time_fmt">"<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>"</string>
   <string name="repeats_label">Upprepning</string>
   <string name="no_title_label">(Ingen titel)</string>
   <plurals name="Nminutes">

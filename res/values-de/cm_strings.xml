@@ -43,9 +43,9 @@
   <string name="empty_calendars_to_sync">Keine zu synchronisierenden Kalender</string>
   <string name="empty_calendars_to_display">Keine anzuzeigenden Kalender</string>
   <string name="update_available_ticker">Es ist ein Update für Kalender verfügbar.</string>
-  <string name="update_availalable_title">Ein Update ist verfügbar</string>
+  <string name="update_availalable_title">Ein Update ist verfügbar.</string>
   <string name="update_available_content">Tippen, um das Update zu installieren</string>
-  <string name="error_no_app_store">Es wurde kein passender App-Store gefunden</string>
+  <string name="error_no_app_store">Es wurde kein passender App-Store gefunden.</string>
   <string name="tutorial_done_button">Fertig</string>
   <string name="tutorial_skip_button">Überspringen</string>
   <string name="tutorial_welcome_title">Willkommen bei Kalender</string>
@@ -57,7 +57,7 @@
   <string name="tutorial_page3_title">Mehrere Ansichten</string>
   <string name="tutorial_page3_subtitle">Lassen Sie sich Termine so anzeigen, wie es Ihnen am besten passt.</string>
   <string name="tutorial_end_title">E-Mail herunterladen</string>
-  <string name="tutorial_end_subtitle">Schalten Sie leistungsstarke Funktionen durch Kombination mit Boxer E-Mail und Kalender frei.</string>
+  <string name="tutorial_end_subtitle">Schalten Sie leistungsstarke Funktionen frei, indem Sie Boxer E-Mail und Kalender kombinieren.</string>
   <string name="tutorial_end_button">Holen Sie sich Boxer E-Mail</string>
   <string name="account_settings_tutorial_header_title">Anleitung anzeigen</string>
   <string name="event_info_organizer">Organisator</string>
