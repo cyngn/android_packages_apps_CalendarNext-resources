@@ -16,25 +16,41 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"Calendare"</string>
   <string name="custom_event_color">Culoare eveniment</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">Culoare implicită</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">Participați?</string>
   <string name="new_event_more_options">mai multe opțiuni</string>
   <string name="preferences_alerts_silent_ringtone_title">Silențios</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">Adăugare locație</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">Adăugare notificare</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">Invitare persoane</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">Nu se repetă</string>
+  <!-- Label for the event description -->
   <string name="description_label">Adăugare notă</string>
+  <!-- Title for email availability -->
   <string name="availability_title">Trimite disponibilitatea</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">Creează invitație</string>
   <string name="discard_dialog_title">Anulare</string>
   <string name="discard_dialog_existing_event_message">Sunteți sigur că doriți să renunțați la modificările acestui eveniment?</string>
   <string name="discard_dialog_positive_button_text">Anulare</string>
   <string name="discard_dialog_negative_button_text">Continuați editarea</string>
   <string name="no_events_scheduled">Nu sunt evenimente programate.</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Căutare în calendar</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">Niciun eveniment azi.</string>
   <string name="appwidget_tomorrow_day_header">Mâine, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Nu există calendare de sincronizat</string>
@@ -45,8 +61,14 @@
   <string name="tutorial_skip_button">Omite</string>
   <string name="tutorial_welcome_subtitle">Un mod frumos de a-ți vedea viața.</string>
   <string name="tutorial_page1_title">Toate calendarele dvs.</string>
+  <string name="tutorial_page3_subtitle">Vedeți eventimentele dvs. în modul în care vă place cel mai mult.</string>
   <string name="tutorial_end_title">Descărcare email</string>
   <string name="account_settings_tutorial_header_title">Vezi tutorial</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">Organizator</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Securitate</string>
+  <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Dezactivare capturi de ecran</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
 </resources>

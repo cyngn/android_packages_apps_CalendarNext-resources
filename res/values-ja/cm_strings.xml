@@ -16,18 +16,32 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"カレンダー"</string>
   <string name="custom_event_color">予定の色</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">デフォルトの色</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">参加しますか？</string>
   <string name="new_event_more_options">その他のオプション</string>
   <string name="preferences_alerts_silent_ringtone_title">サイレント</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">場所を追加</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">通知を追加</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">招待</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">繰り返さない</string>
+  <!-- Label for the event description -->
   <string name="description_label">メモを追加</string>
+  <!-- Title for email availability -->
   <string name="availability_title">予定を送信</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">招待状を作成</string>
   <string name="discard_dialog_title">キャンセル</string>
   <string name="discard_dialog_new_event_message">この予定を破棄してもよろしいですか？</string>
@@ -37,7 +51,9 @@
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g>前</string>
   <string name="event_info_reminder_w_type"><xliff:g id="type" example="email">%s</xliff:g>で<xliff:g id="length" example="15 minutes">%s</xliff:g>前</string>
   <string name="no_events_scheduled">予定はありません。</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">カレンダーを検索</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">今日は予定はありません。</string>
   <string name="appwidget_tomorrow_day_header">明日<xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">同期するカレンダーがありません</string>
@@ -60,9 +76,13 @@
   <string name="tutorial_end_subtitle">Boxer EmailとBoxer Calendarを統合して便利な機能を解放します。</string>
   <string name="tutorial_end_button">Boxer Emailを入手</string>
   <string name="account_settings_tutorial_header_title">チュートリアルを表示</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">主催者</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">セキュリティ</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">スクリーンショットを無効化</string>
   <string name="preference_disable_screenshots_summary">アプリ画面のスクリーンショットを他のアプリがキャプチャできないように防止する</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">月表示で週数を有効にする</string>
 </resources>

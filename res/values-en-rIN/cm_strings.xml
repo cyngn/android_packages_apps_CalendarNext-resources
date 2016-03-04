@@ -16,18 +16,32 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"Calendars"</string>
   <string name="custom_event_color">Event color</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">Default color</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">Going?</string>
   <string name="new_event_more_options">more options</string>
   <string name="preferences_alerts_silent_ringtone_title">Silent</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">Add location</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">Add a notification</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">Invite people</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">Does not repeat</string>
+  <!-- Label for the event description -->
   <string name="description_label">Add note</string>
+  <!-- Title for email availability -->
   <string name="availability_title">Send availability</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">Create invite</string>
   <string name="discard_dialog_title">Cancel</string>
   <string name="discard_dialog_new_event_message">Are you sure you want to discard this event?</string>
@@ -37,7 +51,9 @@
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> before</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> before as <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">No events scheduled.</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Search calendar</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">No events today.</string>
   <string name="appwidget_tomorrow_day_header">Tomorrow, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">No calendars to sync</string>
@@ -60,9 +76,13 @@
   <string name="tutorial_end_subtitle">Unlock powerful features by combining Boxer Email and Calendar.</string>
   <string name="tutorial_end_button">Get Boxer Email</string>
   <string name="account_settings_tutorial_header_title">View tutorial</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">Organizer</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Security</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Disable screenshots</string>
   <string name="preference_disable_screenshots_summary">Prevent other apps from capturing screenshots of app screens</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">Enable week numbers in month view</string>
 </resources>

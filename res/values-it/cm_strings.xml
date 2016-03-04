@@ -16,18 +16,32 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"Calendari"</string>
   <string name="custom_event_color">Colore evento</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">Colore predefinito</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">Andrai?</string>
   <string name="new_event_more_options">Altre opzioni</string>
   <string name="preferences_alerts_silent_ringtone_title">Silenzioso</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">Aggiungi luogo</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">Aggiungi una notifica</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">Invita persone</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">Non ripetere</string>
+  <!-- Label for the event description -->
   <string name="description_label">Aggiungi nota</string>
+  <!-- Title for email availability -->
   <string name="availability_title">Invia disponibilità</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">Crea invito</string>
   <string name="discard_dialog_title">Annulla</string>
   <string name="discard_dialog_new_event_message">Vuoi eliminare questo evento?</string>
@@ -37,7 +51,9 @@
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> prima</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> prima come <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Nessun evento in programma.</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Cerca calendario</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">Nessun evento oggi.</string>
   <string name="appwidget_tomorrow_day_header">Domani, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Nessun calendario da sincronizzare</string>
@@ -60,9 +76,13 @@
   <string name="tutorial_end_subtitle">Sblocca potenti funzionalità combinando Boxer E-mail e Calendario.</string>
   <string name="tutorial_end_button">Ricevi Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Visualizza tutorial</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">Organizzatore</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Sicurezza</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Disattiva cattura schermata</string>
   <string name="preference_disable_screenshots_summary">Impedisci alle altre app l\'acquisizione di screenshot delle schermate di altre applicazioni</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">Attiva i numeri della settimana nella vista per mese</string>
 </resources>

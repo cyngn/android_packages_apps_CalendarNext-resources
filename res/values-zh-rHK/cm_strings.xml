@@ -16,13 +16,27 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
+  <!-- Label for button which sets event color to default calendar color -->
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">參加？</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">新增位置</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">新增通知</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">邀請他人</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">不重複</string>
+  <!-- Label for the event description -->
   <string name="description_label">新增備註</string>
+  <!-- Title for email availability -->
   <string name="availability_title">可傳送程度</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">建立邀請</string>
   <string name="discard_dialog_title">取消</string>
   <string name="discard_dialog_new_event_message">您確定想要放棄該事件？</string>
@@ -32,7 +46,9 @@
   <string name="event_info_reminder"><xliff:g id="length"example="15 minutes">%s</xliff:g> 之前</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length"example="15 minutes"> %s </xliff:g>之前透過<xliff:g id="type"example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">未安排任何事件。</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">搜尋日曆</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">今天沒有任何事件。</string>
   <string name="appwidget_tomorrow_day_header">明天，<xliff:g id="date"example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">沒有日曆同步</string>
@@ -54,5 +70,9 @@
   <string name="tutorial_end_subtitle">電子郵件助手和日曆相結合，解鎖強大的功能。</string>
   <string name="tutorial_end_button">獲取電子郵件助手</string>
   <string name="account_settings_tutorial_header_title">查看教學</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">主辦單位</string>
+  <!-- Security settings category -->
+  <!-- Preference for disabling screenshots of app screens. -->
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
 </resources>

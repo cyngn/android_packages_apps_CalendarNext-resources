@@ -16,18 +16,32 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"Kalendere"</string>
   <string name="custom_event_color">Begivenhedsfarve</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">Standardfarve</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">Deltager du?</string>
   <string name="new_event_more_options">flere muligheder</string>
   <string name="preferences_alerts_silent_ringtone_title">Lydløs</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">Tilføj placering</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">Tilføj en meddelelse</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">Inviter deltagere</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">Gentages ikke</string>
+  <!-- Label for the event description -->
   <string name="description_label">Tilføj note</string>
+  <!-- Title for email availability -->
   <string name="availability_title">Send tilgængelighed</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">Opret invitation</string>
   <string name="discard_dialog_title">Annuller</string>
   <string name="discard_dialog_new_event_message">Er du sikker på du vil slette denne begivenhed?</string>
@@ -37,7 +51,9 @@
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> før</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> før som <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Ingen planlagte begivenheder.</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Søg i kalender</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">Ingen begivenheder i dag.</string>
   <string name="appwidget_tomorrow_day_header">I morgen, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Ingen kalendere at synkronisere</string>
@@ -60,9 +76,13 @@
   <string name="tutorial_end_subtitle">Åben for stærke funktioner ved at kombinere Boxer E-mail og Kalender.</string>
   <string name="tutorial_end_button">Få Boxer E-mail</string>
   <string name="account_settings_tutorial_header_title">Se vejledning</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">Planlægningskalender</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Sikkerhed</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Deaktivér screenshots</string>
   <string name="preference_disable_screenshots_summary">Forhindre andre apps i at optage screenshots af app-skærme</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">Aktivér ugenumre i månedsvisningen</string>
 </resources>
