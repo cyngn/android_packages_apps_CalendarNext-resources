@@ -16,280 +16,514 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- This is the label underneath the icon for Calendar -->
+  <string name="app_label">கேலெண்டர்</string>
   <!-- Shared Labels. These labels are shared among the activities. -->
   <!-- Text to show when an event starts on the current day -->
+  <string name="today">இன்று</string>
   <!-- Text to show when an event starts on the next day -->
+  <string name="tomorrow">நாளை</string>
   <!-- Text for an event starting on the current day with a start and end time.
          For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+  <string name="today_at_time_fmt">"&quot;இன்று <xliff:g id="time_interval">%s</xliff:g>ல்&quot;"</string>
   <!-- Text for an event starting on the next day with a start and end time.
          For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+  <string name="tomorrow_at_time_fmt">"&quot;நாளை <xliff:g id="time_interval">%s</xliff:g>ல்&quot;"</string>
   <!-- Format string for a date and time description.  For ex:
          "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
+  <string name="date_time_fmt">"&quot;<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>&quot;"</string>
   <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
          for all the choices about how often an event repeats (including the choice
          of not repeating). -->
+  <string name="repeats_label">மீண்டும் நிகழ்த்துதல்</string>
   <!-- Title of event when no explicit title is specified by the user -->
+  <string name="no_title_label">(தலைப்பு இல்லை)</string>
   <!-- Reminder format strings -->
+  <plurals name="Nminutes">
+    <!-- This is the label for a 1-minute reminder. -->
+    <item quantity="one">1 நிமிடம்</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> நிமிடங்கள்</item>
+  </plurals>
   <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
          This is the number of minutes displayed for a calendar reminder.  For example,
          a reminder of 10 minutes would be displayed as '10 mins'.  The translation
          should use the shortest acceptable abbreviation to save space. -->
+  <plurals name="Nmins">
+    <!-- This is the label for a 1-minute reminder. -->
+    <item quantity="one">1 நிமி.</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> நிமிடங்கள்</item>
+  </plurals>
   <!-- This is the number of hours displayed for a calendar reminder.  For example,
          a reminder of 1 hour would be displayed as '1 hour'.  The translation
          should use the shortest acceptable abbreviation of 'hour' to save space. -->
+  <plurals name="Nhours">
+    <!-- This is the label for a 1-hour reminder. -->
+    <item quantity="one">1 மணிநேரம்</item>
+    <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> நேரங்கள்</item>
+  </plurals>
   <!-- This is the number of days displayed for a calendar reminder.  For example,
          a reminder of 2 days would be displayed as '2 days'.  The translation
          should use the shortest acceptable abbreviation of 'day' to save space. -->
+  <plurals name="Ndays">
+    <!-- This is the label for a reminder of 1 day. -->
+    <item quantity="one">1 நாள்</item>
+    <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> நாட்கள்</item>
+  </plurals>
   <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
   <!-- Menu items: -->
   <!-- This is a label on a context menu item. Pressing this menu item to initiate
         syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
+  <string name="calendar_refresh">"&quot;புதுப்பி&quot;"</string>
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Agenda view. -->
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Day view. -->
+  <string name="show_day_view">"&quot;நாளைக் காண்பி&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Agenda view. -->
+  <string name="agenda_view">"&quot;திட்டம்&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Day view. -->
+  <string name="day_view">"&quot;நாள்&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Week view. -->
+  <string name="week_view">"&quot;வாரம்&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Month view. -->
+  <string name="month_view">"&quot;மாதம்&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          details of an event. -->
+  <string name="event_view">"&quot;நிகழ்வைக் காட்டு&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to create a new event. -->
+  <string name="event_create">"&quot;புதிய நிகழ்வு&quot;"</string>
   <!-- This is a label on a menu item in a popup window. Pressing this menu
          item allows the user to edit or change an existing event. -->
+  <string name="event_edit">"&quot;நிகழ்வைத் திருத்து&quot;"</string>
   <!-- This is a label on a menu item in a popup window. Pressing this menu
          item allows the user to delete an existing event. -->
+  <string name="event_delete">"&quot;நிகழ்வை நீக்கு&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu
          item takes the user to the current day (today) in whatever view
          (Day view, Week view, Agenda view, Month view) they are currently in. -->
+  <string name="goto_today">"&quot;இன்று&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to see the list of calendars that he is viewing and to then add
          or remove selected calendars. -->
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to view and edit his Settings (or Preferences) -->
+  <string name="menu_preferences">"&quot;அமைப்புகள்&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
+  <string name="search">"&quot;தேடு&quot;"</string>
   <!-- Month view -->
   <!-- Select Visible Calendars activity -->
   <!-- Title of "My calendars" screen -->
+  <string name="select_visible_calendars_title">"&quot;காண்பிப்பதற்கான நாள்காட்டிகள்&quot;"</string>
   <!-- Synced and visible status message -->
   <!-- Synced but not visible status message -->
   <!-- not Synced or visible status message -->
   <!-- Synced status message displayed when the given calendar is stored/synced on the device
         [CHAR LIMIT=60] -->
+  <string name="synced"> ஒத்திசைக்கப்பட்டது</string>
   <!-- Not synced status message displayed when the given calendar is not stored/synced on the
         device [CHAR LIMIT=60] -->
+  <string name="not_synced"> ஒத்திசைக்கப்படவில்லை</string>
   <!-- Message displayed to user when an account with Calendars is not being auto-synced
         [CHAR LIMIT=120]-->
+  <string name="acct_not_synced">இந்தக் கணக்கு ஒத்திசைக்கப்படவில்லை, ஆகவே உங்கள் நாள்காட்டிகள் சமீபத்தியவையாக இல்லாமல் போகலாம்.</string>
   <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
+  <string name="accounts">கணக்குகள் &amp; ஒத்திசைவு</string>
   <!-- Select Synced Calendars activity -->
   <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+  <string name="select_synced_calendars_title">ஒத்திசைப்பதற்கான நாள்காட்டிகள்</string>
   <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+  <string name="select_synced_calendars_button">ஒத்திசைப்பதற்கான நாள்காட்டிகள்</string>
   <!-- Event edit activity -->
   <!-- The title of the screen where the user edits an event [CHAR LIMIT=17] -->
   <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
+  <string name="hint_what">"&quot;நிகழ்வின் பெயர்&quot;"</string>
   <!-- Toast message displayed when a new event is created -->
+  <string name="creating_event">"&quot;நிகழ்வு உருவாக்கப்பட்டது.&quot;"</string>
   <!-- Toast message displayed when an existing event is saved after being modified -->
+  <string name="saving_event">"&quot;நிகழ்வு சேமிக்கப்பட்டது.&quot;"</string>
   <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
+  <string name="empty_event">"&quot;வெறுமையான நிகழ்வு உருவாக்கப்படவில்லை.&quot;"</string>
   <!-- Toast message displayed when a new event with guests is created -->
+  <string name="creating_event_with_guest">"”அழைப்பு அனுப்பப்படும்.”"</string>
   <!-- Toast message displayed when an existing event with guests is saved after being modified -->
+  <string name="saving_event_with_guest">"“புதுப்பித்தல்கள் அனுப்பப்படும்.”"</string>
   <!-- Toast message displayed responding to an event from an email as accepted
      [CHAR LIMIT=50] -->
+  <string name="rsvp_accepted">"“ஆம் என்று பதிலளிக்கப்பட்டது.”"</string>
   <!-- Toast message displayed responding to an event from an email as tentative
      [CHAR LIMIT=50] -->
+  <string name="rsvp_tentative">"“ஒருவேளை என்று பதிலளிக்கப்பட்டது.”"</string>
   <!-- Toast message displayed responding to an event from an email as declined
      [CHAR LIMIT=50] -->
+  <string name="rsvp_declined">"“இல்லை என்று பதிலளிக்கப்பட்டது.”"</string>
   <!-- Title of message displayed to indicate available calendars are being loaded when creating
          a new event -->
   <!-- Body of message displayed to indicate available calendars are being loaded when creating
          a new event -->
   <!-- Create event dialog -->
   <!-- Create event dialog save button [CHAR LIMIT=10] -->
+  <string name="create_event_dialog_save">சேமி</string>
   <!-- The alert toast is not actually being displayed for some reason. -->
   <!-- the title of the alert/notification activity -->
+  <string name="alert_title">நாள்காட்டி அறிவிக்கைகள்</string>
   <!-- Notification window messages: -->
   <!-- Event info/edit screen labels:-->
   <!-- This is the title of the screen used to view the details of an event -->
+  <string name="event_info_title">நிகழ்வைக் காட்டு</string>
   <!-- This is the title of the screen used to view the details of an invitation
          to a meeting or event -->
+  <string name="event_info_title_invite">சந்திப்பு அழைப்பு</string>
   <!-- EditEventActivity specific strings: -->
   <!-- Check box label that specifies if this is an all-day event -->
+  <string name="edit_event_all_day_label">நாள் முழுவதும்</string>
   <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
          or 'available'  [CHAR LIMIT=15] -->
+  <string name="presence_label">என்னை இப்படிக் காண்பி</string>
   <!-- Label for the 'Privacy' of an event, which can be either 'private'
          or 'public' [CHAR LIMIT=15] -->
+  <string name="privacy_label">தனியுரிமை</string>
   <!-- Title of alert shown if the user tries to create an event and has no calendars -->
+  <string name="no_syncable_calendars">நாள்காட்டிகள் இல்லை</string>
   <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
+  <string name="no_calendars_found">நீங்கள் ஒரு நிகழ்வை சேர்ப்பதற்கு முன், நீங்கள் குறைந்தபட்சம் ஒரு நாள்காட்டி கணக்கை உங்கள் சாதனத்தோடு சேர்த்து ஒரு நாள்காட்டியை தெரியக்கூடியதாக மாற்ற வேண்டும் ஒரு கணக்கை சேர்க்க தொடுக கணக்கை சேர்(நீங்கள் ஒரு கணக்கை தற்போதுதான் சேர்த்திருந்தால், அது ஒத்திசைக்க காத்திருந்து மீண்டும் முயற்சிக்கவும்). அல்லது தொடுக ரத்துசெய் மற்றும் ஒரு நாள்காட்டியாவது தெரியும்படி உறுதிசெய்யவும்</string>
   <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+  <string name="create_an_account_desc">"&quot;நாள்காட்டி ஒரு Google கணக்குடன் இன்னும் நன்றாக வேலை செய்கிறது. \n\n\u2022 அதை எந்த வலை உலாவியிலிருந்தும் அணுகுங்கள்\n\u2022 உங்கள் நிகழ்வுகளை பாதுகாப்பாக மறுபிரதி எடுங்கள்&quot;"</string>
   <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
+  <string name="add_account">கணக்கைச் சேர்</string>
   <!-- View Event -->
   <!-- Title for event color picker dialog -->
+  <string name="event_color_picker_dialog_title">நிகழ்வின் நிறம்</string>
   <!-- Title for calendar color picker dialog -->
+  <string name="calendar_color_picker_dialog_title">நாள்காட்டி நிறம்</string>
   <!-- Description for calendar color squares, which bring up the color picker. -->
+  <string name="calendar_square_color_picker_description">நிறம் எடுப்பான்</string>
   <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
+  <string name="response_yes">அனுமதிக்கப்பட்டது</string>
   <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
+  <string name="response_maybe">இருக்கலாம்</string>
   <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
+  <string name="response_no">அனுமதிக்கப்படவில்லை</string>
   <!-- Label for emailing attendees -->
+  <string name="email_guests_label">விருந்தினர்களுக்கு மின்னஞ்சல் அனுப்பு</string>
   <!-- Label for emailing the organizer (when there are no attendees) -->
+  <string name="email_organizer_label">அமைப்பாளருக்கு மின்னஞ்சல் அனுப்பு</string>
   <!-- This is shown in the popup picker when emailing attendees -->
+  <string name="email_picker_label">இதனுடன் மின்னஞ்சல் அனுப்பு</string>
   <!-- The is shown in the email subject as the prefix appended to the event title -->
   <!-- Toast message displayed when the event id was not found LIMIT=30] -->
+  <string name="event_not_found">"&quot;நிகழ்வு கண்டறியப்படவில்லை.&quot;"</string>
   <!-- Notification label for getting a map of the location. -->
+  <string name="map_label">வரைபடம்</string>
   <!-- Notification label for calling a phone number in the location. -->
+  <string name="call_label">அழை</string>
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+  <string name="quick_response_settings">விரைவு பதில்கள்</string>
   <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
+  <string name="quick_response_settings_summary">விருந்தினர்களுக்கு மின்னஞ்சல் அனுப்பும்போது இயல்புநிலை பதில்களைத் திருத்து</string>
   <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+  <string name="quick_response_settings_title">விரைவு பதில்களைத் திருத்து</string>
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+  <string name="quick_response_settings_edit_title">விரைவு பதில்</string>
   <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
+  <string name="quick_response_dialog_title">விரைவு பதிலைத் தேர்வுசெய்</string>
   <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
+  <string name="quick_response_email_failed">ஒரு மின்னஞ்சல் நிரலைக் கண்டறிவதில் தோல்வியுற்றது</string>
   <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
+  <string-array name="quick_response_defaults">
+    <item>சில நிமிடங்கள் தாமதமாக வந்துகொண்டிருக்கிறேன்.</item>
+    <item>சுமார் 10 நிமிடங்களில் அங்கு இருப்பேன்.</item>
+    <item>நான் இல்லாமல் நிகழ்வைத் தொடங்குங்கள்.</item>
+    <item>மன்னிக்கவும், என்னால் வர இயலவில்லை. நாம் மறுதிட்டம் செய்ய வேண்டும்</item>
+  </string-array>
   <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
+  <string name="quick_response_custom_msg">உங்கள் சொந்தமாக எழுதவும்\u2026</string>
   <!-- Agenda View strings -->
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_today">இன்று - <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_yesterday">நேற்று - <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_tomorrow">நாளை - <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown while the calendar events are being loading to the screen. -->
+  <string name="loading">ஏற்றுகிறது...</string>
   <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
+  <string name="show_older_events"><xliff:g id="oldest_search_range">%1$s</xliff:g>க்கு முன்னதான நிகழ்வுகளைக் காண தொடு</string>
   <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
+  <string name="show_newer_events"><xliff:g id="newest_search_range">%1$s</xliff:g>க்கு பின்னான நிகழ்வுகளைக் காண தொடு</string>
   <!-- Search activity strings -->
   <!-- Title of the search screen [CHAR LIMIT=30] -->
+  <string name="search_title">எனது நாள்காட்டிகளைத் தேடு</string>
   <!-- Button labels: -->
   <!-- This is the title of a popup window that is displayed when the user
          edits a repeating event. [CHAR LIMIT=20]-->
+  <string name="edit_event_label">"&quot;விவரங்கள்&quot;"</string>
   <!-- This is a menu button for switching into edit mode when viewing an event.
         [CHAR LIMIT=10] -->
+  <string name="edit_label">"&quot;திருத்து&quot;"</string>
   <!-- The button label for deleting an event -->
+  <string name="delete_label">"&quot;நீக்கு&quot;"</string>
   <!-- A menu item for deleting an event -->
   <!-- The button label for saving an event -->
+  <string name="save_label">முடிந்தது</string>
   <!-- Button labels on expanded notification reminders: -->
   <!-- The button label for dismissing all the current reminder alarms. This
          causes them to disappear from the notification screen. -->
+  <string name="dismiss_all_label">"&quot;அனைத்தையும் நீக்கு&quot;"</string>
   <!-- The button label for making the reminder alarms go away temporarily
          and re-fire in 5 minutes. [CHAR LIMIT=12]-->
+  <string name="snooze_label">"&quot;ஒத்திவை&quot;"</string>
   <!-- Repetition dialog options: -->
   <!-- This is a label for telling the user that this event repeats in
          custom (non-standard) way from the usual repeat rates (such as daily,
          weekly, etc.) and that the user cannot change this on the phone
          (but only on the web). -->
+  <string name="custom">"&quot;தனிப்பயனாக்குதல் (சாதனத்தில் தனிப்பயனாக்க முடியாது)&quot;"</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change just this one instance
          of this repeating event. -->
+  <string name="modify_event">இந்த நிகழ்வை மட்டும் மாற்று</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change all occurrences of
          this repeating event. -->
+  <string name="modify_all">இந்த வரிசையில் உள்ள அனைத்து நிகழ்வுகளையும் மாற்று</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change this instance and all
          future occurrences of this repeating event. -->
+  <string name="modify_all_following">இதை மற்றும் அனைத்து எதிர்கால நிகழ்வுகளையும் மாற்று</string>
   <!-- Dialogs -->
   <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
+  <string name="new_event_dialog_label">"&quot;புதிய நிகழ்வு&quot;"</string>
   <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
+  <string name="new_event_dialog_option">"&quot;புதிய நிகழ்வு&quot;"</string>
   <!-- Confirmation dialog message -->
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event. The user still has a chance to cancel
          this operation. -->
+  <string name="delete_this_event_title">இந்த நிகழ்வை நீக்கவா?</string>
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event that is recurring. The user still has a chance to cancel
          this operation. -->
+  <string name="delete_recurring_event_title">நீக்கு <xliff:g id="eventtitle">%s</xliff:g>?</string>
   <!-- This is the title of a popup dialog that asks for confirmation before
          changing the response to an invitation. -->
+  <string name="change_response_title">பதிலை மாற்று</string>
   <!-- This the title of a menu for General Preferences.
          Pressing the menu item lets user to view and edit his general settings
          (or preferences) [CHAR LIMIT=30] -->
+  <string name="menu_general_preferences">பொது அமைப்பு</string>
   <!-- This is the title of the screen for setting user preferences. -->
+  <string name="preferences_title">"&quot;அமைப்புகள்&quot;"</string>
   <!-- This is the title of a section in the Settings screen for settings
          related to viewing calendar events -->
+  <string name="preferences_general_title">நாள்காட்டி காட்சி அமைப்பு</string>
   <!-- This is the title of a section in the Settings screen for settings
          related to reminders for calendar events -->
+  <string name="preferences_reminder_title">அறிவிப்புகள்\u0026 நினைவூட்டிகள்</string>
   <!-- Settings check box label to hide events that the user has declined to attend -->
+  <string name="preferences_hide_declined_title">நிராகரித்த நிகழ்வுகளை மறை</string>
   <!-- Settings week start label to start week on specific day-->
+  <string name="preferences_week_start_day_title">வாரம் இதில் தொடங்குகிறது</string>
   <!-- Title of popup for week start day setting-->
+  <string name="preferences_week_start_day_dialog">வாரம் இதில் தொடங்குகிறது</string>
   <!-- DO NOT TRANSLATE -->
   <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
+  <string name="preferences_clear_search_history_title">தேடல் வரலாற்றை அழி</string>
   <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
+  <string name="preferences_clear_search_history_summary">நீங்கள் செய்த அனைத்து தேடல்களையும் அகற்றவும்</string>
   <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
+  <string name="search_history_cleared">தேடல் வரலாறு அழிக்கப்பட்டது.</string>
   <!-- Settings check box label to enable or disable notifications -->
+  <string name="preferences_alerts_title">அறிவிப்புகள்</string>
   <!-- Settings dialog label that specifies when the phone should vibrate -->
+  <string name="preferences_alerts_vibrateWhen_title">அதிர்வு</string>
   <!-- The old value for enabling vibration. used only for migrating -->
   <!-- Title of ringtone selector dialog -->
+  <string name="preferences_alerts_ringtone_title">ஒலி</string>
   <!-- Title of check box label to enable or disable pop-up notifications -->
+  <string name="preferences_alerts_popup_title">மேல் விரி அறிவிக்கை</string>
   <!-- List item label for setting the default number of reminder minutes -->
+  <string name="preferences_default_reminder_title">இயல்புநிலை நினைவூட்டி நேரம்</string>
   <!-- Title of dialog for setting the default number of reminder minutes -->
+  <string name="preferences_default_reminder_dialog">இயல்புநிலை நினைவூட்டி நேரம்</string>
   <!-- Default value for the number of reminder minutes -->
   <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
+  <string name="preferences_use_home_tz_title">முகப்பு நேர மண்டலத்தைப் பயன்படுத்து</string>
   <!-- Settings description of what setting Calendar to use a fixed 'home' time
         zone does [CHAR LIMIT = 60]-->
+  <string name="preferences_use_home_tz_descrip">பயணம் செய்யும்போது உங்கள் முகப்பு நேர மண்டலத்தில் உள்ள நாள்காட்டிகள் மற்றும் நிகழ்வு நேரங்களைக் காண்பிக்கிறது</string>
   <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
+  <string name="preferences_home_tz_title">முகப்பு நேர மண்டலம்</string>
   <!-- DO NOT TRANSLATE -->
   <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_title">வார எண்ணைக் காண்பி</string>
   <!-- This is the title of a section in the Settings screen for "About" this application -->
+  <string name="preferences_about_title">இதுபற்றி</string>
   <!-- Build version of the application -->
+  <string name="preferences_build_version_fmt">உறுப்புப் பதிப்பு: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <!-- Widget -->
   <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+  <string name="gadget_title">கேலெண்டர்</string>
   <!-- Shown in month view next to event icon when additional events exist for that day, but no
         room remaining -->
+  <plurals name="month_more_events">
+    <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
+    <item quantity="one">"&quot;+1&quot;"</item>
+    <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
+    <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
+  </plurals>
   <!-- Caption to show on gadget when there are no upcoming calendar events -->
+  <string name="gadget_no_events">எதிர்வரும் நாள்காட்டி நிகழ்வுகள் இல்லை</string>
   <!-- Text to show on gadget when an event is currently in progress -->
   <!-- Text to show on gadget when an all-day event is in progress -->
   <!-- DO NOT TRANSLATE -->
   <!-- Experimental settings [CHAR LIMIT = 30]-->
+  <string name="preferences_experimental_category">பரிசோதனைக்குரிய</string>
   <!-- Reminders settings [CHAR LIMIT = 30]-->
+  <string name="preferences_reminders_category">நினைவூட்டல்கள்</string>
   <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
+  <string name="preferences_reminders_responded_label">நினைவூட்டிகளைத் தவிர்</string>
   <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
+  <string name="preferences_reminders_responded_dialog">நினைவூட்டிகளைத் தவிர்</string>
   <!-- Preference label for quiet hours [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_label">அமைதி மணிநேரங்கள்</string>
   <!-- Preference description for quiet hours [CHAR LIMIT = NONE]-->
+  <string name="preferences_reminders_quiet_hours_description">குறிப்பிட்ட நேரத்தில் அமைதி நிகழ்வு நினைவூட்டிகள்.</string>
   <!-- Preference label for quiet hours start time [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_start">அமைதி மணிநேரங்கள் தொடக்க நேரம்</string>
   <!-- Preference label for quiet hours end time [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_end">அமைதி மணிநேரங்கள் முடிவு நேரம்</string>
   <!-- Preferences used for debugging purposes [CHAR LIMIT = 30]-->
+  <string name="preferences_debug_category">பிழைத்திருத்தம்</string>
   <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
+  <string name="copy_db">தரவுத்தளத்தை அனுப்பு</string>
   <!-- Displayed in email address autocomplete list when searching for contacts
          in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
+  <string name="directory_searching_fmt">தேடுகிறது<xliff:g id="domain">%s</xliff:g>...</string>
   <!-- Accessibility Events -->
   <!-- Strings that describes actions for buttons without text -->
   <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
   <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_remove_attendee">பங்கேற்பாளரை அகற்று</string>
   <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_start_date">தொடக்கத் தேதி</string>
   <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_start_time">தொடக்க நேரம்</string>
   <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_end_date">முடிவுத் தேதி</string>
   <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_end_time">முடிவு நேரம்</string>
   <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_time_zone">நேர மண்டலம்</string>
   <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_recurrence">நிகழ்வை திரும்பச்செய்</string>
   <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_add_reminder">நினைவூட்டியைச் சேர்</string>
   <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_remove_reminder">நினைவூட்டியை அகற்று</string>
   <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_add_attendee">பங்கேற்பாளரைச் சேர்</string>
   <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+  <string name="accessibility_sync_cal">நாள்காட்டியை ஒத்திசை</string>
   <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
+  <string name="accessibility_all_day">நாள் முழுவதற்குமான நிகழ்வு</string>
   <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
   <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_time">நினைவூட்டி நேரம்</string>
   <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_type">நினைவூட்டி வகை</string>
   <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_showmeas">என்னை இப்படிக் காண்பி</string>
   <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_privacy">தனியுரிமை</string>
   <!-- Calendar notification [CHAR LIMIT = NONE]-->
+  <string name="acessibility_cal_notification">நாள்காட்டி அறிவிக்கை</string>
   <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
+  <string name="acessibility_snooze_notification">அறிவிக்கையை ஒத்திவை</string>
   <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
+  <string name="accessibility_email_notification">விருந்தினர்களுக்கு மின்னஞ்சல் அனுப்பு</string>
   <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
+  <string name="day_view_new_event_hint">+ புதிய நிகழ்வு</string>
   <!--
       Source: A value for announcing the current event index (example: "Event 2 of 6").
       Description: This is spoken to the user. [CHAR LIMIT="NONE"]
     -->
+  <string name="template_announce_item_index">நிகழ்வு<xliff:g id="item_index"> %2$s</xliff:g>இல் <xliff:g id="item_count">%1$s</xliff:g></string>
   <!-- number of events in the notification bar -->
+  <plurals name="Nevents">
+    <!-- This is the label for a 1 event. -->
+    <item quantity="one">1 நிகழ்வு</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> நிகழ்வுகள்</item>
+  </plurals>
   <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
+  <plurals name="N_remaining_events">
+    <!-- This is the label for 1 event. -->
+    <item quantity="one">+1 நிகழ்வு</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other">+%D<xliff:g id="count">%d</xliff:g> நிகழ்வுகள்</item>
+  </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+  <string name="acessibility_selected_marker_description">தேர்ந்தெடுத்த நிகழ்வு</string>
   <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+  <string name="do_not_check">சரிபார்க்காதே -&gt;</string>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+  <plurals name="recurrence_interval_daily">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> நாள்</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> நாட்கள்</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+  <plurals name="recurrence_interval_weekly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> வாரம்</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> வாரங்கள்</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+  <plurals name="recurrence_interval_monthly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> மாதம்</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> மாதங்கள்</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+  <plurals name="recurrence_interval_yearly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> வருடம்</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ஒவ்வொரு <xliff:g id="count">%d</xliff:g> வருடங்கள்</item>
+  </plurals>
   <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
+  <string name="recurrence_month_pattern_by_day">ஒவ்வொரு மாதமும் அதே நாளில்</string>
   <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
+  <string name="recurrence_end_continously">எப்போதைக்கும்</string>
   <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
+  <string name="recurrence_end_date_label">குறிப்பிட்ட ஒரு தேதி வரை</string>
   <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
+  <string name="recurrence_end_date"><xliff:g id="date">%s</xliff:g> வரை</string>
   <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
+  <string name="recurrence_end_count_label">குறிப்பிட்ட எண்ணிக்கையிலான நிகழ்வுகளுக்கு</string>
   <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
+  <plurals name="recurrence_end_count">
+    <item quantity="one"><xliff:g id="event_count">%d</xliff:g> நிகழ்வுக்கு</item>
+    <item quantity="other"><xliff:g id="event_count">%d</xliff:g> நிகழ்வுகளுக்கு</item>
+  </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+  <string name="acessibility_recurrence_choose_end_date_description">முடிவுத் தேதியை மாற்று</string>
   <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
 </resources>

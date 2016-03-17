@@ -85,7 +85,7 @@
   <!-- Menu items: -->
   <!-- This is a label on a context menu item. Pressing this menu item to initiate
         syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
-  <string name="calendar_refresh">"רענן"</string>
+  <string name="calendar_refresh">"רענון"</string>
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Agenda view. -->
   <!-- This is a label on a context menu item. Pressing this menu item displays the
@@ -167,13 +167,13 @@
   <string name="saving_event_with_guest">"העדכונים יישלחו."</string>
   <!-- Toast message displayed responding to an event from an email as accepted
      [CHAR LIMIT=50] -->
-  <string name="rsvp_accepted">"השבת \"כן\"."</string>
+  <string name="rsvp_accepted">"ענית \"כן\"."</string>
   <!-- Toast message displayed responding to an event from an email as tentative
      [CHAR LIMIT=50] -->
-  <string name="rsvp_tentative">"השבת \"לא\"."</string>
+  <string name="rsvp_tentative">"ענית \"לא\"."</string>
   <!-- Toast message displayed responding to an event from an email as declined
      [CHAR LIMIT=50] -->
-  <string name="rsvp_declined">"השבת \"אולי\"."</string>
+  <string name="rsvp_declined">"ענית \"אולי\"."</string>
   <!-- Title of message displayed to indicate available calendars are being loaded when creating
          a new event -->
   <!-- Body of message displayed to indicate available calendars are being loaded when creating
@@ -183,7 +183,7 @@
   <string name="create_event_dialog_save">שמור</string>
   <!-- The alert toast is not actually being displayed for some reason. -->
   <!-- the title of the alert/notification activity -->
-  <string name="alert_title">התראת לוח שנה</string>
+  <string name="alert_title">התראות לוח שנה</string>
   <!-- Notification window messages: -->
   <!-- Event info/edit screen labels:-->
   <!-- This is the title of the screen used to view the details of an event -->
@@ -205,7 +205,7 @@
   <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
   <string name="no_calendars_found">‏לפני שתוכל להוסיף אירוע, עליך להוסיף למכשיר לפחות חשבון \"יומן Google\" אחד ולהגדיר לוח שנה אחד כגלוי. גע באפשרות \"הוסף חשבון\" כדי להוסיף חשבון (אם זה עתה הוספת חשבון, המתן להשלמת תהליך הסנכרון שלו ונסה שוב). לחלופין, גע באפשרות \"ביטול\" וודא שלפחות לוח שנה אחד מוגדר כגלוי.</string>
   <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
-  <string name="create_an_account_desc">"לוח השנה עובד טוב יותר עם חשבון Google‏.\n\n• גישה מכל דפדפן אינטרנט\n• גיבוי האירועים באופן מאובטח"</string>
+  <string name="create_an_account_desc">"לוח השנה פועל טוב יותר עם חשבון Google‏.\n\n• גישה מכל דפדפן אינטרנט\n• גיבוי האירועים באופן מאובטח"</string>
   <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
   <string name="add_account">הוסף חשבון</string>
   <!-- View Event -->
@@ -224,7 +224,7 @@
   <!-- Label for emailing attendees -->
   <string name="email_guests_label">שלח דוא\"ל לאורחים</string>
   <!-- Label for emailing the organizer (when there are no attendees) -->
-  <string name="email_organizer_label">שלח דוא\"ל למארגן</string>
+  <string name="email_organizer_label">שלח דוא\"ל לסדרן</string>
   <!-- This is shown in the popup picker when emailing attendees -->
   <string name="email_picker_label">שלח דוא\"ל באמצעות</string>
   <!-- The is shown in the email subject as the prefix appended to the event title -->
@@ -282,7 +282,7 @@
   <string name="delete_label">"מחק"</string>
   <!-- A menu item for deleting an event -->
   <!-- The button label for saving an event -->
-  <string name="save_label">סיום</string>
+  <string name="save_label">בוצע</string>
   <!-- Button labels on expanded notification reminders: -->
   <!-- The button label for dismissing all the current reminder alarms. This
          causes them to disappear from the notification screen. -->
@@ -321,7 +321,7 @@
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event that is recurring. The user still has a chance to cancel
          this operation. -->
-  <string name="delete_recurring_event_title">האם למחוק את <xliff:g id="eventtitle">%s</xliff:g>?</string>
+  <string name="delete_recurring_event_title">למחוק את <xliff:g id="eventtitle">%s</xliff:g>?</string>
   <!-- This is the title of a popup dialog that asks for confirmation before
          changing the response to an invitation. -->
   <string name="change_response_title">שנה תגובה</string>
@@ -360,9 +360,9 @@
   <!-- Title of check box label to enable or disable pop-up notifications -->
   <string name="preferences_alerts_popup_title">התראה קופצת</string>
   <!-- List item label for setting the default number of reminder minutes -->
-  <string name="preferences_default_reminder_title">ברירת מחדל של מועד תזכורת</string>
+  <string name="preferences_default_reminder_title">ברירת מחדל למועד תזכורת</string>
   <!-- Title of dialog for setting the default number of reminder minutes -->
-  <string name="preferences_default_reminder_dialog">ברירת מחדל של מועד תזכורת</string>
+  <string name="preferences_default_reminder_dialog">ברירת מחדל למועד תזכורת</string>
   <!-- Default value for the number of reminder minutes -->
   <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
   <string name="preferences_use_home_tz_title">השתמש באזור הזמן המקומי</string>
@@ -377,7 +377,7 @@
   <!-- This is the title of a section in the Settings screen for "About" this application -->
   <string name="preferences_about_title">אודות</string>
   <!-- Build version of the application -->
-  <string name="preferences_build_version_fmt">גרסת בנייה: <xliff:g id="version" example="1.0">%s</xliff:g></string>
+  <string name="preferences_build_version_fmt">גרסת תוכנה: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <!-- Widget -->
   <!-- Title for calendar gadget when displayed in list of all other gadgets -->
   <string name="gadget_title">לוח שנה</string>
@@ -514,7 +514,7 @@
     <item quantity="other">כל <xliff:g id="count">%d</xliff:g> שנים</item>
   </plurals>
   <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
-  <string name="recurrence_month_pattern_by_day">באותו יום בכל חודש</string>
+  <string name="recurrence_month_pattern_by_day">באותו היום בכל חודש</string>
   <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
   <string name="recurrence_end_continously">לתמיד</string>
   <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
@@ -529,6 +529,6 @@
     <item quantity="other">עבור <xliff:g id="event_count">%d</xliff:g> אירועים</item>
   </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
-  <string name="acessibility_recurrence_choose_end_date_description">שנה תאריך הסיום</string>
+  <string name="acessibility_recurrence_choose_end_date_description">שנה תאריך סיום</string>
   <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
 </resources>

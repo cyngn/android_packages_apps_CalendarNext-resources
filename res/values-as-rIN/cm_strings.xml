@@ -18,22 +18,71 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
+  <string name="menu_select_visible_calendars">"&quot;কেলেণ্ডাৰ”"</string>
+  <string name="custom_event_color">ইভেণ্ট ৰং</string>
   <!-- Label for button which sets event color to default calendar color -->
+  <string name="event_color_set_to_default">ডিফ\'ল্ট ৰং</string>
   <!-- Label for whether the user is attending this event. This is shown when
          a user is invited to a meeting or event.  The possible answers are
          'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
+  <string name="view_event_response_label">গৈাছে?</string>
+  <string name="new_event_more_options">অধিক বিকল্পসমূহ</string>
+  <string name="preferences_alerts_silent_ringtone_title">ছাইলেণ্ট</string>
   <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
+  <string name="hint_where">অৱস্থান যোগ কৰক</string>
   <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
+  <string name="reminders_label">এটা অধিসূচনা যোগ কৰক</string>
   <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
+  <string name="hint_attendees">ব্যক্তিসকলক নিমন্ত্ৰণ জনাওক</string>
   <!-- A label in a multiple-choice list for the specifying that an event does
          not repeat -->
+  <string name="does_not_repeat">পুনৰাবৃত্তি নহয়</string>
   <!-- Label for the event description -->
+  <string name="description_label">টোকা যোগ দিয়ক</string>
   <!-- Title for email availability -->
+  <string name="availability_title">উপলব্ধতা প্ৰেৰণ কৰক</string>
   <!-- Title for email create invite -->
+  <string name="create_invite_title">আমন্ত্ৰণ সৃষ্টি কৰক</string>
+  <string name="discard_dialog_title">নাকচ</string>
+  <string name="discard_dialog_new_event_message">এই ইভেণ্টটো আপুনি অগ্ৰাহ্য কৰিব বিচাৰে নে?</string>
+  <string name="discard_dialog_existing_event_message">আপুনি নিশ্চিত নে এই ইভেণ্টটোৰ পৰিবৰ্তনবোৰ আপুনি অগ্ৰাহ্য কৰিব বিচাৰে?</string>
+  <string name="discard_dialog_positive_button_text">আঁতৰাই দিয়া</string>
+  <string name="discard_dialog_negative_button_text">সম্পাদনা কৰি থাকক</string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> আগতে</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="type" example="email">%s</xliff:g> হিচাপে <xliff:g id="length" example="15 minutes">%s</xliff:g> আগতে</string>
+  <string name="no_events_scheduled">কোনো ইভেণ্ট অনুসূচীত কৰা নাই।</string>
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
+  <string name="search_hint">কেলেণ্ডাৰ বিচাৰক</string>
   <!-- Appwidget header used when there are n events today. -->
+  <string name="appwidget_today_day_header">আজি কোনো ইভেণ্ট নাই</string>
+  <string name="appwidget_tomorrow_day_header">অহাকালি, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">সকালীকৄত কৰিবলৈ কেলেণ্ডাৰ নাই</string>
+  <string name="empty_calendars_to_display">প্ৰদৰ্শন কৰিবলৈ কেলেণ্ডাৰ নাই</string>
+  <string name="update_available_ticker">কেলেণ্ডাৰৰ বাবে এটা আপডেট উপলব্ধ আছে</string>
+  <string name="update_availalable_title">এটা আপডেট উপলব্ধ আছে</string>
+  <string name="update_available_content">আপডেট ইনষ্টল কৰিবলৈ টেপ কৰক</string>
+  <string name="error_no_app_store">কোনো উপযোগী এপ্প্‌ ষ্টোৰ পোৱা নাছিল</string>
+  <string name="tutorial_done_button">কৰা হল</string>
+  <string name="tutorial_skip_button">বাদ দিয়া</string>
+  <string name="tutorial_welcome_title">কেলেণ্ডাৰলৈ স্বাগতম</string>
+  <string name="tutorial_welcome_subtitle">আপোনাৰ জীৱনটো চোৱাৰ বাবে এটা সুন্দৰ উপায়</string>
+  <string name="tutorial_page1_title">আপোনাৰ সকলো কেলেণ্ডাৰ</string>
+  <string name="tutorial_page1_subtitle">আপোনাৰ সকলো কেলেণ্ডাৰ আৰু ইভেণ্ট একে ঠাইতেই চাওক।</string>
+  <string name="tutorial_page2_title">আপোনাৰ উপলব্ধতা ভাগ-বতৰা কৰক</string>
+  <string name="tutorial_page2_subtitle">আপুনি কেতিয়া সাক্ষাৎ কৰিব পাৰে তৎক্ষণাৎ আনক জনাওক।</string>
+  <string name="tutorial_page3_title">একাধিক দৰ্শন</string>
+  <string name="tutorial_page3_subtitle">আপোনাৰ ভালকৈ কাম কৰা পদ্ধতিত আপোনাৰ ইভেণ্টবোৰ চাওক।</string>
+  <string name="tutorial_end_title">ই-মেইল ডাউনলোড কৰক</string>
+  <string name="tutorial_end_subtitle">Boxer ই-মেইল আৰু কেলেণ্ডাৰ একত্ৰিত কৰি শক্তিশালী বৈশিষ্ট্যবোৰ আনলক কৰক</string>
+  <string name="tutorial_end_button">Boxer ই-মেইল পাওক</string>
+  <string name="account_settings_tutorial_header_title">টিউট\'ৰিয়েল দৰ্শন কৰক</string>
   <!-- Organizer Label [CHAR LIMIT=12]-->
+  <string name="event_info_organizer">সংগঠক</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">ছিকিউৰিটি</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">স্ক্ৰীণশ্বট অক্ষম কৰক</string>
+  <string name="preference_disable_screenshots_summary">আন এপ্পে এপ্প্‌ স্ক্ৰীণৰ স্ক্ৰীণশ্বট কেপচাৰ কৰাটো প্ৰতিৰোধ কৰক</string>
   <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_summary">মাহ দৰ্শনত সপ্তাহৰ নম্বৰ সক্ষম কৰক</string>
 </resources>

@@ -16,280 +16,507 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- This is the label underneath the icon for Calendar -->
+  <string name="app_label">কেলেণ্ডাৰ</string>
   <!-- Shared Labels. These labels are shared among the activities. -->
   <!-- Text to show when an event starts on the current day -->
+  <string name="today">আজি</string>
   <!-- Text to show when an event starts on the next day -->
+  <string name="tomorrow">কাইলৈ</string>
   <!-- Text for an event starting on the current day with a start and end time.
          For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+  <string name="today_at_time_fmt">"&quot;আজি <xliff:g id="time_interval">%s</xliff:g>ত&quot;"</string>
   <!-- Text for an event starting on the next day with a start and end time.
          For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+  <string name="tomorrow_at_time_fmt">"&quot;কাইলৈ <xliff:g id="time_interval">%s</xliff:g>ত&quot;"</string>
   <!-- Format string for a date and time description.  For ex:
          "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
+  <string name="date_time_fmt">"&quot;<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>&quot;"</string>
   <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
          for all the choices about how often an event repeats (including the choice
          of not repeating). -->
+  <string name="repeats_label">পুনৰাবৃত্তি</string>
   <!-- Title of event when no explicit title is specified by the user -->
+  <string name="no_title_label">(শিৰোনামা নাই)</string>
   <!-- Reminder format strings -->
+  <plurals name="Nminutes">
+    <!-- This is the label for a 1-minute reminder. -->
+    <item quantity="one">1 মিনিট</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> মিনিটসমূহ</item>
+  </plurals>
   <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
          This is the number of minutes displayed for a calendar reminder.  For example,
          a reminder of 10 minutes would be displayed as '10 mins'.  The translation
          should use the shortest acceptable abbreviation to save space. -->
+  <plurals name="Nmins">
+    <!-- This is the label for a 1-minute reminder. -->
+    <item quantity="one">1 মিনিট</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> মিনিট</item>
+  </plurals>
   <!-- This is the number of hours displayed for a calendar reminder.  For example,
          a reminder of 1 hour would be displayed as '1 hour'.  The translation
          should use the shortest acceptable abbreviation of 'hour' to save space. -->
+  <plurals name="Nhours">
+    <!-- This is the label for a 1-hour reminder. -->
+    <item quantity="one">1 ঘন্টা</item>
+    <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> ঘন্টাসমূহ</item>
+  </plurals>
   <!-- This is the number of days displayed for a calendar reminder.  For example,
          a reminder of 2 days would be displayed as '2 days'.  The translation
          should use the shortest acceptable abbreviation of 'day' to save space. -->
+  <plurals name="Ndays">
+    <!-- This is the label for a reminder of 1 day. -->
+    <item quantity="one">1 দিন</item>
+    <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> দিন</item>
+  </plurals>
   <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
   <!-- Menu items: -->
   <!-- This is a label on a context menu item. Pressing this menu item to initiate
         syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
+  <string name="calendar_refresh">"&quot;ৰিফ্ৰেচ&quot;"</string>
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Agenda view. -->
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Day view. -->
+  <string name="show_day_view">"&quot;দিন দেখুৱাওক&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Agenda view. -->
+  <string name="agenda_view">"&quot;এজেণ্ডা&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Day view. -->
+  <string name="day_view">"&quot;দিন&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Week view. -->
+  <string name="week_view">"&quot;সপ্তাহ&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Month view. -->
+  <string name="month_view">"&quot;মাহ&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          details of an event. -->
+  <string name="event_view">"&quot;ইভেন্ট চোৱা&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to create a new event. -->
+  <string name="event_create">"&quot;নতুন ইভেন্ট&quot;"</string>
   <!-- This is a label on a menu item in a popup window. Pressing this menu
          item allows the user to edit or change an existing event. -->
+  <string name="event_edit">"&quot;ইভেন্ট সম্পাদনা কৰা&quot;"</string>
   <!-- This is a label on a menu item in a popup window. Pressing this menu
          item allows the user to delete an existing event. -->
+  <string name="event_delete">"&quot;ইভেন্ট মচি পেলাওঁক&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu
          item takes the user to the current day (today) in whatever view
          (Day view, Week view, Agenda view, Month view) they are currently in. -->
+  <string name="goto_today">"&quot;আজি&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to see the list of calendars that he is viewing and to then add
          or remove selected calendars. -->
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to view and edit his Settings (or Preferences) -->
+  <string name="menu_preferences">"&quot;ছেটিংচ&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
+  <string name="search">"&quot;বিচৰা&quot;"</string>
   <!-- Month view -->
   <!-- Select Visible Calendars activity -->
   <!-- Title of "My calendars" screen -->
+  <string name="select_visible_calendars_title">"&quot;ডিছপ্লে কৰিবলগীয়া কেলেণ্ডাৰসমূহ&quot;"</string>
   <!-- Synced and visible status message -->
   <!-- Synced but not visible status message -->
   <!-- not Synced or visible status message -->
   <!-- Synced status message displayed when the given calendar is stored/synced on the device
         [CHAR LIMIT=60] -->
+  <string name="synced"> সংযোজন কৰা হৈছে</string>
   <!-- Not synced status message displayed when the given calendar is not stored/synced on the
         device [CHAR LIMIT=60] -->
+  <string name="not_synced"> ছিনক্ৰ’নাইজ হোৱা নাই</string>
   <!-- Message displayed to user when an account with Calendars is not being auto-synced
         [CHAR LIMIT=120]-->
+  <string name="acct_not_synced">এই একাউণ্টটো ছিনক্ৰ’নাইজ্ড হোৱা নাই, গতিকে আপোনাৰ কেলেণ্ডাৰখন আপডেট নহ’ব পাৰে</string>
   <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
+  <string name="accounts">একাউণ্টসমূহ আৰু ছিনক্ৰ’নাইজেশ্যন</string>
   <!-- Select Synced Calendars activity -->
   <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+  <string name="select_synced_calendars_title">কেলেণ্ডাৰ ছিনক্ৰ’নাইজেশ্যনলৈ</string>
   <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+  <string name="select_synced_calendars_button">কেলেণ্ডাৰ ছিনক্ৰ’নাইজেশ্যনলৈ</string>
   <!-- Event edit activity -->
   <!-- The title of the screen where the user edits an event [CHAR LIMIT=17] -->
   <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
+  <string name="hint_what">"&quot;ইভেন্টৰ নাম&quot;"</string>
   <!-- Toast message displayed when a new event is created -->
+  <string name="creating_event">"&quot;ইভেণ্ট সৃষ্টি কৰা হল।&quot;"</string>
   <!-- Toast message displayed when an existing event is saved after being modified -->
+  <string name="saving_event">"&quot;ইভেন্ট ছেভ কৰা হল।&quot;"</string>
   <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
+  <string name="empty_event">"&quot;খালী ইভেন্ট সৃষ্টি কৰা নাই&quot;"</string>
   <!-- Toast message displayed when a new event with guests is created -->
+  <string name="creating_event_with_guest">"&quot;আমন্ত্ৰণ পঠিওৱা হব।&quot;"</string>
   <!-- Toast message displayed when an existing event with guests is saved after being modified -->
+  <string name="saving_event_with_guest">"&quot;অদ্যতনসমূহ পঠিওৱা হব।&quot;"</string>
   <!-- Toast message displayed responding to an event from an email as accepted
      [CHAR LIMIT=50] -->
+  <string name="rsvp_accepted">"&quot;হয় বুলি উত্তৰ দিছে।&quot;"</string>
   <!-- Toast message displayed responding to an event from an email as tentative
      [CHAR LIMIT=50] -->
+  <string name="rsvp_tentative">"&quot;সম্ভৱতঃ বুলি উত্তৰ দিছে।&quot;"</string>
   <!-- Toast message displayed responding to an event from an email as declined
      [CHAR LIMIT=50] -->
+  <string name="rsvp_declined">"&quot;নহয় বুলি উত্তৰ দিছে।&quot;"</string>
   <!-- Title of message displayed to indicate available calendars are being loaded when creating
          a new event -->
   <!-- Body of message displayed to indicate available calendars are being loaded when creating
          a new event -->
   <!-- Create event dialog -->
   <!-- Create event dialog save button [CHAR LIMIT=10] -->
+  <string name="create_event_dialog_save">ছেভ কৰা</string>
   <!-- The alert toast is not actually being displayed for some reason. -->
   <!-- the title of the alert/notification activity -->
+  <string name="alert_title">কেলেণ্ডাৰ ন’টিফিকেশ্যনসমূহ</string>
   <!-- Notification window messages: -->
   <!-- Event info/edit screen labels:-->
   <!-- This is the title of the screen used to view the details of an event -->
+  <string name="event_info_title">ঘটনা চাওক</string>
   <!-- This is the title of the screen used to view the details of an invitation
          to a meeting or event -->
+  <string name="event_info_title_invite">আমন্ত্ৰণ পূৰ্ণ কৰা</string>
   <!-- EditEventActivity specific strings: -->
   <!-- Check box label that specifies if this is an all-day event -->
+  <string name="edit_event_all_day_label">সকলোবোৰ দিন</string>
   <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
          or 'available'  [CHAR LIMIT=15] -->
+  <string name="presence_label">মোক যি হিচাপে প্ৰদৰ্শন কৰিব</string>
   <!-- Label for the 'Privacy' of an event, which can be either 'private'
          or 'public' [CHAR LIMIT=15] -->
+  <string name="privacy_label">গোপনীয়তা</string>
   <!-- Title of alert shown if the user tries to create an event and has no calendars -->
+  <string name="no_syncable_calendars">কেলেণ্ডাৰ নাই</string>
   <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
+  <string name="no_calendars_found">আপুনি এটা ইভেণ্ট যোগ কৰাৰ পূৰ্বে, আপুনি আপোনাৰ ডিভাইচলৈ কমেও এটা কেলেণ্ডাৰ একাউণ্ট যোগ কৰিব লাগিব আৰু এখন কেলেণ্ডাৰ দৃশ্যমান কৰক৷ এটা একাউণ্ট যোগ কৰিবলৈ একাউণ্ট যোগ কৰক স্পৰ্শ কৰক (যদি আপুনি এইমাত্ৰ এটা একাউণ্ট যোগ কৰিছে, তেন্তে ই ছিংক কৰা সমাপ্ত কৰালৈ অপেক্ষা কৰক আৰু পুনৰ চেষ্টা কৰক)৷ বা বাতিল কৰক স্পৰ্শ কৰক আৰু কেমেও এখন কেলেণ্ডাৰ দৃশ্যমান হৈ থকাটো নিশ্চিত কৰক৷</string>
   <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+  <string name="create_an_account_desc">"&quot;কেলেণ্ডাৰে এটা Google একাউণ্টৰ সৈতে বেছি ভালদৰে কাম কৰে।\n\n\u2022 ইয়াক যিকোনো ৱেব ব্ৰাউজাৰৰ পৰা আহৰণ কৰক\n\u2022 আপোনাৰ ইভেণ্টসমূহ সুৰক্ষিতভাৱে বেক-আপ কৰক&quot;"</string>
   <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
+  <string name="add_account">একাউন্ট যোগ দিয়ক</string>
   <!-- View Event -->
   <!-- Title for event color picker dialog -->
+  <string name="event_color_picker_dialog_title">ইভেণ্ট ৰং</string>
   <!-- Title for calendar color picker dialog -->
+  <string name="calendar_color_picker_dialog_title">কেলেণ্ডাৰৰ ৰং</string>
   <!-- Description for calendar color squares, which bring up the color picker. -->
+  <string name="calendar_square_color_picker_description">কালাৰ পিকাৰ</string>
   <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
+  <string name="response_yes">হয়</string>
   <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
+  <string name="response_maybe">সম্ভৱতঃ</string>
   <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
+  <string name="response_no">নহয়</string>
   <!-- Label for emailing attendees -->
+  <string name="email_guests_label">গেষ্টসমূহলৈ ইমেইল</string>
   <!-- Label for emailing the organizer (when there are no attendees) -->
+  <string name="email_organizer_label">ইমেইল অৰ্গানাইজাৰ</string>
   <!-- This is shown in the popup picker when emailing attendees -->
+  <string name="email_picker_label">ৰ সৈতে ইমেইল কৰক</string>
   <!-- The is shown in the email subject as the prefix appended to the event title -->
   <!-- Toast message displayed when the event id was not found LIMIT=30] -->
+  <string name="event_not_found">"&quot;ইভেন্ট বিচাৰি পোৱা নাই&quot;"</string>
   <!-- Notification label for getting a map of the location. -->
+  <string name="map_label">মানচিত্ৰ</string>
   <!-- Notification label for calling a phone number in the location. -->
+  <string name="call_label">কল</string>
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+  <string name="quick_response_settings">তাৎক্ষণিক সঁহাৰি</string>
   <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
+  <string name="quick_response_settings_summary">আলহীক ইমেইল কৰাৰ সময়ত ডিফল্ট সঁহাৰি সম্পাদনা কৰিব</string>
   <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+  <string name="quick_response_settings_title">ক্ষীপ্ৰ সহাঁৰি সম্পাদনা কৰা</string>
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+  <string name="quick_response_settings_edit_title">তাৎক্ষণিক সঁহাৰি</string>
   <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
+  <string name="quick_response_dialog_title">ক্ষীপ্ৰ সঁহাৰি বাচনি কৰক</string>
   <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
+  <string name="quick_response_email_failed">এটি ইমেইল প্ৰগ্ৰাম বিচাৰি পাবলৈ বিফল হল</string>
   <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
+  <string-array name="quick_response_defaults">
+    <item>মাত্ৰ কেইমিনিটমান পলমকৈ চলি আছে</item>
+    <item>প্ৰায় 10 মিনিটৰ ভিতৰত তাত পামগৈ।</item>
+    <item>যাওঁক আৰু মোৰ অেবিহনে আৰম্ভ কৰক</item>
+    <item>দুঃখিত, মই এইটো কৰিব নোৱাৰো। আমি পুনৰ সূচীবদ্ধ কৰিব লাগিব।</item>
+  </string-array>
   <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
+  <string name="quick_response_custom_msg">নিজৰ \u2026 লিখক</string>
   <!-- Agenda View strings -->
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_today">আজি- <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_yesterday">যোৱাকালি- <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_tomorrow">অহাকালি - <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown while the calendar events are being loading to the screen. -->
+  <string name="loading">লোডিং\u2026</string>
   <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
+  <string name="show_older_events"><xliff:g id="oldest_search_range">%1$s</xliff:g>ৰ আগতে ইভেণ্টসমূহ চাবলৈ স্পৰ্শ কৰক</string>
   <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
+  <string name="show_newer_events"><xliff:g id="newest_search_range">%1$s</xliff:g>ৰ পিছত ইভেণ্টসমূহ চাবলৈ স্পৰ্শ কৰক</string>
   <!-- Search activity strings -->
   <!-- Title of the search screen [CHAR LIMIT=30] -->
+  <string name="search_title">মোৰ  কেলেণ্ডাৰ বিচাৰক</string>
   <!-- Button labels: -->
   <!-- This is the title of a popup window that is displayed when the user
          edits a repeating event. [CHAR LIMIT=20]-->
+  <string name="edit_event_label">"&quot;বিৱৰণসমূহ&quot;"</string>
   <!-- This is a menu button for switching into edit mode when viewing an event.
         [CHAR LIMIT=10] -->
+  <string name="edit_label">"&quot;সম্পাদনা&quot;"</string>
   <!-- The button label for deleting an event -->
+  <string name="delete_label">"&quot;মচি পেলোৱা&quot;"</string>
   <!-- A menu item for deleting an event -->
   <!-- The button label for saving an event -->
+  <string name="save_label">কৰা হল</string>
   <!-- Button labels on expanded notification reminders: -->
   <!-- The button label for dismissing all the current reminder alarms. This
          causes them to disappear from the notification screen. -->
+  <string name="dismiss_all_label">"&quot;সকলো বৰ্খাস্ত কৰা&quot;"</string>
   <!-- The button label for making the reminder alarms go away temporarily
          and re-fire in 5 minutes. [CHAR LIMIT=12]-->
+  <string name="snooze_label">"&quot;স্নুজ&quot;"</string>
   <!-- Repetition dialog options: -->
   <!-- This is a label for telling the user that this event repeats in
          custom (non-standard) way from the usual repeat rates (such as daily,
          weekly, etc.) and that the user cannot change this on the phone
          (but only on the web). -->
+  <string name="custom">"&quot;কাষ্টম (ডিভাইচটোত অনুকূলিত কৰিব নোৱাৰি)&quot;"</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change just this one instance
          of this repeating event. -->
+  <string name="modify_event">কেৱল এইটো ইভেন্ট সলনি কৰক</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change all occurrences of
          this repeating event. -->
+  <string name="modify_all">চিৰিজৰ সকলোবোৰ ইভেণ্ট সলনি কৰা</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change this instance and all
          future occurrences of this repeating event. -->
+  <string name="modify_all_following">এইটো আৰু সকলোবোৰ ভৱিষ্যত ইভেণ্টসমূহ সলনি কৰক।</string>
   <!-- Dialogs -->
   <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
+  <string name="new_event_dialog_label">"&quot;নতুন ইভেন্ট&quot;"</string>
   <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
+  <string name="new_event_dialog_option">"&quot;নতুন ইভেন্ট&quot;"</string>
   <!-- Confirmation dialog message -->
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event. The user still has a chance to cancel
          this operation. -->
+  <string name="delete_this_event_title">এইটো ইভেন্ট মচি দিব?</string>
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event that is recurring. The user still has a chance to cancel
          this operation. -->
+  <string name="delete_recurring_event_title">মচি দিব নে <xliff:g id="eventtitle">%s</xliff:g>?</string>
   <!-- This is the title of a popup dialog that asks for confirmation before
          changing the response to an invitation. -->
+  <string name="change_response_title">উত্তৰ সলনি কৰক</string>
   <!-- This the title of a menu for General Preferences.
          Pressing the menu item lets user to view and edit his general settings
          (or preferences) [CHAR LIMIT=30] -->
+  <string name="menu_general_preferences">সাধাৰণ ছেটিংছ</string>
   <!-- This is the title of the screen for setting user preferences. -->
+  <string name="preferences_title">"&quot;ছেটিংচ&quot;"</string>
   <!-- This is the title of a section in the Settings screen for settings
          related to viewing calendar events -->
+  <string name="preferences_general_title">কেলেণ্ডাৰ ভিউ ছেটিংছ</string>
   <!-- This is the title of a section in the Settings screen for settings
          related to reminders for calendar events -->
+  <string name="preferences_reminder_title">ন’টিফিকেশ্যন \u0026 ৰিমাইণ্ডাৰসমূহ</string>
   <!-- Settings check box label to hide events that the user has declined to attend -->
+  <string name="preferences_hide_declined_title">বাদ দিয়া অনুষ্ঠানসমূহ লুকুৱাই ৰাখক</string>
   <!-- Settings week start label to start week on specific day-->
+  <string name="preferences_week_start_day_title">সপ্তাহ আৰম্ভ হৈছে</string>
   <!-- Title of popup for week start day setting-->
+  <string name="preferences_week_start_day_dialog">সপ্তাহ আৰম্ভ হৈছে</string>
   <!-- DO NOT TRANSLATE -->
   <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
+  <string name="preferences_clear_search_history_title">চাৰ্চ হিষ্টৰী মুকলি কৰক</string>
   <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
+  <string name="preferences_clear_search_history_summary">আপুনি ইতিমধ্যে সম্পাদন কৰা ছাৰ্ছসমূহৰ আটাইবোৰ মচি পেলাওঁক</string>
   <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
+  <string name="search_history_cleared">আঁতৰোৱা হিষ্ট’ৰি বিচাৰক</string>
   <!-- Settings check box label to enable or disable notifications -->
+  <string name="preferences_alerts_title">ন’টিফিকেশ্যনসমূহ</string>
   <!-- Settings dialog label that specifies when the phone should vibrate -->
+  <string name="preferences_alerts_vibrateWhen_title">ভাইব্ৰেট</string>
   <!-- The old value for enabling vibration. used only for migrating -->
   <!-- Title of ringtone selector dialog -->
+  <string name="preferences_alerts_ringtone_title">ছাউণ্ড</string>
   <!-- Title of check box label to enable or disable pop-up notifications -->
+  <string name="preferences_alerts_popup_title">পপ-আপ ন’টিফিকেশ্যন</string>
   <!-- List item label for setting the default number of reminder minutes -->
+  <string name="preferences_default_reminder_title">ৰিমেইণ্ডাৰ সময় ডিফল্ট কৰা</string>
   <!-- Title of dialog for setting the default number of reminder minutes -->
+  <string name="preferences_default_reminder_dialog">ৰিমেইণ্ডাৰ সময় ডিফল্ট কৰা</string>
   <!-- Default value for the number of reminder minutes -->
   <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
+  <string name="preferences_use_home_tz_title">গৃহ সময় মণ্ডল ব্যৱহাৰ কৰক</string>
   <!-- Settings description of what setting Calendar to use a fixed 'home' time
         zone does [CHAR LIMIT = 60]-->
+  <string name="preferences_use_home_tz_descrip">ভ্ৰমণ কৰাৰ সময়ত আপোনাৰ ঘৰুৱা সময় মণ্ডলত কেলেণ্ডাৰ আৰু ইভেণ্টৰ সময় ডিছপ্লে’ কৰে</string>
   <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
+  <string name="preferences_home_tz_title">হোম সময় জোন</string>
   <!-- DO NOT TRANSLATE -->
   <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_title">সপ্তাহৰ সংখ্যা প্ৰদৰ্শন কৰক</string>
   <!-- This is the title of a section in the Settings screen for "About" this application -->
+  <string name="preferences_about_title">বিষয়ে</string>
   <!-- Build version of the application -->
+  <string name="preferences_build_version_fmt">নিৰ্মাণ সংস্কৰণ: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <!-- Widget -->
   <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+  <string name="gadget_title">কেলেণ্ডাৰ</string>
   <!-- Shown in month view next to event icon when additional events exist for that day, but no
         room remaining -->
   <!-- Caption to show on gadget when there are no upcoming calendar events -->
+  <string name="gadget_no_events">আগন্তুক কেলেণ্ডাৰ ইভেণ্ট নাই</string>
   <!-- Text to show on gadget when an event is currently in progress -->
   <!-- Text to show on gadget when an all-day event is in progress -->
   <!-- DO NOT TRANSLATE -->
   <!-- Experimental settings [CHAR LIMIT = 30]-->
+  <string name="preferences_experimental_category">পৰীক্ষামূলক</string>
   <!-- Reminders settings [CHAR LIMIT = 30]-->
+  <string name="preferences_reminders_category">ৰিমাইণ্ডাৰসমূহ</string>
   <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
+  <string name="preferences_reminders_responded_label">ৰিমাইণ্ডাৰসমূহ বাদ দিয়ক</string>
   <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
+  <string name="preferences_reminders_responded_dialog">ৰিমাইণ্ডাৰসমূহ বাদ দিয়ক</string>
   <!-- Preference label for quiet hours [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_label">বন্ধ কৰা ঘণ্টাকেইটা</string>
   <!-- Preference description for quiet hours [CHAR LIMIT = NONE]-->
+  <string name="preferences_reminders_quiet_hours_description">নিৰ্দ্দিষ্ট সময়ৰ ভিতৰত ছাইলেণ্ট ইভেণ্টৰ ৰিমাণ্ডাৰ</string>
   <!-- Preference label for quiet hours start time [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_start">বন্ধ কৰা ঘণ্টাকেইটা সময়খিনিৰ আৰম্ভণিখিনি</string>
   <!-- Preference label for quiet hours end time [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_end">বন্ধ কৰা ঘণ্টাকেইটাৰ শেষ সময়খিনি</string>
   <!-- Preferences used for debugging purposes [CHAR LIMIT = 30]-->
+  <string name="preferences_debug_category">ডিবাগিং হৈ আছে</string>
   <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
+  <string name="copy_db">ডাটাবেছ প্ৰেৰণ কৰক</string>
   <!-- Displayed in email address autocomplete list when searching for contacts
          in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
+  <string name="directory_searching_fmt">বিচাৰি থকা হৈছে <xliff:g id="domain">%s</xliff:g>\u2026</string>
   <!-- Accessibility Events -->
   <!-- Strings that describes actions for buttons without text -->
   <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
   <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_remove_attendee">উপস্থিত হোৱাটো মচি পেলাওঁক</string>
   <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_start_date">তাৰিখ আৰম্ভ কৰক</string>
   <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_start_time">সময় আৰম্ভ কৰক</string>
   <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_end_date">তাৰিখ সমাপ্ত কৰা</string>
   <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_end_time">সময় সমাপ্ত কৰা</string>
   <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_time_zone">টাইম জুম</string>
   <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_recurrence">ইভেণ্টৰ পুনৰাবৃত্তি</string>
   <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_add_reminder">ৰিমাইণ্ডাৰ যোগ দিয়ক</string>
   <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_remove_reminder">ৰিমাইণ্ডাৰ মচি পেলাওঁক</string>
   <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_add_attendee">এটেণ্ডী যোগ দিয়ক</string>
   <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+  <string name="accessibility_sync_cal">সংযোজন কেলেণ্ডাৰ</string>
   <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
+  <string name="accessibility_all_day">সকলোবোৰ দিনৰ ইভেণ্ট</string>
   <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
   <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_time">ৰিমাইণ্ডাৰ সময়</string>
   <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_type">ৰিমাইণ্ডাৰৰ ধৰণ</string>
   <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_showmeas">মোক যি হিচাপে প্ৰদৰ্শন কৰিব</string>
   <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_privacy">গোপনীয়তা</string>
   <!-- Calendar notification [CHAR LIMIT = NONE]-->
+  <string name="acessibility_cal_notification">কেলেণ্ডাৰ ন’টিফিকেশ্যন</string>
   <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
+  <string name="acessibility_snooze_notification">স্নুজৰ ন’টিফিকেশ্যন</string>
   <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
+  <string name="accessibility_email_notification">গেষ্টসমূহলৈ ইমেইল</string>
   <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
+  <string name="day_view_new_event_hint">+ নতুন ইভেন্ট</string>
   <!--
       Source: A value for announcing the current event index (example: "Event 2 of 6").
       Description: This is spoken to the user. [CHAR LIMIT="NONE"]
     -->
+  <string name="template_announce_item_index">ইভেণ্ট <xliff:g id="item_count">%2$s</xliff:g> ৰ <xliff:g id="item_index">%1$s</xliff:g>।</string>
   <!-- number of events in the notification bar -->
+  <plurals name="Nevents">
+    <!-- This is the label for a 1 event. -->
+    <item quantity="one">1 টা ইভেন্ট</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> ইভেণ্টসমূহ</item>
+  </plurals>
   <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
+  <plurals name="N_remaining_events">
+    <!-- This is the label for 1 event. -->
+    <item quantity="one">+1 টা ইভেন্ট</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other">+<xliff:g id="count">%d</xliff:g> ইভেণ্টসমূহ</item>
+  </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+  <string name="acessibility_selected_marker_description">নিৰ্বাচিত ইভেণ্ট</string>
   <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+  <string name="do_not_check">পৰীক্ষা নকৰিব -&gt;</string>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+  <plurals name="recurrence_interval_daily">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">প্ৰতি <xliff:g id="count">%d</xliff:g> দিনত</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">প্ৰতি <xliff:g id="count">%d</xliff:g> দিনত</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+  <plurals name="recurrence_interval_weekly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">প্ৰতি <xliff:g id="count">%d</xliff:g> সপ্তাহ</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">প্ৰতি <xliff:g id="count">%d</xliff:g> সপ্তাহ</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+  <plurals name="recurrence_interval_monthly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">প্ৰতি <xliff:g id="count">%d</xliff:g> মাহ</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">প্ৰতি <xliff:g id="count">%d</xliff:g> মাহ</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+  <plurals name="recurrence_interval_yearly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">প্ৰতি <xliff:g id="count">%d</xliff:g> বছৰ</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">প্ৰতি <xliff:g id="count">%d</xliff:g> বছৰ</item>
+  </plurals>
   <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
+  <string name="recurrence_month_pattern_by_day">প্ৰতিটো মাহৰ একেটা দিনত</string>
   <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
+  <string name="recurrence_end_continously">সদায়</string>
   <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
+  <string name="recurrence_end_date_label">এটা তাৰিখলৈ</string>
   <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
+  <string name="recurrence_end_date"><xliff:g id="date">%s</xliff:g> নোহোৱা পৰ্যন্ত</string>
   <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
+  <string name="recurrence_end_count_label">কিছুমান ইভেণ্টৰ বাবে</string>
   <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
+  <plurals name="recurrence_end_count">
+    <item quantity="one"><xliff:g id="event_count">%d</xliff:g> ইভেণ্টৰ বাবে</item>
+    <item quantity="other"><xliff:g id="event_count">%d</xliff:g> ইভেণ্টসমূহৰ বাবে</item>
+  </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+  <string name="acessibility_recurrence_choose_end_date_description">সমাপ্তিৰ তাৰিখ সলনি কৰক</string>
   <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
 </resources>

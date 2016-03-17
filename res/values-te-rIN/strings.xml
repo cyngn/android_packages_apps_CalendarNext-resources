@@ -16,280 +16,519 @@
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
   <!-- This is the label underneath the icon for Calendar -->
+  <string name="app_label">క్యాలెండర్</string>
   <!-- Shared Labels. These labels are shared among the activities. -->
   <!-- Text to show when an event starts on the current day -->
+  <string name="today">నేడు</string>
   <!-- Text to show when an event starts on the next day -->
+  <string name="tomorrow">రేపు</string>
   <!-- Text for an event starting on the current day with a start and end time.
          For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+  <string name="today_at_time_fmt">"“ఈ రోజు <xliff:g id="time_interval">%s</xliff:g> వద్ద”"</string>
   <!-- Text for an event starting on the next day with a start and end time.
          For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
+  <string name="tomorrow_at_time_fmt">"“రేపు <xliff:g id="time_interval">%s</xliff:g> వద్ద”"</string>
   <!-- Format string for a date and time description.  For ex:
          "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
+  <string name="date_time_fmt">"&quot;<xliff:g id="date">%s</xliff:g>, <xliff:g id="time_interval">%s</xliff:g>&quot;"</string>
   <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
          for all the choices about how often an event repeats (including the choice
          of not repeating). -->
+  <string name="repeats_label">పునరావృతం చేయి</string>
   <!-- Title of event when no explicit title is specified by the user -->
+  <string name="no_title_label">(శీర్షిక లేదు)</string>
   <!-- Reminder format strings -->
+  <plurals name="Nminutes">
+    <!-- This is the label for a 1-minute reminder. -->
+    <item quantity="one">1 నిమిషం</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> నిమిషాలు</item>
+  </plurals>
   <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
          This is the number of minutes displayed for a calendar reminder.  For example,
          a reminder of 10 minutes would be displayed as '10 mins'.  The translation
          should use the shortest acceptable abbreviation to save space. -->
+  <plurals name="Nmins">
+    <!-- This is the label for a 1-minute reminder. -->
+    <item quantity="one">1 నిమిషం</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> నిమిషాలు</item>
+  </plurals>
   <!-- This is the number of hours displayed for a calendar reminder.  For example,
          a reminder of 1 hour would be displayed as '1 hour'.  The translation
          should use the shortest acceptable abbreviation of 'hour' to save space. -->
+  <plurals name="Nhours">
+    <!-- This is the label for a 1-hour reminder. -->
+    <item quantity="one">1 గంట</item>
+    <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> గంటలు</item>
+  </plurals>
   <!-- This is the number of days displayed for a calendar reminder.  For example,
          a reminder of 2 days would be displayed as '2 days'.  The translation
          should use the shortest acceptable abbreviation of 'day' to save space. -->
+  <plurals name="Ndays">
+    <!-- This is the label for a reminder of 1 day. -->
+    <item quantity="one">1 రోజు</item>
+    <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> రోజులు</item>
+  </plurals>
   <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
+  <plurals name="weekN">
+    <item quantity="one">వారం <xliff:g id="count">%d</xliff:g></item>
+    <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
+    <item quantity="other">వారం <xliff:g id="కౌంట్">%d</xliff:g></item>
+  </plurals>
   <!-- Menu items: -->
   <!-- This is a label on a context menu item. Pressing this menu item to initiate
         syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
+  <string name="calendar_refresh">"&quot;పునశ్చరణ&quot;"</string>
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Agenda view. -->
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Day view. -->
+  <string name="show_day_view">"&quot;రోజును చూపు&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Agenda view. -->
+  <string name="agenda_view">"&quot;ఎజెండా&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Day view. -->
+  <string name="day_view">"&quot;రోజు&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Week view. -->
+  <string name="week_view">"&quot;వారం&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          Month view. -->
+  <string name="month_view">"&quot;నెల&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item displays the
          details of an event. -->
+  <string name="event_view">"&quot;ఈవెంట్ చూడండి&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to create a new event. -->
+  <string name="event_create">"&quot;కొత్త ఈవెంట్&quot;"</string>
   <!-- This is a label on a menu item in a popup window. Pressing this menu
          item allows the user to edit or change an existing event. -->
+  <string name="event_edit">"&quot;ఈవెంట్ సవరించు&quot;"</string>
   <!-- This is a label on a menu item in a popup window. Pressing this menu
          item allows the user to delete an existing event. -->
+  <string name="event_delete">"&quot;ఈవెంట్ తొలగించు&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu
          item takes the user to the current day (today) in whatever view
          (Day view, Week view, Agenda view, Month view) they are currently in. -->
+  <string name="goto_today">"&quot;నేడు&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to see the list of calendars that he is viewing and to then add
          or remove selected calendars. -->
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to view and edit his Settings (or Preferences) -->
+  <string name="menu_preferences">"&quot;సెట్టింగులు&quot;"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
+  <string name="search">"&quot;శోధన&quot;"</string>
   <!-- Month view -->
   <!-- Select Visible Calendars activity -->
   <!-- Title of "My calendars" screen -->
+  <string name="select_visible_calendars_title">"&quot;ప్రదర్శించాలనుకునే క్యాలెండర్లు&quot;"</string>
   <!-- Synced and visible status message -->
   <!-- Synced but not visible status message -->
   <!-- not Synced or visible status message -->
   <!-- Synced status message displayed when the given calendar is stored/synced on the device
         [CHAR LIMIT=60] -->
+  <string name="synced"> సమకాలీకరించబడింది</string>
   <!-- Not synced status message displayed when the given calendar is not stored/synced on the
         device [CHAR LIMIT=60] -->
+  <string name="not_synced"> సమకాలీకరించబడలేదు</string>
   <!-- Message displayed to user when an account with Calendars is not being auto-synced
         [CHAR LIMIT=120]-->
+  <string name="acct_not_synced">ఈ ఖాతా సమకాలీకరించబడలేదు కాబట్టి మీ క్యాలెండర్ తాజాగా ఉండకపోవచ్చు.</string>
   <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
+  <string name="accounts">ఖాతాలు &amp; సమకాలీకరణ</string>
   <!-- Select Synced Calendars activity -->
   <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+  <string name="select_synced_calendars_title">సమకాలీకరించాల్సిన క్యాలెండర్‌లు</string>
   <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
+  <string name="select_synced_calendars_button">సమకాలీకరించాల్సిన క్యాలెండర్‌లు</string>
   <!-- Event edit activity -->
   <!-- The title of the screen where the user edits an event [CHAR LIMIT=17] -->
   <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
+  <string name="hint_what">"&quot;ఈవెంట్ పేరు&quot;"</string>
   <!-- Toast message displayed when a new event is created -->
+  <string name="creating_event">"&quot;ఈవెంట్ రూపొందించబడింది.&quot;"</string>
   <!-- Toast message displayed when an existing event is saved after being modified -->
+  <string name="saving_event">"&quot;ఈవెంట్ భద్రపర్చబడింది.&quot;"</string>
   <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
+  <string name="empty_event">"&quot;ఖాళీ ఈవెంట్ రూపొందించబడలేదు.&quot;"</string>
   <!-- Toast message displayed when a new event with guests is created -->
+  <string name="creating_event_with_guest">"“ఆహ్వానాలు పంపబడతాయి.”"</string>
   <!-- Toast message displayed when an existing event with guests is saved after being modified -->
+  <string name="saving_event_with_guest">"“నవీకరణలు పంపబడతాయి.”"</string>
   <!-- Toast message displayed responding to an event from an email as accepted
      [CHAR LIMIT=50] -->
+  <string name="rsvp_accepted">"“అవును అని ప్రతిస్పందించెను.”"</string>
   <!-- Toast message displayed responding to an event from an email as tentative
      [CHAR LIMIT=50] -->
+  <string name="rsvp_tentative">"“కావచ్చు అని ప్రతిస్పందించెను.”"</string>
   <!-- Toast message displayed responding to an event from an email as declined
      [CHAR LIMIT=50] -->
+  <string name="rsvp_declined">"“లేదు అని ప్రతిస్పందించెను.”"</string>
   <!-- Title of message displayed to indicate available calendars are being loaded when creating
          a new event -->
   <!-- Body of message displayed to indicate available calendars are being loaded when creating
          a new event -->
   <!-- Create event dialog -->
   <!-- Create event dialog save button [CHAR LIMIT=10] -->
+  <string name="create_event_dialog_save">సేవ్ చేయి</string>
   <!-- The alert toast is not actually being displayed for some reason. -->
   <!-- the title of the alert/notification activity -->
+  <string name="alert_title">క్యాలెండర్ నోటిఫికేషన్లు</string>
   <!-- Notification window messages: -->
   <!-- Event info/edit screen labels:-->
   <!-- This is the title of the screen used to view the details of an event -->
+  <string name="event_info_title">ఈవెంట్ చూడండి</string>
   <!-- This is the title of the screen used to view the details of an invitation
          to a meeting or event -->
+  <string name="event_info_title_invite">సమావేశ ఆహ్వానం</string>
   <!-- EditEventActivity specific strings: -->
   <!-- Check box label that specifies if this is an all-day event -->
+  <string name="edit_event_all_day_label">రోజంతా</string>
   <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
          or 'available'  [CHAR LIMIT=15] -->
+  <string name="presence_label">నాకు ఇలా చూపించు</string>
   <!-- Label for the 'Privacy' of an event, which can be either 'private'
          or 'public' [CHAR LIMIT=15] -->
+  <string name="privacy_label">గోప్యత</string>
   <!-- Title of alert shown if the user tries to create an event and has no calendars -->
+  <string name="no_syncable_calendars">క్యాలెండర్లు లేవు</string>
   <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
+  <string name="no_calendars_found">మీరు ఒక ఈవెంటును జోడించే ముందు, మీరు మీ పరికరానికి కనీసం ఒక క్యాలెండర్ ఖాతాను జోడించాలి మరియు ఒక క్యాలెండరు అయినా కనిపించేట్టు చేయాలి. ఒక ఖాతాను జోడించేందుకు యాడ్ అకౌంటును తాకండి (ఒకవేళ మీరు అప్పుడే ఖాతాను జోడించినట్లయితే, అది సింక్ కావడానికి ఆగండి మరియు తిరిగి ప్రయత్నించండి) లేదా రద్దును తాకండి మరియు కనీసం ఒక క్యాలెండర్ అయినా కనిపిస్తూ ఉందని నిర్ధారించుకోండి</string>
   <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
+  <string name="create_an_account_desc">"&quot;క్యాలెండర్ Google ఖాతాతో మెరుగ్గా పనిచేస్తుంది.\n\n\u2022 ఏ వెబ్ బ్రౌజర్‌తో అయినా దాన్ని యాక్సెస్ చేయండి\n\u2022 మీ ఈవెంట్‌లను భద్రంగా బ్యాకప్ చేయండి&quot;"</string>
   <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
+  <string name="add_account">ఖాతాను జోడించు</string>
   <!-- View Event -->
   <!-- Title for event color picker dialog -->
+  <string name="event_color_picker_dialog_title">ఈవెంట్ రంగు</string>
   <!-- Title for calendar color picker dialog -->
+  <string name="calendar_color_picker_dialog_title">క్యాలెండర్ రంగు</string>
   <!-- Description for calendar color squares, which bring up the color picker. -->
+  <string name="calendar_square_color_picker_description">రంగు ఎంపిక సాధనం</string>
   <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
+  <string name="response_yes">హాజరు అవుతాము అన్నవి</string>
   <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
+  <string name="response_maybe">కావచ్చు</string>
   <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
+  <string name="response_no">లేదు</string>
   <!-- Label for emailing attendees -->
+  <string name="email_guests_label">ఈమెయిల్ అతిథులు</string>
   <!-- Label for emailing the organizer (when there are no attendees) -->
+  <string name="email_organizer_label">ఈమెయిల్ ఆర్గనైజర్</string>
   <!-- This is shown in the popup picker when emailing attendees -->
+  <string name="email_picker_label">దీనితో ఈమెయిల్ చేయి</string>
   <!-- The is shown in the email subject as the prefix appended to the event title -->
   <!-- Toast message displayed when the event id was not found LIMIT=30] -->
+  <string name="event_not_found">"&quot;ఈవెంట్ కనిపించలేదు.&quot;"</string>
   <!-- Notification label for getting a map of the location. -->
+  <string name="map_label">మ్యాప్</string>
   <!-- Notification label for calling a phone number in the location. -->
+  <string name="call_label">కాల్</string>
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+  <string name="quick_response_settings">సత్వర స్పందనలు</string>
   <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
+  <string name="quick_response_settings_summary">అతిథులకు ఈమెయిల్ చేస్తున్నప్పుడు డిఫాల్ట్ స్పందనలను సంకలనం చేయి</string>
   <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
+  <string name="quick_response_settings_title">సత్వర స్పందనలను సంకలనం చేయి</string>
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
+  <string name="quick_response_settings_edit_title">సత్వర స్పందన</string>
   <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
+  <string name="quick_response_dialog_title">సత్వర స్పందనను ఎంచుకో</string>
   <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
+  <string name="quick_response_email_failed">ఈమెయిల్ ప్రోగ్రామ్ కనుగొనడం విఫలమైంది</string>
   <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
+  <string-array name="quick_response_defaults">
+    <item>కొద్ది నిముషాలు ఆలస్యం కానుంది.</item>
+    <item>పది నిమిషాలలో అక్కడ ఉంటాను.</item>
+    <item>నేను లేకుండానే కార్యక్రమం కొనసాగించండి</item>
+    <item>క్షమించండి, నేను రాలేను. మనం మరలా షెడ్యూలు చేయవలసి ఉంటుంది.</item>
+  </string-array>
   <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
+  <string name="quick_response_custom_msg">మీ సొంతంగా వ్రాయండి\u2026</string>
   <!-- Agenda View strings -->
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_today">నేడు - <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_yesterday">నిన్న - <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown as part of the heading at the top of a list of today's events. -->
+  <string name="agenda_tomorrow">రేపు - <xliff:g id="date">%1$s</xliff:g></string>
   <!-- This is shown while the calendar events are being loading to the screen. -->
+  <string name="loading">లోడ్ చేస్తోంది…</string>
   <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
+  <string name="show_older_events"><xliff:g id="oldest_search_range">%1$s</xliff:g> ముందు ఈవెంట్లను వీక్షించేందుకు తాకండి</string>
   <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
+  <string name="show_newer_events"><xliff:g id="newest_search_range">%1$s</xliff:g> తరువాత ఈవెంట్లను వీక్షించేందుకు తాకండి</string>
   <!-- Search activity strings -->
   <!-- Title of the search screen [CHAR LIMIT=30] -->
+  <string name="search_title">నా క్యాలెండర్‌లను శోధించు</string>
   <!-- Button labels: -->
   <!-- This is the title of a popup window that is displayed when the user
          edits a repeating event. [CHAR LIMIT=20]-->
+  <string name="edit_event_label">"&quot;వివరాలు&quot;"</string>
   <!-- This is a menu button for switching into edit mode when viewing an event.
         [CHAR LIMIT=10] -->
+  <string name="edit_label">"&quot;సంకలనం చేయి&quot;"</string>
   <!-- The button label for deleting an event -->
+  <string name="delete_label">"&quot;తొలగించు&quot;"</string>
   <!-- A menu item for deleting an event -->
   <!-- The button label for saving an event -->
+  <string name="save_label">పూర్తయింది</string>
   <!-- Button labels on expanded notification reminders: -->
   <!-- The button label for dismissing all the current reminder alarms. This
          causes them to disappear from the notification screen. -->
+  <string name="dismiss_all_label">"&quot;అన్నీ తీసివేయి&quot;"</string>
   <!-- The button label for making the reminder alarms go away temporarily
          and re-fire in 5 minutes. [CHAR LIMIT=12]-->
+  <string name="snooze_label">"&quot;స్నూజ్ చేయి&quot;"</string>
   <!-- Repetition dialog options: -->
   <!-- This is a label for telling the user that this event repeats in
          custom (non-standard) way from the usual repeat rates (such as daily,
          weekly, etc.) and that the user cannot change this on the phone
          (but only on the web). -->
+  <string name="custom">"“కస్టమ్ (పరికరం పైన అనుకూలం చేయడం సాధ్యపడదు)”"</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change just this one instance
          of this repeating event. -->
+  <string name="modify_event">ఈ ఈవెంట్‌ను మాత్రమే మార్చు</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change all occurrences of
          this repeating event. -->
+  <string name="modify_all">ఈ సీరీస్‌లో అన్ని ఈవెంట్లను మార్చు</string>
   <!-- This is a choice in a list that the user sees when he tries to modify
          a repeating event.  This choice says to change this instance and all
          future occurrences of this repeating event. -->
+  <string name="modify_all_following">దీన్ని, అన్ని భావి ఈవెంట్లను మార్చు</string>
   <!-- Dialogs -->
   <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
+  <string name="new_event_dialog_label">"&quot;కొత్త ఈవెంట్&quot;"</string>
   <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
+  <string name="new_event_dialog_option">"&quot;కొత్త ఈవెంట్&quot;"</string>
   <!-- Confirmation dialog message -->
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event. The user still has a chance to cancel
          this operation. -->
+  <string name="delete_this_event_title">ఈ ఈవెంట్‌ను తొలగించండి</string>
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event that is recurring. The user still has a chance to cancel
          this operation. -->
+  <string name="delete_recurring_event_title"><xliff:g id="eventtitle">%s</xliff:g>ను తొలగించాలా?</string>
   <!-- This is the title of a popup dialog that asks for confirmation before
          changing the response to an invitation. -->
+  <string name="change_response_title">స్పందనను మార్చు</string>
   <!-- This the title of a menu for General Preferences.
          Pressing the menu item lets user to view and edit his general settings
          (or preferences) [CHAR LIMIT=30] -->
+  <string name="menu_general_preferences">సాధారణ సెట్టింగ్‌లు</string>
   <!-- This is the title of the screen for setting user preferences. -->
+  <string name="preferences_title">"&quot;సెట్టింగులు&quot;"</string>
   <!-- This is the title of a section in the Settings screen for settings
          related to viewing calendar events -->
+  <string name="preferences_general_title">క్యాలెండర్ వీక్షణ సెట్టింగ్</string>
   <!-- This is the title of a section in the Settings screen for settings
          related to reminders for calendar events -->
+  <string name="preferences_reminder_title">నోటిఫికేషన్లు\u0026 జ్ఞాపికలు</string>
   <!-- Settings check box label to hide events that the user has declined to attend -->
+  <string name="preferences_hide_declined_title">తిరస్కరించిన ఈవెంట్లను అదృశ్యం చేయి</string>
   <!-- Settings week start label to start week on specific day-->
+  <string name="preferences_week_start_day_title">వారం ఈ తేదీన ప్రారంభమవుతుంది</string>
   <!-- Title of popup for week start day setting-->
+  <string name="preferences_week_start_day_dialog">వారం ఈ తేదీన ప్రారంభమవుతుంది</string>
   <!-- DO NOT TRANSLATE -->
   <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
+  <string name="preferences_clear_search_history_title">శోధన చరిత్రను క్లియర్ చేయండి</string>
   <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
+  <string name="preferences_clear_search_history_summary">మీరు నిర్వహించిన అన్ని శోధనలను తొలగించండి</string>
   <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
+  <string name="search_history_cleared">శోధన చరిత్ర క్లియర్ అయింది.</string>
   <!-- Settings check box label to enable or disable notifications -->
+  <string name="preferences_alerts_title">నోటిఫికేషన్‌లు</string>
   <!-- Settings dialog label that specifies when the phone should vibrate -->
+  <string name="preferences_alerts_vibrateWhen_title">వైబ్రేట్</string>
   <!-- The old value for enabling vibration. used only for migrating -->
   <!-- Title of ringtone selector dialog -->
+  <string name="preferences_alerts_ringtone_title">ధ్వని</string>
   <!-- Title of check box label to enable or disable pop-up notifications -->
+  <string name="preferences_alerts_popup_title">పాప్ అప్ నోటిఫికేషన్</string>
   <!-- List item label for setting the default number of reminder minutes -->
+  <string name="preferences_default_reminder_title">డిఫాల్ట్ రిమైండర్ టైమ్</string>
   <!-- Title of dialog for setting the default number of reminder minutes -->
+  <string name="preferences_default_reminder_dialog">డిఫాల్ట్ రిమైండర్ టైమ్</string>
   <!-- Default value for the number of reminder minutes -->
   <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
+  <string name="preferences_use_home_tz_title">హోమ్ టైమ్ జోన్‌ను ఉపయోగించు</string>
   <!-- Settings description of what setting Calendar to use a fixed 'home' time
         zone does [CHAR LIMIT = 60]-->
+  <string name="preferences_use_home_tz_descrip">ప్రయాణంలో ఉన్నప్పుడు మీ హోమ్ టైమ్ జోన్ లోని క్యాలెండర్లు మరియు ఈవెంట్ సమయాలను ప్రదర్సిస్తుంది.</string>
   <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
+  <string name="preferences_home_tz_title">హోమ్ టైమ్ జోన్</string>
   <!-- DO NOT TRANSLATE -->
   <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_title">వారం సంఖ్యను చూపు</string>
   <!-- This is the title of a section in the Settings screen for "About" this application -->
+  <string name="preferences_about_title">గురించి</string>
   <!-- Build version of the application -->
+  <string name="preferences_build_version_fmt">నిర్మించబడిన సంస్కరణ: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <!-- Widget -->
   <!-- Title for calendar gadget when displayed in list of all other gadgets -->
+  <string name="gadget_title">క్యాలెండర్</string>
   <!-- Shown in month view next to event icon when additional events exist for that day, but no
         room remaining -->
+  <plurals name="month_more_events">
+    <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
+    <item quantity="one">"&quot;+1&quot;"</item>
+    <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
+    <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
+  </plurals>
   <!-- Caption to show on gadget when there are no upcoming calendar events -->
+  <string name="gadget_no_events">అప్ కమింగ్ క్యాలెండర్ ఈవెంట్లు లేవు</string>
   <!-- Text to show on gadget when an event is currently in progress -->
   <!-- Text to show on gadget when an all-day event is in progress -->
   <!-- DO NOT TRANSLATE -->
   <!-- Experimental settings [CHAR LIMIT = 30]-->
+  <string name="preferences_experimental_category">ప్రయోగాత్మకం</string>
   <!-- Reminders settings [CHAR LIMIT = 30]-->
+  <string name="preferences_reminders_category">రిమైండర్‌లు</string>
   <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
+  <string name="preferences_reminders_responded_label">రిమైండర్లను తప్పిందు</string>
   <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
+  <string name="preferences_reminders_responded_dialog">రిమైండర్లను తప్పిందు</string>
   <!-- Preference label for quiet hours [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_label">ప్రశాంత ఘడియలు</string>
   <!-- Preference description for quiet hours [CHAR LIMIT = NONE]-->
+  <string name="preferences_reminders_quiet_hours_description">నిర్దష్ట సమయంలో ఈవెంట్ రిమైండర్లను నిశ్శబ్దం చేయి.</string>
   <!-- Preference label for quiet hours start time [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_start">ప్రశాంత ఘడియలలో ప్రారంభ సమయం</string>
   <!-- Preference label for quiet hours end time [CHAR LIMIT = 25]-->
+  <string name="preferences_reminders_quiet_hours_end">ప్రశాంత ఘడియలో ముగింపు సమయం</string>
   <!-- Preferences used for debugging purposes [CHAR LIMIT = 30]-->
+  <string name="preferences_debug_category">డీబగ్గింగ్</string>
   <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
+  <string name="copy_db">డేటాబేస్ పంపించు</string>
   <!-- Displayed in email address autocomplete list when searching for contacts
          in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
+  <string name="directory_searching_fmt"><xliff:g id="domain">%s</xliff:g> కొరకు శోధన జరుగుతోంది\u2026</string>
   <!-- Accessibility Events -->
   <!-- Strings that describes actions for buttons without text -->
   <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
   <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_remove_attendee">అటెండీని తొలగించు</string>
   <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_start_date">ప్రారంభ తేదీ</string>
   <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_start_time">ప్రారంభ సమయం</string>
   <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_end_date">ముగింపు తేదీ</string>
   <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_end_time">ముగింపు సమయం</string>
   <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_time_zone">సమయ మండలి</string>
   <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_pick_recurrence">ఈవెంట్ రిపీట్</string>
   <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_add_reminder">రిమైండర్‌ని జోడించు</string>
   <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_remove_reminder">రిమైండర్ తొలగింపు</string>
   <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
+  <string name="accessibility_add_attendee">అటెండీ జోడింపు</string>
   <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
+  <string name="accessibility_sync_cal">క్యాలెండర్ సింక్ చేయి</string>
   <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
+  <string name="accessibility_all_day">రోజంతా ఈవెంట్</string>
   <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
   <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_time">రిమైండర్ సమయం</string>
   <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_type">రిమైండర్ రకం</string>
   <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_showmeas">నాకు ఇలా చూపించు</string>
   <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
+  <string name="accessibility_reminder_privacy">గోప్యత</string>
   <!-- Calendar notification [CHAR LIMIT = NONE]-->
+  <string name="acessibility_cal_notification">క్యాలెండర్ నోటిఫికేషన్</string>
   <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
+  <string name="acessibility_snooze_notification">స్నూజ్ నోటిఫికేషన్</string>
   <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
+  <string name="accessibility_email_notification">ఈమెయిల్ అతిథులు</string>
   <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
+  <string name="day_view_new_event_hint">+ కొత్త ఈవెంట్</string>
   <!--
       Source: A value for announcing the current event index (example: "Event 2 of 6").
       Description: This is spoken to the user. [CHAR LIMIT="NONE"]
     -->
+  <string name="template_announce_item_index"><xliff:g id="item_index">%2$s</xliff:g> యొక్క <xliff:g id="item_count">%1$s</xliff:g> ఈవెంట్.</string>
   <!-- number of events in the notification bar -->
+  <plurals name="Nevents">
+    <!-- This is the label for a 1 event. -->
+    <item quantity="one">1 ఈవెంట్</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> ఈవెంట్లు</item>
+  </plurals>
   <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
+  <plurals name="N_remaining_events">
+    <!-- This is the label for 1 event. -->
+    <item quantity="one">+1 ఈవెంట్</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> ఈవెంట్లు</item>
+  </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+  <string name="acessibility_selected_marker_description">ఎంచుకున్న ఈవెంట్</string>
   <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
+  <string name="do_not_check">తనిఖీ చేయవద్దు -&gt;</string>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+  <plurals name="recurrence_interval_daily">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ప్రతి <xliff:g id="count">%d</xliff:g> రోజుకు</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ప్రతి <xliff:g id="count">%d</xliff:g> రోజులకు</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+  <plurals name="recurrence_interval_weekly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ప్రతి <xliff:g id="count">%d</xliff:g> వారానికి</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ప్రతి <xliff:g id="count">%d</xliff:g> వారాలకు</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+  <plurals name="recurrence_interval_monthly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ప్రతి <xliff:g id="count">%d</xliff:g> నెలకు</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ప్రతి <xliff:g id="count">%d</xliff:g> నెలలకు</item>
+  </plurals>
   <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+  <plurals name="recurrence_interval_yearly">
+    <!-- Singular form [CHAR LIMIT=30] -->
+    <item quantity="one">ప్రతి <xliff:g id="count">%d</xliff:g> సంవత్సరానికి</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
+    <item quantity="other">ప్రతి <xliff:g id="count">%d</xliff:g> సంవత్సరాలకు</item>
+  </plurals>
   <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
+  <string name="recurrence_month_pattern_by_day">ప్రతి నెలా అదే రోజు</string>
   <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
+  <string name="recurrence_end_continously">ఎప్పటికీ</string>
   <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
+  <string name="recurrence_end_date_label">ఒక రోజు వరకు</string>
   <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
+  <string name="recurrence_end_date"><xliff:g id="date">%s</xliff:g> వరకు</string>
   <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
+  <string name="recurrence_end_count_label">అనేక ఈవెంట్ల కోసం</string>
   <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
+  <plurals name="recurrence_end_count">
+    <item quantity="one"><xliff:g id="event_count">%d</xliff:g> ఈవెంట్ కొరకు</item>
+    <item quantity="other"><xliff:g id="event_count">%d</xliff:g> ఈవెంట్ల కొరకు</item>
+  </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+  <string name="acessibility_recurrence_choose_end_date_description">ముగింపు తేదీని మార్చు</string>
   <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
 </resources>

@@ -44,8 +44,8 @@
   <!-- Title for email create invite -->
   <string name="create_invite_title">צור הזמנה</string>
   <string name="discard_dialog_title">בטל</string>
-  <string name="discard_dialog_new_event_message">האם הנך בטוח שברצונך לבטל אירוע זה?</string>
-  <string name="discard_dialog_existing_event_message">האם הנך בטוח שברצונך לבטל את השינויים שבוצעו לאירוע זה?</string>
+  <string name="discard_dialog_new_event_message">בטוח שברצונך לבטל אירוע זה?</string>
+  <string name="discard_dialog_existing_event_message">בטוח שברצונך לבטל את השינויים שבוצעו לאירוע זה?</string>
   <string name="discard_dialog_positive_button_text">ביטול</string>
   <string name="discard_dialog_negative_button_text">המשך לערוך</string>
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> לפני</string>
@@ -60,29 +60,29 @@
   <string name="empty_calendars_to_display">אין לוחות שנה להצגה</string>
   <string name="update_available_ticker">קיים עדכון זמין עבור לוח השנה</string>
   <string name="update_availalable_title">קיים עדכון זמין</string>
-  <string name="update_available_content">הקש להתקנת העדכון</string>
-  <string name="error_no_app_store">לא נמצא יישום חנות מתאים</string>
-  <string name="tutorial_done_button">סיום</string>
+  <string name="update_available_content">גע להתקנת העדכון</string>
+  <string name="error_no_app_store">לא נמצאה חנות יישומים מתאימה</string>
+  <string name="tutorial_done_button">בוצע</string>
   <string name="tutorial_skip_button">דלג</string>
   <string name="tutorial_welcome_title">ברוכים הבאים ללוח השנה</string>
-  <string name="tutorial_welcome_subtitle">דרך יפהפייה להצגת חייכם.</string>
+  <string name="tutorial_welcome_subtitle">דרך מקסימה להציג את חייך.</string>
   <string name="tutorial_page1_title">כל לוחות השנה שלך</string>
-  <string name="tutorial_page1_subtitle">הציגו את כל לוחות השנה והאירועים שלכם במקום אחד.</string>
-  <string name="tutorial_page2_title">שתפו את זמינותכם</string>
-  <string name="tutorial_page2_subtitle">תנו לאחרים לדעת במהירות מתי אתם יכולים להיפגש.</string>
+  <string name="tutorial_page1_subtitle">הצג את כל לוחות השנה והאירועים שלך במקום אחד.</string>
+  <string name="tutorial_page2_title">שתף את זמינותך</string>
+  <string name="tutorial_page2_subtitle">אפשר לאחרים לדעת במהירות מתי תוכלו להיפגש.</string>
   <string name="tutorial_page3_title">תצוגות מרובות</string>
-  <string name="tutorial_page3_subtitle">הצגת האירועים שלכם בדרך שהכי מתאימה לכם.</string>
+  <string name="tutorial_page3_subtitle">הצגת האירועים שלך בדרך שהכי מתאימה לך.</string>
   <string name="tutorial_end_title">הורדת יישום דוא\"ל</string>
-  <string name="tutorial_end_subtitle">פתחו תכונות מדהימות באמצעות שילוב של לוח השנה ו-Boxer Email.</string>
-  <string name="tutorial_end_button">קבלו את Boxer Email</string>
+  <string name="tutorial_end_subtitle">פתח תכונות מדהימות באמצעות שילוב של לוח השנה ו-Boxer Email.</string>
+  <string name="tutorial_end_button">קבל את Boxer Email</string>
   <string name="account_settings_tutorial_header_title">הצג הדרכה</string>
   <!-- Organizer Label [CHAR LIMIT=12]-->
-  <string name="event_info_organizer">מארגן</string>
+  <string name="event_info_organizer">סדרן</string>
   <!-- Security settings category -->
   <string name="preferences_security_title">אבטחה</string>
   <!-- Preference for disabling screenshots of app screens. -->
-  <string name="preference_disable_screenshots">השבת צילומי מסך</string>
-  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לקחת צילומי מסך ממסכי היישום</string>
+  <string name="preference_disable_screenshots">בטל צילומי מסך</string>
+  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לצלם צילומי מסך ממסכי היישום</string>
   <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">הצג מספרי שבועות במצב תצוגת חודש</string>
 </resources>
