@@ -82,7 +82,7 @@
   <string name="preferences_security_title">Segurança</string>
   <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Desativar capturas de tela</string>
-  <string name="preference_disable_screenshots_summary">Impedir que outros apps capturem telas de app</string>
+  <string name="preference_disable_screenshots_summary">Impede que outros aplicativos capturem telas de aplicativos</string>
   <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">Ativar os números da semana na exibição de mês</string>
 </resources>

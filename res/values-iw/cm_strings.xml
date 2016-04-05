@@ -60,7 +60,7 @@
   <string name="empty_calendars_to_display">אין לוחות שנה להצגה</string>
   <string name="update_available_ticker">קיים עדכון זמין עבור לוח השנה</string>
   <string name="update_availalable_title">קיים עדכון זמין</string>
-  <string name="update_available_content">גע להתקנת העדכון</string>
+  <string name="update_available_content">הקש להתקנת העדכון</string>
   <string name="error_no_app_store">לא נמצאה חנות יישומים מתאימה</string>
   <string name="tutorial_done_button">בוצע</string>
   <string name="tutorial_skip_button">דלג</string>
@@ -81,8 +81,8 @@
   <!-- Security settings category -->
   <string name="preferences_security_title">אבטחה</string>
   <!-- Preference for disabling screenshots of app screens. -->
-  <string name="preference_disable_screenshots">בטל צילומי מסך</string>
+  <string name="preference_disable_screenshots">השבתת צילומי מסך</string>
   <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לצלם צילומי מסך ממסכי היישום</string>
   <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
-  <string name="preferences_show_week_num_summary">הצג מספרי שבועות במצב תצוגת חודש</string>
+  <string name="preferences_show_week_num_summary">הפעל מספרי שבועות במצב תצוגת חודש</string>
 </resources>
