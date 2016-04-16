@@ -19,22 +19,70 @@
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"Kalender"</string>
+  <string name="custom_event_color">Warna Kegiatan</string>
   <!-- Label for button which sets event color to default calendar color -->
+  <string name="event_color_set_to_default">Warna baku</string>
   <!-- Label for whether the user is attending this event. This is shown when
          a user is invited to a meeting or event.  The possible answers are
          'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
+  <string name="view_event_response_label">Hadir?</string>
+  <string name="new_event_more_options">opsi lainnya</string>
+  <string name="preferences_alerts_silent_ringtone_title">Senyap</string>
   <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
+  <string name="hint_where">Tambahkan lokasi</string>
   <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
+  <string name="reminders_label">Tambahkan Pemberitahuan</string>
   <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
+  <string name="hint_attendees">Undang seseorang</string>
   <!-- A label in a multiple-choice list for the specifying that an event does
          not repeat -->
+  <string name="does_not_repeat">Tidak dapat diulang</string>
   <!-- Label for the event description -->
+  <string name="description_label">Tambah catatan</string>
   <!-- Title for email availability -->
+  <string name="availability_title">Kirim ketersediaan</string>
   <!-- Title for email create invite -->
+  <string name="create_invite_title">Buat undangan</string>
+  <string name="discard_dialog_title">Batal</string>
+  <string name="discard_dialog_new_event_message">Anda yakin ingin menghapus acara ini?</string>
+  <string name="discard_dialog_existing_event_message">Apakah Anda yakin ingin membatalkan perubahan yang ada di acara ini?</string>
+  <string name="discard_dialog_positive_button_text">Cabut</string>
+  <string name="discard_dialog_negative_button_text">Lanjut menyunting</string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> sebelumnya</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> sebelum dengan <xliff:g id="type" example="email">%s</xliff:g></string>
+  <string name="no_events_scheduled">Tidak ada acara dijadwalkan.</string>
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
+  <string name="search_hint">Telusuri kalender</string>
   <!-- Appwidget header used when there are n events today. -->
+  <string name="appwidget_today_day_header">Tidak ada acara hari ini.</string>
+  <string name="appwidget_tomorrow_day_header">Besok, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Tidak ada kalender untuk disinkronkan</string>
+  <string name="empty_calendars_to_display">Tidak ada kalender untuk ditampilkan</string>
+  <string name="update_available_ticker">Ada pembaruan yang tersedia untuk Kalender</string>
+  <string name="update_availalable_title">Ada pembaruan tersedia</string>
+  <string name="update_available_content">Ketuk untuk menginstal pembaruan</string>
+  <string name="error_no_app_store">Tidak ada toko aplikasi cocok yang ditemukan</string>
+  <string name="tutorial_done_button">Selesai</string>
+  <string name="tutorial_skip_button">Lewati</string>
+  <string name="tutorial_welcome_title">Selamat datang di Kalender</string>
+  <string name="tutorial_welcome_subtitle">Cara yang indah untuk melihat hidup Anda.</string>
+  <string name="tutorial_page1_title">Semua kalender Anda</string>
+  <string name="tutorial_page1_subtitle">Lihat semua kalender dan acara di satu tempat.</string>
+  <string name="tutorial_page2_title">Bagikan ketersediaan Anda</string>
+  <string name="tutorial_page2_subtitle">Biarkan orang lain tahu secepat mungkin kapan Anda bisa bertemu.</string>
+  <string name="tutorial_page3_title">Tampilan ganda</string>
+  <string name="tutorial_page3_subtitle">Lihat acara Anda sesuai keinginan Anda.</string>
+  <string name="tutorial_end_title">Unduh Surel</string>
+  <string name="tutorial_end_subtitle">Aktifkan fitur canggih dengan menggabungkan Boxer Surel dan Kalender.</string>
+  <string name="tutorial_end_button">Dapatkan Boxer Surel</string>
+  <string name="account_settings_tutorial_header_title">Lihat panduan</string>
   <!-- Organizer Label [CHAR LIMIT=12]-->
+  <string name="event_info_organizer">Penyelenggara</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">Keamanan</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Nonaktifkan cuplikan layar</string>
+  <string name="preference_disable_screenshots_summary">Cegah aplikasi lain mengambil cuplikan layar untuk layar aplikasi</string>
   <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_summary">Aktifkan angka-angka minggu dalam tampilan bulan</string>
 </resources>
