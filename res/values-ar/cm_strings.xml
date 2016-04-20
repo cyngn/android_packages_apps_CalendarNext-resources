@@ -16,18 +16,32 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"التقويمات"</string>
   <string name="custom_event_color">لون الحدث</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">اللون الافتراضي</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">هل ستذهب؟</string>
   <string name="new_event_more_options">مزيد من الخيارات</string>
   <string name="preferences_alerts_silent_ringtone_title">صامت</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">إضافة موقع</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">إضافة إشعار</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">دعوة أشخاص</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">لا يتكرر</string>
+  <!-- Label for the event description -->
   <string name="description_label">إضافة ملحوظة</string>
+  <!-- Title for email availability -->
   <string name="availability_title">إرسال التوافر</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">إنشاء دعوة</string>
   <string name="discard_dialog_title">الغاء</string>
   <string name="discard_dialog_new_event_message">هل أنت متأكد من أنك تريد إزالة هذا الحدث؟</string>
@@ -37,7 +51,9 @@
   <string name="event_info_reminder">قبل <xliff:g id="length" example="15 minutes">%s</xliff:g></string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g>قبل <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">لا توجد أحداث محددة</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">بحث تقويمي</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">لا توجد أحداث اليوم.</string>
   <string name="appwidget_tomorrow_day_header">غدا <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">لا يوجد تقويمات للمزامنة</string>
@@ -60,9 +76,13 @@
   <string name="tutorial_end_subtitle">إلغاء تأمين المزايا الفعالة من خلال دمج البريد الإلكتروني Boxer والتقويم.</string>
   <string name="tutorial_end_button">الحصول على البريد الإلكتروني Boxer</string>
   <string name="account_settings_tutorial_header_title">عرض البرنامج التعليمي</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">منظم</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">الأمان</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">تعطيل لقطات الشاشة</string>
   <string name="preference_disable_screenshots_summary">منع التطبيقات الأخرى من التقاط لقطت الشاشة الخاصة بشاشات التطبيق</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">تمكين أرقام الأسبوع في طريقة عرض الشهر</string>
 </resources>

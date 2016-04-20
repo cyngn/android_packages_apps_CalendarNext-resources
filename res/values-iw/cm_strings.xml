@@ -16,28 +16,44 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"לוחות שנה להצגה"</string>
   <string name="custom_event_color">צבע אירוע</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">צבע ברירת מחדל</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">מגיע?</string>
   <string name="new_event_more_options">אפשרויות נוספות</string>
   <string name="preferences_alerts_silent_ringtone_title">שקט</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">הוסף מיקום</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">הוסף התראה</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">הזמן אנשים</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">ללא חזרות</string>
+  <!-- Label for the event description -->
   <string name="description_label">הוסף הערה</string>
+  <!-- Title for email availability -->
   <string name="availability_title">שלח זמינות</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">צור הזמנה</string>
   <string name="discard_dialog_title">בטל</string>
-  <string name="discard_dialog_new_event_message">האם הנך בטוח שברצונך לבטל אירוע זה?</string>
-  <string name="discard_dialog_existing_event_message">האם הנך בטוח שברצונך לבטל את השינויים שבוצעו לאירוע זה?</string>
+  <string name="discard_dialog_new_event_message">בטוח שברצונך לבטל אירוע זה?</string>
+  <string name="discard_dialog_existing_event_message">בטוח שברצונך לבטל את השינויים שבוצעו לאירוע זה?</string>
   <string name="discard_dialog_positive_button_text">ביטול</string>
   <string name="discard_dialog_negative_button_text">המשך לערוך</string>
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> לפני</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> לפני באמצעות <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">לא נקבעו אירועים.</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">חפש בלוח השנה</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">אין אירועים היום.</string>
   <string name="appwidget_tomorrow_day_header">מחר, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">אין לוחות שנה לסינכרון</string>
@@ -45,24 +61,28 @@
   <string name="update_available_ticker">קיים עדכון זמין עבור לוח השנה</string>
   <string name="update_availalable_title">קיים עדכון זמין</string>
   <string name="update_available_content">הקש להתקנת העדכון</string>
-  <string name="error_no_app_store">לא נמצא יישום חנות מתאים</string>
-  <string name="tutorial_done_button">סיום</string>
+  <string name="error_no_app_store">לא נמצאה חנות יישומים מתאימה</string>
+  <string name="tutorial_done_button">בוצע</string>
   <string name="tutorial_skip_button">דלג</string>
   <string name="tutorial_welcome_title">ברוכים הבאים ללוח השנה</string>
-  <string name="tutorial_welcome_subtitle">דרך יפהפייה להצגת חייכם.</string>
+  <string name="tutorial_welcome_subtitle">דרך מקסימה להציג את חייך.</string>
   <string name="tutorial_page1_title">כל לוחות השנה שלך</string>
-  <string name="tutorial_page1_subtitle">הציגו את כל לוחות השנה והאירועים שלכם במקום אחד.</string>
-  <string name="tutorial_page2_title">שתפו את זמינותכם</string>
-  <string name="tutorial_page2_subtitle">תנו לאחרים לדעת במהירות מתי אתם יכולים להיפגש.</string>
+  <string name="tutorial_page1_subtitle">הצג את כל לוחות השנה והאירועים שלך במקום אחד.</string>
+  <string name="tutorial_page2_title">שתף את זמינותך</string>
+  <string name="tutorial_page2_subtitle">אפשר לאחרים לדעת במהירות מתי תוכלו להיפגש.</string>
   <string name="tutorial_page3_title">תצוגות מרובות</string>
-  <string name="tutorial_page3_subtitle">הצגת האירועים שלכם בדרך שהכי מתאימה לכם.</string>
+  <string name="tutorial_page3_subtitle">הצגת האירועים שלך בדרך שהכי מתאימה לך.</string>
   <string name="tutorial_end_title">הורדת יישום דוא\"ל</string>
-  <string name="tutorial_end_subtitle">פתחו תכונות מדהימות באמצעות שילוב של לוח השנה ו-Boxer Email.</string>
-  <string name="tutorial_end_button">קבלו את Boxer Email</string>
+  <string name="tutorial_end_subtitle">פתח תכונות מדהימות באמצעות שילוב של לוח השנה ו-Boxer Email.</string>
+  <string name="tutorial_end_button">קבל את Boxer Email</string>
   <string name="account_settings_tutorial_header_title">הצג הדרכה</string>
-  <string name="event_info_organizer">מארגן</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
+  <string name="event_info_organizer">סדרן</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">אבטחה</string>
-  <string name="preference_disable_screenshots">השבת צילומי מסך</string>
-  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לקחת צילומי מסך ממסכי היישום</string>
-  <string name="preferences_show_week_num_summary">הצג מספרי שבועות במצב תצוגת חודש</string>
+  <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">השבתת צילומי מסך</string>
+  <string name="preference_disable_screenshots_summary">מנע מיישומים אחרים לצלם צילומי מסך ממסכי היישום</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_summary">הפעל מספרי שבועות במצב תצוגת חודש</string>
 </resources>

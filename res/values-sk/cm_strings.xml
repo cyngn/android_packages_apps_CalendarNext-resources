@@ -16,18 +16,32 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"Kalendáre"</string>
   <string name="custom_event_color">Farba udalosti</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">Predvolená farba</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">Zúčastníte sa?</string>
   <string name="new_event_more_options">viac možností</string>
   <string name="preferences_alerts_silent_ringtone_title">Tichý</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">Pridať polohu</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">Pridať upozornenie</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">Pozvať ľudí</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">Neopakovať</string>
+  <!-- Label for the event description -->
   <string name="description_label">Pridať poznámku</string>
+  <!-- Title for email availability -->
   <string name="availability_title">Poslať dostupnosť</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">Vytvoriť pozvánku</string>
   <string name="discard_dialog_title">Zrušiť</string>
   <string name="discard_dialog_new_event_message">Naozaj chcete zahodiť túto akciu?</string>
@@ -37,7 +51,9 @@
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s </xliff:g> dozadu</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s </xliff:g> dozadu ako <xliff:g id="type" example="email"> %s </xliff:g></string>
   <string name="no_events_scheduled">Nie sú naplánované žiadne udalosti.</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Prehľadať kalendár</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">Dnes žiadne udalosti.</string>
   <string name="appwidget_tomorrow_day_header">Zajtra, <xliff:g id="date" example="Tue, July 8">%s </xliff:g></string>
   <string name="empty_calendars_to_sync">Žiadne kalendáre na synchronizáciu</string>
@@ -60,9 +76,13 @@
   <string name="tutorial_end_subtitle">Odomknite užitočné funkcie kombináciou aplikácií Boxer Email a Kalendár.</string>
   <string name="tutorial_end_button">Získať Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Zobraziť sprievodcu</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">Usporiadateľ</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Bezpečnosť</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Zakázať snímky obrazovky</string>
   <string name="preference_disable_screenshots_summary">Zabrániť iným aplikáciám snímanie obrazoviek tejto aplikácie</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">Povoliť čísla týždňov v zobrazení mesiaca</string>
 </resources>

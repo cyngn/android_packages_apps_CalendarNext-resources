@@ -16,18 +16,32 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="menu_select_visible_calendars">"Lịch"</string>
   <string name="custom_event_color">Màu sự kiện</string>
+  <!-- Label for button which sets event color to default calendar color -->
   <string name="event_color_set_to_default">Màu mặc định</string>
+  <!-- Label for whether the user is attending this event. This is shown when
+         a user is invited to a meeting or event.  The possible answers are
+         'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">Tham dự?</string>
   <string name="new_event_more_options">tuỳ chọn khác</string>
   <string name="preferences_alerts_silent_ringtone_title">Im lặng</string>
+  <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">Thêm vị trí</string>
+  <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">Thêm một thông báo</string>
+  <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <string name="hint_attendees">Mời mọi người</string>
+  <!-- A label in a multiple-choice list for the specifying that an event does
+         not repeat -->
   <string name="does_not_repeat">Không lặp lại</string>
+  <!-- Label for the event description -->
   <string name="description_label">Thêm ghi chú</string>
+  <!-- Title for email availability -->
   <string name="availability_title">Gửi tình trạng khả dụng</string>
+  <!-- Title for email create invite -->
   <string name="create_invite_title">Tạo lời mời</string>
   <string name="discard_dialog_title">Huỷ</string>
   <string name="discard_dialog_new_event_message">Bạn có chắc bạn muốn loại bỏ sự kiện này?</string>
@@ -37,7 +51,9 @@
   <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s </xliff:g> trước</string>
   <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> trước dưới dạng <xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">Không có sự kiện theo lịch trình.</string>
+  <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">Tìm kiếm lịch</string>
+  <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">Không có sự kiện vào ngày hôm nay.</string>
   <string name="appwidget_tomorrow_day_header">Ngày mai, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">Không có lịch nào để đồng bộ hóa</string>
@@ -60,9 +76,13 @@
   <string name="tutorial_end_subtitle">Mở khóa các tính năng mạnh mẽ bằng cách kết hợp Boxer Email và Lịch.</string>
   <string name="tutorial_end_button">Nhận Boxer Email</string>
   <string name="account_settings_tutorial_header_title">Xem hướng dẫn</string>
+  <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">Nhà tổ chức</string>
+  <!-- Security settings category -->
   <string name="preferences_security_title">Bảo mật</string>
+  <!-- Preference for disabling screenshots of app screens. -->
   <string name="preference_disable_screenshots">Vô hiệu chụp ảnh màn hình</string>
   <string name="preference_disable_screenshots_summary">Ngăn các ứng dụng khác chụp lại ảnh màn hình ứng dụng</string>
+  <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_summary">Kích hoạt số tuần trong màn hình xem tháng</string>
 </resources>

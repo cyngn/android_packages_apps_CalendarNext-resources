@@ -15,216 +15,521 @@
      limitations under the License.
 -->
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+  <!-- This is the label underneath the icon for Calendar -->
   <string name="app_label">Təqvim</string>
+  <!-- Shared Labels. These labels are shared among the activities. -->
+  <!-- Text to show when an event starts on the current day -->
   <string name="today">Bugün</string>
+  <!-- Text to show when an event starts on the next day -->
   <string name="tomorrow">Sabah</string>
+  <!-- Text for an event starting on the current day with a start and end time.
+         For ex, "Today at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
   <string name="today_at_time_fmt">"Bugün <xliff:g id="TIME_INTERVAL">%s</xliff:g> arası"</string>
+  <!-- Text for an event starting on the next day with a start and end time.
+         For ex, "Tomorrow at 5:00pm-6:00pm" [CHAR LIMIT=NONE] -->
   <string name="tomorrow_at_time_fmt">"Sabah <xliff:g id="TIME_INTERVAL">%s</xliff:g> arası"</string>
+  <!-- Format string for a date and time description.  For ex:
+         "April 19, 2012, 3:00pm - 4:00pm" [CHAR LIMIT=NONE] -->
   <string name="date_time_fmt">"<xliff:g id="DATE">%s</xliff:g>, <xliff:g id="TIME_INTERVAL">%s</xliff:g>"</string>
+  <!-- Some events repeat daily, weekly, monthly, or yearly.  This is the label
+         for all the choices about how often an event repeats (including the choice
+         of not repeating). -->
   <string name="repeats_label">Təkrarlama</string>
+  <!-- Title of event when no explicit title is specified by the user -->
   <string name="no_title_label">(Başlıq yoxdur)</string>
+  <!-- Reminder format strings -->
   <plurals name="Nminutes">
+    <!-- This is the label for a 1-minute reminder. -->
     <item quantity="one">1 dəqiqə</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dəqiqə</item>
   </plurals>
+  <!-- We use the abbreviation "mins" instead of "minutes" to keep the string short.
+         This is the number of minutes displayed for a calendar reminder.  For example,
+         a reminder of 10 minutes would be displayed as '10 mins'.  The translation
+         should use the shortest acceptable abbreviation to save space. -->
   <plurals name="Nmins">
+    <!-- This is the label for a 1-minute reminder. -->
     <item quantity="one">1 dəq</item>
+    <!-- This is the label for 2 or more minutes. The actual number of
+             minutes is a parameter. -->
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> dəq</item>
   </plurals>
+  <!-- This is the number of hours displayed for a calendar reminder.  For example,
+         a reminder of 1 hour would be displayed as '1 hour'.  The translation
+         should use the shortest acceptable abbreviation of 'hour' to save space. -->
   <plurals name="Nhours">
+    <!-- This is the label for a 1-hour reminder. -->
     <item quantity="one">1 saat</item>
+    <!-- This is the label for a reminder of 2 or more hours. The actual number of
+             hours is a parameter. -->
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> saat</item>
   </plurals>
+  <!-- This is the number of days displayed for a calendar reminder.  For example,
+         a reminder of 2 days would be displayed as '2 days'.  The translation
+         should use the shortest acceptable abbreviation of 'day' to save space. -->
   <plurals name="Ndays">
+    <!-- This is the label for a reminder of 1 day. -->
     <item quantity="one">1 gün</item>
+    <!-- This is the label for a reminder of 2 or more days. The actual number of
+             days is a parameter. -->
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> gün</item>
   </plurals>
+  <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
   <plurals name="weekN">
     <item quantity="one"><xliff:g id="COUNT">%d</xliff:g>. HƏFTƏ</item>
+    <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g>. HƏFTƏ</item>
   </plurals>
+  <!-- Menu items: -->
+  <!-- This is a label on a context menu item. Pressing this menu item to initiate
+        syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
   <string name="calendar_refresh">"Yenilə"</string>
+  <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Agenda view. -->
+  <!-- This is a label on a context menu item. Pressing this menu item displays the
+         Day view. -->
   <string name="show_day_view">"Günü göstər"</string>
+  <!-- This is a label on a menu item. Pressing this menu item displays the
+         Agenda view. -->
   <string name="agenda_view">"Gündəlik"</string>
+  <!-- This is a label on a menu item. Pressing this menu item displays the
+         Day view. -->
   <string name="day_view">"Gün"</string>
+  <!-- This is a label on a menu item. Pressing this menu item displays the
+         Week view. -->
   <string name="week_view">"Həftə"</string>
+  <!-- This is a label on a menu item. Pressing this menu item displays the
+         Month view. -->
   <string name="month_view">"Ay"</string>
+  <!-- This is a label on a menu item. Pressing this menu item displays the
+         details of an event. -->
   <string name="event_view">"Tədbirə bax"</string>
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to create a new event. -->
   <string name="event_create">"Yeni tədbir"</string>
+  <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to edit or change an existing event. -->
   <string name="event_edit">"Tədbirə düzəliş et"</string>
+  <!-- This is a label on a menu item in a popup window. Pressing this menu
+         item allows the user to delete an existing event. -->
   <string name="event_delete">"Tədbiri sil"</string>
+  <!-- This is a label on a menu item. Pressing this menu
+         item takes the user to the current day (today) in whatever view
+         (Day view, Week view, Agenda view, Month view) they are currently in. -->
   <string name="goto_today">"Bugün"</string>
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to see the list of calendars that he is viewing and to then add
+         or remove selected calendars. -->
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to view and edit his Settings (or Preferences) -->
   <string name="menu_preferences">"Tənzimləmələr"</string>
+  <!-- This is a label on a menu item. Pressing this menu item allows the
+         user to select the calendars to display [CHAR LIMIT=20] -->
   <string name="search">"Axtarış"</string>
+  <!-- Month view -->
+  <!-- Select Visible Calendars activity -->
+  <!-- Title of "My calendars" screen -->
   <string name="select_visible_calendars_title">"Görüntülənəcək təqvimlər"</string>
+  <!-- Synced and visible status message -->
+  <!-- Synced but not visible status message -->
+  <!-- not Synced or visible status message -->
+  <!-- Synced status message displayed when the given calendar is stored/synced on the device
+        [CHAR LIMIT=60] -->
   <string name="synced"> eyniləşdirildi</string>
+  <!-- Not synced status message displayed when the given calendar is not stored/synced on the
+        device [CHAR LIMIT=60] -->
   <string name="not_synced"> eyniləşdirilmədi</string>
+  <!-- Message displayed to user when an account with Calendars is not being auto-synced
+        [CHAR LIMIT=120]-->
   <string name="acct_not_synced">Bu hesab eyniləşdirilmədi, buna görə də təqvimləriniz
         yeni olmaya bilər.</string>
+  <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
   <string name="accounts">Hesablar &amp; eyniləşdirmə</string>
+  <!-- Select Synced Calendars activity -->
+  <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
   <string name="select_synced_calendars_title">Eyniləşdiriləcək təqvimlər</string>
+  <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
   <string name="select_synced_calendars_button">Eyniləşdiriləcək təqvimlər</string>
+  <!-- Event edit activity -->
+  <!-- The title of the screen where the user edits an event [CHAR LIMIT=17] -->
+  <!-- Default value of What field (as a hint to the user) [CHAR LIMIT=15] -->
   <string name="hint_what">"Tədbir adı"</string>
+  <!-- Toast message displayed when a new event is created -->
   <string name="creating_event">"Tədbir yaradıldı."</string>
+  <!-- Toast message displayed when an existing event is saved after being modified -->
   <string name="saving_event">"Tədbir yadda saxlanıldı."</string>
+  <!-- Toast message displayed when a new event was not saved because it was empty [CHAR LIMIT=30] -->
   <string name="empty_event">"Boş tədbir yaradıla bilmədi."</string>
+  <!-- Toast message displayed when a new event with guests is created -->
   <string name="creating_event_with_guest">"Dəvətlər göndəriləcək."</string>
+  <!-- Toast message displayed when an existing event with guests is saved after being modified -->
   <string name="saving_event_with_guest">"Yeniləmələr göndəriləcək."</string>
+  <!-- Toast message displayed responding to an event from an email as accepted
+     [CHAR LIMIT=50] -->
   <string name="rsvp_accepted">"Bəli cavabı verildi."</string>
+  <!-- Toast message displayed responding to an event from an email as tentative
+     [CHAR LIMIT=50] -->
   <string name="rsvp_tentative">"Bəlkə cavabı verildi."</string>
+  <!-- Toast message displayed responding to an event from an email as declined
+     [CHAR LIMIT=50] -->
   <string name="rsvp_declined">"Xeyr cavabı verildi."</string>
+  <!-- Title of message displayed to indicate available calendars are being loaded when creating
+         a new event -->
+  <!-- Body of message displayed to indicate available calendars are being loaded when creating
+         a new event -->
+  <!-- Create event dialog -->
+  <!-- Create event dialog save button [CHAR LIMIT=10] -->
   <string name="create_event_dialog_save">Saxla</string>
+  <!-- The alert toast is not actually being displayed for some reason. -->
+  <!-- the title of the alert/notification activity -->
   <string name="alert_title">Təqvim bildirişləri</string>
+  <!-- Notification window messages: -->
+  <!-- Event info/edit screen labels:-->
+  <!-- This is the title of the screen used to view the details of an event -->
   <string name="event_info_title">Tədbirə bax</string>
+  <!-- This is the title of the screen used to view the details of an invitation
+         to a meeting or event -->
   <string name="event_info_title_invite">Yığıncaq dəvəti</string>
+  <!-- EditEventActivity specific strings: -->
+  <!-- Check box label that specifies if this is an all-day event -->
   <string name="edit_event_all_day_label">Bütün gün</string>
+  <!-- Label for the 'Presence' of an event, which can be either 'busy' (the default)
+         or 'available'  [CHAR LIMIT=15] -->
   <string name="presence_label">Durumumu belə göstər:</string>
+  <!-- Label for the 'Privacy' of an event, which can be either 'private'
+         or 'public' [CHAR LIMIT=15] -->
   <string name="privacy_label">Gizlilik</string>
+  <!-- Title of alert shown if the user tries to create an event and has no calendars -->
   <string name="no_syncable_calendars">Təqvim yoxdur</string>
+  <!-- Body of alert shown if the user tries to create an event and has no calendars. Users can start adding an account here. [CHAR LIMIT=NONE] -->
   <string name="no_calendars_found">Tədbir əlavə etməzdən əvvəl cihaza ən az bir Təqvim hesabı əlavə edib təqvimi görünən etməlisiniz. Hesab əlavə etmək üçün Hesab Əlavə Et-ə toxunun (əgər yenicə hesab əlavə etmisinizsə, onun sinxronlaşdırılmasını gözləyin və yenidən yoxlayın). Və ya Ləğv Et-ə toxunun və ən az bir təqvimin görünən olduğundan əmin olun.</string>
+  <!-- Body of dialog prompting the user to create an account.[CHAR LIMIT=NONE] -->
   <string name="create_an_account_desc">"Təqvim Google Hesab ilə daha yaxşı işləyir.\n\n• Ona istənilən veb səyyahdan müraciət edin\n• Tədbirləri təhlükəsiz şəkildə nüsxələyin."</string>
+  <!-- Title of a button shown when there is no account available and the system prompt a user to add one. [CHAR LIMIT=none] -->
   <string name="add_account">Hesab əlavə et</string>
+  <!-- View Event -->
+  <!-- Title for event color picker dialog -->
   <string name="event_color_picker_dialog_title">Tədbirin Rəngi</string>
+  <!-- Title for calendar color picker dialog -->
   <string name="calendar_color_picker_dialog_title">Təqvim Rəngi</string>
+  <!-- Description for calendar color squares, which bring up the color picker. -->
   <string name="calendar_square_color_picker_description">Rəng seçən</string>
+  <!-- Response for whether attending an event - accepted [CHAR LIMIT=10]-->
   <string name="response_yes">Bəli</string>
+  <!-- Response for whether attending an event - tentative [CHAR LIMIT=10]-->
   <string name="response_maybe">Bəlkə</string>
+  <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
   <string name="response_no">Xeyr</string>
+  <!-- Label for emailing attendees -->
   <string name="email_guests_label">Qonaqlara e-poçt göndər</string>
+  <!-- Label for emailing the organizer (when there are no attendees) -->
   <string name="email_organizer_label">Təşkilatçıya e-poçt göndər</string>
+  <!-- This is shown in the popup picker when emailing attendees -->
   <string name="email_picker_label">E-poçt göndər</string>
+  <!-- The is shown in the email subject as the prefix appended to the event title -->
+  <!-- Toast message displayed when the event id was not found LIMIT=30] -->
   <string name="event_not_found">"Tədbir tapılmadı."</string>
+  <!-- Notification label for getting a map of the location. -->
   <string name="map_label">Xəritə</string>
+  <!-- Notification label for calling a phone number in the location. -->
   <string name="call_label">Zəng et</string>
+  <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
   <string name="quick_response_settings">Cəld cavablar</string>
+  <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
   <string name="quick_response_settings_summary">Qonaqlara e-poçt göndərərkən ilkin cavablara düzəliş et</string>
+  <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
   <string name="quick_response_settings_title">Cəld cavablara düzəliş et</string>
+  <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
   <string name="quick_response_settings_edit_title">Cəld cavab</string>
+  <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
   <string name="quick_response_dialog_title">Cəld cavabı seç</string>
+  <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
   <string name="quick_response_email_failed">E-poçt proqramı tapılmadı</string>
+  <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
   <string-array name="quick_response_defaults">
     <item>Bir neçə dəqiqə gec qalacam.</item>
     <item>10 dəqiqə ərzində ordayam.</item>
     <item>Davam edin və mənsiz başlayın.</item>
     <item>Bağışlayın, mənə uyğun deyil. Yenidən planlaşdırmalı olacağıq.</item>
   </string-array>
+  <!-- Option to create a custom response instead of using defaults [CHAR LIMIT=none] -->
   <string name="quick_response_custom_msg">Öz cavabınızı yazın\u2026</string>
+  <!-- Agenda View strings -->
+  <!-- This is shown as part of the heading at the top of a list of today's events. -->
   <string name="agenda_today">BUGÜN, <xliff:g id="DATE">%1$s</xliff:g></string>
+  <!-- This is shown as part of the heading at the top of a list of today's events. -->
   <string name="agenda_yesterday">DÜNƏN, <xliff:g id="DATE">%1$s</xliff:g></string>
+  <!-- This is shown as part of the heading at the top of a list of today's events. -->
   <string name="agenda_tomorrow">SABAH, <xliff:g id="DATE">%1$s</xliff:g></string>
+  <!-- This is shown while the calendar events are being loading to the screen. -->
   <string name="loading">Yüklənir\u2026</string>
+  <!-- This is shown at the top of the agenda view showing the beginning of the searched range. If the user taps on this string and Calendar will find events older than what is visible and display them to the user -->
   <string name="show_older_events"><xliff:g id="OLDEST_SEARCH_RANGE">%1$s</xliff:g> seçimindən əvvəlki tədbirləri görmək üçün toxunun</string>
+  <!-- This is shown at the bottom of the agenda view showing the end of the searched range. If the user taps on this string and Calendar will find events later/newer than what is visible and display them to the user -->
   <string name="show_newer_events"><xliff:g id="NEWEST_SEARCH_RANGE">%1$s</xliff:g> seçimindən sonrakı tədbirləri görmək üçün toxunun</string>
+  <!-- Search activity strings -->
+  <!-- Title of the search screen [CHAR LIMIT=30] -->
   <string name="search_title">Təqvimlərimdə axtar</string>
+  <!-- Button labels: -->
+  <!-- This is the title of a popup window that is displayed when the user
+         edits a repeating event. [CHAR LIMIT=20]-->
   <string name="edit_event_label">"Təfsilatlar"</string>
+  <!-- This is a menu button for switching into edit mode when viewing an event.
+        [CHAR LIMIT=10] -->
   <string name="edit_label">"Düzəliş et"</string>
+  <!-- The button label for deleting an event -->
   <string name="delete_label">"Sil"</string>
+  <!-- A menu item for deleting an event -->
+  <!-- The button label for saving an event -->
   <string name="save_label">Bitdi</string>
+  <!-- Button labels on expanded notification reminders: -->
+  <!-- The button label for dismissing all the current reminder alarms. This
+         causes them to disappear from the notification screen. -->
   <string name="dismiss_all_label">"Hamısını sil"</string>
+  <!-- The button label for making the reminder alarms go away temporarily
+         and re-fire in 5 minutes. [CHAR LIMIT=12]-->
   <string name="snooze_label">"Mürgülə"</string>
+  <!-- Repetition dialog options: -->
+  <!-- This is a label for telling the user that this event repeats in
+         custom (non-standard) way from the usual repeat rates (such as daily,
+         weekly, etc.) and that the user cannot change this on the phone
+         (but only on the web). -->
   <string name="custom">"Özəl (cihazda özəlləşdirilə bilməz)"</string>
+  <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change just this one instance
+         of this repeating event. -->
   <string name="modify_event">Sadəcə bu tədbiri dəyişdir</string>
+  <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change all occurrences of
+         this repeating event. -->
   <string name="modify_all">Bu seriyadakı bütün tədbirləri dəyişdir</string>
+  <!-- This is a choice in a list that the user sees when he tries to modify
+         a repeating event.  This choice says to change this instance and all
+         future occurrences of this repeating event. -->
   <string name="modify_all_following">Bunu və gələcəkdəki bütün tədbirləri dəyişdir</string>
+  <!-- Dialogs -->
+  <!-- This is a label on the dialog for creating a new event. [CHAR LIMIT=30] -->
   <string name="new_event_dialog_label">"Yeni tədbir"</string>
+  <!-- This is the button to create a new event in a dialog window. [CHAR LIMIT=30] -->
   <string name="new_event_dialog_option">"Yeni tədbir"</string>
+  <!-- Confirmation dialog message -->
+  <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event. The user still has a chance to cancel
+         this operation. -->
   <string name="delete_this_event_title">Bu tədbir silinsin?</string>
+  <!-- This is a confirmation message in a popup dialog that appears when the
+         user has asked to delete an event that is recurring. The user still has a chance to cancel
+         this operation. -->
   <string name="delete_recurring_event_title"><xliff:g id="EVENTTITLE">%s</xliff:g> silinsin?</string>
+  <!-- This is the title of a popup dialog that asks for confirmation before
+         changing the response to an invitation. -->
   <string name="change_response_title">Cavabı dəyiş</string>
+  <!-- This the title of a menu for General Preferences.
+         Pressing the menu item lets user to view and edit his general settings
+         (or preferences) [CHAR LIMIT=30] -->
   <string name="menu_general_preferences">Ümumi tənzimləmələr</string>
+  <!-- This is the title of the screen for setting user preferences. -->
   <string name="preferences_title">"Tənzimləmələr"</string>
+  <!-- This is the title of a section in the Settings screen for settings
+         related to viewing calendar events -->
   <string name="preferences_general_title">Təqvim görünüş tənzimləməsi</string>
+  <!-- This is the title of a section in the Settings screen for settings
+         related to reminders for calendar events -->
   <string name="preferences_reminder_title">Bildirişlər &amp; xatırladıcılar</string>
+  <!-- Settings check box label to hide events that the user has declined to attend -->
   <string name="preferences_hide_declined_title">Rədd edilmiş tədbirləri gizlət</string>
+  <!-- Settings week start label to start week on specific day-->
   <string name="preferences_week_start_day_title">Həftənin ilk günü</string>
+  <!-- Title of popup for week start day setting-->
   <string name="preferences_week_start_day_dialog">Həftənin ilk günü</string>
+  <!-- DO NOT TRANSLATE -->
+  <!-- Title of the settings item to clear the recent search history [CHAR LIMIT=40] -->
   <string name="preferences_clear_search_history_title">Axtarış tarixçəsini təmizlə</string>
+  <!-- Summary of the settings item to clear the recent search history [CHAR LIMIT=70]-->
   <string name="preferences_clear_search_history_summary">Həyata keçirdiyiniz bütün axtarışları silin</string>
+  <!-- Message to show in a toast when the history is cleared [CHAR LIMIT=40] -->
   <string name="search_history_cleared">Axtarış tarixçəsi təmizləndi.</string>
+  <!-- Settings check box label to enable or disable notifications -->
   <string name="preferences_alerts_title">Bildirişlər</string>
+  <!-- Settings dialog label that specifies when the phone should vibrate -->
   <string name="preferences_alerts_vibrateWhen_title">Titrəmə</string>
+  <!-- The old value for enabling vibration. used only for migrating -->
+  <!-- Title of ringtone selector dialog -->
   <string name="preferences_alerts_ringtone_title">Səs</string>
+  <!-- Title of check box label to enable or disable pop-up notifications -->
   <string name="preferences_alerts_popup_title">Açılan pəncərə bildirişi</string>
+  <!-- List item label for setting the default number of reminder minutes -->
   <string name="preferences_default_reminder_title">İlkin xatırladıcı vaxtı</string>
+  <!-- Title of dialog for setting the default number of reminder minutes -->
   <string name="preferences_default_reminder_dialog">İlkin xatırladıcı vaxtı</string>
+  <!-- Default value for the number of reminder minutes -->
+  <!-- Settings check box label to keep Calendar in a fixed 'home' time zone [CHAR LIMIT = 18] -->
   <string name="preferences_use_home_tz_title">Yerli saat qurşağından istifadə et</string>
+  <!-- Settings description of what setting Calendar to use a fixed 'home' time
+        zone does [CHAR LIMIT = 60]-->
   <string name="preferences_use_home_tz_descrip">Səyahət edərkən təqvimi və tədbir zamanını yerli saat qurşağına uyğun olaraq göstərir</string>
+  <!-- Settings title for selecting a 'home' time zone to display Calendar in [CHAR LIMIT = 18] -->
   <string name="preferences_home_tz_title">Yerli saat qurşağı</string>
+  <!-- DO NOT TRANSLATE -->
+  <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_title">Həftə nömrəsini göstər</string>
+  <!-- This is the title of a section in the Settings screen for "About" this application -->
   <string name="preferences_about_title">Haqqında</string>
+  <!-- Build version of the application -->
   <string name="preferences_build_version_fmt">Quruluş versiyası: <xliff:g id="version" example="1.0">%s</xliff:g></string>
+  <!-- Widget -->
+  <!-- Title for calendar gadget when displayed in list of all other gadgets -->
   <string name="gadget_title">Təqvim</string>
+  <!-- Shown in month view next to event icon when additional events exist for that day, but no
+        room remaining -->
   <plurals name="month_more_events">
+    <!-- additional events message for 1 event, the quotes force a literal interpretation of the
+            string [CHAR LIMIT = 10] -->
     <item quantity="one">"+1"</item>
+    <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
     <item quantity="other">+<xliff:g id="NUMBER">%d</xliff:g></item>
   </plurals>
+  <!-- Caption to show on gadget when there are no upcoming calendar events -->
   <string name="gadget_no_events">Gələcək təqvim tədbiri yoxdur</string>
+  <!-- Text to show on gadget when an event is currently in progress -->
+  <!-- Text to show on gadget when an all-day event is in progress -->
+  <!-- DO NOT TRANSLATE -->
+  <!-- Experimental settings [CHAR LIMIT = 30]-->
   <string name="preferences_experimental_category">Təcrübə</string>
+  <!-- Reminders settings [CHAR LIMIT = 30]-->
   <string name="preferences_reminders_category">Xatırladıcılar</string>
+  <!-- Preference label for when to skip reminders [CHAR LIMIT = 25] -->
   <string name="preferences_reminders_responded_label">Xatırladıcıları keç</string>
+  <!-- Dialog title for when to skip reminders [CHAR LIMIT = 25] -->
   <string name="preferences_reminders_responded_dialog">Xatırladıcıları keç</string>
+  <!-- Preference label for quiet hours [CHAR LIMIT = 25]-->
   <string name="preferences_reminders_quiet_hours_label">Səssiz saatlar</string>
+  <!-- Preference description for quiet hours [CHAR LIMIT = NONE]-->
   <string name="preferences_reminders_quiet_hours_description">Dəqiqləşdirilən vaxt ərzində tədbir xatırladıcılarını səssizə al.</string>
+  <!-- Preference label for quiet hours start time [CHAR LIMIT = 25]-->
   <string name="preferences_reminders_quiet_hours_start">Sakitlik saatlarının başlama zamanı</string>
+  <!-- Preference label for quiet hours end time [CHAR LIMIT = 25]-->
   <string name="preferences_reminders_quiet_hours_end">Sakitlik saatlarının bitmə zamanı</string>
+  <!-- Preferences used for debugging purposes [CHAR LIMIT = 30]-->
   <string name="preferences_debug_category">Xəta ayırdetmə</string>
+  <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
   <string name="copy_db">Verilənlər bazasını göndər</string>
+  <!-- Displayed in email address autocomplete list when searching for contacts
+         in corporate directories. Example:  "Searching bigcompany.com..." [CHAR LIMIT=64] -->
   <string name="directory_searching_fmt"><xliff:g id="DOMAIN">%s</xliff:g> axtarılır\u2026</string>
+  <!-- Accessibility Events -->
+  <!-- Strings that describes actions for buttons without text -->
+  <!-- Create a new calendar event [CHAR LIMIT = NONE]-->
+  <!-- Remove a name of an attendee from a calendar event [CHAR LIMIT = NONE]-->
   <string name="accessibility_remove_attendee">İştirakçını çıxart</string>
+  <!-- Pick a starting date for a new event [CHAR LIMIT = NONE]-->
   <string name="accessibility_pick_start_date">Başlanğıc tarixi</string>
+  <!-- Pick a starting time for a new event [CHAR LIMIT = NONE]-->
   <string name="accessibility_pick_start_time">Başlama vaxtı</string>
+  <!-- Pick the ending date for a new event [CHAR LIMIT = NONE]-->
   <string name="accessibility_pick_end_date">Bitmə tarixi</string>
+  <!-- Pick the ending time for a new event[CHAR LIMIT = NONE]-->
   <string name="accessibility_pick_end_time">Bitmə tarixi</string>
+  <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
   <string name="accessibility_pick_time_zone">Saat qurşağı</string>
+  <!-- Select a time zone for a new event [CHAR LIMIT = NONE]-->
   <string name="accessibility_pick_recurrence">Tədbiri təkrarla</string>
+  <!-- Add a reminder to an event [CHAR LIMIT = NONE]-->
   <string name="accessibility_add_reminder">Xatırladıcı əlavə et</string>
+  <!-- Remove a reminder from an event [CHAR LIMIT = NONE]-->
   <string name="accessibility_remove_reminder">Xatırlatmanı sil</string>
+  <!-- Add a new attendee to an event [CHAR LIMIT = NONE]-->
   <string name="accessibility_add_attendee">İştirakçı əlavə et</string>
+  <!-- Choose if to sync/unsync this calendar with its server [CHAR LIMIT = NONE]-->
   <string name="accessibility_sync_cal">Təqvimi sinxronlaşdır</string>
+  <!-- Mark this event as an "all day event" [CHAR LIMIT = NONE]-->
   <string name="accessibility_all_day">Bütün gün tədbiri</string>
+  <!-- Refresh the data in the calendar [CHAR LIMIT = NONE]-->
+  <!-- Set the time for the reminder[CHAR LIMIT = NONE]-->
   <string name="accessibility_reminder_time">Xatırlatma vaxtı</string>
+  <!-- Set the type of the reminder (popup/email/sms)[CHAR LIMIT = NONE]-->
   <string name="accessibility_reminder_type">Xatırlatma tipi</string>
+  <!-- Select the way you are visible for the event (busy/free) [CHAR LIMIT = NONE]-->
   <string name="accessibility_reminder_showmeas">Durumumu belə göstər</string>
+  <!-- Set the event as private/public/default [CHAR LIMIT = NONE]-->
   <string name="accessibility_reminder_privacy">Gizlilik</string>
+  <!-- Calendar notification [CHAR LIMIT = NONE]-->
   <string name="acessibility_cal_notification">Təqvim Bildirişi</string>
+  <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
   <string name="acessibility_snooze_notification">Mürgüləmə Bildirişi</string>
+  <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
   <string name="accessibility_email_notification">Qonaqlara e-poçt göndər</string>
+  <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
   <string name="day_view_new_event_hint">+ Yeni tədbir</string>
+  <!--
+      Source: A value for announcing the current event index (example: "Event 2 of 6").
+      Description: This is spoken to the user. [CHAR LIMIT="NONE"]
+    -->
   <string name="template_announce_item_index"><xliff:g id="ITEM_COUNT">%2$s</xliff:g> tədbirdən <xliff:g id="ITEM_INDEX">%1$s</xliff:g>.</string>
+  <!-- number of events in the notification bar -->
   <plurals name="Nevents">
+    <!-- This is the label for a 1 event. -->
     <item quantity="one">1 tədbir</item>
+    <!-- This is the label for 2 or more events. -->
     <item quantity="other"><xliff:g id="COUNT">%d</xliff:g> tədbir</item>
   </plurals>
+  <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
   <plurals name="N_remaining_events">
+    <!-- This is the label for 1 event. -->
     <item quantity="one">+1 tədbir</item>
+    <!-- This is the label for 2 or more events. -->
     <item quantity="other">+<xliff:g id="COUNT">%d</xliff:g> tədbir</item>
   </plurals>
+  <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
   <string name="acessibility_selected_marker_description">Seçilmiş tədbir</string>
+  <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
   <string name="do_not_check">Seçili OLMASIN -&gt;</string>
+  <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
   <plurals name="recurrence_interval_daily">
+    <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> gündən bir</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> gündən bir</item>
   </plurals>
+  <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
   <plurals name="recurrence_interval_weekly">
+    <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> həftədən bir</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> həftədən bir</item>
   </plurals>
+  <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
   <plurals name="recurrence_interval_monthly">
+    <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> aydan bir</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> aydan bir</item>
   </plurals>
+  <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
   <plurals name="recurrence_interval_yearly">
+    <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">Hər <xliff:g id="COUNT">%d</xliff:g> ildən bir</item>
+    <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">Hər <xliff:g id="COUNT">%d</xliff:g> ildən bir</item>
   </plurals>
+  <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
   <string name="recurrence_month_pattern_by_day">hər ayın eyni günündə</string>
+  <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
   <string name="recurrence_end_continously">Həmişə</string>
+  <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
   <string name="recurrence_end_date_label">Müəyyən bir tarixə qədər</string>
+  <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
   <string name="recurrence_end_date"><xliff:g id="DATE">%s</xliff:g> tarixinə qədər</string>
+  <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
   <string name="recurrence_end_count_label">Bir sıra tədbirlər üçün</string>
+  <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
   <plurals name="recurrence_end_count">
     <item quantity="one">Hər <xliff:g id="EVENT_COUNT">%d</xliff:g> tədbir</item>
     <item quantity="other">Hər <xliff:g id="EVENT_COUNT">%d</xliff:g> tədbir</item>
   </plurals>
+  <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
   <string name="acessibility_recurrence_choose_end_date_description">biitmə tarixi dəyiş</string>
+  <!-- Do Not Translate.  Sender identity for global notification synchronization. -->
 </resources>
