@@ -380,7 +380,7 @@
   <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
   <string name="preferences_show_week_num_title">Показать номер недели</string>
   <!-- This is the title of a section in the Settings screen for "About" this application -->
-  <string name="preferences_about_title">О программе</string>
+  <string name="preferences_about_title">О приложении</string>
   <!-- Build version of the application -->
   <string name="preferences_build_version_fmt">Версия сборки: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <!-- Widget -->

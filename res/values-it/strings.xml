@@ -282,7 +282,7 @@
   <string name="delete_label">"Elimina"</string>
   <!-- A menu item for deleting an event -->
   <!-- The button label for saving an event -->
-  <string name="save_label">Salva</string>
+  <string name="save_label">Fatto</string>
   <!-- Button labels on expanded notification reminders: -->
   <!-- The button label for dismissing all the current reminder alarms. This
          causes them to disappear from the notification screen. -->
