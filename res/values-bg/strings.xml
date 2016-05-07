@@ -317,7 +317,7 @@
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event. The user still has a chance to cancel
          this operation. -->
-  <string name="delete_this_event_title">Да се изтрие ли това събитие?</string>
+  <string name="delete_this_event_title">Да бъде ли изтрито това събитие?</string>
   <!-- This is a confirmation message in a popup dialog that appears when the
          user has asked to delete an event that is recurring. The user still has a chance to cancel
          this operation. -->
