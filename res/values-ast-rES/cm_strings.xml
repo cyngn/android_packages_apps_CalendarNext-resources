@@ -27,11 +27,13 @@
          'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
   <string name="view_event_response_label">¿Dir?</string>
   <string name="new_event_more_options">más opciones</string>
+  <string name="preferences_alerts_silent_ringtone_title">Silenciu</string>
   <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
   <string name="hint_where">Amestar llugar</string>
   <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <string name="reminders_label">Amestar avisu</string>
   <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
+  <string name="hint_attendees">Convidar persones</string>
   <!-- A label in a multiple-choice list for the specifying that an event does
          not repeat -->
   <string name="does_not_repeat">Nun repitir</string>
@@ -40,12 +42,47 @@
   <!-- Title for email availability -->
   <string name="availability_title">Unviar disponibilidá</string>
   <!-- Title for email create invite -->
+  <string name="create_invite_title">Crear invitación</string>
   <string name="discard_dialog_title">Encaboxar</string>
+  <string name="discard_dialog_new_event_message">¿De xuru que quies descartar esti eventu?</string>
+  <string name="discard_dialog_existing_event_message">¿De xuru que quies descartar les camudancies d\'esti eventu?</string>
+  <string name="discard_dialog_positive_button_text">Descartar</string>
+  <string name="discard_dialog_negative_button_text">Siguir editando</string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> enantes</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> enantes como <xliff:g id="type" example="email">%s</xliff:g></string>
+  <string name="no_events_scheduled">Nun hai eventos planificaos.</string>
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
+  <string name="search_hint">Guetar calendariu</string>
   <!-- Appwidget header used when there are n events today. -->
+  <string name="appwidget_today_day_header">Güei nun hai eventos.</string>
+  <string name="appwidget_tomorrow_day_header">Mañana, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Nun hai calendarios pa sincronizar</string>
+  <string name="empty_calendars_to_display">Nun hai calendarios p\'amosar</string>
+  <string name="update_available_ticker">Hai un anovamientu disponibles pa Calendariu</string>
+  <string name="update_availalable_title">Ta disponible un anovamientu</string>
+  <string name="update_available_content">Toca pa instalar l\'anovamientu</string>
+  <string name="error_no_app_store">Nun s\'alcontró una tienda d\'aplicaciones afayadiza</string>
+  <string name="tutorial_done_button">Fecho</string>
+  <string name="tutorial_skip_button">Saltar</string>
+  <string name="tutorial_welcome_title">Dámoste l\'acoyida a Calendar</string>
+  <string name="tutorial_welcome_subtitle">Un mou perguapu de ver la to vida.</string>
   <string name="tutorial_page1_title">Tolos tos calendarios</string>
+  <string name="tutorial_page1_subtitle">Mira tolos tos calendarios y eventos nun llugar.</string>
+  <string name="tutorial_page2_title">Comparti la to disponibilidá</string>
+  <string name="tutorial_page2_subtitle">Fai saber aína a otros cuando pues aconceyar.</string>
+  <string name="tutorial_page3_title">Vistes múltiples</string>
+  <string name="tutorial_page3_subtitle">Mira los tos eventos del meyor mou pa tigo.</string>
+  <string name="tutorial_end_title">Baxar corréu</string>
+  <string name="tutorial_end_subtitle">Desbloquia carauterístiques poderoses combinando Boxer Email y Calendariu.</string>
+  <string name="tutorial_end_button">Consiguir Boxer Email</string>
+  <string name="account_settings_tutorial_header_title">Ver tutorial</string>
   <!-- Organizer Label [CHAR LIMIT=12]-->
+  <string name="event_info_organizer">Organizador</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">Seguranza</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Deshabilitar captures de pantalla</string>
+  <string name="preference_disable_screenshots_summary">Evitar qu\'otres apps puedan facer captures de pantalla</string>
   <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_summary">Habilitar los númberos de selmana na vista mensual</string>
 </resources>
