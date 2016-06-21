@@ -41,6 +41,8 @@
   <plurals name="Nminutes">
     <!-- This is the label for a 1-minute reminder. -->
     <item quantity="one">דקה אחת</item>
+    <item quantity="two"><xliff:g id="count">%d</xliff:g> דקות</item>
+    <item quantity="many"><xliff:g id="count">%d</xliff:g> דקות</item>
     <!-- This is the label for 2 or more minutes. The actual number of
              minutes is a parameter. -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> דקות</item>
@@ -52,6 +54,8 @@
   <plurals name="Nmins">
     <!-- This is the label for a 1-minute reminder. -->
     <item quantity="one">דק\' 1</item>
+    <item quantity="two"><xliff:g id="count">%d</xliff:g> דק\'</item>
+    <item quantity="many"><xliff:g id="count">%d</xliff:g> דק\'</item>
     <!-- This is the label for 2 or more minutes. The actual number of
              minutes is a parameter. -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> דק\'</item>
@@ -62,6 +66,8 @@
   <plurals name="Nhours">
     <!-- This is the label for a 1-hour reminder. -->
     <item quantity="one">שעה אחת</item>
+    <item quantity="two"><xliff:g id="count">%d</xliff:g> שעות</item>
+    <item quantity="many"><xliff:g id="count">%d</xliff:g> שעות</item>
     <!-- This is the label for a reminder of 2 or more hours. The actual number of
              hours is a parameter. -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> שעות</item>
@@ -72,6 +78,8 @@
   <plurals name="Ndays">
     <!-- This is the label for a reminder of 1 day. -->
     <item quantity="one">יום אחד</item>
+    <item quantity="two"><xliff:g id="count">%d</xliff:g> ימים</item>
+    <item quantity="many"><xliff:g id="count">%d</xliff:g> ימים</item>
     <!-- This is the label for a reminder of 2 or more days. The actual number of
              days is a parameter. -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> ימים</item>
@@ -79,8 +87,10 @@
   <!-- This is for displaying the week of the year near the date. Eg. "January, 2011 Week 1" -->
   <plurals name="weekN">
     <item quantity="one">שבוע <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="two">שבוע <xliff:g id="COUNT">%d</xliff:g></item>
+    <item quantity="many">שבוע <xliff:g id="count">%d</xliff:g></item>
     <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
-    <item quantity="other"><xliff:g id="count">%d</xliff:g> שבועות</item>
+    <item quantity="other">שבוע <xliff:g id="count">%d</xliff:g></item>
   </plurals>
   <!-- Menu items: -->
   <!-- This is a label on a context menu item. Pressing this menu item to initiate
@@ -387,6 +397,8 @@
     <!-- additional events message for 1 event, the quotes force a literal interpretation of the
             string [CHAR LIMIT = 10] -->
     <item quantity="one">"+1"</item>
+    <item quantity="two">+<xliff:g id="number">%d</xliff:g></item>
+    <item quantity="many">+<xliff:g id="number">%d</xliff:g></item>
     <!-- additional events message for multiple events [CHAR LIMIT = 10] -->
     <item quantity="other">+<xliff:g id="number">%d</xliff:g></item>
   </plurals>
@@ -471,6 +483,8 @@
   <plurals name="Nevents">
     <!-- This is the label for a 1 event. -->
     <item quantity="one">אירוע 1</item>
+    <item quantity="two"><xliff:g id="count">%d</xliff:g> אירועים</item>
+    <item quantity="many"><xliff:g id="count">%d</xliff:g> אירועים</item>
     <!-- This is the label for 2 or more events. -->
     <item quantity="other"><xliff:g id="count">%d</xliff:g> אירועים</item>
   </plurals>
@@ -478,6 +492,8 @@
   <plurals name="N_remaining_events">
     <!-- This is the label for 1 event. -->
     <item quantity="one">+ אירוע 1</item>
+    <item quantity="two">+<xliff:g id="count">%d</xliff:g> אירועים</item>
+    <item quantity="many">+<xliff:g id="count">%d</xliff:g> אירועים</item>
     <!-- This is the label for 2 or more events. -->
     <item quantity="other">+<xliff:g id="count">%d</xliff:g> אירועים</item>
   </plurals>
@@ -489,6 +505,8 @@
   <plurals name="recurrence_interval_daily">
     <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">כל יום <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="two">כל <xliff:g id="count">%d</xliff:g> ימים</item>
+    <item quantity="many">כל <xliff:g id="count">%d</xliff:g> ימים</item>
     <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">כל <xliff:g id="count">%d</xliff:g> ימים</item>
   </plurals>
@@ -496,6 +514,8 @@
   <plurals name="recurrence_interval_weekly">
     <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">כל שבוע <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="two">כל <xliff:g id="count">%d</xliff:g> שבועות</item>
+    <item quantity="many">כל <xliff:g id="count">%d</xliff:g> שבועות</item>
     <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">כל <xliff:g id="count">%d</xliff:g> שבועות</item>
   </plurals>
@@ -503,6 +523,8 @@
   <plurals name="recurrence_interval_monthly">
     <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">כל חודש <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="two">כל <xliff:g id="count">%d</xliff:g> חודשים</item>
+    <item quantity="many">כל <xliff:g id="count">%d</xliff:g> חודשים</item>
     <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">כל <xliff:g id="count">%d</xliff:g> חודשים</item>
   </plurals>
@@ -510,6 +532,8 @@
   <plurals name="recurrence_interval_yearly">
     <!-- Singular form [CHAR LIMIT=30] -->
     <item quantity="one">כל שנה <xliff:g id="count">%d</xliff:g></item>
+    <item quantity="two">כל <xliff:g id="count">%d</xliff:g> שנים</item>
+    <item quantity="many">כל <xliff:g id="count">%d</xliff:g> שנים</item>
     <!-- Plural form [CHAR LIMIT=30] -->
     <item quantity="other">כל <xliff:g id="count">%d</xliff:g> שנים</item>
   </plurals>
@@ -526,6 +550,8 @@
   <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
   <plurals name="recurrence_end_count">
     <item quantity="one">עבור אירוע <xliff:g id="event_count">%d</xliff:g></item>
+    <item quantity="two">עבור <xliff:g id="event_count">%d</xliff:g> אירועים</item>
+    <item quantity="many">עבור <xliff:g id="event_count">%d</xliff:g> אירועים</item>
     <item quantity="other">עבור <xliff:g id="event_count">%d</xliff:g> אירועים</item>
   </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
