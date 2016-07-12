@@ -183,7 +183,7 @@
   <string name="create_event_dialog_save">Lagre</string>
   <!-- The alert toast is not actually being displayed for some reason. -->
   <!-- the title of the alert/notification activity -->
-  <string name="alert_title">Kalendervarslinger</string>
+  <string name="alert_title">Kalendervarsler</string>
   <!-- Notification window messages: -->
   <!-- Event info/edit screen labels:-->
   <!-- This is the title of the screen used to view the details of an event -->
@@ -377,7 +377,7 @@
   <!-- This is the title of a section in the Settings screen for "About" this application -->
   <string name="preferences_about_title">Info</string>
   <!-- Build version of the application -->
-  <string name="preferences_build_version_fmt">Versjon: <xliff:g id="version" example="1.0">%s</xliff:g></string>
+  <string name="preferences_build_version_fmt">Build-versjon: <xliff:g id="version" example="1.0">%s</xliff:g></string>
   <!-- Widget -->
   <!-- Title for calendar gadget when displayed in list of all other gadgets -->
   <string name="gadget_title">Kalender</string>
