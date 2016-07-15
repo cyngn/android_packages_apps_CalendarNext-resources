@@ -137,7 +137,7 @@
   <string name="menu_preferences">"Nastavitve"</string>
   <!-- This is a label on a menu item. Pressing this menu item allows the
          user to select the calendars to display [CHAR LIMIT=20] -->
-  <string name="search">"Iskanje"</string>
+  <string name="search">"Išči"</string>
   <!-- Month view -->
   <!-- Select Visible Calendars activity -->
   <!-- Title of "My calendars" screen -->
