@@ -145,7 +145,7 @@
         [CHAR LIMIT=120]-->
   <string name="acct_not_synced">Ez a fiók nincs szinkronizálva, ezért nem biztos, hogy a naptár naprakész.</string>
   <!-- Label on button that takes user to the Accounts and Sync settings page [CHAR LIMIT=60] -->
-  <string name="accounts">Fiókok &amp; szinkronizálás</string>
+  <string name="accounts">Fiókok és szinkronizálás</string>
   <!-- Select Synced Calendars activity -->
   <!-- Select the set of calendars to sync [CHAR LIMIT=60] -->
   <string name="select_synced_calendars_title">Szinkronizálni kívánt naptárak</string>
