@@ -43,14 +43,14 @@
   <string name="discard_dialog_existing_event_message">您確定想要放棄對該事件的更改？</string>
   <string name="discard_dialog_positive_button_text">放棄</string>
   <string name="discard_dialog_negative_button_text">繼續編輯</string>
-  <string name="event_info_reminder"><xliff:g id="length"example="15 minutes">%s</xliff:g> 之前</string>
-  <string name="event_info_reminder_w_type"><xliff:g id="length"example="15 minutes"> %s </xliff:g>之前透過<xliff:g id="type"example="email">%s</xliff:g></string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> 之前</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes"> %s </xliff:g>之前透過<xliff:g id="type" example="email">%s</xliff:g></string>
   <string name="no_events_scheduled">未安排任何事件。</string>
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
   <string name="search_hint">搜尋日曆</string>
   <!-- Appwidget header used when there are n events today. -->
   <string name="appwidget_today_day_header">今天沒有任何事件。</string>
-  <string name="appwidget_tomorrow_day_header">明天，<xliff:g id="date"example="Tue, July 8">%s</xliff:g></string>
+  <string name="appwidget_tomorrow_day_header">明天，<xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
   <string name="empty_calendars_to_sync">沒有日曆同步</string>
   <string name="empty_calendars_to_display">沒有要顯示的日曆</string>
   <string name="update_available_ticker">日曆有可用的更新</string>

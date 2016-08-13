@@ -72,7 +72,7 @@
   <plurals name="weekN">
     <item quantity="one">SEMANA <xliff:g id="COUNT">%d</xliff:g></item>
     <!-- Label for displaying week of the year for all week values [CHAR LIMIT=16] -->
-    <item quantity="other">SEMANAS <xliff: g id="COUNT">%d</xliff:g></item>
+    <item quantity="other">SEMANAS <xliff:g id="COUNT">%d</xliff:g></item>
   </plurals>
   <!-- Menu items: -->
   <!-- This is a label on a context menu item. Pressing this menu item to initiate
