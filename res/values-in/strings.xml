@@ -80,7 +80,7 @@
   <!-- Menu items: -->
   <!-- This is a label on a context menu item. Pressing this menu item to initiate
         syncing of your Calendar data with the server. [CHAR LIMIT=11] -->
-  <string name="calendar_refresh">"Muat ulang"</string>
+  <string name="calendar_refresh">"Segarkan"</string>
   <!-- This is a label on a context menu item. Pressing this menu item displays the
          Agenda view. -->
   <!-- This is a label on a context menu item. Pressing this menu item displays the
@@ -406,7 +406,7 @@
   <!-- Preference label for quiet hours end time [CHAR LIMIT = 25]-->
   <string name="preferences_reminders_quiet_hours_end">Waktu akhir jam tenang</string>
   <!-- Preferences used for debugging purposes [CHAR LIMIT = 30]-->
-  <string name="preferences_debug_category">Perbaikan galat fungsi</string>
+  <string name="preferences_debug_category">Debugging</string>
   <!-- Send a copy of the database to developers for debugging [CHAR LIMIT="NONE"] -->
   <string name="copy_db">Kirim basis data</string>
   <!-- Displayed in email address autocomplete list when searching for contacts
