@@ -265,6 +265,7 @@
   <!-- DO NOT TRANSLATE -->
   <!-- Title of the settings item to show week number in week view [CHAR LIMIT=40] -->
   <!-- This is the title of a section in the Settings screen for "About" this application -->
+  <string name="preferences_about_title">Pri</string>
   <!-- Build version of the application -->
   <!-- Widget -->
   <!-- Title for calendar gadget when displayed in list of all other gadgets -->
