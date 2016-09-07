@@ -457,7 +457,21 @@
       Description: This is spoken to the user. [CHAR LIMIT="NONE"]
     -->
   <!-- number of events in the notification bar -->
+  <plurals name="Nevents">
+    <!-- This is the label for a 1 event. -->
+    <item quantity="one">1 eveniment</item>
+    <item quantity="few"><xliff:g id="count">%d</xliff:g> evenimente</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other"><xliff:g id="count">%d</xliff:g> evenimente</item>
+  </plurals>
   <!-- number of remaining events for an alert digest in the notification bar [CHAR LIMIT = 30] -->
+  <plurals name="N_remaining_events">
+    <!-- This is the label for 1 event. -->
+    <item quantity="one">+1 eveniment</item>
+    <item quantity="few">+<xliff:g id="count">%d</xliff:g> evenimente</item>
+    <!-- This is the label for 2 or more events. -->
+    <item quantity="other">+<xliff:g id="count">%d</xliff:g> evenimente</item>
+  </plurals>
   <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
   <string name="acessibility_selected_marker_description">Eveniment selectat</string>
   <!-- Tell user not to check a checkbox [CHAR LIMIT=30] -->
