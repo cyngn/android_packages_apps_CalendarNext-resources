@@ -25,20 +25,64 @@
   <!-- Label for whether the user is attending this event. This is shown when
          a user is invited to a meeting or event.  The possible answers are
          'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
+  <string name="view_event_response_label">Vas ir?</string>
   <string name="new_event_more_options">Máis opcións</string>
   <string name="preferences_alerts_silent_ringtone_title">Silencio</string>
   <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
+  <string name="hint_where">Engadir lugar</string>
   <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
+  <string name="reminders_label">Engadir unha notificación</string>
   <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
+  <string name="hint_attendees">Invitar a xente</string>
   <!-- A label in a multiple-choice list for the specifying that an event does
          not repeat -->
+  <string name="does_not_repeat">Non se repite</string>
   <!-- Label for the event description -->
+  <string name="description_label">Engadir nota</string>
   <!-- Title for email availability -->
+  <string name="availability_title">Enviar dispoñibilidade</string>
   <!-- Title for email create invite -->
+  <string name="create_invite_title">Crear invitación</string>
+  <string name="discard_dialog_title">Cancelar</string>
+  <string name="discard_dialog_new_event_message">Está seguro de querer descartar este evento?</string>
+  <string name="discard_dialog_existing_event_message">Está seguro de querer descartar os cambios para este evento?</string>
+  <string name="discard_dialog_positive_button_text">Descartar</string>
+  <string name="discard_dialog_negative_button_text">Seguir editando</string>
+  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> antes</string>
+  <string name="event_info_reminder_w_type"><xliff:g id="length" example="15 minutes">%s</xliff:g> antes por <xliff:g id="type" example="email">%s</xliff:g></string>
+  <string name="no_events_scheduled">Non ten eventos programados.</string>
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
+  <string name="search_hint">Buscar no calendario</string>
   <!-- Appwidget header used when there are n events today. -->
+  <string name="appwidget_today_day_header">Hoxe non hai eventos.</string>
+  <string name="appwidget_tomorrow_day_header">Mañá, <xliff:g id="date" example="Tue, July 8">%s</xliff:g></string>
+  <string name="empty_calendars_to_sync">Non hai calendarios que sincronizar</string>
+  <string name="empty_calendars_to_display">No hai calendarios que amosar</string>
+  <string name="update_available_ticker">Hai unha actualización dispoñíbel para o Calendario</string>
+  <string name="update_availalable_title">Hai unha actualización dispoñíbel</string>
+  <string name="update_available_content">Toque para instalala</string>
+  <string name="error_no_app_store">Non se atopou ningunha tenda de aplicacións válida</string>
+  <string name="tutorial_done_button">Listo</string>
+  <string name="tutorial_skip_button">Omitir</string>
+  <string name="tutorial_welcome_title">Benvido/a ao Calendario</string>
+  <string name="tutorial_welcome_subtitle">Un fermoso xeito de ver a vida.</string>
+  <string name="tutorial_page1_title">Tódolos seus calendarios</string>
+  <string name="tutorial_page1_subtitle">Ver todos os calendarios e eventos xuntos.</string>
+  <string name="tutorial_page2_title">Compartr a súa dispoñibilidade</string>
+  <string name="tutorial_page2_subtitle">Deixa que os demáis saiban rápidamente cando estás dispoñíbel.</string>
+  <string name="tutorial_page3_title">Varias vistas</string>
+  <string name="tutorial_page3_subtitle">Vexa os eventos do xeito que máis lle conveña.</string>
+  <string name="tutorial_end_title">Descargar Correo electrónico</string>
+  <string name="tutorial_end_subtitle">Combine o Correo electrónico Boxer e o Calendario para desbloquear funcionalidades increíbles.</string>
+  <string name="tutorial_end_button">Recibir correo de Boxer</string>
+  <string name="account_settings_tutorial_header_title">Ver tutorial</string>
   <!-- Organizer Label [CHAR LIMIT=12]-->
+  <string name="event_info_organizer">Organizador</string>
   <!-- Security settings category -->
+  <string name="preferences_security_title">Seguridade</string>
   <!-- Preference for disabling screenshots of app screens. -->
+  <string name="preference_disable_screenshots">Desactivar capturas de pantalla</string>
+  <string name="preference_disable_screenshots_summary">Impedir que outras aplicacións capturen a pantalla doutras aplicacións</string>
   <!-- Summary of the settings item to show week number in month view [CHAR LIMIT=40] -->
+  <string name="preferences_show_week_num_summary">Activar os números da semana na vista de mes</string>
 </resources>
