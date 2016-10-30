@@ -22,9 +22,8 @@
   <!-- Label for whether the user is attending this event. This is shown when
          a user is invited to a meeting or event.  The possible answers are
          'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
-  <string name="new_event_more_options">Pliaj opcioj</string>
-  <string name="preferences_alerts_silent_ringtone_title">Silentigi</string>
   <!-- Default value of Where field (as a hint to the user)[CHAR LIMIT=15] -->
+  <string name="hint_where">Aldoni lokon</string>
   <!-- Label for the list of reminders for an event [CHAR LIMIT=20] -->
   <!-- Default value of Attendees/Guests field (as a hint to the user) [CHAR LIMIT=10] -->
   <!-- A label in a multiple-choice list for the specifying that an event does
@@ -32,10 +31,8 @@
   <!-- Label for the event description -->
   <!-- Title for email availability -->
   <!-- Title for email create invite -->
-  <string name="discard_dialog_title">Rezigni</string>
-  <string name="event_info_reminder"><xliff:g id="length" example="15 minutes">%s</xliff:g> antaŭe</string>
+  <string name="discard_dialog_title">Nuligi</string>
   <!-- Shown in light gray in the Search box when no text has been entered [CHAR LIMIT=20]-->
-  <string name="search_hint">Serĉi kalendaron</string>
   <!-- Appwidget header used when there are n events today. -->
   <!-- Organizer Label [CHAR LIMIT=12]-->
   <!-- Security settings category -->

@@ -222,11 +222,11 @@
   <!-- Response for whether attending an event - declined [CHAR LIMIT=10]-->
   <string name="response_no">Ez</string>
   <!-- Label for emailing attendees -->
-  <string name="email_guests_label">Bidali eposta gonbidatuei</string>
+  <string name="email_guests_label">Bidali e-posta gonbidatuei</string>
   <!-- Label for emailing the organizer (when there are no attendees) -->
-  <string name="email_organizer_label">Bidali eposta antolatzaileari</string>
+  <string name="email_organizer_label">Bidali e-posta antolatzaileari</string>
   <!-- This is shown in the popup picker when emailing attendees -->
-  <string name="email_picker_label">Bidali eposta honekin:</string>
+  <string name="email_picker_label">Bidali e-posta honekin</string>
   <!-- The is shown in the email subject as the prefix appended to the event title -->
   <!-- Toast message displayed when the event id was not found LIMIT=30] -->
   <string name="event_not_found">"Ez da gertaera aurkitu."</string>
@@ -237,7 +237,7 @@
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
   <string name="quick_response_settings">Erantzun azkarrak</string>
   <!-- Summary of the quick response item in Settings [CHAR LIMIT=80]-->
-  <string name="quick_response_settings_summary">Editatu erantzun lehenetsiak gonbidatuei eposta bidaltzean</string>
+  <string name="quick_response_settings_summary">Editatu erantzun lehenetsiak gonbidatuei e-posta bidaltzean</string>
   <!-- Title of the quick response screen in Settings->Quick Response [CHAR LIMIT=27]-->
   <string name="quick_response_settings_title">Editatu erantzun azkarrak</string>
   <!-- Title of the quick response item in Settings [CHAR LIMIT=18]-->
@@ -245,7 +245,7 @@
   <!-- Title of the dialog prompting the user choose a response when emailing guests  [CHAR LIMIT=none]-->
   <string name="quick_response_dialog_title">Hauta erantzun azkarretako bat</string>
   <!-- Error to user when an email program can't be found[CHAR LIMIT=none]-->
-  <string name="quick_response_email_failed">Ezin izan da eposta programarik aurkitu</string>
+  <string name="quick_response_email_failed">Ezin izan da e-posta programarik aurkitu</string>
   <!-- The is shown in the email subject as the prefix appended to the event title [CHAR LIMIT=none]-->
   <string-array name="quick_response_defaults">
     <item>Minutu batzuk beranduxeago iritsiko naiz.</item>
@@ -459,7 +459,7 @@
   <!-- Calendar notification snooze button [CHAR LIMIT = NONE]-->
   <string name="acessibility_snooze_notification">Atzeratu jakinarazpena</string>
   <!-- Calendar notification email button [CHAR LIMIT = NONE]-->
-  <string name="accessibility_email_notification">Bidali eposta gonbidatuei</string>
+  <string name="accessibility_email_notification">Bidali mezua gonbidatuei</string>
   <!-- A "new event" hint for the user when selecting a specific hour in the day view [CHAR LIMIT = 30]-->
   <string name="day_view_new_event_hint">+ Gertaera berria</string>
   <!--

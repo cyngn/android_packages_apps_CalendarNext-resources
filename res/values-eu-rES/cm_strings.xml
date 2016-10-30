@@ -72,9 +72,9 @@
   <string name="tutorial_page2_subtitle">Ahalbidetu besteek noiz batzartu zaitezkeen berehala jakitea.</string>
   <string name="tutorial_page3_title">Hainbat ikuspegi</string>
   <string name="tutorial_page3_subtitle">Ikusi zure gertaerak zuretzat egokiena den erara.</string>
-  <string name="tutorial_end_title">Deskargatu Eposta</string>
-  <string name="tutorial_end_subtitle">Desblokeatu ezaugarri boteretsuak Boxer Eposta eta Egutegia konbinatuz.</string>
-  <string name="tutorial_end_button">Lortu Boxer Eposta</string>
+  <string name="tutorial_end_title">Deskargatu E-posta</string>
+  <string name="tutorial_end_subtitle">Desblokeatu ezaugarri boteretsuak Boxer E-posta eta Egutegia konbinatuz.</string>
+  <string name="tutorial_end_button">Lortu Boxer E-posta</string>
   <string name="account_settings_tutorial_header_title">Ikusi tutoriala</string>
   <!-- Organizer Label [CHAR LIMIT=12]-->
   <string name="event_info_organizer">Antolatzailea</string>

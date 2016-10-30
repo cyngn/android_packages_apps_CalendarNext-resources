@@ -21,7 +21,7 @@
   <string name="menu_select_visible_calendars">"Kalender"</string>
   <string name="custom_event_color">Warna Kegiatan</string>
   <!-- Label for button which sets event color to default calendar color -->
-  <string name="event_color_set_to_default">Warna baku</string>
+  <string name="event_color_set_to_default">Warna standar</string>
   <!-- Label for whether the user is attending this event. This is shown when
          a user is invited to a meeting or event.  The possible answers are
          'yes', 'no', and 'maybe' (and, initially, 'no response'). -->
